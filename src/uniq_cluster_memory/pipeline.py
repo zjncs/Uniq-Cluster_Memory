@@ -17,7 +17,7 @@ from __future__ import annotations
 from typing import Any, List, Optional
 
 from src.uniq_cluster_memory.m1_event_extraction import MedicalEventExtractor, ExtractedEvent
-from src.uniq_cluster_memory.m2_clustering import EventClusterer
+from src.uniq_cluster_memory.m2_clustering import EventClusterer, InformationBundleBuilder, BundleGraph
 from src.uniq_cluster_memory.m3_uniqueness import UniquenessManager
 from src.uniq_cluster_memory.m4_compression import MemoryCompressor
 from src.uniq_cluster_memory.m5_retrieval import HybridMemoryRetriever, RetrievalResult
@@ -56,6 +56,7 @@ class UniqueClusterMemoryPipeline:
     ):
         self.m1 = MedicalEventExtractor()
         self.m2 = EventClusterer(use_embedding=use_embedding)
+        self.m25 = InformationBundleBuilder()
         self.m4 = MemoryCompressor()
         self.m5 = HybridMemoryRetriever(
             w_struct=w_struct,
@@ -78,6 +79,7 @@ class UniqueClusterMemoryPipeline:
             neo4j_database=neo4j_database,
         )
         self.w_struct = w_struct
+        self._last_bundle_graph: Optional[BundleGraph] = None
 
     def build_memory(
         self,
@@ -110,10 +112,14 @@ class UniqueClusterMemoryPipeline:
         events: List[ExtractedEvent] = self.m1.extract(normalized_dialogue, dialogue_id)
 
         if not events:
+            self._last_bundle_graph = BundleGraph.empty(dialogue_id=dialogue_id)
             return []
 
         # M2: 聚类规范化
         clusters = self.m2.cluster(events, dialogue_id)
+
+        # M2.5: 信息团构建（实体团 + 事件团）
+        self._last_bundle_graph = self.m25.build(events, dialogue_id)
 
         # M3: Time Grounding + 唯一性管理
         m3 = UniquenessManager(
@@ -121,8 +127,11 @@ class UniqueClusterMemoryPipeline:
             missing_time_scope=self.missing_time_scope,
             max_symptoms_per_scope=self.max_symptoms_per_scope,
         )
-        memories: List[CanonicalMemory] = m3.process(clusters, patient_id=dialogue_id)
-
+        memories: List[CanonicalMemory] = m3.process(
+            clusters,
+            patient_id=dialogue_id,
+            bundle_graph=self._last_bundle_graph,
+        )
         # M4: 压缩
         memories = self.m4.compress(memories, patient_id=dialogue_id)
 
@@ -131,6 +140,45 @@ class UniqueClusterMemoryPipeline:
             self.persistence.upsert_memories(memories)
 
         return memories
+
+    @property
+    def last_bundle_graph(self) -> Optional[BundleGraph]:
+        """最近一次 build_memory/build_bundles 产生的信息团图。"""
+        return self._last_bundle_graph
+
+    def build_memory_with_bundles(
+        self,
+        dialogue: List[Any],
+        dialogue_id: str,
+        dialogue_date: Optional[str] = None,
+    ) -> tuple[List[CanonicalMemory], BundleGraph]:
+        """
+        生成记忆并返回 M2.5 信息团图。
+        """
+        memories = self.build_memory(
+            dialogue=dialogue,
+            dialogue_id=dialogue_id,
+            dialogue_date=dialogue_date,
+        )
+        graph = self._last_bundle_graph or BundleGraph.empty(dialogue_id=dialogue_id)
+        return memories, graph
+
+    def build_bundles(
+        self,
+        dialogue: List[Any],
+        dialogue_id: str,
+    ) -> BundleGraph:
+        """
+        仅构建 M2+M2.5 信息团（不执行 M3/M4）。
+        """
+        normalized_dialogue = self._normalize_dialogue(dialogue)
+        events: List[ExtractedEvent] = self.m1.extract(normalized_dialogue, dialogue_id)
+        if not events:
+            self._last_bundle_graph = BundleGraph.empty(dialogue_id=dialogue_id)
+            return self._last_bundle_graph
+        _ = self.m2.cluster(events, dialogue_id)
+        self._last_bundle_graph = self.m25.build(events, dialogue_id)
+        return self._last_bundle_graph
 
     def query(
         self,

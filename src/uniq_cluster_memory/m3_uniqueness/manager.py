@@ -22,10 +22,10 @@ from __future__ import annotations
 import json
 import re
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 from src.uniq_cluster_memory.m1_event_extraction import ExtractedEvent
-from src.uniq_cluster_memory.m2_clustering import AttributeCluster
+from src.uniq_cluster_memory.m2_clustering import AttributeCluster, BundleGraph
 from src.uniq_cluster_memory.schema import CanonicalMemory, ConflictRecord, scope_to_interval
 from src.uniq_cluster_memory.utils.llm_client import get_llm_client, LLM_MODEL_FAST
 
@@ -620,11 +620,15 @@ class UniquenessManager:
             else None
         )
         self.conflict_detector = ConflictDetector() if enable_conflict_detection else None
+        self._event_to_event_bundle: Dict[str, str] = {}
+        self._event_to_entity_bundles: Dict[str, Set[str]] = {}
+        self._entity_bundle_names: Dict[str, str] = {}
 
     def process(
         self,
         clusters: List[AttributeCluster],
         patient_id: str,
+        bundle_graph: Optional[BundleGraph] = None,
     ) -> List[CanonicalMemory]:
         """
         将 AttributeCluster 列表转换为 CanonicalMemory 列表。
@@ -636,6 +640,7 @@ class UniquenessManager:
         Returns:
             CanonicalMemory 列表（已去重、已检测冲突）。
         """
+        self._index_bundle_graph(bundle_graph)
         all_memories: List[CanonicalMemory] = []
 
         for cluster in clusters:
@@ -643,6 +648,31 @@ class UniquenessManager:
             all_memories.extend(memories)
 
         return all_memories
+
+    def _index_bundle_graph(self, bundle_graph: Optional[BundleGraph]) -> None:
+        self._event_to_event_bundle = {}
+        self._event_to_entity_bundles = {}
+        self._entity_bundle_names = {}
+        if bundle_graph is None:
+            return
+
+        for eb in bundle_graph.event_bundles:
+            for eid in eb.event_ids:
+                self._event_to_event_bundle[eid] = eb.bundle_id
+
+        for ent in bundle_graph.entity_bundles:
+            self._entity_bundle_names[ent.bundle_id] = ent.canonical_name
+            for eid in ent.event_ids:
+                self._event_to_entity_bundles.setdefault(eid, set()).add(ent.bundle_id)
+
+        for link in bundle_graph.links:
+            if link.relation != "MENTIONS_MEDICATION":
+                continue
+            event_bundle_id = link.src_bundle_id
+            entity_bundle_id = link.dst_bundle_id
+            for eid, e_bid in self._event_to_event_bundle.items():
+                if e_bid == event_bundle_id:
+                    self._event_to_entity_bundles.setdefault(eid, set()).add(entity_bundle_id)
 
     def _process_cluster(
         self,
@@ -758,6 +788,17 @@ class UniquenessManager:
                     seen_prov.add(p)
         all_provenance.sort()
 
+        versions = self._build_versions_from_events(
+            events_sorted=events_sorted,
+            selected_event_id=best.event_id,
+            default_scope=time_scope,
+        )
+        qualifiers = self._build_bundle_qualifiers(
+            events=events,
+            attribute=attribute,
+            value_versions=versions,
+        )
+
         return [CanonicalMemory(
             patient_id=patient_id,
             attribute=attribute,
@@ -769,6 +810,7 @@ class UniquenessManager:
             conflict_flag=conflict_flag,
             conflict_history=conflict_history,
             update_policy="unique",
+            qualifiers=qualifiers,
         )]
 
     def _merge_latest(
@@ -836,6 +878,18 @@ class UniquenessManager:
         if attribute == "medication":
             latest_end = None
 
+        versions = self._build_versions_from_grounded_events(
+            grounded_events=events_with_scope,
+            selected_event_id=latest.event_id,
+        )
+        qualifiers = self._build_bundle_qualifiers(
+            events=events_sorted,
+            attribute=attribute,
+            value_versions=versions,
+        )
+        if timeline:
+            qualifiers["med_timeline"] = timeline
+
         return [CanonicalMemory(
             patient_id=patient_id,
             attribute=attribute,
@@ -850,7 +904,7 @@ class UniquenessManager:
             start_time=latest_start,
             end_time=latest_end,
             is_ongoing=True,
-            qualifiers={"med_timeline": timeline} if timeline else {},
+            qualifiers=qualifiers,
         )]
 
     @staticmethod
@@ -993,6 +1047,16 @@ class UniquenessManager:
 
         memories = []
         for _, evt in items:
+            versions = self._build_versions_from_events(
+                events_sorted=[evt],
+                selected_event_id=evt.event_id,
+                default_scope=time_scope,
+            )
+            qualifiers = self._build_bundle_qualifiers(
+                events=[evt],
+                attribute=attribute,
+                value_versions=versions,
+            )
             memories.append(CanonicalMemory(
                 patient_id=patient_id,
                 attribute=attribute,
@@ -1004,5 +1068,94 @@ class UniquenessManager:
                 conflict_flag=False,
                 conflict_history=[],
                 update_policy="append",
+                qualifiers=qualifiers,
             ))
         return memories
+
+    def _build_versions_from_events(
+        self,
+        events_sorted: List[ExtractedEvent],
+        selected_event_id: str,
+        default_scope: str,
+    ) -> List[dict]:
+        versions: List[dict] = []
+        seen_values = set()
+        for evt in events_sorted:
+            key = evt.value.strip().lower()
+            if key in seen_values:
+                continue
+            seen_values.add(key)
+            versions.append(
+                {
+                    "value": evt.value,
+                    "time_scope": default_scope,
+                    "provenance": sorted(set(evt.provenance)),
+                    "confidence": evt.confidence,
+                    "speaker": evt.speaker,
+                    "event_bundle_id": self._event_to_event_bundle.get(evt.event_id, ""),
+                    "entity_bundle_ids": sorted(self._event_to_entity_bundles.get(evt.event_id, set())),
+                    "is_selected": evt.event_id == selected_event_id,
+                }
+            )
+        return versions
+
+    def _build_versions_from_grounded_events(
+        self,
+        grounded_events: List[Tuple[str, ExtractedEvent]],
+        selected_event_id: str,
+    ) -> List[dict]:
+        versions: List[dict] = []
+        seen = set()
+        for scope, evt in grounded_events:
+            key = (evt.value.strip().lower(), scope)
+            if key in seen:
+                continue
+            seen.add(key)
+            versions.append(
+                {
+                    "value": evt.value,
+                    "time_scope": scope,
+                    "provenance": sorted(set(evt.provenance)),
+                    "confidence": evt.confidence,
+                    "speaker": evt.speaker,
+                    "event_bundle_id": self._event_to_event_bundle.get(evt.event_id, ""),
+                    "entity_bundle_ids": sorted(self._event_to_entity_bundles.get(evt.event_id, set())),
+                    "is_selected": evt.event_id == selected_event_id,
+                }
+            )
+        return versions
+
+    def _build_bundle_qualifiers(
+        self,
+        events: List[ExtractedEvent],
+        attribute: str,
+        value_versions: Optional[List[dict]] = None,
+    ) -> dict:
+        event_bundle_ids = sorted(
+            {
+                self._event_to_event_bundle[e.event_id]
+                for e in events
+                if e.event_id in self._event_to_event_bundle
+            }
+        )
+        entity_bundle_ids = sorted(
+            {
+                ent
+                for e in events
+                for ent in self._event_to_entity_bundles.get(e.event_id, set())
+            }
+        )
+
+        qualifiers: dict = {}
+        if event_bundle_ids:
+            qualifiers["event_bundle_ids"] = event_bundle_ids
+        if entity_bundle_ids:
+            qualifiers["entity_bundle_ids"] = entity_bundle_ids
+        if attribute == "medication" and len(entity_bundle_ids) == 1:
+            ent_id = entity_bundle_ids[0]
+            qualifiers["medication_entity_id"] = ent_id
+            if ent_id in self._entity_bundle_names:
+                qualifiers["medication_entity_name"] = self._entity_bundle_names[ent_id]
+        if value_versions:
+            qualifiers["value_versions"] = value_versions
+        return qualifiers

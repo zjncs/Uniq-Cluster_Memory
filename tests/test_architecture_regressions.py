@@ -1,6 +1,12 @@
 from evaluation.uniqueness_eval import compute_unique_f1
 from src.uniq_cluster_memory.m1_event_extraction import ExtractedEvent
-from src.uniq_cluster_memory.m2_clustering import AttributeCluster
+from src.uniq_cluster_memory.m2_clustering import (
+    AttributeCluster,
+    BundleGraph,
+    EventBundle,
+    EntityBundle,
+    BundleLink,
+)
 from src.uniq_cluster_memory.m3_uniqueness import UniquenessManager
 from src.uniq_cluster_memory.m5_retrieval import HybridMemoryRetriever
 from src.uniq_cluster_memory.schema import CanonicalMemory
@@ -210,3 +216,57 @@ def test_m3_append_symptom_cap_keeps_most_frequent():
     assert len(memories) == 1
     assert memories[0].attribute == "symptom"
     assert memories[0].value == "dizziness"
+
+
+def test_m3_bundle_qualifiers_and_versions_present():
+    cluster = AttributeCluster(
+        cluster_id="c_l2",
+        canonical_attribute="medication",
+        update_policy="latest",
+        events=[
+            _event("Metformin 500mg bid", "2025-01-01", [3]),
+            _event("Metformin 500mg qd", "2025-01-15", [9]),
+        ],
+    )
+    bundle_graph = BundleGraph(
+        dialogue_id="d1",
+        entity_bundles=[
+            EntityBundle(
+                bundle_id="entity_d1_001",
+                entity_type="medication",
+                canonical_name="metformin",
+                aliases=["Metformin 500mg bid", "Metformin 500mg qd"],
+                provenance_turns=[3, 9],
+                event_ids=["e_Metformin 500mg bid_2025-01-01", "e_Metformin 500mg qd_2025-01-15"],
+            )
+        ],
+        event_bundles=[
+            EventBundle(
+                bundle_id="event_d1_001",
+                time_anchor="2025-01-01",
+                attributes={"medication": ["Metformin 500mg bid"]},
+                provenance_turns=[3],
+                event_ids=["e_Metformin 500mg bid_2025-01-01"],
+            ),
+            EventBundle(
+                bundle_id="event_d1_002",
+                time_anchor="2025-01-15",
+                attributes={"medication": ["Metformin 500mg qd"]},
+                provenance_turns=[9],
+                event_ids=["e_Metformin 500mg qd_2025-01-15"],
+            ),
+        ],
+        links=[
+            BundleLink("event_d1_001", "entity_d1_001", "MENTIONS_MEDICATION"),
+            BundleLink("event_d1_002", "entity_d1_001", "MENTIONS_MEDICATION"),
+        ],
+    )
+    manager = UniquenessManager(dialogue_date="2025-01-20")
+    memories = manager.process([cluster], patient_id="p1", bundle_graph=bundle_graph)
+
+    assert len(memories) == 1
+    q = memories[0].qualifiers
+    assert q["medication_entity_name"] == "metformin"
+    assert len(q["event_bundle_ids"]) == 2
+    assert len(q["value_versions"]) == 2
+    assert any(v["is_selected"] for v in q["value_versions"])
