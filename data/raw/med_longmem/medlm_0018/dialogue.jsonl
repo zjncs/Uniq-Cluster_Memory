@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Hello, I've checked your blood pressure and your diastolic reading is 72 mmHg, which is within a normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "However, your body temperature is 38.7 degrees Celsius, indicating you have a fever."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I've been feeling a bit warm and uncomfortable since last night."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your systolic blood pressure is 104 mmHg, which is on the lower side but still acceptable."}
+{"turn_id": 4, "speaker": "patient", "text": "I've also been feeling very fatigued lately, like I don’t have any energy."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your symptoms and lab results, I suspect you may have hypothyroidism, which can cause fatigue and other issues."}
+{"turn_id": 6, "speaker": "doctor", "text": "I am prescribing Amlodipine 5 mg once daily to help manage your blood pressure."}
+{"turn_id": 7, "speaker": "patient", "text": "Is it common for hypothyroidism to affect blood pressure like this?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Yes, hypothyroidism can cause low blood pressure and fatigue. We will monitor you closely."}
+{"turn_id": 9, "speaker": "doctor", "text": "I also noted your blood glucose level is 14.8 mmol/L, which is quite elevated and suggests hyperglycemia."}
+{"turn_id": 10, "speaker": "patient", "text": "That’s concerning. Could this be diabetes?"}
+{"turn_id": 11, "speaker": "doctor", "text": "It could be, so we will need to do further testing and manage it accordingly."}
+{"turn_id": 12, "speaker": "doctor", "text": "By the way, your temperature is now 38.2 degrees Celsius, slightly lower than before but still febrile."}
+{"turn_id": 13, "speaker": "doctor", "text": "I am going to update your medication and add Atorvastatin 40 mg at night to help with cholesterol management."}
+{"turn_id": 14, "speaker": "patient", "text": "Will this new medication affect my blood pressure or glucose?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Your systolic blood pressure reading now is 130 mmHg, which is higher than the 104 mmHg we saw earlier."}
+{"turn_id": 16, "speaker": "patient", "text": "I see. Could this be due to stress or something else?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Stress and illness can cause fluctuations, but we will continue to monitor and adjust treatment as needed."}
+{"turn_id": 18, "speaker": "patient", "text": "Thank you. I will keep track of my readings and symptoms closely."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked again today, my systolic blood pressure was back to 104 mmHg, the same as the earlier reading."}

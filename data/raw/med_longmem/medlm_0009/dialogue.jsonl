@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Good morning, doctor. I've been feeling a bit off lately and wanted to check in."}
+{"turn_id": 1, "speaker": "doctor", "text": "Good morning. Can you tell me more about what you've been experiencing? Any new symptoms or concerns?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your history, I think it’s a good time to start you on Lisinopril 10mg once daily to help manage your blood pressure."}
+{"turn_id": 3, "speaker": "patient", "text": "Alright, I can start that. Should I take it in the morning or at night?"}
+{"turn_id": 4, "speaker": "doctor", "text": "You can take it in the morning with breakfast to keep it consistent."}
+{"turn_id": 5, "speaker": "doctor", "text": "By the way, your recent labs show your hemoglobin is at 139 grams per liter, which is within normal range."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure today is 79 mmHg, which is quite good."}
+{"turn_id": 7, "speaker": "patient", "text": "That sounds okay, but I’m still a little worried about some dizziness I’ve been feeling."}
+{"turn_id": 8, "speaker": "doctor", "text": "I see. Your systolic blood pressure was measured at 137 mmHg earlier, which is mildly elevated."}
+{"turn_id": 9, "speaker": "patient", "text": "Yes, that dizziness has been bothering me more frequently, especially when I stand up quickly."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, a more recent reading shows your systolic pressure has dropped to 117 mmHg, which might explain the dizziness."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given this, I’m going to adjust your treatment and start you on Insulin glargine 10 units at night to better control your blood sugar."}
+{"turn_id": 12, "speaker": "patient", "text": "I understand. Will this new insulin affect my blood pressure as well?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Insulin primarily helps with blood sugar, but controlling diabetes can indirectly improve your overall cardiovascular health."}
+{"turn_id": 14, "speaker": "patient", "text": "Should I monitor my blood pressure more frequently now?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes, I recommend checking your blood pressure daily and noting any symptoms like dizziness or lightheadedness."}
+{"turn_id": 16, "speaker": "doctor", "text": "Your latest hemoglobin level, however, has increased to 161 grams per liter, which is higher than before."}
+{"turn_id": 17, "speaker": "patient", "text": "Is that something to be concerned about? What could cause the increase?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Elevated hemoglobin can indicate dehydration or other underlying conditions; we should investigate further with additional tests."}
+{"turn_id": 19, "speaker": "patient", "text": "But I thought my hemoglobin was 139 grams per liter the last time we checked?"}

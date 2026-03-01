@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been experiencing palpitations for the past few days, and it's making me quite anxious."}
+{"turn_id": 1, "speaker": "doctor", "text": "I understand. Let's get to the bottom of this. Have you noticed any other symptoms like chest pain or shortness of breath?"}
+{"turn_id": 2, "speaker": "doctor", "text": "By the way, your blood glucose level came back at 10.2 mmol/L this morning, which is a bit elevated."}
+{"turn_id": 3, "speaker": "patient", "text": "No chest pain, but sometimes I do feel short of breath when climbing stairs."}
+{"turn_id": 4, "speaker": "doctor", "text": "Given your symptoms and test results, I am starting you on Lisinopril 10mg once daily to help manage your blood pressure."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your primary diagnosis is coronary artery disease, which could be the cause of your palpitations and breathlessness."}
+{"turn_id": 6, "speaker": "doctor", "text": "Also, your body temperature is 38.5 degrees Celsius, suggesting you might have an infection or inflammation."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin is low at 82 grams per liter, indicating anemia, which might be contributing to your symptoms."}
+{"turn_id": 8, "speaker": "patient", "text": "That sounds concerning. Could the palpitations be related to the anemia?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes, anemia can cause your heart to beat faster to compensate for reduced oxygen delivery."}
+{"turn_id": 10, "speaker": "patient", "text": "What should I do about the elevated blood glucose? I wasn't aware it was that high."}
+{"turn_id": 11, "speaker": "doctor", "text": "We will need to monitor it closely and discuss lifestyle changes. I will also schedule more blood tests soon."}
+{"turn_id": 12, "speaker": "doctor", "text": "Interestingly, your repeat blood glucose test shows a lower value of 7.7 mmol/L, which is better than the earlier reading."}
+{"turn_id": 13, "speaker": "patient", "text": "Actually, I checked again this morning, and my blood sugar was closer to that lower number you just mentioned."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given these findings, I am going to switch you to Amlodipine 10mg once daily instead of Lisinopril to better manage your blood pressure."}
+{"turn_id": 15, "speaker": "patient", "text": "Will this new medication affect my heart palpitations?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Amlodipine helps relax blood vessels and can reduce the workload on your heart, which may improve palpitations."}
+{"turn_id": 17, "speaker": "doctor", "text": "By the way, your body temperature has come down slightly to 37.5 degrees Celsius, which is a good sign."}
+{"turn_id": 18, "speaker": "doctor", "text": "However, your hemoglobin has dropped a bit further to 80 grams per liter, so we need to investigate the cause of your anemia."}
+{"turn_id": 19, "speaker": "patient", "text": "I remember earlier my hemoglobin was at 82 g/L and my temperature was 38.5 °C; it's good to know these are being closely monitored."}

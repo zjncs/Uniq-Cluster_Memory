@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been feeling quite nauseous lately, and it's really bothering me."}
+{"turn_id": 1, "speaker": "doctor", "text": "I'm sorry to hear that. Let's check your vitals first. Your blood pressure is 110 over something, I'll confirm the diastolic in a moment."}
+{"turn_id": 2, "speaker": "patient", "text": "Okay, I hope it's nothing serious. I haven't had any other symptoms except this nausea."}
+{"turn_id": 3, "speaker": "doctor", "text": "Have you noticed any changes in your energy levels or weight recently? Sometimes that can help us understand the cause."}
+{"turn_id": 4, "speaker": "patient", "text": "Actually, yes. I've been feeling more tired than usual and have gained a bit of weight without changing my diet."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your symptoms and your vitals, I believe you might be experiencing hypothyroidism, which can cause nausea and fatigue."}
+{"turn_id": 6, "speaker": "doctor", "text": "By the way, I checked your diastolic blood pressure; it's 62 mmHg, which is slightly on the lower side."}
+{"turn_id": 7, "speaker": "patient", "text": "Is a low diastolic pressure something to worry about? I didn't realize my blood pressure was low."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin levels are also a bit low, at 89 grams per liter, which might contribute to your fatigue and nausea."}
+{"turn_id": 9, "speaker": "patient", "text": "Low hemoglobin? Could that be anemia? I haven't felt dizzy, but I do feel weak sometimes."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, when I rechecked your diastolic pressure, it was slightly lower at 60 mmHg. It's a small difference but worth monitoring."}
+{"turn_id": 11, "speaker": "patient", "text": "I see. Should I be concerned about these fluctuations in my blood pressure?"}
+{"turn_id": 12, "speaker": "doctor", "text": "It's not uncommon to see small variations, but since your systolic pressure was initially 110, I want to keep an eye on it."}
+{"turn_id": 13, "speaker": "doctor", "text": "However, later readings showed your systolic pressure had risen to 129 mmHg, which is higher than before."}
+{"turn_id": 14, "speaker": "patient", "text": "That's quite a jump. Could that affect my diagnosis or treatment?"}
+{"turn_id": 15, "speaker": "doctor", "text": "It means we need to monitor your blood pressure closely while we treat your hypothyroidism and anemia."}
+{"turn_id": 16, "speaker": "patient", "text": "What kind of treatment will I be starting for hypothyroidism and low hemoglobin?"}
+{"turn_id": 17, "speaker": "doctor", "text": "We'll start you on thyroid hormone replacement therapy for the hypothyroidism, and for the anemia, I might recommend iron supplements or investigate further."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, that sounds good. Should I track my blood pressure at home as well?"}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, I checked my blood pressure again today at home, and the diastolic was 62 mmHg, matching the earlier reading you mentioned. Also, my hemoglobin test results were 89 g/L, just like before."}

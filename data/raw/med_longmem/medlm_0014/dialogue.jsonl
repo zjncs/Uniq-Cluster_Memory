@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "I've reviewed your medication and prescribed Insulin glargine 16 units every night to help manage your blood glucose levels."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, doctor. I've been trying to keep up with the insulin, but I still feel a bit off sometimes."}
+{"turn_id": 2, "speaker": "doctor", "text": "Let's check your vital signs. Your diastolic blood pressure is running low at 61 mmHg, which is a bit concerning."}
+{"turn_id": 3, "speaker": "patient", "text": "I have noticed some swelling in my legs lately, especially in the lower limbs. Could that be related?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Lower limb edema can be linked to several conditions, including your blood pressure and heart status. Your hemoglobin is currently at 142 g/L, which is within a good range."}
+{"turn_id": 5, "speaker": "patient", "text": "I also feel warmer than usual. My body temperature felt elevated last night."}
+{"turn_id": 6, "speaker": "doctor", "text": "You're right to be concerned. Your temperature is 38.6 °C, indicating a mild fever. We'll need to monitor that closely."}
+{"turn_id": 7, "speaker": "patient", "text": "So this swelling and the fever, could they be signs of something serious?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your symptoms and readings, the primary diagnosis points to essential hypertension, which might be contributing to your symptoms."}
+{"turn_id": 9, "speaker": "patient", "text": "I see. Could my anemia be worsening? I was told my hemoglobin was fine last time."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, I just reviewed a recent test showing your hemoglobin dropped to 120 g/L, which is lower than before. This suggests some anemia development."}
+{"turn_id": 11, "speaker": "patient", "text": "That's surprising because my previous hemoglobin was 142 g/L, just like before. Could the tests be inconsistent?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Variations can occur, but we should investigate further to determine the cause of this drop in hemoglobin."}
+{"turn_id": 13, "speaker": "patient", "text": "And what about my blood pressure? It seems to have decreased further."}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes, the latest measurement shows your diastolic pressure at 60 mmHg, slightly lower than before, which could contribute to your symptoms."}
+{"turn_id": 15, "speaker": "patient", "text": "Is this low blood pressure dangerous? Should I be worried?"}
+{"turn_id": 16, "speaker": "doctor", "text": "It's borderline low and may cause dizziness or fatigue. I think it's best to adjust your blood pressure medication accordingly."}
+{"turn_id": 17, "speaker": "patient", "text": "What changes will you make to my medication?"}
+{"turn_id": 18, "speaker": "doctor", "text": "I am going to switch you to Amlodipine 10 mg once daily. This should help better control your blood pressure and reduce your symptoms."}
+{"turn_id": 19, "speaker": "patient", "text": "Also, I checked my temperature again, and it’s gone up to 39.3 °C. By the way, my hemoglobin is still showing as 142 g/L, the same as the first test you mentioned."}

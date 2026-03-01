@@ -1,0 +1,16 @@
+# retrieval_weights.yaml
+# 定义 M5. 双通道检索模块中，结构化记忆、原始文本和时间新近度的固定权重。
+# 这些是固定的超参数，用于初步实验。后续将在 experiments/sensitivity_analysis.py 中进行敏感性分析。
+
+# 基础权重配置
+base_weights:
+  w_struct: 0.7   # 结构化记忆 (structured memory) 的权重
+  w_raw: 0.2      # 原始文本证据 (raw text evidence) 的权重
+  w_time: 0.1     # 时间衰减/新近度 (recency) 的权重
+
+# 敏感性分析的候选值
+# 在 sensitivity_analysis.py 中会读取这些值进行多组实验
+sensitivity_analysis_candidates:
+  w_struct: [0.6, 0.7, 0.8]
+  w_raw: [0.1, 0.2, 0.3]
+  w_time: [0.05, 0.1, 0.15]

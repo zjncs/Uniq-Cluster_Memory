@@ -1,0 +1,20 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Runtime outputs
+results/
+
+# Large raw datasets
+data/raw/meddialog/*.parquet

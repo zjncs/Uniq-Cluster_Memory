@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see your blood glucose level is 11.5 mmol/L, which is higher than normal. How have you been feeling lately?"}
+{"turn_id": 1, "speaker": "patient", "text": "I've been feeling a bit off, but I can't quite put my finger on it."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is 86 beats per minute, which is within a reasonable range. Have you noticed any palpitations or irregular heartbeat?"}
+{"turn_id": 3, "speaker": "patient", "text": "No palpitations, but sometimes I do feel a bit more tired than usual."}
+{"turn_id": 4, "speaker": "doctor", "text": "Let's check your blood pressure as well."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 103 mmHg, which is elevated. Any headaches or dizziness?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Currently, you are on Metformin 500mg twice daily, correct? How are you tolerating it?"}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I am on Metformin, but I've been feeling quite fatigued lately, more than before."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your symptoms and test results, it appears you have Coronary Artery Disease. That could be contributing to your fatigue and elevated blood sugar."}
+{"turn_id": 9, "speaker": "patient", "text": "That sounds serious. What should we do next?"}
+{"turn_id": 10, "speaker": "doctor", "text": "We'll need to manage both your diabetes and heart condition carefully. Let's keep monitoring your vitals closely."}
+{"turn_id": 11, "speaker": "doctor", "text": "By the way, I just rechecked your diastolic blood pressure and it’s now 110 mmHg, which is higher than before. Are you feeling more stressed lately?"}
+{"turn_id": 12, "speaker": "patient", "text": "I have been under quite a bit of stress at work recently."}
+{"turn_id": 13, "speaker": "doctor", "text": "Stress can definitely raise your blood pressure. We'll need to address that as well."}
+{"turn_id": 14, "speaker": "patient", "text": "Is there anything else I should be aware of?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Your heart rate has also increased to 111 beats per minute now, which is concerning given your condition."}
+{"turn_id": 16, "speaker": "doctor", "text": "With these changes, I think it would be best to adjust your medication to better control your blood sugar and heart health."}
+{"turn_id": 17, "speaker": "patient", "text": "What kind of medication change are you thinking about?"}
+{"turn_id": 18, "speaker": "doctor", "text": "I am going to switch you from Metformin to Insulin glargine, starting with 16 units at night to help stabilize your glucose levels."}
+{"turn_id": 19, "speaker": "patient", "text": "Thank you, doctor. My diastolic blood pressure today is still 103 mmHg, similar to that earlier reading you mentioned."}

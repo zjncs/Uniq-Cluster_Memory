@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "I see you're currently taking Lisinopril 20mg once daily. How have you been feeling on this medication?"}
+{"turn_id": 1, "speaker": "patient", "text": "Overall, I think it's been okay, but lately I've noticed some irregular heartbeats."}
+{"turn_id": 2, "speaker": "doctor", "text": "Irregular heartbeats can be concerning. Let's check your vital signs to understand better."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is elevated at 108 beats per minute. That might explain the palpitations."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, that's exactly what I've been feeling—my heart sometimes races unexpectedly."}
+{"turn_id": 5, "speaker": "doctor", "text": "I also noticed your body temperature is slightly high at 38.3 degrees Celsius. Are you experiencing any fever or chills?"}
+{"turn_id": 6, "speaker": "patient", "text": "I have felt a bit feverish and sweaty for the past day or so."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure is 104 mmHg, which is on the higher side. This could be contributing to your symptoms."}
+{"turn_id": 8, "speaker": "patient", "text": "That might be why I've been feeling palpitations and a bit dizzy at times."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your symptoms and test results, I believe your primary diagnosis is Type 2 Diabetes Mellitus. We should address that as well."}
+{"turn_id": 10, "speaker": "doctor", "text": "By the way, your temperature now reads 37.4 degrees Celsius, which is a bit lower than before."}
+{"turn_id": 11, "speaker": "doctor", "text": "I'm going to switch your medication from Lisinopril to Amlodipine 10mg daily to better control your blood pressure."}
+{"turn_id": 12, "speaker": "patient", "text": "Is this new medication going to help with my heart rate and blood pressure issues?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Amlodipine should help lower your blood pressure, which in turn may reduce your heart palpitations and improve your heart rate."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your heart rate now has decreased to 87 beats per minute, which is an improvement compared to earlier."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your diastolic blood pressure has also normalized to 110 mmHg, showing a better trend."}
+{"turn_id": 16, "speaker": "patient", "text": "That's good to hear. Should I monitor my blood pressure and heart rate at home?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, please keep a daily record of your blood pressure and heart rate. Also, monitor your blood sugar levels closely."}
+{"turn_id": 18, "speaker": "patient", "text": "I will do that. Are there any other symptoms I should watch out for?"}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, my temperature is back to 38.3 degrees Celsius again this evening, which worries me a bit."}

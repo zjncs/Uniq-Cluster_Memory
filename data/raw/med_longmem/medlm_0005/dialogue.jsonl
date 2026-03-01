@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your body temperature is quite elevated at 39.2 degrees Celsius. Are you experiencing any symptoms like chills or sweating?"}
+{"turn_id": 1, "speaker": "doctor", "text": "Also, your hemoglobin level is at 176 grams per liter, which is on the higher side. This might indicate some underlying condition we need to monitor."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is currently 73 mmHg. That's within a reasonable range, but we should keep an eye on it given your other readings."}
+{"turn_id": 3, "speaker": "patient", "text": "I've been feeling some chest tightness lately, especially when I try to do any physical activity. It worries me a bit."}
+{"turn_id": 4, "speaker": "doctor", "text": "Chest tightness can be concerning. Do you notice if it happens at rest or only during exertion? Any associated symptoms like shortness of breath?"}
+{"turn_id": 5, "speaker": "patient", "text": "It mostly happens when I climb stairs or walk fast. Sometimes I do feel a bit short of breath, but it goes away after resting."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is steady at 81 beats per minute, which is within normal limits. That’s good news."}
+{"turn_id": 7, "speaker": "doctor", "text": "I see that you are currently taking Insulin glargine 10 units at night. How have you been managing your blood sugar levels with that?"}
+{"turn_id": 8, "speaker": "patient", "text": "My blood sugar has been mostly stable, but sometimes I notice it spikes after meals."}
+{"turn_id": 9, "speaker": "doctor", "text": "We might consider adjusting your diet or insulin dosage if those spikes continue. Have you checked your blood sugar at home regularly?"}
+{"turn_id": 10, "speaker": "patient", "text": "Yes, I check it daily, usually before breakfast and dinner."}
+{"turn_id": 11, "speaker": "doctor", "text": "Regarding your cholesterol, I am going to update your medication. I will prescribe Atorvastatin 40 mg to be taken at night to help manage your lipid levels effectively."}
+{"turn_id": 12, "speaker": "patient", "text": "Will this new medication have any side effects I should watch out for?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Some patients experience muscle aches or gastrointestinal discomfort, but most tolerate it well. Please report any unusual symptoms promptly."}
+{"turn_id": 14, "speaker": "patient", "text": "Understood. Also, I’ve been feeling a bit dizzy sometimes."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your most recent diastolic blood pressure reading is now 60 mmHg, which is lower than before. This might explain your dizziness. We should monitor your blood pressure closely."}
+{"turn_id": 16, "speaker": "patient", "text": "Yes, the dizziness happens mostly when I stand up quickly."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your body temperature has decreased to 37.7 degrees Celsius, which is an improvement from before, but still slightly elevated."}
+{"turn_id": 18, "speaker": "patient", "text": "That's good to hear. The chest tightness has lessened a bit as well."}
+{"turn_id": 19, "speaker": "doctor", "text": "However, your heart rate has increased to 98 beats per minute. This could be a response to the lower blood pressure or your current condition. Let's also keep monitoring your hemoglobin, which remains at 176 g/L as before."}

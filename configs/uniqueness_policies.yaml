@@ -1,0 +1,87 @@
+# uniqueness_policies.yaml
+# 定义不同医疗属性的唯一性、冲突解决和记录策略。
+#
+# policy:
+#   - unique: 属性值应该是唯一的。对于同一个实体，只保留一个记录。
+#   - append: 允许存在多个值。新值总是被添加，除非它与现有记录完全重复。
+#
+# key: 一个字段列表，这些字段共同定义了一条唯一的记录。
+#
+# overwrite_rule:
+#   - latest: 当'unique'策略下发生冲突时，保留时间戳最新的记录。
+#   - ignore: 当'append'策略下发现完全重复的记录时，忽略新记录。
+#
+# log_conflict:
+#   - true: 当发生覆盖（overwrite）时，记录一条冲突日志，以备审查。
+#   - false: 不记录冲突或重复。
+
+policies:
+
+  # --- 策略 1: 覆盖式唯一属性 (最新信息为准) ---
+  # 这些属性在特定时间点通常只有一个“真实”状态，如诊断结果或当前的用药方案。
+  - attribute: '诊断结果'         # Diagnosis Result
+    policy: unique
+    key: ['entity', 'attribute']
+    overwrite_rule: 'latest'
+    log_conflict: true
+
+  - attribute: '主要症状'         # Main Symptom
+    policy: unique
+    key: ['entity', 'attribute']
+    overwrite_rule: 'latest'
+    log_conflict: true
+
+  - attribute: '用药方案'         # Medication Plan
+    policy: unique
+    key: ['entity', 'attribute']
+    overwrite_rule: 'latest'
+    log_conflict: true
+
+
+  # --- 策略 2: 追加式多值属性 (历史记录) ---
+  # 这些属性是历史事实的集合，如过敏史或手术史。我们只追加新信息，并忽略完全的重复项。
+  - attribute: '过敏史'           # Allergy History
+    policy: append
+    key: ['entity', 'attribute', 'value'] # value 指具体的过敏原
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+  - attribute: '手术史'           # Surgical History
+    policy: append
+    key: ['entity', 'attribute', 'value'] # value 指具体的手术名称
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+  - attribute: '家族病史'         # Family Medical History
+    policy: append
+    key: ['entity', 'attribute', 'value'] # value 指具体的家族病
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+
+  # --- 策略 3: 时序性测量值 (时间序列数据) ---
+  # 这些是带时间戳的测量数据。每个时间点的值都是一个独立的、有效的记录。
+  - attribute: '体温'             # Body Temperature
+    policy: append
+    key: ['entity', 'attribute', 'time']
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+  - attribute: '血压'             # Blood Pressure
+    policy: append
+    key: ['entity', 'attribute', 'time']
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+  - attribute: '心率'             # Heart Rate
+    policy: append
+    key: ['entity', 'attribute', 'time']
+    overwrite_rule: 'ignore'
+    log_conflict: false
+
+  - attribute: '检查结果'         # Test/Lab Results
+    policy: append
+    # 这里的 key 假设检查结果由其名称(value)和时间(time)共同定义唯一性
+    key: ['entity', 'attribute', 'value', 'time']
+    overwrite_rule: 'ignore'
+    log_conflict: false

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "I reviewed your vital signs and noticed your heart rate is 59 beats per minute, which is on the lower side but still within a reasonable range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your blood glucose level is elevated at 14.8 mmol/L, indicating poor glycemic control that we need to address."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure reads 108 mmHg, which is quite high and could be contributing to your symptoms."}
+{"turn_id": 3, "speaker": "doctor", "text": "The systolic pressure is 102 mmHg, which is somewhat low compared to the diastolic number, suggesting we need to monitor your blood pressure carefully."}
+{"turn_id": 4, "speaker": "patient", "text": "Lately, I've been experiencing frequent headaches, especially in the mornings."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your lab values and symptoms, it appears you have Chronic Kidney Disease Stage 3, which explains some of the blood pressure and glucose irregularities."}
+{"turn_id": 6, "speaker": "patient", "text": "That sounds serious. What can we do to manage it?"}
+{"turn_id": 7, "speaker": "doctor", "text": "First, controlling your blood pressure and blood sugar is crucial. We will start with medication to help with that and lifestyle modifications."}
+{"turn_id": 8, "speaker": "patient", "text": "What medication will you prescribe for the blood pressure?"}
+{"turn_id": 9, "speaker": "doctor", "text": "I am initiating Amlodipine 5mg once daily to help lower your blood pressure and reduce the strain on your kidneys."}
+{"turn_id": 10, "speaker": "patient", "text": "Are there any side effects I should watch out for with Amlodipine?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Some patients experience swelling or dizziness, but we'll monitor you closely and adjust if necessary."}
+{"turn_id": 12, "speaker": "doctor", "text": "By the way, I checked your heart rate again and it has increased to 75 bpm, which is quite a change from earlier."}
+{"turn_id": 13, "speaker": "patient", "text": "That's interesting because I felt my pulse and it was still about 59 bpm."}
+{"turn_id": 14, "speaker": "doctor", "text": "Thanks for pointing that out; fluctuations can happen due to various factors such as activity or measurement technique."}
+{"turn_id": 15, "speaker": "patient", "text": "How about my blood pressure? Is it still the same?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Actually, I noted your systolic pressure dropped to 90 mmHg, which is lower than before, so we need to be cautious."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given this, I am going to switch your medication to Lisinopril 20mg once daily, which better protects your kidneys and can help stabilize your blood pressure."}
+{"turn_id": 18, "speaker": "patient", "text": "Just to confirm, my heart rate is still around 59 bpm as I checked myself."}
+{"turn_id": 19, "speaker": "patient", "text": "And my diastolic blood pressure remains at 108 mmHg according to my home monitor."}

@@ -1,0 +1,33 @@
+# scope_policies.yaml
+# 定义不同医疗属性的时间有效范围 (Time-to-Live)
+# long_term: 长期有效，如过敏史、手术史
+# medium_term: 中期有效，在一次完整的诊疗周期内有效，如主要症状、诊断结果
+# short_term: 短期有效，通常只在几天或几周内相关，如具体用药、临时检查结果
+# event: 事件性，发生后即完成，如预约、特定日期的单次行为
+
+policies:
+  - scope: long_term
+    attributes:
+      - '过敏史'       # Allergy History
+      - '手术史'       # Surgical History
+      - '家族病史'     # Family Medical History
+      - '慢性病史'     # Chronic Disease History
+
+  - scope: medium_term
+    attributes:
+      - '主要症状'     # Main Symptoms
+      - '诊断结果'     # Diagnosis Result
+      - '持续时间'     # Duration of Symptoms
+
+  - scope: short_term
+    attributes:
+      - '体温'         # Body Temperature
+      - '血压'         # Blood Pressure
+      - '心率'         # Heart Rate
+      - '用药方案'     # Medication Plan
+      - '检查结果'     # Test/Lab Results
+
+  - scope: event
+    attributes:
+      - '预约记录'     # Appointment Record
+      - '特定行为'     # Specific Action (e.g., "ate seafood yesterday")

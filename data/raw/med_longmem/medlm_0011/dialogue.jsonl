@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been having blurred vision lately, and it's been quite concerning."}
+{"turn_id": 1, "speaker": "doctor", "text": "I see. Given your symptoms, I am going to prescribe Atorvastatin 40mg to be taken at night to help manage your cholesterol levels."}
+{"turn_id": 2, "speaker": "doctor", "text": "Also, I noticed your body temperature is elevated at 39.9 degrees Celsius, which suggests you might have an infection."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I have felt feverish and a bit weak over the past couple of days."}
+{"turn_id": 4, "speaker": "doctor", "text": "After reviewing your lab results, it appears you have Chronic Kidney Disease Stage 3, which we need to monitor closely."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 104 mmHg, which is higher than we would like. We may need to adjust your medications."}
+{"turn_id": 6, "speaker": "doctor", "text": "Additionally, your heart rate is elevated at 110 beats per minute, possibly due to your fever or stress."}
+{"turn_id": 7, "speaker": "patient", "text": "That makes sense. I've been feeling my heart racing along with the fever."}
+{"turn_id": 8, "speaker": "doctor", "text": "Have you noticed any swelling in your legs or changes in your urine output? These can be signs of worsening kidney function."}
+{"turn_id": 9, "speaker": "patient", "text": "Now that you mention it, my ankles have been a bit swollen lately, and my urine seems darker than usual."}
+{"turn_id": 10, "speaker": "doctor", "text": "We'll need to manage your kidney condition carefully. Meanwhile, stay hydrated and monitor your symptoms closely."}
+{"turn_id": 11, "speaker": "patient", "text": "Understood. Is there anything else I should be aware of?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Actually, when I checked again just now, your temperature has risen slightly to 40.0 degrees Celsius, which is concerning and may require further investigation."}
+{"turn_id": 13, "speaker": "doctor", "text": "Also, I am going to update your medication by adding Metformin 1000mg twice daily to better control your blood sugar."}
+{"turn_id": 14, "speaker": "patient", "text": "Will the new medication have any side effects I should watch for?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Some patients experience gastrointestinal upset with Metformin, but it is generally well tolerated. We'll monitor your kidney function closely because Metformin is contraindicated in severe kidney impairment."}
+{"turn_id": 16, "speaker": "patient", "text": "Thank you for the explanation. Should I be concerned about my blood pressure and heart rate?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, both are important. We will aim to bring your blood pressure down to safer levels and reduce your heart rate if it remains elevated."}
+{"turn_id": 18, "speaker": "patient", "text": "Alright, I'll keep track of my readings and symptoms and report any changes."}
+{"turn_id": 19, "speaker": "doctor", "text": "By the way, your diastolic blood pressure has dropped to 89 mmHg now, which is better compared to the earlier 104 mmHg reading. Also, your heart rate is steady at 110 bpm, consistent with what you mentioned earlier."}

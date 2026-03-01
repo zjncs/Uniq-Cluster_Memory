@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "After reviewing your tests, it appears you have coronary artery disease. We'll need to manage this carefully to prevent any complications."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your heart rate is elevated at 128 beats per minute, which is higher than normal. Are you experiencing any palpitations or chest discomfort?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure is measuring at 121 mmHg, which is within a reasonable range. How have you been feeling lately?"}
+{"turn_id": 3, "speaker": "patient", "text": "I feel generally okay, but I've noticed I'm urinating much more frequently than usual."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your body temperature is currently 36.9 degrees Celsius, indicating no fever at the moment."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, it's been quite bothersome. The increased urination started about a week ago."}
+{"turn_id": 6, "speaker": "doctor", "text": "That symptom, polyuria, can be related to blood sugar issues or even medication side effects. Let me check your diastolic blood pressure as well."}
+{"turn_id": 7, "speaker": "patient", "text": "Apart from the urination, I haven't noticed any other new symptoms."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your diastolic blood pressure is 64 mmHg, which is on the lower side but still acceptable. Given your condition, I am going to start you on insulin glargine, 16 units at night, to help control your blood sugar."}
+{"turn_id": 9, "speaker": "patient", "text": "I see. Will this insulin affect my energy levels or cause any side effects?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Some patients experience mild side effects like low blood sugar if meals are skipped, but we'll monitor you closely. Do you have any history of hypoglycemia?"}
+{"turn_id": 11, "speaker": "patient", "text": "No, I haven't had low blood sugar episodes before."}
+{"turn_id": 12, "speaker": "doctor", "text": "Good. We'll also keep an eye on your heart rate. How have you been feeling in terms of fatigue or shortness of breath?"}
+{"turn_id": 13, "speaker": "patient", "text": "Sometimes I feel a bit tired, but nothing too severe."}
+{"turn_id": 14, "speaker": "doctor", "text": "Actually, I noticed your body temperature has increased to 38.2 degrees Celsius. Are you feeling feverish or experiencing chills now?"}
+{"turn_id": 15, "speaker": "patient", "text": "No, I actually feel fine and my temperature was 36.9 earlier today."}
+{"turn_id": 16, "speaker": "doctor", "text": "Also, your heart rate is now 130 beats per minute, slightly higher than before. Have you been more anxious or physically active recently?"}
+{"turn_id": 17, "speaker": "patient", "text": "Not really, I was resting when you measured it."}
+{"turn_id": 18, "speaker": "patient", "text": "By the way, I checked my blood pressure myself and it was 121 mmHg systolic, matching your earlier reading."}
+{"turn_id": 19, "speaker": "doctor", "text": "That's consistent, which is good. Given the situation, I am going to switch your medication to atorvastatin 20mg at night to better manage your cholesterol levels along with your coronary artery disease."}

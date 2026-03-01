@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see your body temperature is quite high, 39.4 degrees Celsius. Are you experiencing any fever symptoms?"}
+{"turn_id": 1, "speaker": "doctor", "text": "Also, your blood glucose level came back elevated at 13.4 mmol/L, which we should definitely discuss."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I've been feeling very warm and sweaty since last night."}
+{"turn_id": 3, "speaker": "doctor", "text": "I understand. Let's check your blood pressure as well."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your systolic blood pressure is 139 mmHg, which is slightly elevated but not critical at this moment."}
+{"turn_id": 5, "speaker": "patient", "text": "I've also been feeling nauseous on and off today."}
+{"turn_id": 6, "speaker": "doctor", "text": "Given your elevated blood sugar and symptoms, I am diagnosing you with Type 2 Diabetes Mellitus."}
+{"turn_id": 7, "speaker": "patient", "text": "I see. What should I do about the nausea and the high sugar levels?"}
+{"turn_id": 8, "speaker": "doctor", "text": "I am going to start you on Lisinopril 20mg once daily to help control your blood pressure and protect your kidneys."}
+{"turn_id": 9, "speaker": "patient", "text": "Is Lisinopril going to help with my blood sugar too?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Lisinopril mainly manages blood pressure, but controlling it can indirectly benefit your diabetes management."}
+{"turn_id": 11, "speaker": "doctor", "text": "By the way, I rechecked your blood glucose and it is now 10.8 mmol/L, which is better but still above target."}
+{"turn_id": 12, "speaker": "patient", "text": "Actually, this morning my blood sugar was even higher than that earlier reading you mentioned."}
+{"turn_id": 13, "speaker": "doctor", "text": "That variability can happen, but we'll work on stabilizing it with medications and lifestyle changes."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your blood pressure readings, I am going to reduce your Lisinopril dose to 10mg once daily to avoid low blood pressure."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your systolic blood pressure has risen to 152 mmHg, which is concerning and needs close monitoring."}
+{"turn_id": 16, "speaker": "patient", "text": "I'm still running a fever of 39.4 degrees Celsius, just like when I first came in."}
+{"turn_id": 17, "speaker": "doctor", "text": "Actually, your temperature has increased to 40.0 degrees Celsius now. We need to address this urgently."}
+{"turn_id": 18, "speaker": "patient", "text": "What should I do about this high fever? Should I take anything for it?"}
+{"turn_id": 19, "speaker": "doctor", "text": "I recommend taking antipyretics like acetaminophen and increasing your fluid intake. If the fever persists, we may need further investigations."}

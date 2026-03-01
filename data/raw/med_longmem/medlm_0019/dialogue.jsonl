@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I’ve reviewed your labs and your hemoglobin level is at 169 g/L, which is within a reasonable range."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, doctor. I've been feeling a bit more tired than usual lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I also checked your blood pressure, and your diastolic reading is 77 mmHg. How have you been feeling otherwise?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your symptoms and tests, your primary diagnosis is Coronary Artery Disease. We need to manage this carefully."}
+{"turn_id": 4, "speaker": "patient", "text": "That sounds serious. Will I need surgery?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Not necessarily immediately. Your body temperature is slightly elevated at 37.4 °C, so we should monitor for any signs of infection."}
+{"turn_id": 6, "speaker": "patient", "text": "I did notice some mild chills last night, but no other symptoms."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure is 132 mmHg, which is acceptable but borderline. We'll keep an eye on that."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been taking my medications regularly. Could my blood pressure be related to those?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Currently, you are on Metformin 1000mg twice daily for your diabetes, which shouldn’t significantly affect your blood pressure."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, that’s good to know. Should I be worried about my heart condition worsening?"}
+{"turn_id": 11, "speaker": "doctor", "text": "It’s important to manage risk factors. By the way, your hemoglobin has risen to 180 g/L since the last test."}
+{"turn_id": 12, "speaker": "patient", "text": "That’s interesting. I thought my hemoglobin was 169 g/L recently, as you mentioned earlier."}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, that earlier reading was accurate, but this newer result indicates a slight increase which we should monitor."}
+{"turn_id": 14, "speaker": "patient", "text": "I see. Should I be more concerned about this change?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Also, your body temperature has increased to 38.6 °C, which suggests a fever. We might need to investigate an underlying infection."}
+{"turn_id": 16, "speaker": "patient", "text": "Now that you mention it, I’ve been feeling warmer and a bit flushed since this morning."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given these changes, I’m going to switch your medication and start you on Amlodipine 10mg once daily to better control your blood pressure."}
+{"turn_id": 18, "speaker": "patient", "text": "About the hemoglobin, the 169 g/L reading you mentioned earlier feels more consistent with how I’ve been feeling."}
+{"turn_id": 19, "speaker": "patient", "text": "And my blood pressure has mostly been around 132 mmHg systolic, so that seems stable for now."}

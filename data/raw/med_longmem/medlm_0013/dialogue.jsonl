@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Good morning, doctor. I've been feeling a bit off lately."}
+{"turn_id": 1, "speaker": "doctor", "text": "Good morning. Let's check your blood pressure first. Your systolic pressure is 122 mmHg, which is within the normal range."}
+{"turn_id": 2, "speaker": "patient", "text": "That's good to hear. I've also been having headaches on and off for a few days."}
+{"turn_id": 3, "speaker": "patient", "text": "The headaches are quite persistent and sometimes make it hard to concentrate."}
+{"turn_id": 4, "speaker": "doctor", "text": "I see. Have you noticed any other symptoms like dizziness or vision changes?"}
+{"turn_id": 5, "speaker": "patient", "text": "No dizziness, but sometimes I feel more tired than usual."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your symptoms and preliminary tests, it appears you have Type 2 Diabetes Mellitus."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your blood glucose level is 10.0 mmol/L, which is elevated and consistent with this diagnosis."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your diastolic blood pressure is 87 mmHg, slightly on the higher side."}
+{"turn_id": 9, "speaker": "patient", "text": "That's concerning. What should we do next?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, I just reviewed another blood glucose reading that was 7.6 mmol/L, which is a bit lower than the earlier one."}
+{"turn_id": 11, "speaker": "patient", "text": "Does that mean my blood sugar levels are fluctuating a lot?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes, fluctuations are common in diabetes. We need to monitor your levels closely and adjust treatment accordingly."}
+{"turn_id": 13, "speaker": "patient", "text": "What kind of treatment will I need?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Initially, lifestyle changes focusing on diet and exercise are important, but medication may be necessary."}
+{"turn_id": 15, "speaker": "patient", "text": "I understand. Is my blood pressure a concern too?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes, about that. A more recent diastolic reading shows 79 mmHg, which is lower than before."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given these variations, I am going to switch you to a medication that better manages both your blood sugar and blood pressure."}
+{"turn_id": 18, "speaker": "patient", "text": "That sounds like a good plan. Should I be monitoring my blood pressure at home as well?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, please keep track of your blood pressure readings. Just now, your systolic pressure is 103 mmHg, and you mentioned your diastolic was 87 mmHg earlier, correct? We’ll use those numbers to guide your treatment."}

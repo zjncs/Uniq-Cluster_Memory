@@ -1,0 +1,38 @@
+# Core LLM & RAG
+openai>=1.0.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# Vector Store
+faiss-cpu>=1.8.0
+qdrant-client>=1.10.0
+
+# Sparse Retrieval
+rank_bm25>=0.2.2
+
+# Graph Database
+neo4j>=5.23.0
+
+# Embeddings (BioLORD for M2 clustering)
+sentence-transformers>=3.0.0
+
+# Data Processing
+pyarrow>=15.0.0
+datasets>=2.20.0
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Config
+pyyaml>=6.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Evaluation
+scikit-learn>=1.4.0
+
+# Development
+jupyter>=1.0.0
+ipykernel>=6.0.0

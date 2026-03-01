@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see from your chart that you have been prescribed Lisinopril 20mg once daily to manage your blood pressure. How have you been feeling since starting the medication?"}
+{"turn_id": 1, "speaker": "patient", "text": "Morning, doctor. I think I’ve been okay, but I do feel a bit more tired than usual. Could that be from the Lisinopril?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Fatigue can sometimes be a side effect, but it’s also important to consider other factors. Have you noticed any dizziness or swelling?"}
+{"turn_id": 3, "speaker": "patient", "text": "No dizziness or swelling, just the tiredness. Also, I’ve been checking my blood pressure at home, and it seems quite high sometimes."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your blood pressure reading today is 177 over something, which is elevated. We need to control this better to reduce your risk of complications."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level came back at 174 grams per liter, which is on the higher side. That can sometimes affect your cardiovascular health."}
+{"turn_id": 6, "speaker": "doctor", "text": "Additionally, your primary diagnosis remains Type 2 Diabetes Mellitus. How have you been managing your blood sugar levels?"}
+{"turn_id": 7, "speaker": "patient", "text": "I try to watch my diet and exercise when I can, but sometimes I slip up. I did check my blood sugar this morning."}
+{"turn_id": 8, "speaker": "doctor", "text": "I see your blood glucose level is 7.3 millimoles per liter, which is slightly elevated. We’ll need to keep monitoring and possibly adjust your treatment."}
+{"turn_id": 9, "speaker": "patient", "text": "Is this something serious? I don’t want my diabetes to get worse."}
+{"turn_id": 10, "speaker": "doctor", "text": "It’s manageable with proper lifestyle changes and medication. Speaking of which, I’d like to review your current medications."}
+{"turn_id": 11, "speaker": "patient", "text": "Sure, I’m currently taking Lisinopril as you mentioned. No other new meds."}
+{"turn_id": 12, "speaker": "doctor", "text": "I am going to add Atorvastatin 20mg at night to help control your cholesterol and reduce cardiovascular risk."}
+{"turn_id": 13, "speaker": "patient", "text": "Will that cause any side effects? I’m a bit worried about starting another drug."}
+{"turn_id": 14, "speaker": "doctor", "text": "Most patients tolerate Atorvastatin well. We will monitor your liver function and muscle symptoms just to be safe."}
+{"turn_id": 15, "speaker": "doctor", "text": "By the way, your repeat hemoglobin test today shows 163 grams per liter, which is lower than before. Have you had any bleeding or symptoms like fatigue or shortness of breath?"}
+{"turn_id": 16, "speaker": "patient", "text": "No bleeding, and the tiredness is about the same. That’s strange—it’s different from the earlier number you mentioned."}
+{"turn_id": 17, "speaker": "doctor", "text": "Also, your blood pressure reading was 180 systolic today, slightly higher than the previous 177. It seems your hypertension is not fully controlled yet."}
+{"turn_id": 18, "speaker": "patient", "text": "I have been checking it at home too, and sometimes it’s even higher. What should I do next?"}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify, my hemoglobin last time was 174, and my blood glucose was 7.3 mmol/L like you mentioned earlier. I’ll keep monitoring these and let you know if anything changes."}

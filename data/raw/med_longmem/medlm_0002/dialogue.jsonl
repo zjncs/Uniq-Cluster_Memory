@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been feeling quite unwell lately with some strange symptoms."}
+{"turn_id": 1, "speaker": "doctor", "text": "I'm sorry to hear that. Can you describe what symptoms you've been experiencing?"}
+{"turn_id": 2, "speaker": "doctor", "text": "After taking your vital signs, I see your heart rate is elevated at 112 beats per minute. Have you noticed any palpitations or chest discomfort?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I've been urinating much more frequently than usual, which has been quite bothersome."}
+{"turn_id": 4, "speaker": "doctor", "text": "I also measured your body temperature, and you have a mild fever of 38.4 degrees Celsius. Have you had chills or sweating?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your blood work shows a hemoglobin level of 149 grams per liter, which is within normal limits."}
+{"turn_id": 6, "speaker": "patient", "text": "I haven't had any chest pain yet, but I do feel tired and short of breath when I walk."}
+{"turn_id": 7, "speaker": "doctor", "text": "Those symptoms, combined with your elevated heart rate and fever, suggest we should look into your cardiovascular health closely."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your assessment, I am diagnosing you with coronary artery disease. We need to manage this carefully."}
+{"turn_id": 9, "speaker": "doctor", "text": "I also noted your systolic blood pressure is low at 91 mmHg. Have you felt dizzy or lightheaded?"}
+{"turn_id": 10, "speaker": "patient", "text": "Yes, sometimes when I stand up quickly, I feel a bit dizzy."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin test now shows 129 grams per liter, which is lower than before. This might indicate some blood loss or dilution; we should investigate further."}
+{"turn_id": 12, "speaker": "patient", "text": "Could this change in hemoglobin be related to my increased urination?"}
+{"turn_id": 13, "speaker": "doctor", "text": "It's possible. Polyuria can sometimes cause dehydration, affecting blood values. We'll do more tests to clarify."}
+{"turn_id": 14, "speaker": "patient", "text": "Is my fever still a concern?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Your latest temperature reading is now 36.9 degrees Celsius, which is normal. So the fever seems to have resolved."}
+{"turn_id": 16, "speaker": "doctor", "text": "Also, your blood pressure has improved to 102 mmHg systolic, which is better than before but still on the lower side."}
+{"turn_id": 17, "speaker": "patient", "text": "What should I do about the low blood pressure and coronary artery disease?"}
+{"turn_id": 18, "speaker": "doctor", "text": "I will prescribe medications to manage your heart condition and advise lifestyle changes. We'll monitor your blood pressure closely to avoid it dropping too low."}
+{"turn_id": 19, "speaker": "patient", "text": "I just wanted to mention, earlier today I again had a fever of 38.4 degrees Celsius and my blood pressure felt like it was around 91 mmHg."}
