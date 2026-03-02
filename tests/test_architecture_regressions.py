@@ -180,6 +180,47 @@ def test_m3_latest_medication_equivalent_not_marked_conflict():
     assert len(memories[0].conflict_history) == 0
 
 
+def test_m3_latest_medication_prefers_prescription_over_late_recommendation():
+    cluster = AttributeCluster(
+        cluster_id="c_l_intent",
+        canonical_attribute="medication",
+        update_policy="latest",
+        events=[
+            ExtractedEvent(
+                event_id="e_rx",
+                dialogue_id="d1",
+                attribute="medication",
+                value="Lisinopril 10mg qd",
+                unit="",
+                time_expr="2025-01-10",
+                update_policy="latest",
+                confidence=1.0,
+                provenance=[10],
+                speaker="doctor",
+                raw_text_snippet="I am going to reduce your Lisinopril dose to 10mg once daily.",
+            ),
+            ExtractedEvent(
+                event_id="e_suggest",
+                dialogue_id="d1",
+                attribute="medication",
+                value="Acetaminophen",
+                unit="",
+                time_expr="2025-01-12",
+                update_policy="latest",
+                confidence=1.0,
+                provenance=[12],
+                speaker="doctor",
+                raw_text_snippet="I recommend taking antipyretics like acetaminophen if fever persists.",
+            ),
+        ],
+    )
+    manager = UniquenessManager(dialogue_date="2025-01-15")
+    memories = manager.process([cluster], patient_id="p1")
+
+    assert len(memories) == 1
+    assert memories[0].value == "Lisinopril 10mg qd"
+
+
 def test_m3_unique_small_numeric_change_is_conflict():
     cluster = AttributeCluster(
         cluster_id="c_u2",

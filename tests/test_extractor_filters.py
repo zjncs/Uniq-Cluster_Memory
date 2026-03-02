@@ -96,3 +96,15 @@ def test_normalize_record_canonicalizes_diagnosis():
     assert attr == "primary_diagnosis"
     assert value == "Essential Hypertension"
     assert unit == ""
+
+
+def test_filter_rejects_speculative_patient_question_diagnosis():
+    rec = MedicalEventExtractor._normalize_record(
+        "primary_diagnosis",
+        "anemia",
+        "",
+        1.0,
+        speaker="patient",
+        snippet="Could that be anemia?",
+    )
+    assert rec is None

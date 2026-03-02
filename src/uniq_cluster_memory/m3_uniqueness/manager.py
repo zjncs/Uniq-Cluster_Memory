@@ -621,6 +621,15 @@ class UniquenessManager:
             "confidence": 0.64,
         },
     ]
+    MED_STRONG_ACTION_PATTERNS = [
+        re.compile(r"\b(start|prescribe|prescribed|reduce|increase|continue|switch)\b", re.IGNORECASE),
+        re.compile(r"\b(once daily|twice daily|bid|tid|qid|qd|qhs|at night)\b", re.IGNORECASE),
+    ]
+    MED_WEAK_ACTION_PATTERNS = [
+        re.compile(r"\b(recommend|might recommend|may recommend|consider)\b", re.IGNORECASE),
+        re.compile(r"\b(like|as needed|prn|if .* persists)\b", re.IGNORECASE),
+        re.compile(r"\b(antipyretic|pain reliever)\b", re.IGNORECASE),
+    ]
 
     def __init__(
         self,
@@ -743,12 +752,12 @@ class UniquenessManager:
     def _bundle_latest_priority(
         self,
         grounded_events: List[Tuple[str, ExtractedEvent]],
-    ) -> Tuple[int, int, int, float, int]:
+    ) -> Tuple[int, int, int, int, float, int]:
         top = max(
             (self._latest_priority(scope, evt) for scope, evt in grounded_events),
-            default=(-1, 0, 0, 0.0),
+            default=(-1, 1, 0, 0, 0.0),
         )
-        return top[0], top[1], top[2], top[3], len(grounded_events)
+        return top[0], top[1], top[2], top[3], top[4], len(grounded_events)
 
     def _representative_event(self, events: List[ExtractedEvent]) -> ExtractedEvent:
         return sorted(events, key=lambda e: self._event_priority(e), reverse=True)[0]
@@ -1160,6 +1169,16 @@ class UniquenessManager:
     def _max_turn(evt: ExtractedEvent) -> int:
         return max(evt.provenance) if evt.provenance else 0
 
+    def _medication_intent_priority(self, evt: ExtractedEvent) -> int:
+        if evt.attribute != "medication":
+            return 1
+        text = f"{evt.value} {evt.raw_text_snippet}".strip().lower()
+        if any(p.search(text) for p in self.MED_STRONG_ACTION_PATTERNS):
+            return 2
+        if any(p.search(text) for p in self.MED_WEAK_ACTION_PATTERNS):
+            return 0
+        return 1
+
     def _event_priority(self, evt: ExtractedEvent) -> Tuple[int, int, float]:
         return (
             self._max_turn(evt),
@@ -1177,9 +1196,21 @@ class UniquenessManager:
         except ValueError:
             return -1
 
-    def _latest_priority(self, scope: str, evt: ExtractedEvent) -> Tuple[int, int, int, float]:
+    def _latest_priority(self, scope: str, evt: ExtractedEvent) -> Tuple[int, int, int, int, float]:
+        scope_rank = self._scope_end_ordinal(scope)
+        intent_rank = self._medication_intent_priority(evt)
+        # medication 的 latest 先看“处方意图”再看时间，减少临时建议药覆盖长期方案
+        if evt.attribute == "medication":
+            return (
+                intent_rank,
+                scope_rank,
+                self._max_turn(evt),
+                self._speaker_priority(evt.speaker),
+                evt.confidence,
+            )
         return (
-            self._scope_end_ordinal(scope),
+            scope_rank,
+            intent_rank,
             self._max_turn(evt),
             self._speaker_priority(evt.speaker),
             evt.confidence,

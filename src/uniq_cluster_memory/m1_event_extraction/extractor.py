@@ -157,6 +157,12 @@ class MedicalEventExtractor:
         "symptom": 0.9,
         "primary_diagnosis": 0.8,
     }
+    SPECULATIVE_Q_PATTERNS = [
+        re.compile(r"\bcould\b", re.IGNORECASE),
+        re.compile(r"\bmaybe\b", re.IGNORECASE),
+        re.compile(r"\bis it\b", re.IGNORECASE),
+        re.compile(r"\b可能\b|\b会不会\b|\b是不是\b"),
+    ]
     _NUMERIC_RE = re.compile(r"-?\d+(?:\.\d+)?")
     _MEAS_VALUE_UNIT_RE = re.compile(
         r"(-?\d+(?:\.\d+)?)\s*(mmhg|bpm|g/l|gdl|g/dl|mmol/l|mg/dl|°c|c|°f|f)\b",
@@ -306,7 +312,14 @@ class MedicalEventExtractor:
                     value = str(r.get("value", "")).strip()
                     unit = str(r.get("unit", "")).strip()
                     confidence = float(r.get("confidence", 1.0))
-                    normalized = self._normalize_record(attribute, value, unit, confidence)
+                    normalized = self._normalize_record(
+                        attribute=attribute,
+                        value=value,
+                        unit=unit,
+                        confidence=confidence,
+                        speaker=str(r.get("speaker", "unknown")),
+                        snippet=str(r.get("raw_text_snippet", ""))[:100],
+                    )
                     if normalized is None:
                         continue
                     attribute, value, unit, confidence = normalized
@@ -354,6 +367,8 @@ class MedicalEventExtractor:
         value: str,
         unit: str,
         confidence: float,
+        speaker: str = "unknown",
+        snippet: str = "",
     ) -> Optional[tuple[str, str, str, float]]:
         """
         记录级规范化与过滤。
@@ -366,7 +381,7 @@ class MedicalEventExtractor:
         unt = (unit or "").strip()
         conf = float(confidence)
 
-        if not cls._is_valid_record(attr, val, conf):
+        if not cls._is_valid_record(attr, val, conf, speaker=speaker, snippet=snippet):
             return None
 
         if attr in cls.MEASUREMENT_ATTRIBUTES:
@@ -384,7 +399,14 @@ class MedicalEventExtractor:
         return attr, val, unt, conf
 
     @classmethod
-    def _is_valid_record(cls, attribute: str, value: str, confidence: float = 1.0) -> bool:
+    def _is_valid_record(
+        cls,
+        attribute: str,
+        value: str,
+        confidence: float = 1.0,
+        speaker: str = "unknown",
+        snippet: str = "",
+    ) -> bool:
         """
         过滤明显无效的抽取结果，降低 M3 冲突噪声。
 
@@ -411,6 +433,13 @@ class MedicalEventExtractor:
 
         if attr in cls.MEASUREMENT_ATTRIBUTES and cls._NUMERIC_RE.search(v) is None:
             return False
+
+        # 过滤患者问句中的“推测诊断”，避免把猜测当成最终诊断
+        if attr in cls.DIAGNOSIS_ATTRIBUTES and (speaker or "").strip().lower() == "patient":
+            s = (snippet or value or "").strip()
+            if "?" in s or "？" in s:
+                if any(p.search(s) for p in cls.SPECULATIVE_Q_PATTERNS):
+                    return False
 
         return True
 
