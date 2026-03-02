@@ -594,6 +594,34 @@ class UniquenessManager:
         4. 输出最终的 CanonicalMemory 列表。
     """
 
+    BUNDLE_STATUS_ACTIVE = "Active"
+    BUNDLE_STATUS_SUPERSEDED = "Superseded"
+    BUNDLE_STATUS_CONFLICTING = "Conflicting"
+    BUNDLE_STATUS_RESOLVED = "Resolved"
+    VALID_BUNDLE_STATUSES = {
+        BUNDLE_STATUS_ACTIVE,
+        BUNDLE_STATUS_SUPERSEDED,
+        BUNDLE_STATUS_CONFLICTING,
+        BUNDLE_STATUS_RESOLVED,
+    }
+
+    CROSS_BUNDLE_RULES = [
+        {
+            "med_keywords": ["insulin", "insulin glargine"],
+            "symptom_keywords": ["hypoglycemia", "low blood sugar", "dizziness", "sweating", "palpitations"],
+            "relation": "POTENTIAL_ADVERSE_EFFECT",
+            "reason": "Medication_Risk_Heuristic:Hypoglycemia",
+            "confidence": 0.72,
+        },
+        {
+            "med_keywords": ["lisinopril", "amlodipine"],
+            "symptom_keywords": ["dizziness", "lightheadedness"],
+            "relation": "POTENTIAL_ADVERSE_EFFECT",
+            "reason": "Medication_Risk_Heuristic:Hypotension",
+            "confidence": 0.64,
+        },
+    ]
+
     def __init__(
         self,
         dialogue_date: Optional[str] = None,
@@ -624,6 +652,9 @@ class UniquenessManager:
         self._event_to_entity_bundles: Dict[str, Set[str]] = {}
         self._entity_bundle_names: Dict[str, str] = {}
         self._bundle_time_anchor: Dict[str, str] = {}
+        self._event_bundle_by_id: Dict[str, object] = {}
+        self._entity_bundle_by_id: Dict[str, object] = {}
+        self._bundle_graph: Optional[BundleGraph] = None
 
     def process(
         self,
@@ -648,22 +679,32 @@ class UniquenessManager:
             memories = self._process_cluster(cluster, patient_id)
             all_memories.extend(memories)
 
+        self._link_bundles(all_memories)
         return all_memories
 
     def _index_bundle_graph(self, bundle_graph: Optional[BundleGraph]) -> None:
+        self._bundle_graph = bundle_graph
         self._event_to_event_bundle = {}
         self._event_to_entity_bundles = {}
         self._entity_bundle_names = {}
         self._bundle_time_anchor = {}
+        self._event_bundle_by_id = {}
+        self._entity_bundle_by_id = {}
         if bundle_graph is None:
             return
 
         for eb in bundle_graph.event_bundles:
+            self._event_bundle_by_id[eb.bundle_id] = eb
+            if not getattr(eb, "status", ""):
+                eb.status = self.BUNDLE_STATUS_ACTIVE
             self._bundle_time_anchor[eb.bundle_id] = eb.time_anchor
             for eid in eb.event_ids:
                 self._event_to_event_bundle[eid] = eb.bundle_id
 
         for ent in bundle_graph.entity_bundles:
+            self._entity_bundle_by_id[ent.bundle_id] = ent
+            if not getattr(ent, "status", ""):
+                ent.status = self.BUNDLE_STATUS_ACTIVE
             self._entity_bundle_names[ent.bundle_id] = ent.canonical_name
             for eid in ent.event_ids:
                 self._event_to_entity_bundles.setdefault(eid, set()).add(ent.bundle_id)
@@ -721,6 +762,116 @@ class UniquenessManager:
             key=lambda pair: self._latest_priority(pair[0], pair[1]),
             reverse=True,
         )[0]
+
+    def _append_bundle_evidence(
+        self,
+        bundle_id: str,
+        action: str,
+        reason: str,
+        extra: Optional[dict] = None,
+    ) -> None:
+        bundle = self._event_bundle_by_id.get(bundle_id)
+        if bundle is None:
+            return
+        chain = getattr(bundle, "evidence_chain", None)
+        if chain is None:
+            chain = []
+            setattr(bundle, "evidence_chain", chain)
+        entry = {
+            "action": action,
+            "reason": reason,
+        }
+        if extra:
+            entry["extra"] = extra
+        chain.append(entry)
+
+    def _set_bundle_status(
+        self,
+        bundle_id: str,
+        new_status: str,
+        reason: str,
+        extra: Optional[dict] = None,
+    ) -> None:
+        if new_status not in self.VALID_BUNDLE_STATUSES:
+            return
+        bundle = self._event_bundle_by_id.get(bundle_id)
+        if bundle is None:
+            return
+        old_status = getattr(bundle, "status", self.BUNDLE_STATUS_ACTIVE)
+        if old_status != new_status:
+            bundle.status = new_status
+            self._append_bundle_evidence(
+                bundle_id,
+                action="status_transition",
+                reason=reason,
+                extra={
+                    "from": old_status,
+                    "to": new_status,
+                    **(extra or {}),
+                },
+            )
+        else:
+            self._append_bundle_evidence(
+                bundle_id,
+                action="status_observed",
+                reason=reason,
+                extra={"status": new_status, **(extra or {})},
+            )
+
+    def _apply_bundle_decision(
+        self,
+        selected_bundle_id: str,
+        competing_bundle_ids: List[str],
+        policy: str,
+        has_conflict: bool,
+    ) -> None:
+        if not selected_bundle_id:
+            return
+        if not has_conflict:
+            self._set_bundle_status(
+                selected_bundle_id,
+                self.BUNDLE_STATUS_ACTIVE,
+                reason=f"Bundle_Decision:{policy}",
+            )
+            for bid in competing_bundle_ids:
+                self._set_bundle_status(
+                    bid,
+                    self.BUNDLE_STATUS_RESOLVED,
+                    reason=f"Bundle_Decision:{policy}",
+                    extra={"selected_bundle_id": selected_bundle_id},
+                )
+            return
+
+        if policy == "latest":
+            self._set_bundle_status(
+                selected_bundle_id,
+                self.BUNDLE_STATUS_ACTIVE,
+                reason="Temporal_Recency",
+                extra={"resolved_conflict": True},
+            )
+            for bid in competing_bundle_ids:
+                self._set_bundle_status(
+                    bid,
+                    self.BUNDLE_STATUS_SUPERSEDED,
+                    reason="Temporal_Recency",
+                    extra={"selected_bundle_id": selected_bundle_id},
+                )
+            return
+
+        # unique 场景：同 scope 下差异值通常无法完全确认，标为冲突待解
+        self._set_bundle_status(
+            selected_bundle_id,
+            self.BUNDLE_STATUS_CONFLICTING,
+            reason="SameScope_ValueConflict",
+            extra={"requires_clarification": True},
+        )
+        for bid in competing_bundle_ids:
+            self._set_bundle_status(
+                bid,
+                self.BUNDLE_STATUS_CONFLICTING,
+                reason="SameScope_ValueConflict",
+                extra={"selected_bundle_id": selected_bundle_id},
+            )
 
     def _process_cluster(
         self,
@@ -845,6 +996,12 @@ class UniquenessManager:
                     all_provenance.append(p)
                     seen_prov.add(p)
         all_provenance.sort()
+        self._apply_bundle_decision(
+            selected_bundle_id=selected["bundle_id"],
+            competing_bundle_ids=[c["bundle_id"] for c in bundle_candidates[1:]],
+            policy="unique",
+            has_conflict=conflict_flag,
+        )
 
         version_events = [cand["rep"] for cand in bundle_candidates]
         versions = self._build_versions_from_events(
@@ -938,6 +1095,12 @@ class UniquenessManager:
                 seen_values.add(evt.value.strip().lower())
 
         all_provenance = sorted({p for evt in events for p in evt.provenance})
+        self._apply_bundle_decision(
+            selected_bundle_id=selected["bundle_id"],
+            competing_bundle_ids=[c["bundle_id"] for c in bundle_candidates[1:]],
+            policy="latest",
+            has_conflict=conflict_flag,
+        )
 
         # 为时间推理构建 medication 时间轴（不改变评测主键，仍保留 global）
         timeline = []
@@ -1133,6 +1296,8 @@ class UniquenessManager:
                 events=[evt],
                 attribute=attribute,
                 value_versions=versions,
+                selected_bundle_id=self._event_to_event_bundle.get(evt.event_id, ""),
+                decision_level="bundle",
             )
             memories.append(CanonicalMemory(
                 patient_id=patient_id,
@@ -1241,6 +1406,11 @@ class UniquenessManager:
             anchor = self._bundle_time_anchor.get(selected_bundle_id)
             if anchor:
                 qualifiers["selected_event_bundle_time_anchor"] = anchor
+            selected_bundle = self._event_bundle_by_id.get(selected_bundle_id)
+            if selected_bundle is not None:
+                qualifiers["selected_event_bundle_status"] = getattr(
+                    selected_bundle, "status", self.BUNDLE_STATUS_ACTIVE
+                )
         if competing_bundle_ids:
             qualifiers["competing_event_bundle_ids"] = sorted(set(competing_bundle_ids))
         if decision_level:
@@ -1248,3 +1418,100 @@ class UniquenessManager:
         if value_versions:
             qualifiers["value_versions"] = value_versions
         return qualifiers
+
+    @staticmethod
+    def _normalize_text_key(text: str) -> str:
+        return re.sub(r"\s+", " ", (text or "").strip().lower())
+
+    def _selected_bundle_id_from_memory(self, mem: CanonicalMemory) -> str:
+        qualifiers = mem.qualifiers or {}
+        bid = qualifiers.get("selected_event_bundle_id", "")
+        if isinstance(bid, str):
+            return bid
+        return ""
+
+    def _append_cross_bundle_link(
+        self,
+        src_bundle_id: str,
+        dst_bundle_id: str,
+        relation: str,
+        reason: str,
+        confidence: float,
+        metadata: Optional[dict] = None,
+    ) -> None:
+        if self._bundle_graph is None:
+            return
+        existing = {
+            (l.src_bundle_id, l.dst_bundle_id, l.relation)
+            for l in self._bundle_graph.links
+        }
+        key = (src_bundle_id, dst_bundle_id, relation)
+        if key in existing:
+            return
+        from src.uniq_cluster_memory.m2_clustering import BundleLink
+
+        self._bundle_graph.links.append(
+            BundleLink(
+                src_bundle_id=src_bundle_id,
+                dst_bundle_id=dst_bundle_id,
+                relation=relation,
+                confidence=round(confidence, 3),
+                reason=reason,
+                metadata=metadata or {},
+            )
+        )
+        self._append_bundle_evidence(
+            src_bundle_id,
+            action="link_out",
+            reason=reason,
+            extra={"dst": dst_bundle_id, "relation": relation},
+        )
+        self._append_bundle_evidence(
+            dst_bundle_id,
+            action="link_in",
+            reason=reason,
+            extra={"src": src_bundle_id, "relation": relation},
+        )
+
+    def _link_bundles(self, memories: List[CanonicalMemory]) -> None:
+        """
+        跨 Bundle 关联推理（Cross-Bundle Reasoning）：
+        在 M3 合并后，基于轻量规则连接“药物团 -> 症状团”等潜在关系。
+        """
+        if self._bundle_graph is None or not memories:
+            return
+
+        meds: List[Tuple[str, str, CanonicalMemory]] = []
+        symptoms: List[Tuple[str, str, CanonicalMemory]] = []
+
+        for mem in memories:
+            bid = self._selected_bundle_id_from_memory(mem)
+            if not bid:
+                continue
+            value_key = self._normalize_text_key(mem.value)
+            if mem.attribute == "medication":
+                meds.append((bid, value_key, mem))
+            elif mem.attribute == "symptom":
+                symptoms.append((bid, value_key, mem))
+
+        for med_bid, med_value, med_mem in meds:
+            for sym_bid, sym_value, sym_mem in symptoms:
+                if med_bid == sym_bid:
+                    continue
+                for rule in self.CROSS_BUNDLE_RULES:
+                    if not any(k in med_value for k in rule["med_keywords"]):
+                        continue
+                    if not any(k in sym_value for k in rule["symptom_keywords"]):
+                        continue
+                    self._append_cross_bundle_link(
+                        src_bundle_id=med_bid,
+                        dst_bundle_id=sym_bid,
+                        relation=rule["relation"],
+                        reason=rule["reason"],
+                        confidence=float(rule["confidence"]),
+                        metadata={
+                            "medication_value": med_mem.value,
+                            "symptom_value": sym_mem.value,
+                        },
+                    )
+                    break

@@ -40,6 +40,8 @@ def test_medication_entity_bundle_merges_alias_like_mentions():
     assert len(med.aliases) == 2
     assert "500 mg" in med.dosage_values
     assert "bid" in med.frequency_values
+    assert med.status == "Active"
+    assert med.evidence_chain and med.evidence_chain[0]["action"] == "create"
 
 
 def test_event_bundle_groups_multi_attribute_same_time_anchor():
@@ -55,5 +57,7 @@ def test_event_bundle_groups_multi_attribute_same_time_anchor():
     ev = graph.event_bundles[0]
     assert ev.time_anchor == "day:today"
     assert set(ev.attributes.keys()) == {"blood_glucose", "symptom", "medication"}
+    assert ev.status == "Active"
+    assert ev.evidence_chain and ev.evidence_chain[0]["action"] == "create"
     assert len(graph.links) == 1
     assert graph.links[0].relation == "MENTIONS_MEDICATION"

@@ -16,7 +16,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 import re
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 
 from src.uniq_cluster_memory.m1_event_extraction import ExtractedEvent
 from src.uniq_cluster_memory.schema import extract_medication_qualifiers
@@ -33,6 +33,8 @@ class EntityBundle:
     time_of_day_values: List[str] = field(default_factory=list)
     provenance_turns: List[int] = field(default_factory=list)
     event_ids: List[str] = field(default_factory=list)
+    status: str = "Active"  # Active | Superseded | Conflicting | Resolved
+    evidence_chain: List[dict] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
@@ -45,6 +47,8 @@ class EntityBundle:
             "time_of_day_values": self.time_of_day_values,
             "provenance_turns": self.provenance_turns,
             "event_ids": self.event_ids,
+            "status": self.status,
+            "evidence_chain": self.evidence_chain,
         }
 
 
@@ -56,6 +60,8 @@ class EventBundle:
     evidence_snippets: List[str] = field(default_factory=list)
     provenance_turns: List[int] = field(default_factory=list)
     event_ids: List[str] = field(default_factory=list)
+    status: str = "Active"  # Active | Superseded | Conflicting | Resolved
+    evidence_chain: List[dict] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
@@ -65,6 +71,8 @@ class EventBundle:
             "evidence_snippets": self.evidence_snippets,
             "provenance_turns": self.provenance_turns,
             "event_ids": self.event_ids,
+            "status": self.status,
+            "evidence_chain": self.evidence_chain,
         }
 
 
@@ -73,12 +81,18 @@ class BundleLink:
     src_bundle_id: str
     dst_bundle_id: str
     relation: str
+    confidence: float = 1.0
+    reason: str = ""
+    metadata: dict = field(default_factory=dict)
 
     def to_dict(self) -> dict:
         return {
             "src_bundle_id": self.src_bundle_id,
             "dst_bundle_id": self.dst_bundle_id,
             "relation": self.relation,
+            "confidence": self.confidence,
+            "reason": self.reason,
+            "metadata": self.metadata,
         }
 
 
@@ -130,6 +144,26 @@ class InformationBundleBuilder:
         "prescribed", "prescription",
     }
 
+    @staticmethod
+    def _evidence_entry(
+        action: str,
+        reason: str,
+        event_id: Optional[str] = None,
+        turns: Optional[List[int]] = None,
+        extra: Optional[dict] = None,
+    ) -> dict:
+        payload = {
+            "action": action,
+            "reason": reason,
+        }
+        if event_id:
+            payload["event_id"] = event_id
+        if turns:
+            payload["turns"] = sorted(set(turns))
+        if extra:
+            payload["extra"] = extra
+        return payload
+
     def build(self, events: List[ExtractedEvent], dialogue_id: str) -> BundleGraph:
         if not events:
             return BundleGraph.empty(dialogue_id=dialogue_id)
@@ -168,6 +202,7 @@ class InformationBundleBuilder:
             time_of_day_values: List[str] = []
             provenance_turns: List[int] = []
             event_ids: List[str] = []
+            evidence_chain: List[dict] = []
 
             seen_alias = set()
             for evt in group:
@@ -183,6 +218,15 @@ class InformationBundleBuilder:
                     time_of_day_values.append(tod)
                 provenance_turns.extend(evt.provenance)
                 event_ids.append(evt.event_id)
+                evidence_chain.append(
+                    self._evidence_entry(
+                        action="merge",
+                        reason="Entity_Coreference",
+                        event_id=evt.event_id,
+                        turns=evt.provenance,
+                        extra={"attribute": evt.attribute, "value": evt.value},
+                    )
+                )
 
             provenance_turns = sorted(set(provenance_turns))
             bundle_id = f"entity_{dialogue_id}_{i:03d}"
@@ -196,6 +240,16 @@ class InformationBundleBuilder:
                 time_of_day_values=time_of_day_values,
                 provenance_turns=provenance_turns,
                 event_ids=event_ids,
+                evidence_chain=evidence_chain,
+            )
+            bundle.evidence_chain.insert(
+                0,
+                self._evidence_entry(
+                    action="create",
+                    reason="Entity_Bundle_Initialization",
+                    turns=provenance_turns,
+                    extra={"canonical_name": med_name},
+                ),
             )
             bundles.append(bundle)
             for eid in event_ids:
@@ -215,6 +269,7 @@ class InformationBundleBuilder:
             evidence_snippets: List[str] = []
             provenance_turns: List[int] = []
             event_ids: List[str] = []
+            evidence_chain: List[dict] = []
 
             for evt in group:
                 values = attr_values.setdefault(evt.attribute, [])
@@ -225,6 +280,15 @@ class InformationBundleBuilder:
                     evidence_snippets.append(snippet)
                 provenance_turns.extend(evt.provenance)
                 event_ids.append(evt.event_id)
+                evidence_chain.append(
+                    self._evidence_entry(
+                        action="merge",
+                        reason="Temporal_CoAnchor",
+                        event_id=evt.event_id,
+                        turns=evt.provenance,
+                        extra={"attribute": evt.attribute, "value": evt.value},
+                    )
+                )
 
             bundles.append(
                 EventBundle(
@@ -234,6 +298,15 @@ class InformationBundleBuilder:
                     evidence_snippets=evidence_snippets[:8],
                     provenance_turns=sorted(set(provenance_turns)),
                     event_ids=event_ids,
+                    evidence_chain=[
+                        self._evidence_entry(
+                            action="create",
+                            reason="Event_Bundle_Initialization",
+                            turns=provenance_turns,
+                            extra={"time_anchor": anchor},
+                        ),
+                        *evidence_chain,
+                    ],
                 )
             )
 
@@ -286,4 +359,3 @@ class InformationBundleBuilder:
             return "unknown_medication"
         # 取前 3 个 token，避免带入冗长说明
         return " ".join(tokens[:3])
-

@@ -319,6 +319,9 @@ def test_m3_latest_conflict_reduced_by_bundle_competition():
     assert len(m.conflict_history) == 1
     assert m.qualifiers["selected_event_bundle_id"] == "event_d1_new"
     assert m.qualifiers["competing_event_bundle_ids"] == ["event_d1_old"]
+    status_map = {b.bundle_id: b.status for b in bundle_graph.event_bundles}
+    assert status_map["event_d1_new"] == "Active"
+    assert status_map["event_d1_old"] == "Superseded"
 
 
 def test_m3_unique_bundle_first_selection_and_conflict():
@@ -361,3 +364,52 @@ def test_m3_unique_bundle_first_selection_and_conflict():
     assert len(m.conflict_history) == 1
     assert m.qualifiers["decision_level"] == "bundle"
     assert m.qualifiers["selected_event_bundle_id"] == "event_d1_new_bp"
+    assert m.qualifiers["selected_event_bundle_status"] == "Conflicting"
+
+
+def test_m3_cross_bundle_reasoning_adds_links():
+    med_cluster = AttributeCluster(
+        cluster_id="c_med",
+        canonical_attribute="medication",
+        update_policy="latest",
+        events=[
+            _event("Insulin glargine 10 units at night", "2025-01-20", [8]),
+        ],
+    )
+    sym_cluster = AttributeCluster(
+        cluster_id="c_sym",
+        canonical_attribute="symptom",
+        update_policy="append",
+        events=[
+            _event("dizziness", "2025-01-20", [9], update_policy="append", attribute="symptom"),
+        ],
+    )
+    bundle_graph = BundleGraph(
+        dialogue_id="d1",
+        event_bundles=[
+            EventBundle(
+                bundle_id="event_d1_med",
+                time_anchor="2025-01-20",
+                attributes={"medication": ["Insulin glargine 10 units at night"]},
+                provenance_turns=[8],
+                event_ids=["e_Insulin glargine 10 units at night_2025-01-20"],
+            ),
+            EventBundle(
+                bundle_id="event_d1_sym",
+                time_anchor="2025-01-20",
+                attributes={"symptom": ["dizziness"]},
+                provenance_turns=[9],
+                event_ids=["e_dizziness_2025-01-20"],
+            ),
+        ],
+    )
+    manager = UniquenessManager(dialogue_date="2025-01-25")
+    memories = manager.process(
+        [med_cluster, sym_cluster],
+        patient_id="p1",
+        bundle_graph=bundle_graph,
+    )
+
+    assert len(memories) == 2
+    links = {(l.src_bundle_id, l.dst_bundle_id, l.relation) for l in bundle_graph.links}
+    assert ("event_d1_med", "event_d1_sym", "POTENTIAL_ADVERSE_EFFECT") in links
