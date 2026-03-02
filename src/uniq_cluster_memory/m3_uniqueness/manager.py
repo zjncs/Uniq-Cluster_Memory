@@ -623,6 +623,7 @@ class UniquenessManager:
         self._event_to_event_bundle: Dict[str, str] = {}
         self._event_to_entity_bundles: Dict[str, Set[str]] = {}
         self._entity_bundle_names: Dict[str, str] = {}
+        self._bundle_time_anchor: Dict[str, str] = {}
 
     def process(
         self,
@@ -653,10 +654,12 @@ class UniquenessManager:
         self._event_to_event_bundle = {}
         self._event_to_entity_bundles = {}
         self._entity_bundle_names = {}
+        self._bundle_time_anchor = {}
         if bundle_graph is None:
             return
 
         for eb in bundle_graph.event_bundles:
+            self._bundle_time_anchor[eb.bundle_id] = eb.time_anchor
             for eid in eb.event_ids:
                 self._event_to_event_bundle[eid] = eb.bundle_id
 
@@ -673,6 +676,51 @@ class UniquenessManager:
             for eid, e_bid in self._event_to_event_bundle.items():
                 if e_bid == event_bundle_id:
                     self._event_to_entity_bundles.setdefault(eid, set()).add(entity_bundle_id)
+
+    def _bundle_key_for_event(self, evt: ExtractedEvent) -> str:
+        return self._event_to_event_bundle.get(evt.event_id, f"event::{evt.event_id}")
+
+    def _bundle_groups(self, events: List[ExtractedEvent]) -> Dict[str, List[ExtractedEvent]]:
+        grouped: Dict[str, List[ExtractedEvent]] = {}
+        for evt in events:
+            grouped.setdefault(self._bundle_key_for_event(evt), []).append(evt)
+        return grouped
+
+    def _bundle_groups_grounded(
+        self,
+        grounded_events: List[Tuple[str, ExtractedEvent]],
+    ) -> Dict[str, List[Tuple[str, ExtractedEvent]]]:
+        grouped: Dict[str, List[Tuple[str, ExtractedEvent]]] = {}
+        for scope, evt in grounded_events:
+            grouped.setdefault(self._bundle_key_for_event(evt), []).append((scope, evt))
+        return grouped
+
+    def _bundle_event_priority(self, events: List[ExtractedEvent]) -> Tuple[int, int, float, int]:
+        top = max((self._event_priority(e) for e in events), default=(0, 0, 0.0))
+        return top[0], top[1], top[2], len(events)
+
+    def _bundle_latest_priority(
+        self,
+        grounded_events: List[Tuple[str, ExtractedEvent]],
+    ) -> Tuple[int, int, int, float, int]:
+        top = max(
+            (self._latest_priority(scope, evt) for scope, evt in grounded_events),
+            default=(-1, 0, 0, 0.0),
+        )
+        return top[0], top[1], top[2], top[3], len(grounded_events)
+
+    def _representative_event(self, events: List[ExtractedEvent]) -> ExtractedEvent:
+        return sorted(events, key=lambda e: self._event_priority(e), reverse=True)[0]
+
+    def _representative_grounded_event(
+        self,
+        grounded_events: List[Tuple[str, ExtractedEvent]],
+    ) -> Tuple[str, ExtractedEvent]:
+        return sorted(
+            grounded_events,
+            key=lambda pair: self._latest_priority(pair[0], pair[1]),
+            reverse=True,
+        )[0]
 
     def _process_cluster(
         self,
@@ -743,40 +791,50 @@ class UniquenessManager:
         if not events:
             return []
 
-        # 按来源优先级排序：最近轮次 > 说话人优先级 > 置信度
-        events_sorted = sorted(
-            events,
-            key=lambda e: self._event_priority(e),
-            reverse=True,
-        )
-        best = events_sorted[0]
+        # 信息团优先：先在 event bundle 层选主候选，再在 bundle 内选代表事件
+        grouped = self._bundle_groups(events)
+        bundle_candidates = []
+        for bundle_id, group_events in grouped.items():
+            rep = self._representative_event(group_events)
+            bundle_candidates.append(
+                {
+                    "bundle_id": bundle_id,
+                    "events": group_events,
+                    "rep": rep,
+                    "rank": self._bundle_event_priority(group_events),
+                }
+            )
+        bundle_candidates.sort(key=lambda c: c["rank"], reverse=True)
+        selected = bundle_candidates[0]
+        best: ExtractedEvent = selected["rep"]
 
         conflict_history: List[ConflictRecord] = []
         conflict_flag = False
 
-        # 检测冲突（与最优记录比较）
-        seen_values = {best.value.strip().lower()}
+        # 冲突按 bundle 级比较，避免同 bundle 内重复表达导致的误冲突放大
         if self.enable_conflict_detection and self.conflict_detector is not None:
-            for evt in events_sorted[1:]:
-                if evt.value.strip().lower() not in seen_values:
-                    # 创建一个临时 CanonicalMemory 用于冲突检测
-                    temp_mem = CanonicalMemory(
-                        patient_id=patient_id,
-                        attribute=attribute,
-                        value=best.value,
-                        unit=best.unit,
-                        time_scope=time_scope,
-                        confidence=best.confidence,
-                        provenance=best.provenance,
-                        conflict_flag=False,
-                        conflict_history=[],
-                        update_policy="unique",
-                    )
-                    conflict = self.conflict_detector.detect(temp_mem, evt)
-                    if conflict:
-                        conflict_history.append(conflict)
-                        conflict_flag = True
-                    seen_values.add(evt.value.strip().lower())
+            seen_values = {best.value.strip().lower()}
+            for cand in bundle_candidates[1:]:
+                evt = cand["rep"]
+                if evt.value.strip().lower() in seen_values:
+                    continue
+                temp_mem = CanonicalMemory(
+                    patient_id=patient_id,
+                    attribute=attribute,
+                    value=best.value,
+                    unit=best.unit,
+                    time_scope=time_scope,
+                    confidence=best.confidence,
+                    provenance=best.provenance,
+                    conflict_flag=False,
+                    conflict_history=[],
+                    update_policy="unique",
+                )
+                conflict = self.conflict_detector.detect(temp_mem, evt)
+                if conflict:
+                    conflict_history.append(conflict)
+                    conflict_flag = True
+                seen_values.add(evt.value.strip().lower())
 
         # 合并所有来源的 provenance
         all_provenance = []
@@ -788,8 +846,9 @@ class UniquenessManager:
                     seen_prov.add(p)
         all_provenance.sort()
 
+        version_events = [cand["rep"] for cand in bundle_candidates]
         versions = self._build_versions_from_events(
-            events_sorted=events_sorted,
+            events_sorted=version_events,
             selected_event_id=best.event_id,
             default_scope=time_scope,
         )
@@ -797,6 +856,9 @@ class UniquenessManager:
             events=events,
             attribute=attribute,
             value_versions=versions,
+            selected_bundle_id=selected["bundle_id"],
+            competing_bundle_ids=[c["bundle_id"] for c in bundle_candidates[1:]],
+            decision_level="bundle",
         )
 
         return [CanonicalMemory(
@@ -828,40 +890,52 @@ class UniquenessManager:
 
         events = [evt for _, evt in grounded_events]
 
-        # 按时间 + 来源优先级排序：结束时间更晚 > 最近轮次 > 说话人优先级 > 置信度
-        events_with_scope = sorted(
-            grounded_events,
-            key=lambda pair: self._latest_priority(pair[0], pair[1]),
-            reverse=True,
-        )
-        events_sorted = [evt for _, evt in events_with_scope]
-        latest = events_sorted[0]
+        # 信息团优先：先在 bundle 层按“时间+来源优先级”排序，再选 bundle 内代表记录
+        grouped = self._bundle_groups_grounded(grounded_events)
+        bundle_candidates = []
+        for bundle_id, group in grouped.items():
+            rep_scope, rep_evt = self._representative_grounded_event(group)
+            bundle_candidates.append(
+                {
+                    "bundle_id": bundle_id,
+                    "group": group,
+                    "rep_scope": rep_scope,
+                    "rep_evt": rep_evt,
+                    "rank": self._bundle_latest_priority(group),
+                }
+            )
+        bundle_candidates.sort(key=lambda c: c["rank"], reverse=True)
+        selected = bundle_candidates[0]
+        latest = selected["rep_evt"]
+        latest_scope = selected["rep_scope"]
 
         conflict_history: List[ConflictRecord] = []
         conflict_flag = False
 
-        # 检测是否有覆盖更新（旧值与新值不同）
-        seen_values = {latest.value.strip().lower()}
+        # 冲突按 bundle 级比较，减少同一事件团内噪声的误冲突
         if self.enable_conflict_detection and self.conflict_detector is not None:
-            for evt in events_sorted[1:]:
-                if evt.value.strip().lower() not in seen_values:
-                    temp_mem = CanonicalMemory(
-                        patient_id=patient_id,
-                        attribute=attribute,
-                        value=latest.value,
-                        unit=latest.unit,
-                        time_scope=time_scope,
-                        confidence=latest.confidence,
-                        provenance=latest.provenance,
-                        conflict_flag=False,
-                        conflict_history=[],
-                        update_policy="latest",
-                    )
-                    conflict = self.conflict_detector.detect(temp_mem, evt)
-                    if conflict:
-                        conflict_history.append(conflict)
-                        conflict_flag = True
-                    seen_values.add(evt.value.strip().lower())
+            seen_values = {latest.value.strip().lower()}
+            for cand in bundle_candidates[1:]:
+                evt = cand["rep_evt"]
+                if evt.value.strip().lower() in seen_values:
+                    continue
+                temp_mem = CanonicalMemory(
+                    patient_id=patient_id,
+                    attribute=attribute,
+                    value=latest.value,
+                    unit=latest.unit,
+                    time_scope=time_scope,
+                    confidence=latest.confidence,
+                    provenance=latest.provenance,
+                    conflict_flag=False,
+                    conflict_history=[],
+                    update_policy="latest",
+                )
+                conflict = self.conflict_detector.detect(temp_mem, evt)
+                if conflict:
+                    conflict_history.append(conflict)
+                    conflict_flag = True
+                seen_values.add(evt.value.strip().lower())
 
         all_provenance = sorted({p for evt in events for p in evt.provenance})
 
@@ -870,7 +944,6 @@ class UniquenessManager:
         if attribute == "medication":
             timeline = self._build_medication_timeline(grounded_events)
 
-        latest_scope = next((scope for scope, evt in events_with_scope if evt == latest), "global")
         latest_start, latest_end, _ = scope_to_interval(latest_scope)
         if latest_start is None and latest_end is None:
             latest_start = None
@@ -878,14 +951,18 @@ class UniquenessManager:
         if attribute == "medication":
             latest_end = None
 
+        version_pairs = [(cand["rep_scope"], cand["rep_evt"]) for cand in bundle_candidates]
         versions = self._build_versions_from_grounded_events(
-            grounded_events=events_with_scope,
+            grounded_events=version_pairs,
             selected_event_id=latest.event_id,
         )
         qualifiers = self._build_bundle_qualifiers(
-            events=events_sorted,
+            events=events,
             attribute=attribute,
             value_versions=versions,
+            selected_bundle_id=selected["bundle_id"],
+            competing_bundle_ids=[c["bundle_id"] for c in bundle_candidates[1:]],
+            decision_level="bundle",
         )
         if timeline:
             qualifiers["med_timeline"] = timeline
@@ -1130,6 +1207,9 @@ class UniquenessManager:
         events: List[ExtractedEvent],
         attribute: str,
         value_versions: Optional[List[dict]] = None,
+        selected_bundle_id: str = "",
+        competing_bundle_ids: Optional[List[str]] = None,
+        decision_level: str = "",
     ) -> dict:
         event_bundle_ids = sorted(
             {
@@ -1156,6 +1236,15 @@ class UniquenessManager:
             qualifiers["medication_entity_id"] = ent_id
             if ent_id in self._entity_bundle_names:
                 qualifiers["medication_entity_name"] = self._entity_bundle_names[ent_id]
+        if selected_bundle_id:
+            qualifiers["selected_event_bundle_id"] = selected_bundle_id
+            anchor = self._bundle_time_anchor.get(selected_bundle_id)
+            if anchor:
+                qualifiers["selected_event_bundle_time_anchor"] = anchor
+        if competing_bundle_ids:
+            qualifiers["competing_event_bundle_ids"] = sorted(set(competing_bundle_ids))
+        if decision_level:
+            qualifiers["decision_level"] = decision_level
         if value_versions:
             qualifiers["value_versions"] = value_versions
         return qualifiers

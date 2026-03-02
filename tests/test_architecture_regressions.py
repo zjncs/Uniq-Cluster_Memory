@@ -270,3 +270,94 @@ def test_m3_bundle_qualifiers_and_versions_present():
     assert len(q["event_bundle_ids"]) == 2
     assert len(q["value_versions"]) == 2
     assert any(v["is_selected"] for v in q["value_versions"])
+    assert q["decision_level"] == "bundle"
+    assert q["selected_event_bundle_id"] == "event_d1_002"
+    assert q["selected_event_bundle_time_anchor"] == "2025-01-15"
+
+
+def test_m3_latest_conflict_reduced_by_bundle_competition():
+    cluster = AttributeCluster(
+        cluster_id="c_l3",
+        canonical_attribute="medication",
+        update_policy="latest",
+        events=[
+            _event("Lisinopril 10mg once daily", "2025-01-01", [1]),
+            _event("Lisinopril 20mg once daily", "2025-01-01", [2]),
+            _event("Amlodipine 5mg once daily", "2025-01-20", [8]),
+        ],
+    )
+    bundle_graph = BundleGraph(
+        dialogue_id="d1",
+        event_bundles=[
+            EventBundle(
+                bundle_id="event_d1_old",
+                time_anchor="2025-01-01",
+                attributes={"medication": ["Lisinopril 10mg once daily", "Lisinopril 20mg once daily"]},
+                provenance_turns=[1, 2],
+                event_ids=[
+                    "e_Lisinopril 10mg once daily_2025-01-01",
+                    "e_Lisinopril 20mg once daily_2025-01-01",
+                ],
+            ),
+            EventBundle(
+                bundle_id="event_d1_new",
+                time_anchor="2025-01-20",
+                attributes={"medication": ["Amlodipine 5mg once daily"]},
+                provenance_turns=[8],
+                event_ids=["e_Amlodipine 5mg once daily_2025-01-20"],
+            ),
+        ],
+    )
+    manager = UniquenessManager(dialogue_date="2025-01-25")
+    memories = manager.process([cluster], patient_id="p1", bundle_graph=bundle_graph)
+
+    assert len(memories) == 1
+    m = memories[0]
+    assert m.value == "Amlodipine 5mg once daily"
+    # 旧 bundle 内部的多版本不会重复计冲突，只按 bundle 级记录一次
+    assert m.conflict_flag is True
+    assert len(m.conflict_history) == 1
+    assert m.qualifiers["selected_event_bundle_id"] == "event_d1_new"
+    assert m.qualifiers["competing_event_bundle_ids"] == ["event_d1_old"]
+
+
+def test_m3_unique_bundle_first_selection_and_conflict():
+    cluster = AttributeCluster(
+        cluster_id="c_u3",
+        canonical_attribute="blood_pressure_sys",
+        update_policy="unique",
+        events=[
+            _event("110", "global", [1], update_policy="unique", attribute="blood_pressure_sys"),
+            _event("110", "global", [2], update_policy="unique", attribute="blood_pressure_sys"),
+            _event("129", "global", [10], update_policy="unique", attribute="blood_pressure_sys"),
+        ],
+    )
+    bundle_graph = BundleGraph(
+        dialogue_id="d1",
+        event_bundles=[
+            EventBundle(
+                bundle_id="event_d1_old_bp",
+                time_anchor="turn:2",
+                attributes={"blood_pressure_sys": ["110"]},
+                provenance_turns=[1, 2],
+                event_ids=["e_110_global"],
+            ),
+            EventBundle(
+                bundle_id="event_d1_new_bp",
+                time_anchor="turn:10",
+                attributes={"blood_pressure_sys": ["129"]},
+                provenance_turns=[10],
+                event_ids=["e_129_global"],
+            ),
+        ],
+    )
+    manager = UniquenessManager(dialogue_date="2025-01-25")
+    memories = manager.process([cluster], patient_id="p1", bundle_graph=bundle_graph)
+
+    assert len(memories) == 1
+    m = memories[0]
+    assert m.value == "129"
+    assert m.conflict_flag is True
+    assert len(m.conflict_history) == 1
+    assert m.qualifiers["decision_level"] == "bundle"
+    assert m.qualifiers["selected_event_bundle_id"] == "event_d1_new_bp"
