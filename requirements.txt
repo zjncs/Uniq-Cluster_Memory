@@ -36,3 +36,4 @@ scikit-learn>=1.4.0
 # Development
 jupyter>=1.0.0
 ipykernel>=6.0.0
+pytest>=8.0.0

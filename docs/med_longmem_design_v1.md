@@ -2,7 +2,7 @@
 
 **Version**: 1.0
 **Date**: 2026-02-28
-**Author**: Manus AI
+**Author**: Project Team
 
 ## 1. Introduction
 

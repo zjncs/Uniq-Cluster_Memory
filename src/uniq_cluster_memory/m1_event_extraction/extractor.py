@@ -229,8 +229,13 @@ class MedicalEventExtractor:
     }
 
     def __init__(self):
-        self.client = get_llm_client()
+        self.client = None
         self._event_counter = 0
+
+    def _get_client(self):
+        if self.client is None:
+            self.client = get_llm_client()
+        return self.client
 
     def extract(
         self,
@@ -285,7 +290,7 @@ class MedicalEventExtractor:
 
         for attempt in range(self.MAX_RETRIES):
             try:
-                response = self.client.chat.completions.create(
+                response = self._get_client().chat.completions.create(
                     model=LLM_MODEL,
                     messages=[
                         {"role": "system", "content": EXTRACTION_SYSTEM_PROMPT},

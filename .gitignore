@@ -18,3 +18,4 @@ results/
 
 # Large raw datasets
 data/raw/meddialog/*.parquet
+data/raw/meddialog_official/

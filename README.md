@@ -2,7 +2,7 @@
 
 This repository contains the code and experimental framework for the **Uniq-Cluster Memory** research project. The goal of this project is to develop and evaluate a novel memory management system for large language models, focusing on reliability, consistency, and conflict detection in long-term medical dialogues.
 
-This framework was bootstrapped and implemented by **Manus AI** based on the detailed research plan provided by the user.
+This framework was bootstrapped from the detailed research plan provided by the user and iteratively refined in the repository.
 
 ## Project Structure
 
@@ -73,10 +73,20 @@ pipeline = UniqueClusterMemoryPipeline(
 )
 ```
 
-4.  **Set up OpenAI API Key**:
-    The framework uses OpenAI models for LLM-as-a-Judge and for some baseline models. Ensure your API key is set as an environment variable:
+4.  **Set up LLM API Key**:
+    The framework uses a Qwen-compatible OpenAI client for extraction, judging, and baseline runs. Set one of the following environment variables before running experiments:
     ```bash
+    export QWEN_API_KEY="your-api-key-here"
+    # or
+    export DASHSCOPE_API_KEY="your-api-key-here"
+    # fallback name also supported
     export OPENAI_API_KEY="your-api-key-here"
+    ```
+    Optional stability knobs for long-running batches:
+    ```bash
+    export LLM_TIMEOUT_SECONDS=60
+    export LLM_MAX_RETRIES=2
+    export QWEN_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
     ```
 
 5.  **Download Datasets**:
@@ -111,6 +121,40 @@ This command will:
 3.  Evaluate the generated answers using `LLM-as-a-Judge` (`qa_judge_eval.py`).
 4.  Evaluate the retrieval quality using `Recall@K` (`retrieval_eval.py`).
 5.  Save the detailed outputs and a summary report to `results/main_results/`.
+
+## Real-World Validation
+
+For real MedDialog long-dialogue validation, use `scripts/build_realworld_validation.py`.
+
+**Example: run a 10-sample batch with resume enabled**
+
+```bash
+export PYTHONPATH=.
+export QWEN_API_KEY="your-api-key-here"
+
+python3 scripts/build_realworld_validation.py \
+  --data_path data/raw/meddialog_official/processed_zh_test.json \
+  --n_samples 10 \
+  --min_turns 10 \
+  --batch_size 5 \
+  --sleep_seconds 1 \
+  --audit_ratio 0.2 \
+  --resume \
+  --output_dir results/real_world_validation/meddialog_official_zh_test_long_r10_s42
+```
+
+This script will:
+1.  Sample long real dialogues from official MedDialog data.
+2.  Run the UCM pipeline to produce Silver GT.
+3.  Persist progress to `silver_gt.jsonl` after each dialogue.
+4.  Save failed calls to `errors.jsonl` for later retry.
+5.  Export an audit CSV and case-study markdown file.
+
+Use a fresh `output_dir` for a new sample set. Use `--resume` only when continuing the same sampled run.
+
+## CI
+
+A minimal GitHub Actions workflow is included at `.github/workflows/ci.yml`. It runs `pytest -q` on every push and pull request.
 
 ## Next Steps
 
