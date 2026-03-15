@@ -47,12 +47,22 @@ LLM_TIMEOUT_SECONDS = _get_env_float("LLM_TIMEOUT_SECONDS", 60.0)
 LLM_MAX_RETRIES = _get_env_int("LLM_MAX_RETRIES", 2)
 
 
-def get_llm_client() -> OpenAI:
-    """返回配置好的 Qwen LLM 客户端。"""
-    if not QWEN_API_KEY:
+def has_llm_api_key() -> bool:
+    """当前环境是否配置了可用的 LLM API key。"""
+    return bool(QWEN_API_KEY)
+
+
+def ensure_llm_api_key() -> None:
+    """缺失 API key 时尽早失败，避免脚本写出误导性的空结果。"""
+    if not has_llm_api_key():
         raise RuntimeError(
             "Missing LLM API key. Set QWEN_API_KEY, DASHSCOPE_API_KEY, or OPENAI_API_KEY."
         )
+
+
+def get_llm_client() -> OpenAI:
+    """返回配置好的 Qwen LLM 客户端。"""
+    ensure_llm_api_key()
     return OpenAI(
         api_key=QWEN_API_KEY,
         base_url=QWEN_BASE_URL,

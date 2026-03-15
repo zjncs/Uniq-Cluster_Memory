@@ -152,6 +152,28 @@ This script will:
 
 Use a fresh `output_dir` for a new sample set. Use `--resume` only when continuing the same sampled run.
 
+## M1 Extraction Evaluation
+
+To evaluate the event extraction quality of `M1` on `Med-LongMem`, run:
+
+```bash
+export PYTHONPATH=.
+export QWEN_API_KEY="your-api-key-here"
+
+python3 experiments/eval_extraction.py \
+  --data_path data/raw/med_longmem \
+  --max_samples 5 \
+  --output_path results/main_results/extraction_eval_med_longmem.json
+```
+
+This script reports:
+1.  Event-F1 (strict): `attribute + value + unit + time_scope`
+2.  Event-F1 (relaxed): `attribute + value + unit`
+3.  Field-level F1 for `attribute/value/unit/time_scope/speaker`
+
+For a task-oriented summary of the Task 1 research plan, see `docs/task1_research_plan.md`.
+For a publication-oriented summary of the current Task 1 evidence chain, see `docs/task1_publication_summary.md`.
+
 ## CI
 
 A minimal GitHub Actions workflow is included at `.github/workflows/ci.yml`. It runs `pytest -q` on every push and pull request.

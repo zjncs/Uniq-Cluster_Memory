@@ -27,12 +27,15 @@ from typing import Iterable, List, Sequence
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.pipeline import UniqueClusterMemoryPipeline
 from src.uniq_cluster_memory.schema import CanonicalMemory
+from src.uniq_cluster_memory.utils.llm_client import ensure_llm_api_key
 
 
 DEFAULT_DATA_PATH = "data/raw/meddialog_official/processed_zh_test.json"
 DEFAULT_OUTPUT_DIR = "results/real_world_validation/meddialog_official_zh_test_long_r50_s42"
+DEFAULT_REFERENCE_DATE = "2024-01-01"
 SELECTED_FILENAME = "selected_dialogues.jsonl"
 SILVER_FILENAME = "silver_gt.jsonl"
 ERRORS_FILENAME = "errors.jsonl"
@@ -337,6 +340,7 @@ def run_pipeline_on_records(
     *,
     output_dir: Path,
     pipeline_kwargs: dict,
+    reference_date: str | None,
     resume: bool,
     batch_size: int,
     sleep_seconds: float,
@@ -368,7 +372,7 @@ def run_pipeline_on_records(
                     memories = pipeline.build_memory(
                         dialogue=dialogue,
                         dialogue_id=record["sample_id"],
-                        dialogue_date=None,
+                        dialogue_date=reference_date,
                     )
                 except Exception as exc:
                     latency = time.time() - t0
@@ -490,6 +494,11 @@ def main() -> None:
     parser.add_argument("--audit_ratio", type=float, default=0.2, help="Fraction of sampled dialogues to manually audit.")
     parser.add_argument("--case_count", type=int, default=5, help="Number of case studies to export.")
     parser.add_argument("--output_dir", default=DEFAULT_OUTPUT_DIR, help="Output directory.")
+    parser.add_argument(
+        "--reference_date",
+        default=DEFAULT_REFERENCE_DATE,
+        help="Fixed ISO reference date for grounding relative times when the real dataset lacks dialogue dates.",
+    )
     parser.add_argument("--w_struct", type=float, default=0.7)
     parser.add_argument("--top_k", type=int, default=5)
     parser.add_argument("--use_embedding", action="store_true", help="Enable embedding in M5.")
@@ -525,9 +534,12 @@ def main() -> None:
     print(f"  Min turns : {args.min_turns}")
     print(f"  Samples   : {args.n_samples}")
     print(f"  Audit %   : {args.audit_ratio:.0%}")
+    print(f"  Ref date  : {args.reference_date}")
     print(f"  Output    : {output_dir}")
     print(f"  Embedding : {'enabled' if args.use_embedding else 'disabled'}")
     print("=" * 72)
+
+    ensure_llm_api_key()
 
     dialogues = load_processed_dialogues(data_path)
     selected = select_long_dialogues(
@@ -546,7 +558,10 @@ def main() -> None:
                 path.unlink()
     write_selected_dialogues(selected_path, selected)
 
-    symptom_cap = None if args.max_symptoms_per_scope < 0 else args.max_symptoms_per_scope
+    recommended = recommended_pipeline_options("meddialog")
+    symptom_cap = recommended["max_symptoms_per_scope"]
+    if args.max_symptoms_per_scope >= 0:
+        symptom_cap = args.max_symptoms_per_scope
     enriched, error_records = run_pipeline_on_records(
         selected,
         output_dir=output_dir,
@@ -554,9 +569,10 @@ def main() -> None:
             "w_struct": args.w_struct,
             "top_k": args.top_k,
             "use_embedding": args.use_embedding,
-            "missing_time_scope": "global",
+            "missing_time_scope": recommended["missing_time_scope"],
             "max_symptoms_per_scope": symptom_cap,
         },
+        reference_date=args.reference_date,
         resume=args.resume,
         batch_size=args.batch_size,
         sleep_seconds=max(0.0, args.sleep_seconds),
@@ -579,6 +595,7 @@ def main() -> None:
             "seed": args.seed,
             "audit_ratio": args.audit_ratio,
             "case_count": args.case_count,
+            "reference_date": args.reference_date,
             "use_embedding": args.use_embedding,
             "w_struct": args.w_struct,
             "top_k": args.top_k,

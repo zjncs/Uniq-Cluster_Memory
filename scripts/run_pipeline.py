@@ -41,6 +41,7 @@ from benchmarks.longmemeval_task import LongMemEvalTask
 from benchmarks.meddialog_task import MedDialogTask
 from benchmarks.med_longmem_task import MedLongMemTask
 from benchmarks.base_task import UnifiedSample
+from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.pipeline import UniqueClusterMemoryPipeline
 from src.uniq_cluster_memory.schema import CanonicalMemory
 from evaluation.uniqueness_eval import compute_unique_f1
@@ -231,12 +232,13 @@ def main():
 
     dataset_cfg = DATASET_REGISTRY[args.dataset]
     has_gt = dataset_cfg["has_gt"]
+    recommended = recommended_pipeline_options(args.dataset)
     if args.missing_time_scope == "auto":
-        missing_time_scope = "reference_day" if args.dataset == "med_longmem" else "global"
+        missing_time_scope = recommended["missing_time_scope"]
     else:
         missing_time_scope = args.missing_time_scope
     if args.max_symptoms_per_scope < 0:
-        max_symptoms_per_scope = 1 if args.dataset == "med_longmem" else None
+        max_symptoms_per_scope = recommended["max_symptoms_per_scope"]
     else:
         max_symptoms_per_scope = args.max_symptoms_per_scope
 

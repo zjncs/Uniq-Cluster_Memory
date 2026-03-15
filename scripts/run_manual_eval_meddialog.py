@@ -32,8 +32,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from benchmarks.base_task import UnifiedSample
 from benchmarks.meddialog_task import MedDialogTask
+from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.pipeline import UniqueClusterMemoryPipeline
 from src.uniq_cluster_memory.schema import CanonicalMemory
+from src.uniq_cluster_memory.utils.llm_client import ensure_llm_api_key
 
 try:
     import pyarrow.parquet as pq
@@ -41,6 +43,9 @@ try:
     PARQUET_AVAILABLE = True
 except ImportError:
     PARQUET_AVAILABLE = False
+
+
+DEFAULT_REFERENCE_DATE = "2024-01-01"
 
 
 def _iter_raw_records(data_path: Path) -> Iterable[Tuple[int, Dict]]:
@@ -165,6 +170,11 @@ def main() -> None:
         default="results/manual_eval/meddialog_cn_r100_s42",
         help="Output directory for manual evaluation package.",
     )
+    parser.add_argument(
+        "--reference_date",
+        default=DEFAULT_REFERENCE_DATE,
+        help="Fixed ISO reference date for grounding relative times when MedDialog lacks dialogue dates.",
+    )
     parser.add_argument("--w_struct", type=float, default=0.7)
     parser.add_argument("--top_k", type=int, default=5)
     parser.add_argument("--use_embedding", action="store_true", help="Enable embedding in retriever.")
@@ -192,9 +202,12 @@ def main() -> None:
     print(f"  Data     : {data_path}")
     print(f"  Samples  : {args.n_samples}")
     print(f"  Seed     : {args.seed}")
+    print(f"  Ref date : {args.reference_date}")
     print(f"  Output   : {output_dir}")
     print(f"  Embedding: {'enabled' if args.use_embedding else 'disabled'}")
     print("=" * 68)
+
+    ensure_llm_api_key()
 
     sampled_raw = _reservoir_sample_records(data_path, args.n_samples, args.seed)
     print(f"\nSampled raw records: {len(sampled_raw)}")
@@ -223,12 +236,15 @@ def main() -> None:
                 + "\n"
             )
 
-    symptom_cap = None if args.max_symptoms_per_scope < 0 else args.max_symptoms_per_scope
+    recommended = recommended_pipeline_options("meddialog")
+    symptom_cap = recommended["max_symptoms_per_scope"]
+    if args.max_symptoms_per_scope >= 0:
+        symptom_cap = args.max_symptoms_per_scope
     pipeline = UniqueClusterMemoryPipeline(
         w_struct=args.w_struct,
         top_k=args.top_k,
         use_embedding=args.use_embedding,
-        missing_time_scope="global",
+        missing_time_scope=recommended["missing_time_scope"],
         max_symptoms_per_scope=symptom_cap,
     )
 
@@ -265,7 +281,7 @@ def main() -> None:
             memories = pipeline.build_memory(
                 dialogue=dialogue,
                 dialogue_id=sample.sample_id,
-                dialogue_date=sample.question_date,
+                dialogue_date=sample.question_date or args.reference_date,
             )
             latency = time.time() - t0
             total_latency += latency

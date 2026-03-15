@@ -18,11 +18,16 @@ import json
 import sys
 import time
 from pathlib import Path
+import argparse
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from benchmarks.base_task import UnifiedSample
+from benchmarks.med_longmem_task import MedLongMemTask
+from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.pipeline import UniqueClusterMemoryPipeline
 from src.uniq_cluster_memory.schema import CanonicalMemory
+from src.uniq_cluster_memory.utils.llm_client import ensure_llm_api_key
 from evaluation.uniqueness_eval import compute_unique_f1, aggregate_unique_f1
 from evaluation.conflict_eval import compute_conflict_f1, aggregate_conflict_f1
 
@@ -31,32 +36,30 @@ RESULTS_DIR = Path("results/main_results")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def load_sample(dialogue_id: str) -> dict:
-    sample_dir = DATA_DIR / dialogue_id
-    dialogue = []
-    with open(sample_dir / "dialogue.jsonl") as f:
-        for line in f:
-            dialogue.append(json.loads(line))
-    canonical_gt = []
-    with open(sample_dir / "canonical_gt.jsonl") as f:
-        for line in f:
-            canonical_gt.append(CanonicalMemory.from_dict(json.loads(line)))
-    return {
-        "dialogue_id": dialogue_id,
-        "dialogue": dialogue,
-        "canonical_gt": canonical_gt,
-    }
+def _sample_to_dialogue(sample: UnifiedSample) -> list[dict]:
+    return [
+        {
+            "turn_id": i,
+            "speaker": "patient" if turn.role == "user" else "doctor",
+            "text": turn.content,
+        }
+        for i, turn in enumerate(sample.dialog_history)
+    ]
 
 
 def evaluate_our_method(
-    samples: list[dict],
+    samples: list[UnifiedSample],
     w_struct: float = 0.7,
+    use_embedding: bool = True,
 ) -> dict:
     """在所有样本上运行 Uniq-Cluster Memory，计算聚合指标。"""
+    defaults = recommended_pipeline_options("med_longmem")
     pipeline = UniqueClusterMemoryPipeline(
         w_struct=w_struct,
         top_k=5,
-        use_embedding=True,
+        use_embedding=use_embedding,
+        missing_time_scope=defaults["missing_time_scope"],
+        max_symptoms_per_scope=defaults["max_symptoms_per_scope"],
     )
 
     u_metrics_list = []
@@ -65,18 +68,20 @@ def evaluate_our_method(
     total_latency = 0.0
 
     for sample in samples:
-        did = sample["dialogue_id"]
+        did = sample.sample_id
         print(f"  [UCM w={w_struct}] {did}...", end=" ", flush=True)
         try:
+            dialogue = _sample_to_dialogue(sample)
             t0 = time.time()
             predicted = pipeline.build_memory(
-                dialogue=sample["dialogue"],
+                dialogue=dialogue,
                 dialogue_id=did,
+                dialogue_date=sample.question_date,
             )
             latency = time.time() - t0
             total_latency += latency
 
-            gt = sample["canonical_gt"]
+            gt: list[CanonicalMemory] = sample.metadata.get("canonical_gt", [])
             u = compute_unique_f1(predicted, gt)
             c = compute_conflict_f1(predicted, gt)
             u_metrics_list.append(u)
@@ -125,13 +130,33 @@ def evaluate_our_method(
     }
 
 
+def select_comparison_baselines(baseline_results: list[dict]) -> list[dict]:
+    """
+    过滤掉 oracle / upper-bound 结果，只保留真实可比 baseline。
+    """
+    return [
+        item
+        for item in baseline_results
+        if "upper_bound" not in item["system"].lower() and "oracle" not in item["system"].lower()
+    ]
+
+
 def main():
-    # 加载所有样本
-    summary_path = DATA_DIR / "dataset_summary.json"
-    with open(summary_path) as f:
-        summary = json.load(f)
-    all_dialogue_ids = [s["dialogue_id"] for s in summary["samples"]]
-    samples = [load_sample(did) for did in all_dialogue_ids]
+    parser = argparse.ArgumentParser(description="Evaluate UCM on Med-LongMem.")
+    parser.add_argument("--data_path", type=str, default=str(DATA_DIR))
+    parser.add_argument("--max_samples", type=int, default=None)
+    parser.add_argument("--w_struct", type=float, default=0.7)
+    parser.add_argument("--no_embedding", action="store_true")
+    parser.add_argument(
+        "--output_path",
+        type=str,
+        default=str(RESULTS_DIR / "our_method_eval.json"),
+    )
+    args = parser.parse_args()
+    ensure_llm_api_key()
+
+    task = MedLongMemTask(data_path=args.data_path, max_samples=args.max_samples)
+    samples = task.get_samples()
 
     print(f"\n{'='*75}")
     print(f"  Uniq-Cluster Memory Evaluation on Med-LongMem v0.1")
@@ -139,8 +164,12 @@ def main():
     print(f"{'='*75}\n")
 
     # 评测我们的方法（默认权重 w_struct=0.7）
-    print("[1/1] Uniq-Cluster Memory (w_struct=0.7)")
-    our_result = evaluate_our_method(samples, w_struct=0.7)
+    print(f"[1/1] Uniq-Cluster Memory (w_struct={args.w_struct})")
+    our_result = evaluate_our_method(
+        samples,
+        w_struct=args.w_struct,
+        use_embedding=not args.no_embedding,
+    )
 
     # 加载之前的 baseline 结果
     baseline_path = RESULTS_DIR / "med_longmem_v01_eval.json"
@@ -194,9 +223,10 @@ def main():
     print("=" * 85)
 
     # 计算相对提升
-    if baseline_results:
-        best_baseline_uf1r = max(r.get("unique_relaxed_f1", 0.0) for r in baseline_results)
-        best_baseline_cf1 = max(r.get("conflict_f1", 0.0) for r in baseline_results)
+    comparison_baselines = select_comparison_baselines(baseline_results)
+    if comparison_baselines:
+        best_baseline_uf1r = max(r.get("unique_relaxed_f1", 0.0) for r in comparison_baselines)
+        best_baseline_cf1 = max(r.get("conflict_f1", 0.0) for r in comparison_baselines)
         our_uf1r = our_result.get("unique_relaxed_f1", 0.0)
         our_cf1 = our_result.get("conflict_f1", 0.0)
         our_uf1s = our_result.get("unique_f1", 0.0)
@@ -212,8 +242,9 @@ def main():
         print()
 
     # 保存结果
-    output_path = RESULTS_DIR / "our_method_eval.json"
-    with open(output_path, "w") as f:
+    output_path = Path(args.output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(our_result, f, indent=2, ensure_ascii=False)
     print(f"  Results saved: {output_path}")
 

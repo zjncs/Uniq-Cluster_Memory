@@ -42,6 +42,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from benchmarks.med_longmem_task import MedLongMemTask
 from benchmarks.base_task import UnifiedSample
+from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.schema import CanonicalMemory
 from src.uniq_cluster_memory.m1_event_extraction import MedicalEventExtractor, ExtractedEvent
 from src.uniq_cluster_memory.m2_clustering import EventClusterer, AttributeCluster
@@ -103,6 +104,9 @@ class AblationPipeline:
 
     def __init__(self, config: dict, use_embedding: bool = False):
         self.config = config
+        defaults = recommended_pipeline_options("med_longmem")
+        self.missing_time_scope = defaults["missing_time_scope"]
+        self.max_symptoms_per_scope = defaults["max_symptoms_per_scope"]
         self.m1 = MedicalEventExtractor()
         self.m2 = EventClusterer(use_embedding=use_embedding) if config["use_m2"] else None
         self.m4 = MemoryCompressor() if config["use_m4"] else None
@@ -132,6 +136,8 @@ class AblationPipeline:
             dialogue_date=dialogue_date,
             enable_time_grounding=self.config["use_time"],
             enable_conflict_detection=self.config["use_conflict"],
+            missing_time_scope=self.missing_time_scope,
+            max_symptoms_per_scope=self.max_symptoms_per_scope,
         )
         memories: List[CanonicalMemory] = m3.process(clusters, patient_id=dialogue_id)
 
