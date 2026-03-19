@@ -54,9 +54,10 @@ def evaluate_our_method(
 ) -> dict:
     """在所有样本上运行 Uniq-Cluster Memory，计算聚合指标。"""
     defaults = recommended_pipeline_options("med_longmem")
+    top_k = 5
     pipeline = UniqueClusterMemoryPipeline(
         w_struct=w_struct,
-        top_k=5,
+        top_k=top_k,
         use_embedding=use_embedding,
         missing_time_scope=defaults["missing_time_scope"],
         max_symptoms_per_scope=defaults["max_symptoms_per_scope"],
@@ -126,6 +127,16 @@ def evaluate_our_method(
         "conflict_recall": c_agg.mean_recall,
         "avg_latency": round(avg_latency, 2),
         "n_samples": u_agg.n_samples,
+        "config": {
+            "dataset": "med_longmem",
+            "pipeline_class": "UniqueClusterMemoryPipeline",
+            "w_struct": w_struct,
+            "top_k": top_k,
+            "use_embedding": use_embedding,
+            "missing_time_scope": defaults["missing_time_scope"],
+            "max_symptoms_per_scope": defaults["max_symptoms_per_scope"],
+            "bundle_graph_enabled": True,
+        },
         "per_sample": per_sample_results,
     }
 

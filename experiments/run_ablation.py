@@ -45,7 +45,11 @@ from benchmarks.base_task import UnifiedSample
 from src.uniq_cluster_memory.defaults import recommended_pipeline_options
 from src.uniq_cluster_memory.schema import CanonicalMemory
 from src.uniq_cluster_memory.m1_event_extraction import MedicalEventExtractor, ExtractedEvent
-from src.uniq_cluster_memory.m2_clustering import EventClusterer, AttributeCluster
+from src.uniq_cluster_memory.m2_clustering import (
+    EventClusterer,
+    AttributeCluster,
+    InformationBundleBuilder,
+)
 from src.uniq_cluster_memory.m3_uniqueness import UniquenessManager
 from src.uniq_cluster_memory.m4_compression import MemoryCompressor
 from evaluation.uniqueness_eval import compute_unique_f1
@@ -102,13 +106,15 @@ class AblationPipeline:
     通过 use_m2 / use_time / use_conflict / use_m4 四个开关控制各模块的启用状态。
     """
 
-    def __init__(self, config: dict, use_embedding: bool = False):
+    def __init__(self, config: dict, use_embedding: bool = True):
         self.config = config
         defaults = recommended_pipeline_options("med_longmem")
         self.missing_time_scope = defaults["missing_time_scope"]
         self.max_symptoms_per_scope = defaults["max_symptoms_per_scope"]
+        self.use_embedding = use_embedding
         self.m1 = MedicalEventExtractor()
         self.m2 = EventClusterer(use_embedding=use_embedding) if config["use_m2"] else None
+        self.m25 = InformationBundleBuilder()
         self.m4 = MemoryCompressor() if config["use_m4"] else None
 
     def build_memory(
@@ -131,6 +137,9 @@ class AblationPipeline:
             # w/o_m2：跳过语义聚类，但仍构造 AttributeCluster 契约
             clusters = self._build_identity_clusters(events, dialogue_id)
 
+        # M2.5: 信息团构建，供 M3 做 bundle-aware 决策
+        bundle_graph = self.m25.build(events, dialogue_id)
+
         # M3: Time Grounding + Uniqueness Manager（可部分消融）
         m3 = UniquenessManager(
             dialogue_date=dialogue_date,
@@ -139,7 +148,11 @@ class AblationPipeline:
             missing_time_scope=self.missing_time_scope,
             max_symptoms_per_scope=self.max_symptoms_per_scope,
         )
-        memories: List[CanonicalMemory] = m3.process(clusters, patient_id=dialogue_id)
+        memories: List[CanonicalMemory] = m3.process(
+            clusters,
+            patient_id=dialogue_id,
+            bundle_graph=bundle_graph,
+        )
 
         # M4: 压缩（可消融）
         if self.config["use_m4"] and self.m4 is not None:
@@ -223,7 +236,7 @@ def run_ablation_variant(
     ablation_name: str,
     samples: List[UnifiedSample],
     output_dir: str,
-    use_embedding: bool = False,
+    use_embedding: bool = True,
 ) -> dict:
     """
     运行单个消融变体，保存详细结果，返回汇总指标。
@@ -232,7 +245,7 @@ def run_ablation_variant(
         ablation_name: 消融变体名称（ABLATION_CONFIGS 的键）。
         samples:       UnifiedSample 列表。
         output_dir:    结果保存目录。
-        use_embedding: 是否使用 Embedding（消融实验默认关闭以节省时间）。
+        use_embedding: 是否使用 Embedding。
 
     Returns:
         包含平均指标的汇总字典。
@@ -288,6 +301,17 @@ def run_ablation_variant(
         "interval_iou":       round(sum(r["interval_iou"] for r in per_sample_results) / n, 4),
         "avg_latency":        round(sum(r["latency"] for r in per_sample_results) / n, 2),
         "detail_file":        detail_path,
+        "config": {
+            "dataset": "med_longmem",
+            "use_embedding": use_embedding,
+            "missing_time_scope": pipeline.missing_time_scope,
+            "max_symptoms_per_scope": pipeline.max_symptoms_per_scope,
+            "bundle_graph_enabled": True,
+            "use_m2": config["use_m2"],
+            "use_time": config["use_time"],
+            "use_conflict": config["use_conflict"],
+            "use_m4": config["use_m4"],
+        },
     }
 
     print(f"\n  Summary [{ablation_name}]:")
@@ -304,7 +328,7 @@ def run_ablation_variant(
 
 # ─── 主函数 ───────────────────────────────────────────────────────────────────
 
-def main():
+def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Run ablation experiments on Med-LongMem v0.1"
     )
@@ -326,10 +350,25 @@ def main():
         "--output_dir", default="results/ablation",
         help="Output directory for results (default: results/ablation)",
     )
-    parser.add_argument(
-        "--use_embedding", action="store_true",
-        help="Enable semantic embedding in M2/M5 (slower, higher quality)",
+    embedding_group = parser.add_mutually_exclusive_group()
+    embedding_group.add_argument(
+        "--use_embedding",
+        dest="use_embedding",
+        action="store_true",
+        help="Enable semantic embedding in M2/M5.",
     )
+    embedding_group.add_argument(
+        "--no_embedding",
+        dest="use_embedding",
+        action="store_false",
+        help="Disable semantic embedding in M2/M5.",
+    )
+    parser.set_defaults(use_embedding=True)
+    return parser
+
+
+def main():
+    parser = build_arg_parser()
     args = parser.parse_args()
 
     # 确定要运行的消融变体
