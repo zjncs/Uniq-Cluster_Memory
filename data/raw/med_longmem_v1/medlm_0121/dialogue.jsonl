@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly tired and my vision’s been blurry."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals—I’m seeing your heart rate is 53 bpm today, which is on the lower side."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily—we’ll keep that in mind as we assess your overall picture."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, blurred vision started about three days ago—it’s worse in the mornings, and sometimes things look hazy even when I’m wearing my glasses."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s important. Let’s also check your blood pressure—I’m reading a diastolic value of 91 mmHg right now."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs and clinical history, I’m diagnosing you with Chronic Kidney Disease Stage 3. We’ll need to monitor renal function closely."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fasting blood glucose came back at 11.6 mmol/L—elevated, consistent with uncontrolled diabetes, which likely contributes to both the vision changes and kidney disease."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been trying to watch my diet, but I admit my home glucose checks have been inconsistent."}
+{"turn_id": 8, "speaker": "doctor", "text": "Let’s review your self-monitoring technique and consider adjusting your regimen. Are you checking your sugar before meals or just randomly?"}
+{"turn_id": 9, "speaker": "patient", "text": "Mostly before breakfast and sometimes at bedtime—I usually get readings around 10 to 12, but it varies."}
+{"turn_id": 10, "speaker": "doctor", "text": "Okay—let me recheck your heart rate now… it’s 82 bpm. That’s quite a jump from the earlier reading—was there any activity or anxiety just before this?"}
+{"turn_id": 11, "speaker": "patient", "text": "I stood up quickly to grab my water bottle—maybe that’s why it spiked?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly. Given your CKD and hypertension, I’m going to start you on Amlodipine 10mg once daily to help manage your blood pressure more safely than continuing with previous agents."}
+{"turn_id": 13, "speaker": "patient", "text": "Amlodipine—I’ve heard of that. Will it interact with my Metformin?"}
+{"turn_id": 14, "speaker": "doctor", "text": "No significant interaction—though we’ll monitor for swelling or dizziness. By the way, your diastolic pressure just dropped to 78 mmHg—lower than the 91 we saw earlier. Any lightheadedness?"}
+{"turn_id": 15, "speaker": "patient", "text": "Just a little dizzy when standing, especially after sitting for a while."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll adjust dosing if needed. Also, let’s repeat the glucose test—this time, it’s 13.5 mmol/L. That’s higher than the 11.6 we saw earlier. Have you eaten since that first draw?"}
+{"turn_id": 17, "speaker": "patient", "text": "No—I haven’t had anything since arriving, but I did take my morning Metformin an hour ago."}
+{"turn_id": 18, "speaker": "doctor", "text": "That may explain part of it, but the rise still concerns me. Let’s also confirm—was the 11.6 reading the one you mentioned earlier?"}
+{"turn_id": 19, "speaker": "patient", "text": "Yes, that’s the number—the same reading from this morning’s lab draw."}

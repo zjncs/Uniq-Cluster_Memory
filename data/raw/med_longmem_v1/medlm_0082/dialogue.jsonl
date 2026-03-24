@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your vital signs — your temperature is 38.9 °C, which is elevated. Have you been feeling feverish?"}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I’ve had a low-grade fever since yesterday, and I’m really tired."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your labs and clinical picture, I’m diagnosing you with hypothyroidism — it’s likely contributing to your fatigue and temperature dysregulation."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure is 78 mmHg — that’s within normal range, but let’s keep an eye on it."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin is quite low at 89 g/L, which indicates moderate anemia — that could explain your fatigue and pallor."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve also been nauseous almost every morning for the past week."}
+{"turn_id": 6, "speaker": "doctor", "text": "Nausea can sometimes be linked to thyroid dysfunction or anemia — let’s explore that further. Any dizziness or shortness of breath?"}
+{"turn_id": 7, "speaker": "patient", "text": "A little lightheaded when I stand up quickly, especially in the mornings."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure is 132 mmHg — still in the elevated normal range, but not hypertensive yet."}
+{"turn_id": 9, "speaker": "doctor", "text": "I’m prescribing Metformin 1000mg twice daily to help with insulin resistance, which often coexists with hypothyroidism and may support metabolic stability."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, I’ll start that today. Should I take it with food?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Yes, always with meals to minimize GI side effects like nausea — which you’re already experiencing, so we’ll monitor closely."}
+{"turn_id": 12, "speaker": "patient", "text": "That makes sense. I’ve been trying to eat more iron-rich foods, but the nausea makes it hard."}
+{"turn_id": 13, "speaker": "doctor", "text": "Actually, when I rechecked your blood pressure just now, your systolic reading dropped to 112 mmHg — that’s a notable decrease from the 132 we saw earlier."}
+{"turn_id": 14, "speaker": "patient", "text": "I did sit quietly for five minutes before this one — maybe that helped?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly — but given your anemia and orthostatic symptoms, we should also consider whether you’d benefit from blood pressure support. I’m going to switch you to Lisinopril 20mg once daily to help modulate vascular tone and reduce cardiac strain."}
+{"turn_id": 16, "speaker": "doctor", "text": "Lisinopril will also help protect your kidneys, especially with your current hemoglobin level — we want to avoid additional stress on your system."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. Will that interact with the Metformin?"}
+{"turn_id": 18, "speaker": "patient", "text": "By the way, that hemoglobin number — 89 g/L — matches what my lab report showed last week, so it hasn’t improved yet."}
+{"turn_id": 19, "speaker": "doctor", "text": "Exactly — that’s consistent with your prior result, and it reinforces the need to investigate the cause of your anemia further, possibly including iron studies and thyroid antibody testing."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent stress test and coronary angiogram, I’m diagnosing you with Coronary Artery Disease, confirmed as of August 19th."}
+{"turn_id": 1, "speaker": "doctor", "text": "To help manage your blood pressure and reduce cardiac workload, I’m starting you on Amlodipine 10mg once daily, effective today."}
+{"turn_id": 2, "speaker": "patient", "text": "Thank you, Doctor. I’ve been trying to monitor how I feel—mostly fatigue and some shortness of breath when walking up stairs."}
+{"turn_id": 3, "speaker": "doctor", "text": "That’s important context. Have you noticed any swelling—especially in your ankles or legs?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes—I’ve had noticeable swelling in both lower legs for about three days now."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let’s check your vitals right away. I’ll also listen to your heart and lungs carefully."}
+{"turn_id": 6, "speaker": "patient", "text": "The lower limb edema has gotten a bit worse since yesterday—I had to loosen my shoes by midday."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is elevated at 119 beats per minute—this is concerning given your CAD diagnosis and current symptoms."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your blood glucose is 5.6 mmol/L—well within the normal fasting range."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is quite low at 63 mmHg—this, combined with the tachycardia and edema, suggests possible volume overload or medication-related effects."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been feeling lightheaded when standing quickly—could that be related?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the edema, tachycardia, and borderline hypotension, I’m going to switch you from Amlodipine to Lisinopril 20mg once daily—it’s better suited for your profile and may improve fluid balance."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay—I’ll start that today. Should I stop the Amlodipine completely?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, discontinue Amlodipine as of tonight. I’ll also order an echocardiogram and BNP to assess for heart failure exacerbation."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been checking my pulse at home—sometimes it feels really fast, especially in the afternoon."}
+{"turn_id": 15, "speaker": "doctor", "text": "We’ll monitor that closely. Let’s recheck your heart rate before you leave—and we’ll schedule a follow-up in five days."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve also been tracking my glucose at home—it’s been stable, no highs or lows."}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s reassuring. Consistent glucose control supports overall cardiovascular health."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your heart rate is now 104 bpm—still elevated but down from earlier this morning."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s the same number I saw this morning—the 5.6 mmol/L reading matches what you recorded earlier."}

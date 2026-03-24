@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 5.9 mmol/L — that's within the target range for someone with type 2 diabetes."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Yes, I’ve been trying to keep my diet consistent and walking daily."}
+{"turn_id": 2, "speaker": "doctor", "text": "Great to hear. You’re currently on Metformin 500 mg twice daily — we’ll continue that for now while monitoring your response."}
+{"turn_id": 3, "speaker": "patient", "text": "I’ve had no stomach upset so far, which I was worried about."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s reassuring. Your systolic blood pressure today reads 136 mmHg — slightly elevated but not urgent."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level is 152 g/L — well within normal limits for your age and sex."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve noticed some swelling in my ankles lately, especially by evening. It goes down overnight."}
+{"turn_id": 7, "speaker": "patient", "text": "It’s been happening over the past week or so — lower limb edema, mostly in both feet and calves."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your history and current findings, your primary diagnosis remains Coronary Artery Disease — we’ll need to assess whether this edema relates to cardiac function or other factors like medication or renal status."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve also felt a bit more fatigued than usual, though I’m not sure if that’s related."}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s review your labs and vitals again closely. We may need to adjust your diabetes management to better support cardiovascular health."}
+{"turn_id": 11, "speaker": "doctor", "text": "I’m going to increase your Metformin to 1000 mg twice daily — this should improve glycemic control without increasing gastrointestinal risk, given your tolerance so far."}
+{"turn_id": 12, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin came back at 169 g/L — higher than the 152 we saw earlier today. That suggests possible lab variability or hemoconcentration; we’ll recheck it next visit."}
+{"turn_id": 13, "speaker": "patient", "text": "Oh — I did drink less water yesterday, so maybe that’s why?"}
+{"turn_id": 14, "speaker": "doctor", "text": "That could explain it. Also, your systolic pressure just measured 114 mmHg — quite a drop from the 136 we recorded earlier. Were you seated quietly for five minutes before this reading?"}
+{"turn_id": 15, "speaker": "patient", "text": "Yes — and actually, that reading matches the 5.9 mmol/L from your first test this morning. My home meter gave me the same number just before I left."}
+{"turn_id": 16, "speaker": "doctor", "text": "Consistent glucose readings are encouraging. Let’s also consider checking BNP and a basic metabolic panel to rule out early heart failure contributing to the edema."}
+{"turn_id": 17, "speaker": "patient", "text": "Makes sense. I’ve also been checking my BP at home — sometimes it’s higher, sometimes lower."}
+{"turn_id": 18, "speaker": "doctor", "text": "Home monitoring is helpful. Just make sure you’re using proper technique — cuff size, arm position, rest time. We’ll go over that before you leave."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked again right before coming in, my systolic was 136 mmHg — same as your first reading. So maybe the 114 was an outlier."}

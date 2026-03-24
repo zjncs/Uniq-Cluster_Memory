@@ -22,6 +22,8 @@ from src.uniq_cluster_memory.m3_uniqueness import UniquenessManager
 from src.uniq_cluster_memory.m4_compression import MemoryCompressor
 from src.uniq_cluster_memory.m5_retrieval import HybridMemoryRetriever, RetrievalResult
 from src.uniq_cluster_memory.temporal_reasoning import TemporalReasoner
+from src.uniq_cluster_memory.temporal_reasoning.constraint_propagation import run_tcp
+from src.uniq_cluster_memory.temporal_reasoning.tcp_refinement import TCPRefinementLoop
 from src.uniq_cluster_memory.stores import MemoryPersistenceHub
 from src.uniq_cluster_memory.schema import CanonicalMemory
 
@@ -43,6 +45,8 @@ class UniqueClusterMemoryPipeline:
         use_embedding: bool = True,
         missing_time_scope: str = "global",
         max_symptoms_per_scope: Optional[int] = None,
+        use_causal_scoring: bool = True,
+        enable_formal_constraints: bool = True,
         enable_qdrant: bool = False,
         enable_neo4j: bool = False,
         persist_to_stores: bool = False,
@@ -56,7 +60,7 @@ class UniqueClusterMemoryPipeline:
     ):
         self.m1 = MedicalEventExtractor()
         self.m2 = EventClusterer(use_embedding=use_embedding)
-        self.m25 = InformationBundleBuilder()
+        self.m25 = InformationBundleBuilder(use_causal_scoring=use_causal_scoring)
         self.m4 = MemoryCompressor()
         self.m5 = HybridMemoryRetriever(
             w_struct=w_struct,
@@ -66,6 +70,7 @@ class UniqueClusterMemoryPipeline:
         self.temporal_reasoner = TemporalReasoner()
         self.missing_time_scope = (missing_time_scope or "global").strip().lower()
         self.max_symptoms_per_scope = max_symptoms_per_scope
+        self.enable_formal_constraints = enable_formal_constraints
         self.persist_to_stores = persist_to_stores
         self.persistence = MemoryPersistenceHub(
             enable_qdrant=enable_qdrant,
@@ -80,6 +85,7 @@ class UniqueClusterMemoryPipeline:
         )
         self.w_struct = w_struct
         self._last_bundle_graph: Optional[BundleGraph] = None
+        self._last_tcp_result = None
 
     def build_memory(
         self,
@@ -126,12 +132,25 @@ class UniqueClusterMemoryPipeline:
             dialogue_date=dialogue_date,
             missing_time_scope=self.missing_time_scope,
             max_symptoms_per_scope=self.max_symptoms_per_scope,
+            enable_formal_constraints=self.enable_formal_constraints,
         )
         memories: List[CanonicalMemory] = m3.process(
             clusters,
             patient_id=dialogue_id,
             bundle_graph=self._last_bundle_graph,
         )
+        # M3.5: Temporal Constraint Propagation + Refinement Loop
+        memories, self._last_tcp_result = run_tcp(memories)
+
+        # TCP-in-the-loop: if inconsistencies found, refine via LLM re-extraction
+        if self._last_tcp_result.n_inconsistencies > 0:
+            refiner = TCPRefinementLoop(max_rounds=2)
+            memories, self._tcp_refine_stats = refiner.refine(
+                memories, normalized_dialogue, dialogue_id
+            )
+        else:
+            self._tcp_refine_stats = None
+
         # M4: 压缩
         memories = self.m4.compress(memories, patient_id=dialogue_id)
 

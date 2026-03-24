@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you've been started on Metformin 500mg twice daily as part of your diabetes management plan, beginning May 27th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your last diastolic blood pressure reading was 106 mmHg during that same visit."}
+{"turn_id": 2, "speaker": "doctor", "text": "You also had a fever — temperature measured at 39.1°C — which we noted at the time."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been feeling quite unwell — chills, fatigue, and increased thirst over the past few days."}
+{"turn_id": 4, "speaker": "doctor", "text": "Any recent infections, urinary symptoms, or respiratory issues? Fever like this in someone with diabetes warrants careful evaluation."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs and clinical presentation, your primary diagnosis is Type 2 Diabetes Mellitus, confirmed on May 27th."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been checking my blood sugar at home — it’s been running high, especially after meals."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s important. Let’s review your recent glucose values — what have you been seeing?"}
+{"turn_id": 8, "speaker": "doctor", "text": "In our office on May 27th, your blood glucose was 14.2 mmol/L — significantly elevated."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been trying to adjust my diet, but it’s hard when I feel so tired and nauseous."}
+{"turn_id": 10, "speaker": "doctor", "text": "Nausea and fatigue could reflect worsening hyperglycemia or an intercurrent illness — especially given your fever."}
+{"turn_id": 11, "speaker": "doctor", "text": "Just now, your point-of-care glucose came back at 16.0 mmol/L — higher than the 14.2 we saw earlier today."}
+{"turn_id": 12, "speaker": "patient", "text": "I’m worried — is this infection making my diabetes harder to control?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your persistently elevated blood pressure and new hypertension concerns, I’m going to add Amlodipine 5mg once daily, starting today."}
+{"turn_id": 14, "speaker": "doctor", "text": "And your temperature has risen further — now 39.6°C — so we’ll need to investigate for possible source of infection urgently."}
+{"turn_id": 15, "speaker": "patient", "text": "My legs have felt heavy, and my ankles are slightly swollen — could that be related?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Your diastolic pressure is now 110 mmHg — up from the 106 we recorded earlier — suggesting possible acute hypertensive response to the infection."}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll run blood cultures, urinalysis, and a chest X-ray to identify the cause of your fever and guide treatment."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked my blood pressure at home this morning, it was 106 mmHg — same as that reading from earlier today."}
+{"turn_id": 19, "speaker": "patient", "text": "And my fingerstick glucose just now was 14.2 mmol/L — exactly the number you mentioned from the lab draw this morning."}

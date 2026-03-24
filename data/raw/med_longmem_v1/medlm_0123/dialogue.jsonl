@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your blood pressure reading today is 172 over 78 — the systolic value is elevated at 172 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your persistent elevated readings and clinical presentation, I’m diagnosing you with essential hypertension."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level came back at 89 g/L, which is below normal and suggests mild anemia—we’ll need to investigate that further."}
+{"turn_id": 3, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling more fatigued than usual lately, and sometimes short of breath when climbing stairs."}
+{"turn_id": 4, "speaker": "doctor", "text": "Any chest discomfort or tightness? That’s important to note given your blood pressure and heart rate."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes—I’ve had intermittent chest tightness over the past few days, especially in the evenings."}
+{"turn_id": 6, "speaker": "doctor", "text": "Let me check your vitals again—your diastolic pressure is 78 mmHg, which is within acceptable range but paired with that high systolic, it gives us a wide pulse pressure."}
+{"turn_id": 7, "speaker": "doctor", "text": "I’m starting you on Lisinopril 10 mg once daily to help manage your hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is 77 bpm—stable and sinus rhythm. No signs of acute distress right now."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking the Lisinopril as prescribed, but my home BP log shows the top number hasn’t improved much."}
+{"turn_id": 10, "speaker": "doctor", "text": "I see—let’s reassess. Given your continued systolic elevation and symptoms, I’m going to increase your Lisinopril dose to 20 mg once daily."}
+{"turn_id": 11, "speaker": "doctor", "text": "I am going to switch you to Lisinopril 20mg qd starting tomorrow."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll do that. By the way, my latest lab report says my hemoglobin dropped to 80 g/L—down from 89 last week. Is that concerning?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—that’s a meaningful drop in just one week. We’ll order ferritin, B12, folate, and a reticulocyte count to evaluate for iron deficiency or other causes of worsening anemia."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve also noticed dizziness when standing up quickly—could that be related to the BP meds or the low hemoglobin?"}
+{"turn_id": 15, "speaker": "doctor", "text": "It could be either—or both. Orthostatic hypotension can occur with ACE inhibitors, and anemia reduces oxygen-carrying capacity, contributing to lightheadedness. Let’s monitor closely."}
+{"turn_id": 16, "speaker": "patient", "text": "This morning before my appointment, I checked my blood pressure at home—and the systolic was 172 mmHg again, same as your first reading last week."}
+{"turn_id": 17, "speaker": "doctor", "text": "That reading aligns with your earlier measurement—but let’s take another now to confirm."}
+{"turn_id": 18, "speaker": "patient", "text": "My diastolic is still 78 mmHg—the same as your first reading, too."}
+{"turn_id": 19, "speaker": "doctor", "text": "Hmm—this time it’s 180 over 78. The systolic has risen further, despite the dose increase. We’ll need to consider adding a second agent or evaluating for secondary causes."}

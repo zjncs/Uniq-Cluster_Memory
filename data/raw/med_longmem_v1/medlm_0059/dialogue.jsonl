@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate is 72 beats per minute, which is within the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, thank you. I’ve been feeling a bit more fatigued than usual lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "Any chest discomfort, shortness of breath, or palpitations?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your history and today’s assessment, your primary diagnosis remains Coronary Artery Disease."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic blood pressure is 92 mmHg — slightly elevated, so we’ll keep an eye on that."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes — actually, I’ve noticed swelling in my ankles and lower legs over the past few days."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important. Lower limb edema can signal fluid retention — possibly related to cardiac function or medication effects. Any weight gain or increased shortness of breath when lying flat?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin level is 118 g/L — mildly low, but not severely anemic. We’ll monitor this closely, especially given your CAD and current symptoms."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure is 110 mmHg — that’s on the lower side, especially combined with your heart rate and edema."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve also been lightheaded when standing up quickly, especially in the mornings."}
+{"turn_id": 10, "speaker": "doctor", "text": "That could be orthostatic hypotension — let’s check your BP both sitting and standing next time. Are you still taking metoprolol 50 mg twice daily?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes, every morning and evening, as prescribed."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your fatigue, edema, and borderline-low BP, we need to consider whether your beta-blocker dose is contributing. Have you missed any doses recently?"}
+{"turn_id": 13, "speaker": "patient", "text": "No, I haven’t missed any — but I did feel unusually tired last night and checked my pulse before bed. It was really slow."}
+{"turn_id": 14, "speaker": "doctor", "text": "How slow?"}
+{"turn_id": 15, "speaker": "patient", "text": "I counted 54 — I double-checked just now and got 52."}
+{"turn_id": 16, "speaker": "doctor", "text": "Ah — your heart rate is now 52 bpm. That’s significantly lower than the 72 we recorded at the start of the visit. This bradycardia may explain your lightheadedness and fatigue."}
+{"turn_id": 17, "speaker": "doctor", "text": "I am going to switch you from metoprolol to ivabradine 5 mg twice daily — it lowers heart rate without affecting blood pressure as much, and should help reduce symptoms while maintaining cardiac protection."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start that tomorrow. Should I still monitor my blood pressure?"}
+{"turn_id": 19, "speaker": "patient", "text": "Yes — I just checked it again: systolic is still 110 mmHg, same as the reading you took earlier."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 7.7 mmol/L — slightly elevated, but let’s keep that in context with your overall management."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Yeah, I’ve been trying to watch my carbs, but I did have a small piece of cake at my granddaughter’s birthday yesterday."}
+{"turn_id": 2, "speaker": "doctor", "text": "That’s understandable. We’ll revisit dietary patterns in a moment. First, let’s check your vitals — I’ll take your blood pressure now."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic pressure is 69 mmHg — that’s within normal range. Systolic is still pending."}
+{"turn_id": 4, "speaker": "patient", "text": "Actually, I’ve noticed some swelling around my ankles lately — it’s worse by evening, and my socks leave marks."}
+{"turn_id": 5, "speaker": "patient", "text": "It’s been going on for about three days — lower limb edema, mostly in both feet and calves."}
+{"turn_id": 6, "speaker": "doctor", "text": "Thank you for mentioning that. Given your history of hypertension and this new edema, I’m starting you on Lisinopril 10mg once daily. It should help both blood pressure and reduce fluid retention."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic pressure just read 141 mmHg — consistent with stage 1 hypertension. We’ll monitor closely."}
+{"turn_id": 8, "speaker": "patient", "text": "Lisinopril — I remember taking something similar before. Does it cause cough? My last ACE inhibitor did."}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes, a dry cough is a known side effect — about 10–20% of patients report it. If it develops, we can switch to an ARB. For now, let’s start low and go slow."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay. Also, my legs feel heavier than usual, and I’ve been more tired — could that be related?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Possibly — fatigue and edema together raise concern for early volume overload or even reduced cardiac output. Let’s listen to your heart and lungs and check for jugular venous pressure."}
+{"turn_id": 12, "speaker": "doctor", "text": "Hmm — your systolic pressure is now 168 mmHg. That’s higher than the 141 we saw earlier. Was there any stress or activity just before this reading?"}
+{"turn_id": 13, "speaker": "patient", "text": "I walked up the stairs quickly to get here — maybe that spiked it? I was rushing because I was late."}
+{"turn_id": 14, "speaker": "doctor", "text": "That explains the transient elevation. We’ll recheck after you’ve rested for five minutes. In the meantime, let’s assess your medication adherence and review your home BP log."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve been taking my meds regularly, but I missed two doses last week when I ran out — the pharmacy was closed over the weekend."}
+{"turn_id": 16, "speaker": "doctor", "text": "That could definitely contribute to the fluctuation. Let’s ensure you have a 7-day buffer moving forward. Also, I’d like to add daily weight tracking — sudden gain of 2 kg in 3 days warrants urgent call."}
+{"turn_id": 17, "speaker": "patient", "text": "Makes sense. I’ll start that tonight. And I’ll bring my home BP cuff next time so we can compare readings."}
+{"turn_id": 18, "speaker": "doctor", "text": "Excellent idea. Consistency between office and home measurements helps us calibrate your treatment more accurately."}
+{"turn_id": 19, "speaker": "patient", "text": "Just checked it again before coming in — my systolic was back to 141 mmHg, same as that first reading you took."}

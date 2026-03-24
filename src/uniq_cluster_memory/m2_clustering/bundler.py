@@ -119,6 +119,15 @@ class BundleGraph:
 class InformationBundleBuilder:
     """
     M2.5 信息团构建器。
+
+    核心概念：
+        信息团（Information Bundle）是医疗对话中相关事实的结构化聚合单元，
+        分为实体团（EntityBundle，如同一药物的不同提及）和事件团（EventBundle，
+        如同一时间点的多个属性事实）。信息团是 M3 唯一性管理的基本粒度。
+
+    因果去混淆：
+        当 use_causal_scoring=True 时，使用结构因果模型对事件对的共指概率
+        进行后门调整，避免词汇重叠/时间邻近等混淆因子导致的虚假聚合。
     """
 
     TIME_ANCHOR_RULES: Dict[str, str] = {
@@ -143,6 +152,16 @@ class InformationBundleBuilder:
         "tablet", "capsule", "tab", "cap", "po", "oral", "take", "taking",
         "prescribed", "prescription",
     }
+
+    def __init__(self, use_causal_scoring: bool = True):
+        self.use_causal_scoring = use_causal_scoring
+        self._causal_scorer = None
+
+    def _get_causal_scorer(self):
+        if self._causal_scorer is None:
+            from src.uniq_cluster_memory.m2_clustering.causal_scorer import CausalCoreferenceScorer
+            self._causal_scorer = CausalCoreferenceScorer()
+        return self._causal_scorer
 
     @staticmethod
     def _evidence_entry(
@@ -263,8 +282,20 @@ class InformationBundleBuilder:
             anchor = self._normalize_time_anchor(evt)
             grouped.setdefault(anchor, []).append(evt)
 
+        # 因果去混淆：对同一 anchor 内的事件进一步拆分
+        if self.use_causal_scoring:
+            refined: Dict[str, List[ExtractedEvent]] = {}
+            for anchor, group in grouped.items():
+                sub_groups = self._causal_split(group, anchor)
+                for j, sg in enumerate(sub_groups):
+                    key = anchor if j == 0 else f"{anchor}::split_{j}"
+                    refined[key] = sg
+            grouped = refined
+
         bundles: List[EventBundle] = []
         for i, (anchor, group) in enumerate(sorted(grouped.items()), start=1):
+            # 还原实际 anchor（去掉 split 后缀）
+            display_anchor = anchor.split("::split_")[0]
             attr_values: Dict[str, List[str]] = {}
             evidence_snippets: List[str] = []
             provenance_turns: List[int] = []
@@ -293,7 +324,7 @@ class InformationBundleBuilder:
             bundles.append(
                 EventBundle(
                     bundle_id=f"event_{dialogue_id}_{i:03d}",
-                    time_anchor=anchor,
+                    time_anchor=display_anchor,
                     attributes=attr_values,
                     evidence_snippets=evidence_snippets[:8],
                     provenance_turns=sorted(set(provenance_turns)),
@@ -303,7 +334,7 @@ class InformationBundleBuilder:
                             action="create",
                             reason="Event_Bundle_Initialization",
                             turns=provenance_turns,
-                            extra={"time_anchor": anchor},
+                            extra={"time_anchor": display_anchor},
                         ),
                         *evidence_chain,
                     ],
@@ -311,6 +342,71 @@ class InformationBundleBuilder:
             )
 
         return bundles
+
+    def _causal_split(
+        self,
+        events: List[ExtractedEvent],
+        anchor: str,
+    ) -> List[List[ExtractedEvent]]:
+        """
+        对同一 time anchor 内的事件进行因果去混淆拆分。
+
+        关键设计：只在同一 attribute 的事件之间做去混淆判断。
+        不同 attribute 的事件在同一 time anchor 下应总是聚合
+        （它们代表同一次临床会面的不同属性事实）。
+        """
+        if len(events) <= 1:
+            return [events]
+
+        scorer = self._get_causal_scorer()
+
+        # 按 attribute 分组，仅对同 attribute 事件做去混淆拆分
+        by_attr: Dict[str, List[ExtractedEvent]] = {}
+        for evt in events:
+            by_attr.setdefault(evt.attribute, []).append(evt)
+
+        # 检查是否存在同 attribute 内需要拆分的情况
+        needs_split = False
+        split_map: Dict[str, List[List[ExtractedEvent]]] = {}
+        for attr, attr_events in by_attr.items():
+            if len(attr_events) <= 1:
+                split_map[attr] = [attr_events]
+                continue
+            # 对同 attribute 事件做贪心聚类
+            groups: List[List[ExtractedEvent]] = [[attr_events[0]]]
+            for evt in attr_events[1:]:
+                merged = False
+                for group in groups:
+                    if scorer.should_merge(group[0], evt):
+                        group.append(evt)
+                        merged = True
+                        break
+                if not merged:
+                    groups.append([evt])
+            split_map[attr] = groups
+            if len(groups) > 1:
+                needs_split = True
+
+        if not needs_split:
+            return [events]
+
+        # 有拆分需求：将不同 attribute 的事件分配到对应的子组
+        # 非拆分 attribute 的事件加入第一个组
+        result_groups: List[List[ExtractedEvent]] = []
+        non_split_events: List[ExtractedEvent] = []
+        for attr, groups in split_map.items():
+            if len(groups) == 1:
+                non_split_events.extend(groups[0])
+            else:
+                result_groups.extend(groups)
+
+        if non_split_events:
+            if result_groups:
+                result_groups[0].extend(non_split_events)
+            else:
+                result_groups.append(non_split_events)
+
+        return result_groups
 
     @staticmethod
     def _build_links(event_bundles: List[EventBundle], event_to_entity: Dict[str, str]) -> List[BundleLink]:

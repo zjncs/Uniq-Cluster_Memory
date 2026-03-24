@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your temperature today is 36.7 °C, which is within normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "You're currently on Amlodipine 10mg once daily for blood pressure control. How have you been tolerating it?"}
+{"turn_id": 2, "speaker": "patient", "text": "Pretty well, no dizziness or swelling. My energy’s been okay, though I’ve felt a bit more tired lately."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin came back at 99 g/L on today’s lab draw — that’s mildly low and could contribute to fatigue."}
+{"turn_id": 4, "speaker": "patient", "text": "Oh, really? I didn’t know that could be the cause. I’ve also had some occasional blurry vision in the past month."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 78 mmHg — solidly in target range."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your labs, symptoms, and history, we’re confirming a diagnosis of Type 2 Diabetes Mellitus."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure is 114 mmHg — excellent control overall."}
+{"turn_id": 8, "speaker": "patient", "text": "That’s reassuring. But my fasting glucose readings at home have been running between 150–180 mg/dL lately."}
+{"turn_id": 9, "speaker": "doctor", "text": "That aligns with the diabetes diagnosis. We’ll need to address both glycemic control and your anemia. Any history of gastrointestinal issues or heavy periods?"}
+{"turn_id": 10, "speaker": "patient", "text": "No GI bleeding, but I did have menorrhagia a few years ago — though it’s been stable since my uterine ablation."}
+{"turn_id": 11, "speaker": "doctor", "text": "Understood. Let’s hold off on iron supplementation for now until we review your ferritin and reticulocyte count next week."}
+{"turn_id": 12, "speaker": "doctor", "text": "Actually, your repeat hemoglobin just came in at 129 g/L — quite a jump from the earlier 99 g/L. There may have been a lab mix-up or sample issue."}
+{"turn_id": 13, "speaker": "patient", "text": "That’s strange — I only gave one blood sample. Could the first result have been drawn during my morning coffee? I hadn’t fasted then."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s possible — your most recent temperature reading is 36.0 °C, slightly lower than the 36.7 °C we recorded earlier. Were you feeling chilly when that was taken?"}
+{"turn_id": 15, "speaker": "patient", "text": "Yes, the exam room was cold, and I’d just come in from outside. But my thermometer at home reads 36.7 °C — same as your first measurement."}
+{"turn_id": 16, "speaker": "doctor", "text": "Noted — your diastolic pressure is now 84 mmHg, up modestly from the 78 mmHg we saw earlier. Still well-controlled, but let’s monitor trends."}
+{"turn_id": 17, "speaker": "patient", "text": "Right — that 36.7 °C reading matches what I saw this morning, so I think that’s the more accurate one."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your elevated fasting glucose and confirmed Type 2 Diabetes, we’ll initiate pharmacologic therapy. I’m going to switch you to Metformin 1000mg twice daily, starting tomorrow."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — and just to confirm, my diastolic pressure is still 78 mmHg, like it was earlier, not the 84 we saw just now."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling dizzy since yesterday morning—especially when I stand up quickly."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals first—I’m getting your heart rate now at 89 beats per minute."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see you’re currently on Metformin 500 mg twice daily for your type 2 diabetes. How’s that been going? Any side effects or missed doses?"}
+{"turn_id": 3, "speaker": "patient", "text": "I’ve been taking it consistently, but I did notice my energy has been low and I’ve had some nausea lately."}
+{"turn_id": 4, "speaker": "doctor", "text": "Any fever, chills, or recent infections? Dizziness can sometimes point to dehydration or an underlying systemic issue."}
+{"turn_id": 5, "speaker": "patient", "text": "Actually, yes—I’ve had a low-grade fever since last night, and my head feels heavy."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fingerstick blood glucose is 9.7 mmol/L—elevated, especially given your symptoms and current meds."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is 38.6 °C—so you do have a fever. That could be contributing to both the dizziness and the elevated glucose."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin is 175 g/L—within normal range for a male patient, which is reassuring for oxygen-carrying capacity."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve also been short of breath walking up stairs, and my ankles feel slightly swollen."}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s important—we’ll need to assess for possible heart failure or volume overload, especially with your diabetes and hypertension history."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been monitoring my BP at home—it’s been running around 148/92 most days."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your elevated BP, persistent symptoms, and new fever, I’m going to switch you from your current antihypertensive to Lisinopril 20 mg once daily starting today."}
+{"turn_id": 13, "speaker": "doctor", "text": "But wait—I just re-ran the hemoglobin sample, and this time it’s 153 g/L. That’s a notable drop from the 175 we saw earlier—let’s repeat it and check for hemolysis or lab variability."}
+{"turn_id": 14, "speaker": "patient", "text": "Could the fever be affecting my blood work? I also felt shaky earlier—like my sugar was low—but my meter read high."}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes—acute illness often causes stress-induced hyperglycemia, even in well-controlled patients. We’ll adjust your diabetes management temporarily."}
+{"turn_id": 16, "speaker": "patient", "text": "Should I still take my Metformin while I’m sick?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Your latest glucose reading is 8.0 mmol/L—still elevated, but trending down from the 9.7 earlier. Let’s hold Metformin for 48 hours given the fever and possible reduced oral intake."}
+{"turn_id": 18, "speaker": "patient", "text": "That makes sense—I remember your earlier reading showed my heart rate was 89 bpm, so it’s not tachycardic, which is reassuring."}
+{"turn_id": 19, "speaker": "patient", "text": "And that hemoglobin value of 175 g/L you mentioned earlier—that’s what my last annual lab showed too, so I’m hoping the lower repeat was just a fluke."}

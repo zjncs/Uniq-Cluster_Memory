@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've been feeling really nauseous since yesterday morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with a quick assessment. Are you experiencing any other symptoms like fever, dizziness, or chest discomfort?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is 108 mmHg — that’s elevated."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your temperature is 38.8 °C — you do have a fever."}
+{"turn_id": 4, "speaker": "doctor", "text": "You're currently on Lisinopril 20mg once daily — correct?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is quite high at 126 beats per minute."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I’ve been on Lisinopril for about six months. But lately, my headaches have gotten worse, and I feel shaky sometimes."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s important — the combination of hypertension, tachycardia, and fever suggests something more acute may be going on. Any recent infections or exposure to sick contacts?"}
+{"turn_id": 8, "speaker": "patient", "text": "My daughter had the flu last week, and I’ve had a sore throat since Tuesday."}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s check your throat and lungs. Also, we’ll need bloodwork and possibly a urinalysis to rule out sepsis or UTI."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay. My nausea got worse this morning — I couldn’t keep breakfast down."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your persistent tachycardia and rising fever, we need to adjust your antihypertensive therapy — Lisinopril alone isn’t controlling your hemodynamics well today."}
+{"turn_id": 12, "speaker": "doctor", "text": "I’m going to switch you to Amlodipine 10mg once daily instead — it’s better tolerated in the setting of acute illness and won’t affect your renal perfusion as much."}
+{"turn_id": 13, "speaker": "doctor", "text": "Just rechecked — your heart rate is now 113 bpm, still elevated but slightly improved."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your diastolic pressure has crept up to 110 mmHg since the first reading."}
+{"turn_id": 15, "speaker": "doctor", "text": "And your temperature has risen further — now 39.4 °C. We’ll start empiric antibiotics after cultures."}
+{"turn_id": 16, "speaker": "patient", "text": "That’s concerning… I didn’t realize it was getting worse so fast."}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll monitor you closely. I’d also like to admit you for IV fluids and observation — your nausea and fever suggest possible dehydration and systemic inflammation."}
+{"turn_id": 18, "speaker": "patient", "text": "Understood. Should I stop the Lisinopril myself before starting the Amlodipine?"}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked my pulse just now on my watch, it’s back up to 126 bpm — same as that reading earlier."}

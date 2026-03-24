@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—dizzy spells, especially when I stand up, and some shortness of breath."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your history and today’s assessment, your primary diagnosis is Essential Hypertension, confirmed as of April 7th."}
+{"turn_id": 2, "speaker": "patient", "text": "Hypertension? But my blood pressure at home has been around 138 over 86—does that still count?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes—it’s consistent with stage 1 hypertension, especially with your symptoms and risk factors. Let’s review your vitals from today."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate was elevated at 105 beats per minute during the exam this morning."}
+{"turn_id": 5, "speaker": "patient", "text": "That’s higher than usual for me—I usually hover around 78. Could that be related to the dizziness?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fasting blood glucose came back at 9.6 mmol/L—above the normal range, which raises concern for new-onset hyperglycemia or undiagnosed diabetes."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your body temperature was mildly elevated at 37.5 °C—low-grade, but not febrile. Any chills, sore throat, or recent illness?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin is 154 g/L—well within normal limits, so anemia isn’t contributing to your fatigue or lightheadedness."}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Lisinopril 20 mg once daily for blood pressure control, started April 7th."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking it faithfully, but I noticed I’ve had a dry cough for about five days now. Is that common?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Yes—that’s a well-known side effect of ACE inhibitors like Lisinopril. Given your persistent cough and the new glucose elevation, we should consider alternatives."}
+{"turn_id": 12, "speaker": "patient", "text": "Also, my home glucose monitor showed 10.2 mmol/L yesterday morning—fasting—and I felt shaky afterward."}
+{"turn_id": 13, "speaker": "doctor", "text": "That aligns with today’s lab result. We’ll need to run HbA1c and fasting insulin next visit. For now, let’s address your BP and cough together."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve also been checking my pulse more often since the dizziness started."}
+{"turn_id": 15, "speaker": "doctor", "text": "Any patterns you’ve noticed—like timing, activity, or posture?"}
+{"turn_id": 16, "speaker": "patient", "text": "It’s consistently high—like just now, sitting here, it’s 104. Same as that reading earlier today."}
+{"turn_id": 17, "speaker": "patient", "text": "Yeah—that number from this morning, the one you mentioned: 105 bpm. It’s stayed elevated all day."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given the persistent tachycardia, cough, and hyperglycemia, I’m going to switch you from Lisinopril to Amlodipine 5 mg daily—calcium channel blocker, less metabolic impact and no cough risk."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay, thank you. Should I stop Lisinopril cold turkey, or taper? And do I need to monitor my glucose more closely before next week?"}

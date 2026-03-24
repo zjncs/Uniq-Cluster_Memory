@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell the past couple of days—feverish, tired, and lightheaded."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me start by checking your vitals—I’m seeing your heart rate is 87 bpm right now."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your body temperature is elevated at 39.4 °C—definitely a fever. Have you taken anything for it?"}
+{"turn_id": 3, "speaker": "doctor", "text": "You’re currently on Amlodipine 10mg once daily for hypertension—we’ll keep that in mind as we assess today."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve had dizziness almost every morning, especially when standing up quickly."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s important—dizziness with orthostatic changes could point to several things, including volume status or medication effects. Let’s check some labs."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin came back at 114 g/L—slightly below normal, but not severely anemic."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your symptoms, labs, and clinical picture, the primary diagnosis is Hypothyroidism, which may be contributing to fatigue, cold intolerance, and possibly the dizziness."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been gaining weight and feeling sluggish—my sister was just diagnosed with the same thing."}
+{"turn_id": 9, "speaker": "doctor", "text": "That family history supports it. We’ll confirm with TSH and free T4, but for now, let’s address your current metabolic state."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, your repeat hemoglobin today is 128 g/L—so the earlier value was likely affected by sample handling; this is within normal range."}
+{"turn_id": 11, "speaker": "patient", "text": "Oh, good—I’ve been eating more iron-rich foods lately, so maybe that helped."}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly—but let’s also consider whether your glucose control has been stable. Are you monitoring blood sugar regularly?"}
+{"turn_id": 13, "speaker": "patient", "text": "I check it sometimes—I’ve had readings over 200 mg/dL fasting the last few mornings."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your heart rate is now 62 bpm—down from 87 earlier—likely reflecting improved autonomic tone or response to treatment adjustments."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your persistent hyperglycemia and new hypothyroid diagnosis, I’m going to switch you to Insulin glargine 16 units nightly to improve basal control."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay—I’ve never used insulin before. Will I need to check my sugar more often?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, at least fasting and bedtime initially. Also watch for hypoglycemia symptoms like shakiness or confusion."}
+{"turn_id": 18, "speaker": "patient", "text": "That makes sense. By the way, my heart rate this morning at home was back up to 87 bpm—the same as that reading you took when I first walked in."}
+{"turn_id": 19, "speaker": "doctor", "text": "Interesting—it suggests some variability, possibly tied to circadian rhythm or activity. We’ll monitor trends closely over the next week and adjust insulin if needed."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your vital signs — your heart rate is 98 beats per minute, which is slightly elevated but not alarming at rest."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I’ve noticed swelling in both of my ankles and calves over the past few days — it’s worse by evening and doesn’t go down much even after elevating them."}
+{"turn_id": 2, "speaker": "doctor", "text": "I just checked your fingerstick blood glucose — it’s 14.9 mmol/L, which is significantly above target. Have you been monitoring at home?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your labs and clinical picture, your primary diagnosis remains Hypothyroidism — though we’ll need to investigate whether this is contributing to your edema or glucose dysregulation."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve been taking levothyroxine as prescribed, but I’ve also been feeling unusually tired and cold lately."}
+{"turn_id": 5, "speaker": "doctor", "text": "Those are classic hypothyroid symptoms. Let’s also review your diabetes management — when was your last A1c?"}
+{"turn_id": 6, "speaker": "patient", "text": "It was 9.2% three months ago. I’ve been trying to eat better, but my sugars still run high."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is 37.0 °C — normal for now — but given the edema and hyperglycemia, we need to rule out infection or heart failure."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily — that’s appropriate for your type 2 diabetes, but clearly not enough control right now."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking it consistently, but sometimes I skip the evening dose if I’m not eating much."}
+{"turn_id": 10, "speaker": "doctor", "text": "That could explain some of the variability. Let’s also check your TSH and free T4 today — and consider an echocardiogram given the edema and tachycardia."}
+{"turn_id": 11, "speaker": "patient", "text": "I did a home glucose test this morning before breakfast — it was really high again."}
+{"turn_id": 12, "speaker": "doctor", "text": "Your latest point-of-care reading is 16.0 mmol/L — that’s higher than the 14.9 we saw earlier. That suggests rising glucose despite current therapy."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve also had some shortness of breath climbing stairs, and my socks leave deep indentations."}
+{"turn_id": 14, "speaker": "doctor", "text": "The edema plus dyspnea raises concern for volume overload — let’s get BNP and renal function tested urgently."}
+{"turn_id": 15, "speaker": "patient", "text": "And I’ve had a low-grade fever off and on — felt warm yesterday afternoon."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll need to assess for underlying infection or inflammatory cause — especially with new systemic symptoms."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your worsening edema, hypertension, and likely early heart failure, I am going to add Lisinopril 10mg once daily — starting today."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your temperature just spiked to 38.2 °C — that’s concerning. We’ll draw blood cultures and start empiric antibiotics pending results."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, that reading from this morning — the 14.9 mmol/L — matches exactly what you got earlier today."}

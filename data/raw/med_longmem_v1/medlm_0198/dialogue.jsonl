@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on Lisinopril 20mg once daily, started back on August 25th."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, that's right — I've been taking it every morning with breakfast."}
+{"turn_id": 2, "speaker": "doctor", "text": "How have you been feeling since starting it? Any new symptoms or concerns?"}
+{"turn_id": 3, "speaker": "patient", "text": "Actually, I’ve noticed some blurred vision over the past few days — it’s been a bit bothersome, especially when reading or driving at night."}
+{"turn_id": 4, "speaker": "doctor", "text": "Let me check your vitals. Your diastolic blood pressure today is 75 mmHg — that’s within normal range."}
+{"turn_id": 5, "speaker": "patient", "text": "That’s reassuring. But I’ve also felt unusually tired and a little achy lately."}
+{"turn_id": 6, "speaker": "doctor", "text": "Any fever, chills, or cough?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is elevated at 38.5 °C — looks like you have a low-grade fever."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, I’ve had a sore throat since yesterday and my neck feels stiff."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure is 156 mmHg — slightly elevated for today."}
+{"turn_id": 10, "speaker": "doctor", "text": "Hmm, let me recheck — actually, this time it’s 133 mmHg. That’s a notable drop from the first reading just now."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been dizzy when standing up quickly — maybe that’s related?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your current lipid profile and recent BP variability, I’m going to switch you from Lisinopril to Atorvastatin 40mg taken at night instead — we’ll hold off on the ACE inhibitor for now while we investigate further."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your diastolic pressure is now down to 61 mmHg — that’s lower than before and may explain your dizziness and visual changes."}
+{"turn_id": 14, "speaker": "patient", "text": "That makes sense — the blurriness does seem worse when I stand up."}
+{"turn_id": 15, "speaker": "doctor", "text": "We should also rule out an infection contributing to your fever and fatigue. I’ll order a CBC and strep test."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, thank you. Should I stop the Lisinopril right away?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — discontinue it today. And your temperature has come down slightly to 37.6 °C, which is encouraging but still mildly elevated."}
+{"turn_id": 18, "speaker": "patient", "text": "I checked my BP at home this morning — same as the first reading you got: 156 over something."}
+{"turn_id": 19, "speaker": "patient", "text": "And my thermometer still shows 38.5 °C — that’s the same number you saw earlier, not the lower one just now."}

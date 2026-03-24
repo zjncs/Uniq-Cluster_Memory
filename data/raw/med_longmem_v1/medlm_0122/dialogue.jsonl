@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your fasting blood glucose from today's lab— it came back at 5.1 mmol/L."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. That sounds good—I’ve been trying to keep my diet consistent and walking daily."}
+{"turn_id": 2, "speaker": "doctor", "text": "That’s excellent. Consistency really helps with glycemic control. How have you been feeling overall—any fatigue, increased thirst, or blurred vision?"}
+{"turn_id": 3, "speaker": "patient", "text": "No major symptoms lately. I did notice some mild ankle swelling last week, but it’s improved since I cut back on salt."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your labs, clinical exam, and history, I’m confirming a diagnosis of Type 2 Diabetes Mellitus."}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on insulin glargine 10 units once nightly—we’ll continue that for now while we monitor closely."}
+{"turn_id": 6, "speaker": "patient", "text": "Okay, thanks. I’ve been injecting at bedtime as instructed and haven’t had any lows."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure today is 97 mmHg—slightly elevated, so we’ll keep an eye on that."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is 125 g/L, which is within the lower end of normal for your age and sex."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking my multivitamin with iron, but I wasn’t sure if that was necessary—should I keep doing that?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s hold off on supplemental iron unless labs show deficiency—we’ll recheck hemoglobin in three months."}
+{"turn_id": 11, "speaker": "patient", "text": "Makes sense. Also, I’ve been checking my glucose at home—fasting readings have mostly been between 4.8 and 5.4."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s very reassuring. Your home monitoring aligns well with today’s lab result."}
+{"turn_id": 13, "speaker": "patient", "text": "Good to hear. I’ve also been tracking my BP at home—mostly around 132 over 86."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s helpful context. We’ll compare those with our office readings to assess trends."}
+{"turn_id": 15, "speaker": "patient", "text": "Actually, that reading you mentioned earlier—5.1 mmol/L—is exactly what I saw this morning too, so it matches that number."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your stable glucose and low hypoglycemia risk, I’m going to add metformin 500 mg twice daily to support insulin sensitivity and reduce hepatic glucose output."}
+{"turn_id": 17, "speaker": "doctor", "text": "By the way, your diastolic pressure just rechecked at 89 mmHg—lower than the earlier 97, likely due to relaxation after the initial assessment."}
+{"turn_id": 18, "speaker": "doctor", "text": "And your repeat hemoglobin came back at 142 g/L—higher than the earlier 125, possibly reflecting better hydration or assay variation; we’ll confirm with a repeat CBC next visit."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it—I’ll start the metformin with meals and keep logging everything. Thanks for explaining the changes so clearly."}

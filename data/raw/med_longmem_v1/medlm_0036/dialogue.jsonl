@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your recent lab work — your hemoglobin level came back at 151 g/L, which is within the normal range for you."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your blood pressure today was 108 mmHg systolic — that’s nicely controlled. How have you been feeling overall since your last visit?"}
+{"turn_id": 2, "speaker": "patient", "text": "Pretty well, actually — no major complaints until the past couple of days. I’ve had some fatigue and just didn’t feel quite right."}
+{"turn_id": 3, "speaker": "doctor", "text": "Any fever, chills, or changes in urination? Given your history, we want to be especially watchful for signs of infection or worsening kidney function."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes — I’ve had a fever. It started yesterday afternoon and spiked this morning."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs, imaging, and clinical course, we’re confirming a diagnosis of Chronic Kidney Disease Stage 3. That’s important context as we assess your current symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "I see your temperature is elevated at 39.1 °C — that’s a significant fever. We’ll need to investigate possible sources, including urinary tract or systemic infection."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is 54 bpm — it’s lower than typical, especially with a fever. That’s somewhat concerning and could point to an underlying issue like bradycardia or early sepsis response."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, I’ve also had chest tightness — not sharp, but a heavy, uncomfortable pressure, especially when I walk up stairs."}
+{"turn_id": 9, "speaker": "doctor", "text": "Chest tightness with exertion and bradycardia during fever raises concern for cardiac involvement — let’s get an ECG and check troponin levels right away."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking my lisinopril as prescribed, but I skipped it yesterday because I felt so unwell and worried about my blood pressure dropping further."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s understandable — but skipping ACE inhibitors in CKD can affect renal perfusion. Let’s hold it for now and reassess once we rule out acute illness."}
+{"turn_id": 12, "speaker": "patient", "text": "My urine has been darker, and I’ve peed less than usual over the past 36 hours."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s consistent with reduced renal perfusion or acute kidney injury on top of your CKD. We’ll check your creatinine and electrolytes urgently."}
+{"turn_id": 14, "speaker": "patient", "text": "I also noticed my ankles are a bit swollen — more than usual — and I’ve been short of breath lying flat."}
+{"turn_id": 15, "speaker": "doctor", "text": "Those are red flags for fluid overload or possible heart failure decompensation. We’ll need a chest X-ray and consider diuretic adjustment carefully given your kidney function."}
+{"turn_id": 16, "speaker": "patient", "text": "When I checked my pulse this morning with my smartwatch, it showed 54 — same as what you just recorded."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — that number aligns with what we saw earlier. Given the persistent bradycardia alongside fever and chest tightness, we’ll consult cardiology and may need telemetry monitoring."}
+{"turn_id": 18, "speaker": "patient", "text": "Is there anything else I should be watching for before the tests come back?"}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm — that reading of 54 bpm is still holding; it hasn’t gone up, even though the fever’s been high."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly tired and sometimes lightheaded."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your current medications—I see you’re on insulin glargine 16 units every night, correct?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, that’s right. I’ve been taking it consistently at bedtime for about two weeks now."}
+{"turn_id": 3, "speaker": "doctor", "text": "Good. Any recent changes in diet, activity, or other meds? Also, have you checked your blood sugar regularly?"}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve kept my meals pretty steady, and I’m checking fasting glucose most mornings—it’s usually between 95 and 115 mg/dL."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature today is 37.4 °C—within normal range, but slightly elevated. Any chills, sore throat, or signs of infection?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your history and exam, your primary diagnosis remains essential hypertension—we’ll continue monitoring closely."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin level came back at 169 g/L—solid, well within the normal range for an adult male."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your diastolic blood pressure today is 89 mmHg—elevated but not acutely concerning given your baseline."}
+{"turn_id": 9, "speaker": "patient", "text": "That might explain the dizziness—I’ve had it a few times this week, especially when standing up quickly."}
+{"turn_id": 10, "speaker": "doctor", "text": "Dizziness on orthostasis could relate to BP fluctuations or volume status. Let’s review your antihypertensive regimen—how’s your current BP control been?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your persistent elevation and symptoms, I’m going to add lisinopril 10 mg once daily, starting tomorrow. We’ll hold off on adjusting the insulin for now."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll start that. Should I monitor anything specific, like potassium or home BP?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—your latest lab shows hemoglobin at 180 g/L, which is higher than the 169 we saw earlier this morning. We’ll repeat it to confirm, but let’s rule out dehydration or polycythemia."}
+{"turn_id": 14, "speaker": "patient", "text": "I did drink less water yesterday—I had a mild stomach bug and wasn’t eating much. Could that affect the numbers?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly—your temperature just rechecked at 36.5 °C, down from the 37.4 °C earlier. That suggests the low-grade fever may have resolved."}
+{"turn_id": 16, "speaker": "patient", "text": "That makes sense—I felt warmer this morning but better now. No more chills."}
+{"turn_id": 17, "speaker": "doctor", "text": "Let’s also check your BP again before you leave—sometimes readings vary. Are you sitting quietly for five minutes before measuring at home?"}
+{"turn_id": 18, "speaker": "doctor", "text": "This reading shows diastolic pressure at 107 mmHg—higher than the 89 we recorded earlier. Let’s hold off on escalating meds until we understand the variability."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify—the hemoglobin was 169 g/L earlier, and the temperature was 37.4 °C when I first arrived. So those are the values I should reference for consistency."}

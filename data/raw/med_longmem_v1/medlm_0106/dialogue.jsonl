@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been having some chest discomfort lately, especially when walking up stairs."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for coming in. Based on your symptoms, ECG, and stress test results from today, I’m diagnosing you with Coronary Artery Disease, effective as of April 5th."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s concerning—I didn’t realize it had progressed this far. Any other signs I should watch for?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your body temperature is normal at 36.5 °C—no sign of acute infection right now."}
+{"turn_id": 4, "speaker": "patient", "text": "Good to know. I did take my temperature at home this morning, and it was the same."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 73 mmHg—within acceptable range for today’s visit."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been monitoring my BP at home too. It’s usually around 118 over 72, so this seems consistent."}
+{"turn_id": 7, "speaker": "doctor", "text": "Let’s check your systolic reading now… okay, it’s 102 mmHg—slightly lower than usual, but not alarming given you just sat down."}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, I’ve had a dull headache since this morning—it’s persistent but not severe."}
+{"turn_id": 9, "speaker": "doctor", "text": "Noted. Your systolic blood pressure is 102 mmHg—let’s recheck in a few minutes after you’ve rested a bit more."}
+{"turn_id": 10, "speaker": "patient", "text": "Sure. I also felt a little warm earlier—like I might be coming down with something."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interesting—your systolic pressure is now 126 mmHg, which is higher than the reading we got earlier. Let’s keep an eye on that fluctuation."}
+{"turn_id": 12, "speaker": "doctor", "text": "And your temperature has risen to 37.9 °C—mild low-grade fever. That may help explain the headache and fatigue."}
+{"turn_id": 13, "speaker": "patient", "text": "Yes, I’ve felt achy and a bit off all day. Could this be related to my heart condition?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly—but the fever and headache suggest an intercurrent issue, like a viral illness. We’ll rule out infection first."}
+{"turn_id": 15, "speaker": "patient", "text": "Makes sense. I took my temperature again about 20 minutes ago, and it was back to 36.5 °C—the same as that reading from earlier."}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s helpful—so the fever appears transient. Given the fluctuating BP and new symptoms, I’m going to hold off on intensifying your beta-blocker for now and add acetaminophen PRN for the headache and fever."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay, I’ll use it as needed. Should I still take my usual metoprolol this evening?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes, continue metoprolol as prescribed—but if your systolic stays above 130 or you develop dizziness or worsening chest pressure, call the office immediately."}
+{"turn_id": 19, "speaker": "patient", "text": "Will do. Thanks, Doctor—I’ll monitor everything closely and follow up next week."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you've been prescribed amlodipine 5 mg once daily starting August 11th for your hypertension."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I’ve been taking it every morning with breakfast."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure was 87 mmHg at your visit on August 11th."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your temperature that day was 37.3°C — within normal limits."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve had a dull headache almost every day since starting the amlodipine."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level was 178 g/L on August 11th — well within the normal range for adult males."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fasting blood glucose was elevated at 14.0 mmol/L on the same day, which is concerning and suggests uncontrolled diabetes."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been feeling more thirsty and fatigued lately — I didn’t realize my sugar could be that high."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your symptoms and lab results, we need to address both your hypertension and diabetes more aggressively."}
+{"turn_id": 9, "speaker": "patient", "text": "Makes sense — my blood pressure has felt different lately, kind of lightheaded in the afternoons."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, when I rechecked your diastolic pressure just now, it’s dropped to 75 mmHg — lower than the 87 we saw earlier this month."}
+{"turn_id": 11, "speaker": "doctor", "text": "I’m going to switch you from oral agents to insulin glargine 10 units nightly to better manage your glucose levels."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I still take the amlodipine?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, continue it for now — though I did notice your hemoglobin today is 180 g/L, slightly higher than the 178 we recorded earlier this month."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been drinking more water and walking daily — could that affect the numbers?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Hydration can influence hemoglobin concentration, but the change is minor. We’ll monitor it closely."}
+{"turn_id": 16, "speaker": "patient", "text": "I also checked my blood sugar at home this morning — it was still 14.0 mmol/L, same as that reading from August 11th."}
+{"turn_id": 17, "speaker": "doctor", "text": "That confirms persistent hyperglycemia — reinforcing why we’re initiating basal insulin today."}
+{"turn_id": 18, "speaker": "patient", "text": "And my hemoglobin came back at 178 again on the repeat test — same as that reading from last time."}
+{"turn_id": 19, "speaker": "patient", "text": "So the 14.0 mmol/L and the 178 g/L — those are both consistent with what we saw on August 11th."}

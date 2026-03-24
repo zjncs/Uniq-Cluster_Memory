@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning, Mr. Thompson. Let's start with your vitals — your temperature today is 36.4 °C, which is within the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me. I’ve been feeling a bit more fatigued than usual lately, and some shortness of breath when climbing stairs."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see — your systolic blood pressure is 98 mmHg today, which is on the lower side but not critically so. How have you been feeling with your blood pressure medications?"}
+{"turn_id": 3, "speaker": "patient", "text": "Mostly okay, though I did feel lightheaded once last week after standing up quickly. Otherwise, no major issues."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose came back at 12.8 mmol/L — that’s significantly elevated and suggests poor glycemic control. Are you monitoring your sugars regularly?"}
+{"turn_id": 5, "speaker": "patient", "text": "I check occasionally — mostly in the mornings. Last time I checked before coming in, it was around 9.2, but I wasn’t fasting then."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Lisinopril 10mg once daily for blood pressure and cardiac protection. Given your diagnosis of Coronary Artery Disease, this remains appropriate for now."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I’ve been taking it consistently every morning with breakfast. No side effects like cough or swelling."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level today is 152 g/L — solid, well within the normal range for men. That supports good oxygen-carrying capacity."}
+{"turn_id": 9, "speaker": "patient", "text": "That’s reassuring. Though I did notice my gums bled a little more easily over the past two weeks — nothing severe, but unusual for me."}
+{"turn_id": 10, "speaker": "doctor", "text": "Any bruising, nosebleeds, or changes in stool color? We’ll want to rule out any hematologic or GI contributors."}
+{"turn_id": 11, "speaker": "patient", "text": "No black stools or nosebleeds, but I did have one episode of dark, tarry stool about ten days ago — I didn’t mention it earlier because it only happened once."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s important — we’ll need to investigate further. Let’s schedule a fecal occult blood test and consider an urgent gastroenterology referral."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay, yes — I’m a bit worried. Also, my energy has dropped noticeably since last month, even with the same activity level."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your symptoms and the lab trends, we’ll repeat a full CBC and iron studies next week. Your fatigue and bleeding could point to chronic blood loss."}
+{"turn_id": 15, "speaker": "patient", "text": "Makes sense. I’ve also been drinking more water and urinating more frequently — could that tie into the high glucose?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Absolutely — polyuria and polydipsia are classic signs of hyperglycemia. We’ll adjust your diabetes management plan today, likely adding metformin."}
+{"turn_id": 17, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin just came back at 124 g/L — down from 152 g/L earlier today. That drop confirms concern for acute or subacute blood loss."}
+{"turn_id": 18, "speaker": "patient", "text": "Oh — so that explains the fatigue and paleness I’ve noticed. I thought maybe it was just stress."}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, I double-checked my temperature this morning before leaving home — it was exactly the same as the reading you took earlier: 36.4 °C."}

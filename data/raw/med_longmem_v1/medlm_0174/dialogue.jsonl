@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and clinical evaluation, I’m diagnosing you with Chronic Kidney Disease Stage 3, confirmed as of April 21st."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling more fatigued lately, and my ankles have been a bit swollen."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see — we’ll monitor that closely, especially given your kidney function. Let’s go over today’s vitals and medications."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate this morning is 51 beats per minute — slightly bradycardic, but stable for now."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve noticed my pulse feels slower sometimes, especially in the mornings."}
+{"turn_id": 5, "speaker": "patient", "text": "I also had some chest tightness yesterday evening — not sharp, but a dull pressure that lasted about five minutes while resting."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important — we’ll need to assess cardiac risk factors carefully, especially with CKD and your lipid profile."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fasting blood glucose today is 9.6 mmol/L — elevated, though not acutely dangerous."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on insulin glargine 10 units nightly — let’s keep that unchanged for now."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is 99 mmHg — that’s elevated, and we’ll want to address it given your kidney disease."}
+{"turn_id": 10, "speaker": "doctor", "text": "I’m going to switch you from atorvastatin 20 mg to 40 mg once daily to better manage your cardiovascular risk."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay — should I watch for any side effects with the higher dose?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes — muscle aches or unusual fatigue; report those right away. Also, we’ll recheck liver enzymes in six weeks."}
+{"turn_id": 13, "speaker": "doctor", "text": "Interestingly, your blood glucose reading just before lunch was 11.5 mmol/L — higher than the fasting value we saw earlier."}
+{"turn_id": 14, "speaker": "patient", "text": "That makes sense — I had a sandwich with white bread and juice around 11 a.m., so it wasn’t fasting."}
+{"turn_id": 15, "speaker": "doctor", "text": "Exactly — postprandial spikes like that reinforce the need for consistent carb monitoring and possibly adjusting insulin timing later."}
+{"turn_id": 16, "speaker": "patient", "text": "My home BP cuff showed diastolic around 108 this morning — quite a jump from what you recorded earlier."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — your repeat office reading today shows diastolic at 108 mmHg, which confirms the upward trend we saw in your home log."}
+{"turn_id": 18, "speaker": "doctor", "text": "And your heart rate has dipped slightly again — now 50 bpm — still within acceptable range but worth tracking given your symptoms."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked my pulse just now, it was 51 bpm — same as that reading you took at the start."}

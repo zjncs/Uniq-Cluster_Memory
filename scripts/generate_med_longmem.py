@@ -146,9 +146,9 @@ def _fallback_dialogue(events: list[RawEvent]) -> list[dict]:
 
 # ─── 主生成函数 ──────────────────────────────────────────────────────────────
 
-def generate_sample(dialogue_id: str, output_dir: Path, seed: int) -> dict:
+def generate_sample(dialogue_id: str, output_dir: Path, seed: int, difficulty: str = "hard") -> dict:
     """生成单条样本，写入 GT 三层文件，返回 metadata。"""
-    gen = EventGenerator(seed=seed)
+    gen = EventGenerator(seed=seed, difficulty=difficulty)
     events = gen.generate(dialogue_id)
 
     canonical_gt = derive_canonical_gt(events)
@@ -178,7 +178,7 @@ def generate_sample(dialogue_id: str, output_dir: Path, seed: int) -> dict:
 
     metadata = {
         "dialogue_id": dialogue_id,
-        "difficulty": "hard",
+        "difficulty": difficulty,
         "n_turns": 20,
         "n_raw_events": len(events),
         "n_canonical_gt": len(canonical_gt),
@@ -195,28 +195,50 @@ def generate_sample(dialogue_id: str, output_dir: Path, seed: int) -> dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate Med-LongMem v0.1 dataset")
-    parser.add_argument("--n_samples", type=int, default=20)
+    parser = argparse.ArgumentParser(description="Generate Med-LongMem v1.0 dataset")
+    parser.add_argument("--n_samples", type=int, default=200)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output_dir", type=str, default="data/raw/med_longmem")
+    parser.add_argument(
+        "--difficulty", type=str, default="mix",
+        choices=["easy", "medium", "hard", "mix"],
+        help="Difficulty level or 'mix' for 20%% Easy / 40%% Medium / 40%% Hard",
+    )
+    parser.add_argument("--start_index", type=int, default=0, help="Starting sample index (for resuming)")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # 构建难度分配
+    if args.difficulty == "mix":
+        n_easy = int(args.n_samples * 0.2)
+        n_medium = int(args.n_samples * 0.4)
+        n_hard = args.n_samples - n_easy - n_medium
+        difficulty_schedule = (
+            ["easy"] * n_easy + ["medium"] * n_medium + ["hard"] * n_hard
+        )
+    else:
+        difficulty_schedule = [args.difficulty] * args.n_samples
+
     print(f"\n{'='*60}")
-    print(f"  Med-LongMem v0.1 Generator")
-    print(f"  Generating {args.n_samples} Hard-level samples (English)")
+    print(f"  Med-LongMem v1.0 Generator")
+    print(f"  Generating {args.n_samples} samples")
+    if args.difficulty == "mix":
+        print(f"  Mix: {n_easy} Easy / {n_medium} Medium / {n_hard} Hard")
+    else:
+        print(f"  Difficulty: {args.difficulty}")
     print(f"  Output: {output_dir}")
     print(f"{'='*60}\n")
 
     all_metadata = []
-    for i in range(args.n_samples):
+    for i in range(args.start_index, len(difficulty_schedule)):
+        difficulty = difficulty_schedule[i]
         dialogue_id = f"medlm_{i:04d}"
         sample_seed = args.seed + i
-        print(f"[{i+1:02d}/{args.n_samples}] {dialogue_id} (seed={sample_seed})")
+        print(f"[{i+1:03d}/{len(difficulty_schedule)}] {dialogue_id} ({difficulty}, seed={sample_seed})")
         try:
-            meta = generate_sample(dialogue_id, output_dir, seed=sample_seed)
+            meta = generate_sample(dialogue_id, output_dir, seed=sample_seed, difficulty=difficulty)
             all_metadata.append(meta)
             print(
                 f"  OK: {meta['n_raw_events']} events | "
@@ -230,9 +252,13 @@ def main():
             import traceback; traceback.print_exc()
 
     summary = {
-        "version": "v0.1",
+        "version": "v1.0",
         "n_samples": len(all_metadata),
-        "difficulty": "hard",
+        "difficulty_distribution": {
+            "easy": sum(1 for m in all_metadata if m["difficulty"] == "easy"),
+            "medium": sum(1 for m in all_metadata if m["difficulty"] == "medium"),
+            "hard": sum(1 for m in all_metadata if m["difficulty"] == "hard"),
+        },
         "total_raw_events": sum(m["n_raw_events"] for m in all_metadata),
         "total_canonical_gt": sum(m["n_canonical_gt"] for m in all_metadata),
         "total_conflict_gt": sum(m["n_conflict_gt"] for m in all_metadata),
@@ -251,6 +277,7 @@ def main():
     print(f"\n{'='*60}")
     print(f"  Generation Complete!")
     print(f"  Samples generated: {len(all_metadata)}")
+    print(f"  Distribution: {summary['difficulty_distribution']}")
     print(f"  Avg conflicts/sample: {summary['avg_conflicts_per_sample']}")
     print(f"  Avg corefs/sample:    {summary['avg_corefs_per_sample']}")
     print(f"  Summary saved: {summary_path}")

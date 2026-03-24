@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and clinical evaluation, I’m diagnosing you with Chronic Kidney Disease Stage 3, confirmed as of June 13th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure today was 93 mmHg — a bit on the lower side, so we’ll keep an eye on that, especially given your kidney function."}
+{"turn_id": 2, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling a bit off lately — tired more than usual, and my ankles seem slightly swollen."}
+{"turn_id": 3, "speaker": "patient", "text": "Oh — and I’ve had this dull headache almost every day this week, starting in the morning and lasting until mid-afternoon."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s helpful. Headaches can sometimes relate to blood pressure fluctuations or even early fluid retention in CKD. Let’s check your vitals again and review your meds."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve been taking my lisinopril as prescribed, but I did skip a dose two days ago because I felt lightheaded after standing up."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important — orthostatic symptoms plus low systolic BP suggest we may need to adjust your antihypertensive regimen carefully, given your CKD."}
+{"turn_id": 7, "speaker": "doctor", "text": "In addition to your current medications, I’m prescribing Atorvastatin 40 mg once daily at night to help manage cardiovascular risk, which is elevated in Stage 3 CKD."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your temperature is normal at 37.0 °C — no sign of acute infection today."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic pressure is 75 mmHg — that’s within acceptable range, though we’ll monitor the overall pattern closely."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also noticed my urine is foamy sometimes, and I’ve been urinating less frequently than before."}
+{"turn_id": 11, "speaker": "doctor", "text": "Foamy urine can indicate proteinuria, which we’ll confirm with a urine albumin-to-creatinine ratio. Reduced output warrants checking your volume status and renal perfusion."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been trying to limit salt, but I’m not sure how strict I should be — any guidance on diet?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes — aim for less than 2 grams of sodium per day, avoid processed foods, and we’ll refer you to a renal dietitian. Also, hold off on NSAIDs completely."}
+{"turn_id": 14, "speaker": "patient", "text": "Got it. And about the headache — could it be related to the blood pressure being low?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly — hypotension, especially with CKD-related autonomic changes, can cause frontal or band-like headaches. Let’s track your home BP twice daily for the next week."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been checking at home — this morning it was 96 over 78, and yesterday evening it was 94 over 76."}
+{"turn_id": 17, "speaker": "doctor", "text": "Those readings support the trend — your diastolic has remained stable around 75–78, which is reassuring for end-organ perfusion."}
+{"turn_id": 18, "speaker": "patient", "text": "That makes sense. I’ll keep logging them — and I’ll make sure to take the Atorvastatin at night, as you said."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm — that diastolic number you mentioned earlier, 75 mmHg, matches what I saw this morning too."}

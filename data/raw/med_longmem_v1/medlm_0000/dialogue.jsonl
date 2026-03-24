@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling more tired than usual lately, and my ankles have been swelling up quite a bit."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals — your heart rate today is 93 bpm."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your blood pressure is elevated at 156 over 92 mmHg. That’s consistent with what we’ve seen before."}
+{"turn_id": 3, "speaker": "patient", "text": "Yeah, it’s been running high for a few weeks now. I’ve been taking my medication regularly, but I’m not sure it’s working as well."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Amlodipine 10mg once daily — that’s what we started last month."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your persistent elevation and symptoms, the diagnosis remains Essential Hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin came back at 85 g/L — that’s significantly low and could explain your fatigue."}
+{"turn_id": 7, "speaker": "patient", "text": "Oh, that’s much lower than my last blood test — I remember it was around 115 g/L two months ago."}
+{"turn_id": 8, "speaker": "patient", "text": "And yes, the swelling in my lower limbs has gotten worse — especially by evening."}
+{"turn_id": 9, "speaker": "doctor", "text": "That edema, combined with the low hemoglobin and uncontrolled BP, raises concern for possible heart strain or underlying anemia-related cardiac compensation."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also noticed shortness of breath when climbing stairs — didn’t used to happen."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s order a full CBC, ferritin, B12, folate, and an echocardiogram to assess cardiac function and rule out secondary causes."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay — and about the swelling: could the Amlodipine be making it worse? I read it can cause edema."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s a very good point — peripheral edema is a known side effect of calcium channel blockers like Amlodipine."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your worsening edema and the new finding of severe anemia, I am going to switch you from Amlodipine to Lisinopril 10mg daily, which is less likely to cause fluid retention."}
+{"turn_id": 15, "speaker": "patient", "text": "Lisinopril — okay. Should I stop the Amlodipine cold turkey?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes, discontinue Amlodipine today and start Lisinopril tomorrow morning. Monitor for dizziness or cough, and call if you develop swelling of the lips or tongue."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. And about the low hemoglobin — do you think it’s from iron deficiency? I’ve had some dark stools recently."}
+{"turn_id": 18, "speaker": "doctor", "text": "That’s important — occult GI bleeding is a key concern with iron-deficiency anemia. We’ll add fecal occult blood testing and refer you for colonoscopy next week."}
+{"turn_id": 19, "speaker": "patient", "text": "Thank you, Doctor. I’ll follow up with the labs and call if the ankle swelling doesn’t improve in a few days."}

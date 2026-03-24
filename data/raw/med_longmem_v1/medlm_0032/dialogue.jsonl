@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate is 70 bpm, which is within normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit fatigued lately, and my skin has been unusually dry."}
+{"turn_id": 2, "speaker": "doctor", "text": "I’ve prescribed Lisinopril 20mg once daily to help manage your blood pressure — we’ll monitor how you respond over the next few weeks."}
+{"turn_id": 3, "speaker": "patient", "text": "Okay, I’ll take it as directed. Should I watch for any side effects?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Yes — dizziness, persistent cough, or swelling in your face or lips warrant an immediate call. Also, avoid potassium supplements unless instructed."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature is elevated at 39.9 °C — that’s a significant fever. Have you had chills, sore throat, or recent exposure to illness?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I’ve had chills since yesterday evening and a mild sore throat — no cough yet."}
+{"turn_id": 7, "speaker": "doctor", "text": "Given your symptoms and lab trends, we’re diagnosing hypothyroidism — likely contributing to your fatigue and cold intolerance. We’ll confirm with TSH and free T4 testing."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose is 7.0 mmol/L — slightly above target for non-diabetics, so we’ll keep an eye on metabolic health alongside thyroid management."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure is 105 mmHg today — lower than usual, possibly related to the fever or Lisinopril initiation. We’ll reassess after the acute illness resolves."}
+{"turn_id": 10, "speaker": "patient", "text": "That makes sense. I did feel lightheaded when standing up this morning."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s hold the Lisinopril for now until your fever breaks and hydration improves — we don’t want further BP drops during acute illness."}
+{"turn_id": 12, "speaker": "patient", "text": "Understood. Should I check my blood sugar again before my next visit?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes — especially if you notice increased thirst or urination. We’ll also repeat it after starting levothyroxine, since thyroid status affects glucose metabolism."}
+{"turn_id": 14, "speaker": "patient", "text": "I started taking levothyroxine 50 mcg this morning, as you suggested last week."}
+{"turn_id": 15, "speaker": "doctor", "text": "Good — start with that dose and increase to 75 mcg in four weeks, assuming no palpitations or insomnia. Avoid taking it with calcium or iron supplements."}
+{"turn_id": 16, "speaker": "patient", "text": "Noted. I’ve been spacing it out from my multivitamin."}
+{"turn_id": 17, "speaker": "doctor", "text": "Excellent. Let’s also schedule a follow-up TSH in six weeks and repeat your glucose and renal panel before adjusting Lisinopril."}
+{"turn_id": 18, "speaker": "patient", "text": "Sounds good. I’ll bring my home glucose log next time."}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, that reading from earlier — the blood glucose was 7.0 mmol/L — matches what I saw this morning too."}

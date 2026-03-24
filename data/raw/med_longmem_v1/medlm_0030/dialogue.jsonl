@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've been feeling really unwell since yesterday—feverish, shaky, and my vision has been blurry."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your temperature first—yes, it's 38.2 °C. That confirms a low-grade fever."}
+{"turn_id": 2, "speaker": "patient", "text": "I’ve also had frequent urination and extreme thirst over the past two days."}
+{"turn_id": 3, "speaker": "doctor", "text": "Given your history, I’m prescribing Metformin 500mg twice daily, starting today."}
+{"turn_id": 4, "speaker": "patient", "text": "Blurred vision started this morning—it’s like looking through fog, especially when reading."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin is 146 g/L—within normal range, so anemia isn’t contributing to your symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your presentation, lab results, and risk factors, the primary diagnosis is Type 2 Diabetes Mellitus."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your random blood glucose is markedly elevated at 15.8 mmol/L—consistent with hyperglycemia and likely contributing to your blurred vision."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve never had such high sugar before—even my home monitor showed over 15 earlier."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate is elevated at 121 bpm, which may reflect stress response or early dehydration from osmotic diuresis."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been drinking lots of water but still feel dizzy when standing up."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll need to check your electrolytes and renal function shortly. In the meantime, let’s address hydration and glycemic control."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been taking the Metformin you prescribed this morning—but I’m worried because my vision hasn’t improved."}
+{"turn_id": 13, "speaker": "doctor", "text": "Blurred vision in acute hyperglycemia is often reversible once glucose stabilizes—let’s recheck in 24 hours."}
+{"turn_id": 14, "speaker": "patient", "text": "Also, my fever hasn’t gone down—I took acetaminophen, but it’s still around 38."}
+{"turn_id": 15, "speaker": "doctor", "text": "We should rule out infection as a trigger for this decompensation—let’s get a urinalysis and chest auscultation."}
+{"turn_id": 16, "speaker": "patient", "text": "I did notice some burning when I urinate—could that be related?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes—that raises concern for a urinary tract infection, which can worsen glycemic control. We’ll start empiric antibiotics after cultures."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay. And just to confirm—I checked my temperature again this morning, and it’s still 38.2 °C."}
+{"turn_id": 19, "speaker": "doctor", "text": "That matches the reading we got earlier—so the fever is persistent. We’ll monitor closely and adjust treatment if it doesn’t respond to antibiotics."}

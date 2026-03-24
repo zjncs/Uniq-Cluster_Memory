@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired lately and I’m urinating much more frequently than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Can you tell me how long this increased urination has been going on?"}
+{"turn_id": 2, "speaker": "patient", "text": "It started about three weeks ago — I’ve been getting up two or three times every night to go, and I’m drinking a lot more water too. That’s polyuria, right?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes, that fits. Let me check your blood pressure — diastolic is 106 mmHg. That’s elevated, so we’ll need to monitor that closely."}
+{"turn_id": 4, "speaker": "patient", "text": "Oh, really? I didn’t know it was that high. I’ve had some mild back discomfort too, mostly on the lower right side."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature is 36.7 °C — normal for now. But given your symptoms and BP, we’ll run some labs and imaging."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your lab results, eGFR, and ultrasound findings, I’m diagnosing you with Chronic Kidney Disease Stage 3."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fasting blood glucose today is 6.0 mmol/L — within the prediabetic range, but not yet diabetic. We’ll track this carefully given your kidney status."}
+{"turn_id": 8, "speaker": "patient", "text": "That’s concerning. My father had CKD and later developed diabetes — could this be related?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Absolutely — there’s a strong link between CKD progression and dysglycemia. Let’s discuss dietary adjustments and home monitoring."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking my blood sugar at home — mostly around 5.8 to 6.2 before meals. I haven’t seen anything higher than that."}
+{"turn_id": 11, "speaker": "doctor", "text": "Good consistency so far. Let’s also recheck your temperature — just to rule out any low-grade inflammatory process."}
+{"turn_id": 12, "speaker": "doctor", "text": "Hmm, your temperature is now 37.4 °C — slightly elevated compared to earlier. Any chills, flank pain, or burning with urination?"}
+{"turn_id": 13, "speaker": "patient", "text": "Actually, yes — I noticed some mild burning yesterday, and my urine looked a bit cloudy this morning."}
+{"turn_id": 14, "speaker": "doctor", "text": "That raises concern for a urinary tract infection, which can worsen CKD. We’ll send a urinalysis and urine culture right away."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay — and should I still be checking my blood sugar twice daily?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — and please record it. In fact, your most recent reading was 9.1 mmol/L two hours after lunch — that’s notably higher than your earlier values and warrants closer review."}
+{"turn_id": 17, "speaker": "patient", "text": "Right — I remember that reading. It surprised me because it was after a small meal with no sweets."}
+{"turn_id": 18, "speaker": "patient", "text": "By the way, I double-checked my blood pressure at home this morning — same diastolic number as before, 106 mmHg. That reading matches what you got earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given the rising glucose, stable hypertension, and new UTI signs, I’m going to start you on nitrofurantoin for the infection and add low-dose empagliflozin — it’s kidney-protective and helps with glycemic control in CKD patients."}

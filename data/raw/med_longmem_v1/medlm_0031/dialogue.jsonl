@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been having blurred vision for the past couple of days—especially when reading or driving."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Let me check your blood glucose right away—it's 12.5 mmol/L, which is significantly elevated."}
+{"turn_id": 2, "speaker": "doctor", "text": "You're currently on Amlodipine 10mg once daily for hypertension—correct?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, that's right. I’ve been taking it every morning with breakfast."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is elevated at 106 bpm—tachycardic for your age and resting state. That’s concerning alongside your high glucose."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs and clinical picture, I’m diagnosing Chronic Kidney Disease Stage 3. Your eGFR is 42 mL/min/1.73m²."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure is 151 mmHg—above target, especially given your CKD and diabetes risk."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve also felt unusually tired and a bit lightheaded when standing up. Could that be related?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Absolutely—it could reflect volume depletion, autonomic involvement, or worsening renal perfusion. Let’s review your fluid intake and orthostatic vitals."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your temperature is 38.4 °C—low-grade fever. Any chills, cough, or urinary symptoms?"}
+{"turn_id": 10, "speaker": "patient", "text": "Yes—I’ve had burning when urinating since yesterday, and my urine smells stronger than usual."}
+{"turn_id": 11, "speaker": "doctor", "text": "That points to a possible urinary tract infection, which can worsen glycemic control and accelerate kidney injury in CKD. We’ll send a urinalysis and culture."}
+{"turn_id": 12, "speaker": "patient", "text": "Should I keep taking the Amlodipine while we figure this out?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—for now. But given your rising creatinine and current infection, I’m going to hold it temporarily and switch you to Lercanidipine 10mg once daily, which is safer in moderate CKD."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay—I’ll start that tomorrow. Do I need antibiotics too?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes—we’ll start nitrofurantoin 100mg twice daily for seven days, assuming no contraindications. Avoid NSAIDs completely right now."}
+{"turn_id": 16, "speaker": "patient", "text": "Got it. I also noticed my vision hasn’t improved—even after drinking more water today."}
+{"turn_id": 17, "speaker": "doctor", "text": "Blurred vision at this glucose level is likely osmotic—caused by lens swelling—and should improve as we bring your sugar down. Let’s aim for fasting <7.0 mmol/L."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. And just to confirm—I’m still running that same fever?"}
+{"turn_id": 19, "speaker": "patient", "text": "Yes, it’s still 38.4 °C—the same reading as earlier."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell lately—especially over the past few days."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in today. Let’s start by reviewing your recent evaluation—we confirmed a diagnosis of Coronary Artery Disease on June 29th."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your temperature was elevated at 38.4°C during that visit, suggesting an acute inflammatory or infectious process."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I had a low-grade fever and chills—I thought it might be the flu, but it hasn’t gone away."}
+{"turn_id": 4, "speaker": "doctor", "text": "I see. Let’s check your vitals again now—and I’d like to review your recent lab work and symptoms more closely."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your blood glucose was markedly elevated at 14.0 mmol/L on June 29th—well above the target range for someone with known CAD and diabetes risk."}
+{"turn_id": 6, "speaker": "patient", "text": "That’s right—I’ve been extremely fatigued, even after resting. It’s hard to get through the day without napping."}
+{"turn_id": 7, "speaker": "doctor", "text": "Fatigue plus hyperglycemia and fever raises concern for possible undiagnosed or decompensated diabetes—or an intercurrent illness stressing your system."}
+{"turn_id": 8, "speaker": "doctor", "text": "We started you on Lisinopril 20mg once daily on June 29th to support cardiac afterload reduction and renal protection, given your CAD and borderline glucose elevation."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin was 172 g/L—within normal limits for males, which is reassuring regarding oxygen-carrying capacity."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking my blood sugar at home since then. My readings have been all over the place—mostly high, especially in the mornings."}
+{"turn_id": 11, "speaker": "doctor", "text": "Have you noticed any other symptoms—like increased thirst, frequent urination, or blurred vision?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes—definitely more thirsty, and I’m up two or three times at night to urinate. My vision has been a little blurry too."}
+{"turn_id": 13, "speaker": "doctor", "text": "Those are classic signs of hyperglycemia. Given your CAD, persistent glucose >14 mmol/L, and new symptoms, we need to escalate your glycemic management urgently."}
+{"turn_id": 14, "speaker": "patient", "text": "I’m worried—could this be related to my heart condition worsening?"}
+{"turn_id": 15, "speaker": "doctor", "text": "It’s interconnected. Uncontrolled glucose accelerates atherosclerosis and increases cardiac strain. We’ll address both together."}
+{"turn_id": 16, "speaker": "patient", "text": "I also had my fingerstick test this morning before breakfast—it was 14.0 again."}
+{"turn_id": 17, "speaker": "doctor", "text": "That reading matches the value from your initial workup—so this isn’t a one-off spike, but sustained hyperglycemia requiring intervention."}
+{"turn_id": 18, "speaker": "patient", "text": "Yes, that number—the one from last time—is what I got again just now."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given this persistent elevation and your symptom progression, I am going to switch you to metformin 500mg twice daily starting today, in addition to continuing Lisinopril, and refer you to endocrinology for further optimization."}

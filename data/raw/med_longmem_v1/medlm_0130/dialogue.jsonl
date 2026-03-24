@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 8.1 mmol/L — slightly elevated, but let’s discuss the context."}
+{"turn_id": 1, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg once daily at night for cholesterol management. Is that still well tolerated?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, no side effects so far — just some mild fatigue lately, but I thought it was from work stress."}
+{"turn_id": 3, "speaker": "doctor", "text": "Understood. Let’s also review your overall cardiovascular risk profile. Have you noticed any new symptoms recently?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your history and today’s assessment, your primary diagnosis remains Essential Hypertension, which we’ll continue to manage closely."}
+{"turn_id": 5, "speaker": "patient", "text": "Right — my BP has been hovering around 142/88 at home. But actually, over the past two days, I’ve noticed swelling in both ankles, especially by evening."}
+{"turn_id": 6, "speaker": "patient", "text": "It’s the lower limb edema — pitting, worse after standing, and doesn’t improve much with elevation."}
+{"turn_id": 7, "speaker": "doctor", "text": "Thanks for that detail. Your hemoglobin is 167 g/L — solid, no anemia concern. That helps rule out some causes of fatigue or edema."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve also had chills and a sore throat since yesterday — took my temperature this morning and it was 39.1°C."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s a significant fever — 39.1°C — suggesting an acute infection. We’ll need to investigate further, possibly with labs and a chest exam."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been drinking more water and using paracetamol, but the fever hasn’t fully broken yet."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s listen to your lungs and check for signs of heart failure or infection — edema plus fever raises several possibilities, including decompensated hypertension or cellulitis."}
+{"turn_id": 12, "speaker": "patient", "text": "My legs feel heavier, and I’m short of breath walking up one flight — never used to happen."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s important — we’ll assess JVP, lung bases, and peripheral pulses. Also, let’s repeat vitals shortly."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your temperature just now is 38.3°C — down slightly, but still febrile. We’ll monitor closely and consider empiric antibiotics if no clear viral source emerges."}
+{"turn_id": 15, "speaker": "patient", "text": "Should I keep checking my blood sugar? I did one this morning — same as before, 8.1 mmol/L."}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — that reading aligns with your earlier value. Given the persistent hyperglycemia and acute illness, we need tighter glycemic control."}
+{"turn_id": 17, "speaker": "patient", "text": "That’s right — the reading from this morning was 8.1 mmol/L, same as the one you noted earlier."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your current clinical picture — infection, edema, and suboptimal glucose control — I’m going to start Insulin glargine 16 units once nightly to provide basal coverage."}
+{"turn_id": 19, "speaker": "doctor", "text": "Your most recent fingerstick shows 10.6 mmol/L — higher than this morning’s 8.1, likely reflecting the stress of acute illness. And just to confirm — your hemoglobin remains stable at 167 g/L, consistent with last check."}

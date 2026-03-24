@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling pretty unwell the past couple of days—fatigue, some nausea, and I’ve had a fever that just won’t break."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your current medications—I see you’re on Atorvastatin 20mg once daily, taken at night since February 13th."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, that’s right—I’ve been taking it consistently, though I did notice my ankles have been a bit swollen lately."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’ll check your blood pressure today—your last diastolic reading was 109 mmHg on February 13th. That’s elevated, so we’ll monitor closely."}
+{"turn_id": 4, "speaker": "patient", "text": "Oh—I actually checked it myself this morning at home, and it was still around 109 mmHg. I was worried it hadn’t improved."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s concerning. Your temperature today is 39.2°C—we’ll need to investigate possible infection or inflammatory triggers, especially given your underlying condition."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your labs and clinical picture, your primary diagnosis remains Chronic Kidney Disease Stage 3, confirmed as of February 13th."}
+{"turn_id": 7, "speaker": "patient", "text": "Right—I’ve been trying to watch my protein intake and stay hydrated, but my urine output has decreased a bit over the last 48 hours."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose earlier was 7.6 mmol/L—elevated, though not critically so. We’ll want to assess whether this is stress-related or points to new glycemic dysregulation."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been checking my sugars at home too—I’m usually between 5.0 and 6.5, so that 7.6 surprised me."}
+{"turn_id": 10, "speaker": "doctor", "text": "Just rechecked your temperature—it’s now 40.0°C. That’s a significant rise from the 39.2°C we saw earlier, and suggests worsening systemic inflammation or infection."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interestingly, your repeat blood glucose is now 5.1 mmol/L—back within your usual range. That drop may reflect improved perfusion or resolution of acute stress hyperglycemia."}
+{"turn_id": 12, "speaker": "patient", "text": "Good—I’m glad it came down. But my back pain has gotten sharper, especially on the right side, and I feel chills now too."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given the fever spike, flank tenderness, and CKD Stage 3, we’ll urgently order urinalysis and blood cultures—we’re concerned about pyelonephritis or sepsis."}
+{"turn_id": 14, "speaker": "patient", "text": "That makes sense. My creatinine was 152 µmol/L last week—up from 138 two months ago. I’m worried my kidneys are getting worse."}
+{"turn_id": 15, "speaker": "doctor", "text": "Absolutely—we’ll adjust fluid management carefully and avoid nephrotoxic agents. Your BP control also needs optimization, especially with that persistent diastolic elevation."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been using the same home BP cuff every day—it’s calibrated regularly—and that 109 mmHg reading keeps showing up."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, that’s consistent with what we saw earlier. Given your CKD and sustained diastolic hypertension, lifestyle measures alone aren’t enough right now."}
+{"turn_id": 18, "speaker": "patient", "text": "That reading—the 109 mmHg—has been steady all week, even when I rest for 10 minutes before measuring."}
+{"turn_id": 19, "speaker": "doctor", "text": "I’m going to switch you from your current antihypertensive regimen to Amlodipine 10mg once daily, starting today. It’s renoprotective in CKD and better tolerated than some alternatives."}

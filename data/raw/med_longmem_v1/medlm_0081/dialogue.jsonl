@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vital signs—I just measured your systolic blood pressure at 95 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. That’s lower than usual for me—I’ve been feeling a bit off lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Any specific symptoms you’d like to tell me about today?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin came back at 87 g/L—this is below the normal range and could explain some of your symptoms."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes—I’ve had persistent fatigue over the past two weeks, even after a full night’s sleep."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s consistent with anemia. Have you noticed any shortness of breath, dizziness, or pale skin?"}
+{"turn_id": 6, "speaker": "patient", "text": "A little lightheaded when standing up quickly, and my nails look paler than before."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic pressure is 83 mmHg—so your full reading today is 95 over 83."}
+{"turn_id": 8, "speaker": "patient", "text": "That feels low—I usually run around 115/75. Could the fatigue be related to that?"}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20mg every night for cholesterol management."}
+{"turn_id": 10, "speaker": "patient", "text": "Right—I’ve been taking it consistently, no side effects so far."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll need to investigate the cause of your anemia—likely iron deficiency, but we’ll check ferritin, TIBC, and reticulocyte count next."}
+{"turn_id": 12, "speaker": "patient", "text": "Makes sense. I’ve also been eating less red meat lately—could that contribute?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Actually, when I rechecked your systolic pressure just now, it was 121 mmHg—so there’s some variability in today’s readings."}
+{"turn_id": 14, "speaker": "patient", "text": "Hmm, maybe I tensed up the first time—I was a little nervous."}
+{"turn_id": 15, "speaker": "doctor", "text": "And your repeat hemoglobin today is 105 g/L—higher than the earlier value of 87 g/L, which suggests possible lab variability or sample handling differences."}
+{"turn_id": 16, "speaker": "patient", "text": "Oh, that’s reassuring. So maybe not as severe as it first looked?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your blood pressure fluctuations and borderline-low readings, especially with fatigue, I’m going to adjust your regimen."}
+{"turn_id": 18, "speaker": "doctor", "text": "I am going to switch you to Amlodipine 10mg once daily to help stabilize your vascular tone and support perfusion."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay—and just to confirm, that reading of 95 mmHg you mentioned at the start? That’s still what I saw on the cuff right before you rechecked."}

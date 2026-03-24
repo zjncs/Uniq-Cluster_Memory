@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired lately, and I’m not sure why."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Your hemoglobin level today is 126 g/L — that’s within the normal range, so anemia isn’t likely causing your fatigue."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’re currently on Amlodipine 10mg once daily for blood pressure control — still taking it as prescribed?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, every morning with breakfast. But the fatigue has gotten worse over the past week."}
+{"turn_id": 4, "speaker": "doctor", "text": "Let me check your vitals. Your heart rate right now is 119 beats per minute — that’s elevated."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your systolic blood pressure is 97 mmHg — a bit low for you, especially given the tachycardia."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve felt lightheaded a couple of times, especially when standing up quickly."}
+{"turn_id": 7, "speaker": "doctor", "text": "Any chest pain, shortness of breath, or palpitations?"}
+{"turn_id": 8, "speaker": "patient", "text": "Just the fatigue and occasional dizziness — no chest pain or trouble breathing."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your body temperature is 36.6 °C — completely normal, so no fever suggesting infection."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given the tachycardia and borderline low BP, we should consider whether Amlodipine might be contributing — especially since you’re not reporting typical hypertension symptoms."}
+{"turn_id": 11, "speaker": "patient", "text": "I did check my blood pressure at home yesterday — the systolic was 126 mmHg, which seemed more like my usual number."}
+{"turn_id": 12, "speaker": "doctor", "text": "Ah — that’s different from what I just measured. That reading of 126 mmHg systolic contrasts with the 97 mmHg we saw earlier — could reflect postural changes or timing differences, but it’s worth noting."}
+{"turn_id": 13, "speaker": "patient", "text": "I also took my pulse this morning — same as before, 119 bpm. It hasn’t gone down."}
+{"turn_id": 14, "speaker": "doctor", "text": "Consistent tachycardia like that, alongside fatigue and orthostatic dizziness, makes me think we need to assess cardiovascular and metabolic contributors more closely."}
+{"turn_id": 15, "speaker": "doctor", "text": "I’d like to add Atorvastatin 40mg taken at night — not primarily for cholesterol right now, but because emerging evidence suggests it may help stabilize vascular tone and reduce sympathetic overactivity in cases like yours."}
+{"turn_id": 16, "speaker": "doctor", "text": "I am going to switch you to Atorvastatin 40mg once nightly, starting tonight. We’ll monitor your symptoms and repeat labs in two weeks."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — and should I keep taking the Amlodipine?"}
+{"turn_id": 18, "speaker": "patient", "text": "That reading of 119 bpm — I checked it again just before coming in, same result."}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, continue Amlodipine for now, but we’ll reassess its role after reviewing your response to Atorvastatin and checking for possible secondary causes like thyroid dysfunction or electrolyte shifts."}

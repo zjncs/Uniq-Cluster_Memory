@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your current diabetes regimen—I see you're on insulin glargine 16 units once daily at bedtime."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your hemoglobin level from today’s lab draw was 143 g/L, which is within the normal range for your age and sex."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, Doctor. I’ve been trying to stick to my diet and check my sugars regularly."}
+{"turn_id": 3, "speaker": "doctor", "text": "That’s great. How have your home glucose readings been lately? Any patterns—like lows in the morning or after meals?"}
+{"turn_id": 4, "speaker": "patient", "text": "Mostly stable, but I did notice a few fasting readings around 130–150 mg/dL. Nothing too alarming."}
+{"turn_id": 5, "speaker": "doctor", "text": "Okay—we’ll keep an eye on that. Let’s take your vitals now. Your heart rate is 80 beats per minute—steady and regular."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is 80 bpm—within normal limits."}
+{"turn_id": 7, "speaker": "patient", "text": "Actually, I’ve had a dull headache since early this morning—started around 7 a.m. and hasn’t fully gone away."}
+{"turn_id": 8, "speaker": "doctor", "text": "I’m noting that. Your diastolic blood pressure just now is 82 mmHg—systolic is 128, so overall BP is 128/82, which is acceptable but borderline elevated."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been a bit stressed with work lately—could that be contributing to the headache?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Stress can certainly play a role, but we should also consider possible hypoglycemia or hypertension as contributors. Let’s recheck your fingerstick glucose now."}
+{"turn_id": 11, "speaker": "doctor", "text": "Hmm—your repeat hemoglobin result came back at 120 g/L, which is lower than the 143 we saw earlier this morning. That’s a notable drop—we’ll need to investigate whether there was a lab mix-up or if something acute occurred."}
+{"turn_id": 12, "speaker": "patient", "text": "Oh—I didn’t realize it changed so much. Could dehydration or something I ate affect that?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Hemoglobin doesn’t fluctuate that quickly—it’s likely a lab discrepancy or sample issue. We’ll repeat the test next week and review your CBC trends. For now, let’s focus on your symptoms and control."}
+{"turn_id": 14, "speaker": "patient", "text": "Makes sense. The headache’s eased a bit since I had some water and rested."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your recent glucose patterns and the new symptom burden, I’m going to add metformin 1000 mg twice daily to help improve insulin sensitivity and reduce hepatic glucose output. We’ll start low and monitor for GI side effects."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay—I’ve heard metformin can cause stomach upset. Should I take it with food?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, always with meals—to minimize that. Also, watch for any unusual fatigue or shortness of breath, and report them right away."}
+{"turn_id": 18, "speaker": "patient", "text": "Will do. By the way, I checked my blood pressure again at home just before coming in—and it was exactly the same: 128 over 82."}
+{"turn_id": 19, "speaker": "patient", "text": "So that diastolic number—82 mmHg—is consistent with the reading you got earlier."}

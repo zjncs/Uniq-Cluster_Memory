@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vitals — your diastolic blood pressure today is 72 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks for seeing me. I've been feeling a bit off lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is 82 bpm — within normal range for now."}
+{"turn_id": 3, "speaker": "patient", "text": "Actually, I’ve had nausea since yesterday morning — it’s been pretty persistent."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your systolic blood pressure is 102 mmHg — on the lower side, but not alarming yet."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your blood glucose came back at 13.8 mmol/L — that’s significantly elevated and likely contributing to your nausea."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your labs and clinical picture, I’m diagnosing you with Chronic Kidney Disease Stage 3."}
+{"turn_id": 7, "speaker": "patient", "text": "Oh — does that explain why I’ve been so tired and nauseous?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Yes, CKD can affect metabolism and fluid balance, and high glucose worsens kidney stress. We’ll need to address both."}
+{"turn_id": 9, "speaker": "doctor", "text": "I’m prescribing Amlodipine 10mg once daily to help manage your blood pressure and reduce renal workload."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I monitor anything at home?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Just now, your heart rate dropped to 58 bpm — that’s a notable change from the 82 we saw earlier. Are you feeling lightheaded or fatigued?"}
+{"turn_id": 12, "speaker": "patient", "text": "A little dizzy when I stand up — maybe that’s related?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Possibly. Let’s hold off on adjusting Amlodipine for now, but we’ll watch closely — bradycardia plus low BP could signal over-treatment."}
+{"turn_id": 14, "speaker": "patient", "text": "Makes sense. My appetite’s still poor, and the nausea hasn’t let up much."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your persistently high glucose and CKD, we need tighter glycemic control — but cautiously, to avoid hypoglycemia or volume shifts."}
+{"turn_id": 16, "speaker": "doctor", "text": "Your systolic pressure just rechecked at 90 mmHg — down from 102 earlier — so we’ll need to balance antihypertensive and antidiabetic therapy carefully."}
+{"turn_id": 17, "speaker": "patient", "text": "I checked my pulse this morning before coming in — it was back up to 82 bpm, same as your first reading."}
+{"turn_id": 18, "speaker": "doctor", "text": "I’m going to switch you to Metformin 1000mg twice daily — it’s safer in CKD Stage 3 than some alternatives, and will help lower that glucose without increasing hypoglycemia risk."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s reassuring — and just to confirm, my systolic pressure was 102 when I arrived, same as your first measurement."}

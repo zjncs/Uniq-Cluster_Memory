@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your temperature today is 37.9 °C, which is slightly elevated but still within a low-grade fever range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure is 152 mmHg — that’s above the target of 140 for someone with diabetes. We’ll want to monitor this closely."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your lab work, HbA1c, and clinical presentation, I’m confirming the diagnosis of Type 2 Diabetes Mellitus."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been trying to watch my diet and walk daily. But lately I’ve felt more tired than usual, and my feet feel a bit tingly."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is 64 bpm — well within normal limits. That’s reassuring, especially given your recent symptoms."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve also had some mild dizziness when standing up quickly — not every day, but maybe two or three times this week."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important to note. Dizziness on standing could suggest orthostatic changes — we’ll check your BP in both positions next."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg at bedtime for cholesterol management. How has that been tolerated? Any muscle aches or fatigue?"}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, yes — my legs have felt heavy and sore sometimes, especially after walking. And I’ve been sleeping more than usual."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic pressure today is 70 mmHg — not concerning on its own, but let’s keep it in context with your symptoms and other readings."}
+{"turn_id": 10, "speaker": "patient", "text": "I did check my blood sugar at home yesterday — it was 182 mg/dL two hours after dinner. Not sure if that’s high enough to worry about."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your muscle symptoms and borderline fatigue, I’m going to reduce your Atorvastatin dose to 20mg at night. We’ll reassess in four weeks."}
+{"turn_id": 12, "speaker": "doctor", "text": "Just rechecked your pulse — it’s now 50 bpm. That’s a notable drop from the 64 we saw earlier. Have you noticed any lightheadedness or pauses in your heartbeat?"}
+{"turn_id": 13, "speaker": "patient", "text": "Now that you mention it — yes, last night I felt like my heart skipped a beat a couple of times, and I woke up short of breath once."}
+{"turn_id": 14, "speaker": "patient", "text": "That reading from earlier — the 37.9 °C — matches what I measured at home this morning too. No chills, but I’ve had a dry cough for about three days."}
+{"turn_id": 15, "speaker": "doctor", "text": "Let’s get an ECG and check your electrolytes — the bradycardia plus cough and low-grade fever raise concern for possible myocarditis or viral involvement."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve also noticed my ankles are a little swollen since yesterday — not severe, but definitely new."}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll add a basic metabolic panel and troponin. In the meantime, hold the metformin until we rule out acute illness — it’s safer during febrile states."}
+{"turn_id": 18, "speaker": "doctor", "text": "Just took your seated diastolic again — it’s dropped to 60 mmHg. Combined with the bradycardia and swelling, this suggests possible early decompensation. We’ll need urgent follow-up tomorrow."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — should I go to the ER tonight, or is tomorrow morning soon enough?"}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell since yesterday—fever, chest tightness, and my blood sugar has been all over the place."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your labs from this morning—your hemoglobin is 159 g/L, which is within normal range for you."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your history, ECG, and prior angiogram, your primary diagnosis remains Coronary Artery Disease."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve had stable angina for years, but this feels different—more acute, and I’m sweating a lot."}
+{"turn_id": 4, "speaker": "doctor", "text": "I see your temperature is elevated at 39.4 °C—this suggests an acute infectious or inflammatory process that could be stressing your cardiac system."}
+{"turn_id": 5, "speaker": "patient", "text": "I did have a sore throat and cough starting two days ago—I thought it was just a cold."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important. Given your CAD and current febrile state, we need to rule out myocarditis or sepsis-related cardiac stress."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10U nightly—let’s hold that today because of your elevated glucose and acute illness."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your blood glucose this morning was 10.0 mmol/L—higher than your usual fasting target, likely due to infection-induced insulin resistance."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate is 123 bpm—tachycardic, which aligns with fever and possible volume depletion or cardiac strain."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been drinking water, but I haven’t eaten much—my appetite’s gone completely."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll check CRP, blood cultures, and a troponin. Also, let’s get a chest X-ray to assess for pneumonia, given your fever and respiratory symptoms."}
+{"turn_id": 12, "speaker": "patient", "text": "Should I still take my aspirin and atorvastatin?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—continue those. But hold the glargine until your fever breaks and glucose stabilizes. We’ll switch you to rapid-acting insulin sliding scale while you’re acutely ill."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay. And what about my chest pain? It’s worse when I lie flat."}
+{"turn_id": 15, "speaker": "doctor", "text": "That positional component raises concern for pericarditis—we’ll add an echocardiogram to the workup."}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, when I checked again this morning before coming in, my blood sugar was 12.4 mmol/L—so higher than that reading from earlier."}
+{"turn_id": 17, "speaker": "doctor", "text": "That confirms significant hyperglycemia under stress—I’ll adjust your insulin regimen accordingly once we have more data."}
+{"turn_id": 18, "speaker": "patient", "text": "And the heart rate—last night it was around 98, but now it’s up to 123. That number really worries me."}
+{"turn_id": 19, "speaker": "doctor", "text": "It does—and it’s why we’re acting quickly. I’m admitting you for observation, IV antibiotics pending culture results, and cardiac monitoring."}

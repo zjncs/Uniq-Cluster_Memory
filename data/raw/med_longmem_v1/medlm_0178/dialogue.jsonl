@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on amlodipine 10 mg once daily for hypertension, started on April 25th."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, that's right. I've been taking it every morning with breakfast."}
+{"turn_id": 2, "speaker": "doctor", "text": "How have you been feeling since starting it? Any dizziness, swelling, or unusual fatigue?"}
+{"turn_id": 3, "speaker": "patient", "text": "Mostly okay, though I’ve had some mild fatigue lately — nothing severe."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose today was 8.2 mmol/L — slightly elevated, but we’ll monitor that closely."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level came back at 176 g/L, which is within the normal range for men."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate was 52 beats per minute — a bit on the lower side, though not critically so."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure reading was 87 mmHg — acceptable, but let’s keep an eye on trends."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve also had a dull headache most days this week — mostly in the temples and forehead."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your symptoms, lab results, and clinical picture, I’m diagnosing hypothyroidism — we’ll confirm with TSH and free T4 shortly."}
+{"turn_id": 10, "speaker": "patient", "text": "Hypothyroidism? That would explain the fatigue and headaches, I guess."}
+{"turn_id": 11, "speaker": "doctor", "text": "Actually, your repeat hemoglobin just came in at 180 g/L — a small but notable increase from the earlier 176 g/L."}
+{"turn_id": 12, "speaker": "patient", "text": "Is that something to worry about? I haven’t had any bleeding or other symptoms."}
+{"turn_id": 13, "speaker": "doctor", "text": "Not immediately concerning, but it does warrant follow-up — especially alongside your low heart rate and rising diastolic pressure."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your latest diastolic blood pressure reading is now 107 mmHg — higher than the 87 we saw earlier today."}
+{"turn_id": 15, "speaker": "doctor", "text": "And your heart rate has dipped further to 50 bpm — consistent with possible bradycardia related to thyroid dysfunction or medication effect."}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to switch you from amlodipine 10 mg to 5 mg once daily to help mitigate the bradycardia and blood pressure variability."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — should I take it at the same time? And do I need to check my pulse regularly?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes, same time each day. Please monitor your pulse twice daily and report if it drops below 48 or if headaches worsen."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it. By the way, that blood sugar number — 8.2 mmol/L — is the same as the one you mentioned earlier."}

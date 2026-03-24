@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit fatigued lately, and sometimes lightheaded when I stand up quickly."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your vitals and current medications. How have you been managing your blood pressure and diabetes?"}
+{"turn_id": 2, "speaker": "doctor", "text": "I see you’re on Amlodipine 10mg once daily — we started that back on December 6th to help control your hypertension."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your systolic blood pressure at that visit was 99 mmHg, which was on the lower side but still within acceptable range given your kidney function."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve been taking the Amlodipine regularly. I haven’t missed a dose, but I did notice some dizziness last week, especially in the mornings."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose on December 6th was 6.9 mmol/L — right at the upper limit of normal, but not yet diagnostic for diabetes. Still, it’s something we need to monitor closely given your CKD."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been trying to watch my diet — less sugar, more vegetables — but I admit I haven’t been checking my glucose at home regularly."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s understandable. Let’s also check your heart rate — it was 61 bpm during your last assessment, which is stable and appropriate for someone on calcium channel blockers."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate was 61 bpm on December 6th — well within normal limits and consistent with your current regimen."}
+{"turn_id": 9, "speaker": "doctor", "text": "Based on your labs and clinical picture, your primary diagnosis remains Chronic Kidney Disease Stage 3, confirmed by eGFR around 42 mL/min/1.73m² and persistent albuminuria."}
+{"turn_id": 10, "speaker": "patient", "text": "Right — the nephrologist mentioned my kidneys are slowly declining. I’m worried about how this affects my other health issues."}
+{"turn_id": 11, "speaker": "doctor", "text": "Absolutely valid concern. CKD increases cardiovascular risk and alters drug metabolism — which is why we’re cautious with dosing and monitoring."}
+{"turn_id": 12, "speaker": "patient", "text": "I actually checked my blood sugar yesterday morning before breakfast — it was 6.9 again. Same as before."}
+{"turn_id": 13, "speaker": "doctor", "text": "Interesting — that’s consistent with your earlier reading. But let me ask: have you noticed any sweating, shakiness, or confusion recently? Any episodes where you felt unusually weak or hungry?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Actually, your point-of-care glucose today is 3.9 mmol/L — that’s hypoglycemic, especially for someone not on insulin or sulfonylureas."}
+{"turn_id": 15, "speaker": "doctor", "text": "And your heart rate just dropped to 50 bpm — that’s a new finding since your last reading of 61 bpm, and could be related to autonomic changes or medication effects."}
+{"turn_id": 16, "speaker": "patient", "text": "Yes — I had a dizzy spell this morning and sat down for a few minutes. My pulse felt slow then too."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your systolic blood pressure is now 127 mmHg — higher than the 99 mmHg we saw before, suggesting possible volume shifts or reduced vasodilatory effect from Amlodipine alone."}
+{"turn_id": 18, "speaker": "patient", "text": "So is that why I’m feeling so off-balance? The dizziness, the low energy — maybe it’s not just the kidneys?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your recurrent borderline-high glucose, recent hypoglycemia, and CKD, I’m going to start you on Metformin 500mg twice daily — renal-dosed and carefully titrated. And yes, that 6.9 mmol/L you mentioned earlier — same as your original reading — and your 99 mmHg systolic, which matches your baseline — both support continuing careful BP and glucose surveillance."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately, and I thought it was time to come in for a check-up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello — thanks for coming in. Let’s start by reviewing your symptoms and doing some basic vitals. How have you been feeling overall?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate just came in at 127 bpm — that’s elevated for resting state. We’ll keep an eye on that."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your blood glucose is 8.4 mmol/L — above the target range for someone with known diabetes and kidney concerns."}
+{"turn_id": 4, "speaker": "doctor", "text": "Diastolic blood pressure is 96 mmHg — that’s on the higher side."}
+{"turn_id": 5, "speaker": "doctor", "text": "Systolic pressure is 131 mmHg — so overall, your BP reads 131 over 96."}
+{"turn_id": 6, "speaker": "patient", "text": "Yeah, I’ve had constant fatigue — like no matter how much I sleep, I’m still exhausted."}
+{"turn_id": 7, "speaker": "doctor", "text": "That makes sense given what we’re seeing. Let me also review your labs and imaging from last week."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your eGFR, albuminuria, and structural findings, I’m diagnosing Chronic Kidney Disease Stage 3."}
+{"turn_id": 9, "speaker": "doctor", "text": "I’m prescribing Atorvastatin 20mg once daily at night to help manage cardiovascular risk, which is especially important now."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay — I’ve been taking my metformin and lisinopril as prescribed. Any adjustments needed there?"}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll hold off on changing those for now, but I’ll monitor your potassium and creatinine closely with the new statin."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve also noticed my ankles get puffy sometimes, especially in the evenings."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s consistent with fluid retention — common in CKD. Let’s assess volume status and consider sodium restriction."}
+{"turn_id": 14, "speaker": "doctor", "text": "Just rechecked your heart rate — it’s now 97 bpm, which is much more reassuring after you rested for a few minutes."}
+{"turn_id": 15, "speaker": "patient", "text": "Oh, interesting — I actually checked my pulse myself this morning before coming in, and it was 127."}
+{"turn_id": 16, "speaker": "patient", "text": "That number matches the reading you got earlier — the one from when I first sat down."}
+{"turn_id": 17, "speaker": "doctor", "text": "Right — that initial 127 reflects your baseline tachycardia likely due to volume stress or sympathetic activation. The drop to 97 suggests it’s responsive, which is encouraging."}
+{"turn_id": 18, "speaker": "patient", "text": "Should I be checking my heart rate at home regularly? And maybe log it with my glucose?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes — please do. Track both twice daily for the next two weeks, along with any swelling or shortness of breath, and bring that log back for our follow-up."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I came in today because I've been feeling really dizzy since this morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me start by reviewing your current medications — you're on Metformin 1000mg twice daily, correct?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your blood glucose was 6.0 mmol/L at your last check this morning — that’s within target range for now."}
+{"turn_id": 3, "speaker": "doctor", "text": "I also see your temperature is elevated at 39.1 °C — have you had chills, sore throat, or any other signs of infection?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, the dizziness started around 7 a.m., and it’s been constant — worse when I stand up. I also feel flushed and shaky."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is quite high — 128 bpm — especially given your symptoms. Let me check your blood pressure next."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been monitoring my BP at home — it’s usually around 142 over 90, but today it felt different."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your history and today’s findings, your primary diagnosis remains Essential Hypertension — though we need to address the acute presentation too."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been taking my Lisinopril every day, but I’m not sure if it’s helping with the dizziness."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic pressure today is 88 mmHg — still elevated, so let’s optimize your antihypertensive therapy. I am going to switch you to Lisinopril 20mg once daily."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I hold the Metformin if I’m not eating much due to feeling unwell?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Good question — yes, hold Metformin temporarily if you’re vomiting, fasting, or have a fever above 38.5°C, as it increases lactic acidosis risk. We’ll restart once you’re stable."}
+{"turn_id": 12, "speaker": "patient", "text": "That makes sense. I did check my blood sugar again just before coming in — it was still 6.0, same as the reading you mentioned earlier."}
+{"turn_id": 13, "speaker": "doctor", "text": "Right — that number from this morning. But let’s recheck now, given your symptoms and the fever."}
+{"turn_id": 14, "speaker": "patient", "text": "Yeah, that reading — I checked it again just now, and it’s still 6.0 mmol/L."}
+{"turn_id": 15, "speaker": "doctor", "text": "Actually, the point-of-care test shows 3.9 mmol/L — that’s low, and likely contributing to your dizziness and shakiness. Let’s get some fast-acting glucose right away."}
+{"turn_id": 16, "speaker": "patient", "text": "Oh — I didn’t realize it had dropped so much. I’ve been skipping meals because of the fever and nausea."}
+{"turn_id": 17, "speaker": "doctor", "text": "That explains it. Hypoglycemia plus fever and tachycardia puts extra strain on your cardiovascular system. Let’s reassess your vitals after glucose administration."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your heart rate has come down to 115 bpm — still elevated, but improved from 128 earlier. We’ll monitor closely and consider adjusting Lisinopril if it stays high after hydration and glucose correction."}
+{"turn_id": 19, "speaker": "patient", "text": "Thank you, Doctor. I’ll be more careful about checking sugars when I’m sick and take the new Lisinopril dose tonight."}

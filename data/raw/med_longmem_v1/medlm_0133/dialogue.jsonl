@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your vital signs — your temperature is 36.3 °C, which is within normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me today. I’ve been feeling unusually tired lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Can you tell me more about the fatigue? How long has it been going on, and is it affecting your daily activities?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is elevated at 105 bpm — that’s tachycardic for a resting adult. Are you experiencing palpitations or shortness of breath?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, sometimes my heart feels like it’s racing, especially when I stand up. And I get lightheaded occasionally."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your systolic blood pressure is quite high — 178 mmHg. That’s consistent with stage 2 hypertension. Have you been monitoring your BP at home?"}
+{"turn_id": 6, "speaker": "patient", "text": "I have — mostly in the mornings. It’s usually around 170–175 over 95, but last week I had one reading of 182."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s concerning. Given your persistent elevation, symptoms like fatigue and tachycardia, and no secondary causes apparent yet, I’m diagnosing essential hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "Essential Hypertension — meaning it’s not due to another condition like kidney disease or endocrine disorder — is the most likely diagnosis here."}
+{"turn_id": 9, "speaker": "patient", "text": "Fatigue has definitely been the worst symptom — I’m sleeping okay, but I just can’t seem to get energy back."}
+{"turn_id": 10, "speaker": "doctor", "text": "That makes sense — chronic hypertension can reduce cardiac output efficiency and contribute to fatigue. We’ll also check your electrolytes and renal function today."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been taking lisinopril 10 mg daily as prescribed, but I wonder if it’s enough — my readings haven’t improved much."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your persistently elevated BP and tachycardia, I think we need to adjust your regimen. I’m going to add a low-dose beta-blocker to help control both heart rate and pressure."}
+{"turn_id": 13, "speaker": "doctor", "text": "Just rechecked — your temperature is now 36.9 °C. A slight rise, but still well within normal limits."}
+{"turn_id": 14, "speaker": "patient", "text": "I noticed that too — felt a little warm earlier, but no chills or sore throat. Just thought it was stress."}
+{"turn_id": 15, "speaker": "doctor", "text": "Stress could certainly contribute to both the temperature fluctuation and your elevated vitals. Let’s keep an eye on it."}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, when I checked my temperature again before coming in, it was back to 36.3 °C — same as your first reading this morning."}
+{"turn_id": 17, "speaker": "patient", "text": "That reading matches the one you took at the very beginning — 36.3 °C. So maybe it stabilized."}
+{"turn_id": 18, "speaker": "doctor", "text": "Interesting — your systolic pressure dropped to 157 mmHg on this second reading. Still elevated, but notably lower than the 178 we saw earlier."}
+{"turn_id": 19, "speaker": "patient", "text": "And my heart rate is still 105 bpm — same number you recorded at the start."}

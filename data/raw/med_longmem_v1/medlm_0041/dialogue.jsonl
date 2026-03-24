@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've been feeling pretty unwell over the past few days."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello. Based on your chart and today's assessment, your primary diagnosis is Essential Hypertension, confirmed as of December 17th."}
+{"turn_id": 2, "speaker": "patient", "text": "Hypertension? I’ve had high blood pressure before, but lately I’ve noticed swelling in my ankles and calves—especially by evening."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, that lower limb edema started around December 17th—and it’s been getting worse."}
+{"turn_id": 4, "speaker": "doctor", "text": "I just checked your temperature—it’s elevated at 38.1 °C, also as of today."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your systolic blood pressure is 127 mmHg—within target range for now, but we’ll monitor closely given the other symptoms."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also been feeling dizzy when standing up quickly, and my heart feels like it’s racing sometimes."}
+{"turn_id": 7, "speaker": "doctor", "text": "Let me check your pulse—yes, your heart rate is 115 bpm right now. That’s tachycardic, especially with fever and edema."}
+{"turn_id": 8, "speaker": "doctor", "text": "I’m prescribing Atorvastatin 40mg to be taken once daily at night, starting tonight, to support cardiovascular risk reduction."}
+{"turn_id": 9, "speaker": "doctor", "text": "Again, your heart rate is 115 bpm—this remains elevated and concerns me in the context of your fever and edema."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking my blood sugar at home too—I’m diabetic, though it’s usually well-controlled with diet."}
+{"turn_id": 11, "speaker": "doctor", "text": "Thank you for sharing that. Let’s run a point-of-care glucose test and assess whether this acute illness is affecting your glycemic control."}
+{"turn_id": 12, "speaker": "doctor", "text": "Your heart rate has improved to 95 bpm—much better than the 115 we saw earlier. That suggests some response to hydration and rest, but we’re not out of the woods yet."}
+{"turn_id": 13, "speaker": "patient", "text": "My temperature just spiked again—I took it a few minutes ago and it’s 39.1 °C."}
+{"turn_id": 14, "speaker": "doctor", "text": "That confirms the worsening fever—we’ll need to investigate possible infection or inflammatory cause, especially with persistent edema and tachycardia."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve been short of breath walking to the bathroom, and my legs feel heavy and tight."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your diabetes, rising temperature, and hemodynamic changes, we need tighter glycemic control while you’re acutely ill."}
+{"turn_id": 17, "speaker": "patient", "text": "My home glucometer readings have been hovering between 180–240 mg/dL the last two days."}
+{"turn_id": 18, "speaker": "doctor", "text": "We’ll transition from oral agents to basal insulin temporarily. I’m going to start you on Insulin glargine 16 units once nightly."}
+{"turn_id": 19, "speaker": "doctor", "text": "And just to confirm—we’re continuing to monitor your blood pressure closely; that reading of 127 mmHg from earlier remains stable."}

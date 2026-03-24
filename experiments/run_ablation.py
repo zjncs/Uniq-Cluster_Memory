@@ -95,6 +95,38 @@ ABLATION_CONFIGS = {
         "use_conflict": True,
         "use_m4":       True,
     },
+    "w/o_bitemporal": {
+        "description": "Ablation: Disable bi-temporal timestamps and confidence scoring",
+        "use_m2":                 True,
+        "use_time":               True,
+        "use_conflict":           True,
+        "use_m4":                 True,
+        "use_formal_constraints": False,
+    },
+    "w/o_formal_constraints": {
+        "description": "Ablation: Disable medical domain formal constraints",
+        "use_m2":                 True,
+        "use_time":               True,
+        "use_conflict":           True,
+        "use_m4":                 True,
+        "use_formal_constraints": False,
+    },
+    "w/o_causal_deconfound": {
+        "description": "Ablation: Disable causal deconfounding in bundling",
+        "use_m2":               True,
+        "use_time":             True,
+        "use_conflict":         True,
+        "use_m4":               True,
+        "use_causal_scoring":   False,
+    },
+    "w/o_tcp": {
+        "description": "Ablation: Disable Temporal Constraint Propagation (TCP-in-the-loop)",
+        "use_m2":       True,
+        "use_time":     True,
+        "use_conflict": True,
+        "use_m4":       True,
+        "use_tcp":      False,
+    },
 }
 
 
@@ -114,7 +146,9 @@ class AblationPipeline:
         self.use_embedding = use_embedding
         self.m1 = MedicalEventExtractor()
         self.m2 = EventClusterer(use_embedding=use_embedding) if config["use_m2"] else None
-        self.m25 = InformationBundleBuilder()
+        self.m25 = InformationBundleBuilder(
+            use_causal_scoring=config.get("use_causal_scoring", True),
+        )
         self.m4 = MemoryCompressor() if config["use_m4"] else None
 
     def build_memory(
@@ -147,12 +181,22 @@ class AblationPipeline:
             enable_conflict_detection=self.config["use_conflict"],
             missing_time_scope=self.missing_time_scope,
             max_symptoms_per_scope=self.max_symptoms_per_scope,
+            enable_formal_constraints=self.config.get("use_formal_constraints", True),
         )
         memories: List[CanonicalMemory] = m3.process(
             clusters,
             patient_id=dialogue_id,
             bundle_graph=bundle_graph,
         )
+
+        # M3.5: TCP-in-the-loop (可消融)
+        if self.config.get("use_tcp", True):
+            from src.uniq_cluster_memory.temporal_reasoning.constraint_propagation import run_tcp
+            from src.uniq_cluster_memory.temporal_reasoning.tcp_refinement import TCPRefinementLoop
+            memories, tcp_result = run_tcp(memories)
+            if tcp_result.n_inconsistencies > 0:
+                refiner = TCPRefinementLoop(max_rounds=2)
+                memories, _ = refiner.refine(memories, dialogue, dialogue_id)
 
         # M4: 压缩（可消融）
         if self.config["use_m4"] and self.m4 is not None:

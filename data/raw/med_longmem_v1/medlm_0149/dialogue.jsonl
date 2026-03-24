@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell since yesterday—especially this morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by checking your vitals. I’ll take your heart rate now."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is 85 beats per minute—within normal range for you."}
+{"turn_id": 3, "speaker": "patient", "text": "I’ve had nausea all day—it came on suddenly and hasn’t let up."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your history, stress test results, and current presentation, I’m diagnosing Coronary Artery Disease as the primary condition today."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level is 135 g/L—solid, no anemia concerns right now."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your temperature is elevated at 39.2°C—that’s a significant fever and needs attention."}
+{"turn_id": 7, "speaker": "doctor", "text": "I’m continuing Amlodipine 5mg once daily for blood pressure and coronary protection."}
+{"turn_id": 8, "speaker": "patient", "text": "My legs have felt heavy, and I’m a bit lightheaded when standing up."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is 72 mmHg—on the lower side, especially with that lightheadedness."}
+{"turn_id": 10, "speaker": "patient", "text": "I took my BP at home this morning before coming in—I think it was higher then."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let me recheck—yes, now it’s 84 mmHg diastolic. That’s more consistent with your usual readings."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve also noticed my blood sugar has been spiking—especially at night."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your recent glucose trends and this new symptom burden, I’m going to switch you to Insulin glargine 10 units nightly to improve glycemic control."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I still take my metformin?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes—continue metformin unless you develop GI upset. We’ll monitor closely."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been tired all week—even after sleeping. And I’ve had some shortness of breath climbing stairs."}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s concerning. Let’s repeat the hemoglobin—we just got a result earlier, but given your fatigue and SOB, I want to verify."}
+{"turn_id": 18, "speaker": "doctor", "text": "The repeat shows 109 g/L—definitely lower than the 135 we saw earlier. We’ll investigate possible causes like inflammation or occult bleeding."}
+{"turn_id": 19, "speaker": "patient", "text": "That fever’s still there—same as when you measured it earlier: 39.2°C."}

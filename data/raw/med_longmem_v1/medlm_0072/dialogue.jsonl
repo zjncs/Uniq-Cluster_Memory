@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your temperature today is 37.8 °C, which is slightly elevated but not concerning on its own."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your labs and imaging from last week, we're confirming a diagnosis of Chronic Kidney Disease Stage 3. We'll need to monitor your eGFR and urine albumin closely going forward."}
+{"turn_id": 2, "speaker": "doctor", "text": "You're currently on insulin glargine 10 units once daily at bedtime — that’s still appropriate for your current glycemic control, but we’ll reassess as we adjust other medications."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure today is 89 mmHg — a bit high, especially given your CKD diagnosis. We’ll want to keep this under tighter control."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is 96 bpm — mildly tachycardic. Any palpitations, shortness of breath, or recent fever?"}
+{"turn_id": 5, "speaker": "patient", "text": "No palpitations, but I’ve had some fatigue over the past few days and a low-grade fever off and on — maybe 37.5–37.7 in the evenings."}
+{"turn_id": 6, "speaker": "doctor", "text": "That could explain the mild tachycardia and temperature elevation. Let’s rule out infection, especially urinary — have you noticed any burning, urgency, or cloudy urine?"}
+{"turn_id": 7, "speaker": "patient", "text": "Not really — no pain, but my urine has been a bit darker lately, and I’m urinating less frequently than usual."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure is 130 mmHg — that’s within target range, but combined with the elevated diastolic, it suggests increased peripheral resistance, common in early CKD progression."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your CKD Stage 3 and persistent hypertension, we should initiate an ACE inhibitor to protect your kidneys and lower BP — I’ll prescribe lisinopril."}
+{"turn_id": 10, "speaker": "patient", "text": "Lisinopril? I’ve heard it can affect kidney function — is that safe for me right now?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Great question. We’ll start low — 10 mg once daily — and check your serum creatinine and potassium in one week. As long as those stay stable, it’s both safe and strongly recommended for kidney protection."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll take it as directed. Should I stop the insulin?"}
+{"turn_id": 13, "speaker": "doctor", "text": "No — I am going to switch you to lisinopril 10 mg once daily, but continue your insulin glargine unchanged for now. They work on different pathways and are complementary."}
+{"turn_id": 14, "speaker": "patient", "text": "Got it. And what about my blood pressure — should I be checking it at home?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes — please measure twice daily, morning and evening, and record both systolic and diastolic. Bring that log next visit."}
+{"turn_id": 16, "speaker": "patient", "text": "Will do. Also, I noticed my ankles felt a little puffy yesterday — nothing severe, but more than usual."}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s worth noting — edema can signal worsening volume status or early heart strain. We’ll assess jugular venous pressure and lung sounds today."}
+{"turn_id": 18, "speaker": "doctor", "text": "Hmm — your diastolic pressure is now 101 mmHg. That’s higher than the 89 we saw earlier — let’s double-check technique and consider whether volume overload or medication timing may be contributing."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, I checked my pulse just now — it’s still 96 bpm, same as that reading from earlier."}

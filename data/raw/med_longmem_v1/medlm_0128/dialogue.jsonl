@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell for the past couple of days—fatigue, shortness of breath, and my ankles have been swollen."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with some vitals. I’ll check your blood pressure first."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure is 161 mmHg—elevated, especially given your history. We’ll monitor that closely."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, it’s been running high lately—even at home. I’ve been taking my lisinopril as prescribed."}
+{"turn_id": 4, "speaker": "doctor", "text": "Good. Any other new symptoms? Pain, fever, changes in urination?"}
+{"turn_id": 5, "speaker": "patient", "text": "Yes—I’ve noticed swelling in both lower limbs, especially by evening. It doesn’t go down even after elevating them."}
+{"turn_id": 6, "speaker": "doctor", "text": "I’m checking your temperature now—it’s 38.4 °C. That confirms a low-grade fever."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is quite elevated at 129 bpm—tachycardic. Let’s listen to your lungs and heart while we’re at it."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your labs from yesterday, imaging, and clinical picture, I’m diagnosing Chronic Kidney Disease Stage 3, likely exacerbated by recent volume overload and possible infection."}
+{"turn_id": 9, "speaker": "patient", "text": "Stage 3? Does that mean my kidneys are getting worse? I’ve had CKD for years, but this feels different."}
+{"turn_id": 10, "speaker": "doctor", "text": "It does—and the edema, hypertension, and tachycardia suggest acute decompensation. We need to rule out sepsis or UTI, especially with the fever."}
+{"turn_id": 11, "speaker": "patient", "text": "I did have some burning when I urinated two days ago—but I thought it was just a mild UTI."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s important. Let’s get a urinalysis and blood cultures right away. In the meantime, I’m starting IV fluids cautiously and holding the diuretic until we assess volume status."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay. My chest also feels tight sometimes—especially when I walk to the bathroom."}
+{"turn_id": 14, "speaker": "doctor", "text": "Let me recheck your heart rate—it’s now 107 bpm. That’s improved slightly, but still elevated. We’ll reassess after the initial workup."}
+{"turn_id": 15, "speaker": "patient", "text": "The fever seems to be getting worse—I took acetaminophen earlier, but it didn’t help much."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll repeat the temperature shortly. If it spikes further, we may need broader antibiotics and closer monitoring."}
+{"turn_id": 17, "speaker": "doctor", "text": "Just confirmed—your temperature is now 39.7 °C. That’s concerning and supports urgent intervention."}
+{"turn_id": 18, "speaker": "patient", "text": "I’m shivering badly now. And my pulse still feels racing—I checked it myself just now: it’s back up to 129 bpm, same as when you first measured it."}
+{"turn_id": 19, "speaker": "patient", "text": "And that reading matches the 38.4 °C you got earlier—I still feel feverish, but it’s spiking higher now."}

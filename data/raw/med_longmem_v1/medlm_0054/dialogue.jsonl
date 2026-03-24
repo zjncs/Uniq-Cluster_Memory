@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your blood pressure — it's 154 over 92 mmHg today."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, doctor. I’ve had a pretty persistent headache since yesterday morning, especially around my temples."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Any dizziness, nausea, or visual changes with the headache? And have you noticed any fatigue or cold intolerance lately?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes — I’ve been exhausted all week, and my hands feel cold even indoors. My skin’s also been dry, and I’ve gained about five pounds without changing my diet."}
+{"turn_id": 4, "speaker": "doctor", "text": "Those are classic signs we’ll want to explore further. Let me listen to your heart and check your pulse."}
+{"turn_id": 5, "speaker": "doctor", "text": "I’m prescribing Lisinopril 20 mg once daily to help manage your elevated blood pressure. Please take it in the morning with water, and avoid potassium supplements unless we discuss them."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is 84 beats per minute — steady and regular."}
+{"turn_id": 7, "speaker": "patient", "text": "That’s reassuring. I did notice my pulse felt faster last night — like my heart was racing when I lay down."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your symptoms and lab trends, we’re diagnosing hypothyroidism. We’ll start levothyroxine soon, but first let’s review your labs."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin is 132 g/L — within normal range for now."}
+{"turn_id": 10, "speaker": "doctor", "text": "Wait — just rechecked: your heart rate is now 101 bpm. That’s a noticeable increase from the 84 we saw earlier. Are you feeling anxious or short of breath right now?"}
+{"turn_id": 11, "speaker": "patient", "text": "A little jittery, yes — and my palms are sweaty. Could that be related to the thyroid issue?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly — untreated hypothyroidism can sometimes cause paradoxical tachycardia, especially with stress or deconditioning. Let’s hold off on starting levothyroxine until we repeat the TSH and free T4."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay. Also, I’ve been feeling unusually pale and tired lately — more than usual for me."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s concerning — your hemoglobin has dropped to 105 g/L since the last draw. We’ll need iron studies and possibly a reticulocyte count to assess for anemia."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve been taking over-the-counter iron tablets for the past two weeks because I read low iron can cause fatigue."}
+{"turn_id": 16, "speaker": "doctor", "text": "That may explain part of the drop — unmonitored iron supplementation can interfere with thyroid hormone absorption and even suppress erythropoiesis in some cases. Let’s pause it and reassess."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. Should I keep monitoring my pulse at home?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes — please track it twice daily and note if you feel palpitations. Also, avoid NSAIDs while on Lisinopril, and report any swelling or cough immediately."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, I checked my pulse again just before coming in — it was back to 84 bpm, same as that reading you took at the start."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell since yesterday—fever, chills, and this tightness in my chest."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals. Your blood glucose today is 11.3 mmol/L—elevated, especially given your diabetes history."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’re currently on insulin glargine 10 units at night. Has that been helping keep your sugars stable?"}
+{"turn_id": 3, "speaker": "patient", "text": "Mostly, yes—but last night my fingerstick reading was over 13, and I felt shaky before bed."}
+{"turn_id": 4, "speaker": "patient", "text": "And the chest tightness has gotten worse this morning—it’s not sharp, but a heavy pressure, especially when I take a deep breath."}
+{"turn_id": 5, "speaker": "doctor", "text": "Any shortness of breath or dizziness with it? Any cough or sore throat?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, mild shortness of breath, and I’ve had a dry cough since last evening."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is 92 bpm—slightly elevated, consistent with fever and respiratory effort."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin is 176 g/L—within normal range for you, no signs of acute anemia."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your temperature is 39.0°C—definitely febrile. We’ll need to investigate for infection."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, just rechecked—your temp is now 40.0°C. That’s concerning; we’ll need blood cultures and a chest X-ray urgently."}
+{"turn_id": 11, "speaker": "doctor", "text": "Hmm—your heart rate just dropped to 77 bpm, even though the fever spiked. That’s unusual—let’s monitor for possible sepsis or autonomic involvement."}
+{"turn_id": 12, "speaker": "patient", "text": "I feel lightheaded every time I stand up, and my mouth is so dry—I haven’t urinated much today."}
+{"turn_id": 13, "speaker": "doctor", "text": "That suggests possible volume depletion or early septic shock. Let’s get IV fluids started and check lactate and renal function."}
+{"turn_id": 14, "speaker": "patient", "text": "My chest feels tighter now, and I’m sweating despite the fever. Is this related to the high sugar or the infection?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Both could be contributing—hyperglycemia can worsen inflammation, and infection stresses the cardiovascular system. We’ll adjust your insulin regimen temporarily."}
+{"turn_id": 16, "speaker": "patient", "text": "I also noticed my urine is very dark—could that mean something’s wrong with my kidneys?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Your repeat hemoglobin is now 158 g/L—down from 176 earlier. That drop, along with dark urine and tachypnea, raises concern for hemolysis or acute kidney injury—we’ll run a full panel."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your persistent fever, worsening symptoms, and the risk of glucotoxicity, I am going to switch you to metformin 500 mg twice daily once your acute infection stabilizes and renal function confirms safety."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify—my temp is still 39.0°C, same as that first reading you took, and my hemoglobin was 176 g/L then—the one you mentioned earlier."}

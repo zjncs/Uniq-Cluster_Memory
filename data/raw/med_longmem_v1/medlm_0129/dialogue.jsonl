@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell for the past two days—feverish, tired, and my vision’s been blurry."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me start by checking your vitals. Your diastolic blood pressure today is 85 mmHg—within normal range, but we’ll monitor it closely."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your temperature is elevated at 39.7 °C—that’s a significant fever. We’ll need to investigate the cause promptly."}
+{"turn_id": 3, "speaker": "doctor", "text": "Given your history and current presentation, the primary diagnosis remains Type 2 Diabetes Mellitus—but this acute illness may be exacerbating your metabolic control."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve had diabetes for eight years. I take metformin twice daily, but I missed two doses last week because I felt nauseous."}
+{"turn_id": 5, "speaker": "doctor", "text": "That could contribute to instability. Let’s check your blood glucose now—and also assess for signs of infection or DKA, especially with that high fever."}
+{"turn_id": 6, "speaker": "patient", "text": "My home glucose readings have been all over the place—ranging from 180 to 320 mg/dL since Sunday."}
+{"turn_id": 7, "speaker": "doctor", "text": "That aligns with poor glycemic control during illness. We’ll run a basic metabolic panel and urinalysis today."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is 105 bpm—tachycardic, likely due to fever and possible volume depletion. We’ll keep an eye on hydration status."}
+{"turn_id": 9, "speaker": "patient", "text": "The blurred vision started yesterday morning—it’s like looking through fog, especially when reading."}
+{"turn_id": 10, "speaker": "doctor", "text": "Blurred vision can be transiently related to hyperglycemia-induced osmotic lens changes. But given the fever and tachycardia, we also need to rule out infectious or inflammatory causes."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve also had some mild chest tightness when walking to the bathroom—nothing severe, but new for me."}
+{"turn_id": 12, "speaker": "doctor", "text": "Noted. We’ll include an ECG and consider cardiac workup, especially with your diabetes as a risk factor."}
+{"turn_id": 13, "speaker": "doctor", "text": "Interesting—your heart rate has come down to 80 bpm now, just ten minutes after initial assessment. That suggests some early response to cooling measures and oral rehydration."}
+{"turn_id": 14, "speaker": "patient", "text": "I did drink two glasses of water while waiting, and you gave me that cool compress."}
+{"turn_id": 15, "speaker": "doctor", "text": "Good—your temperature is now 38.9 °C. Still febrile, but trending downward. We’ll repeat in 30 minutes and consider empiric antibiotics if no clear source emerges."}
+{"turn_id": 16, "speaker": "patient", "text": "That diastolic number you mentioned earlier—85 mmHg—is actually the same as my reading at home this morning, so it seems consistent."}
+{"turn_id": 17, "speaker": "doctor", "text": "Thank you for confirming that. Given your persistent fever, worsening fatigue, and now borderline elevated diastolic pressure, I’m going to switch your metformin to insulin glargine tonight to improve glycemic stability during this acute phase."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay—I’ve never used insulin before. Will I need to check sugars more often?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes—four times daily for now. And one more thing: your diastolic pressure just rose to 103 mmHg, which is concerning given your baseline. We’ll start low-dose lisinopril tomorrow unless it drops spontaneously."}

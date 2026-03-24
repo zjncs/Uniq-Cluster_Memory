@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, doctor. I've been having blurred vision for the past couple of days—especially when reading or driving at night."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with a quick history and physical. Any other symptoms—fatigue, weight gain, cold intolerance, or changes in your skin or hair?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your symptoms and initial labs, I’m diagnosing you with hypothyroidism. We’ll confirm with TSH and free T4, but this fits clinically."}
+{"turn_id": 3, "speaker": "patient", "text": "Hypothyroidism? That makes sense—I’ve felt unusually tired and my skin’s been dry lately. But I’m also worried about the blurry vision."}
+{"turn_id": 4, "speaker": "doctor", "text": "Good point—we’ll investigate that further. Blurred vision can be multifactorial, especially with endocrine conditions. Let’s check your vitals and run some urgent labs."}
+{"turn_id": 5, "speaker": "patient", "text": "Okay. I did notice my vision got worse after I skipped breakfast yesterday—I felt shaky and sweaty too."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fingerstick glucose just came back at 14.0 mmol/L—significantly elevated. That’s concerning and could explain the visual blurring due to osmotic lens changes."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is 37.2 °C—within normal limits—and your pulse is regular at 78 bpm."}
+{"turn_id": 8, "speaker": "doctor", "text": "Blood pressure is 128 over 69 mmHg—diastolic is on the lower side, but not alarming yet."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve also had some mild nausea and increased thirst over the last 36 hours. Is that related?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Yes—it’s consistent with hyperglycemia. We’ll need to rule out new-onset diabetes or thyroid-related glucose dysregulation. Let’s get HbA1c and fasting insulin next."}
+{"turn_id": 11, "speaker": "patient", "text": "I started taking levothyroxine two days ago—50 mcg—but I haven’t noticed much change yet."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s expected—levothyroxine takes weeks to stabilize. For now, we’ll focus on your glucose. I’d like to start you on basal insulin temporarily while we clarify the picture."}
+{"turn_id": 13, "speaker": "patient", "text": "Will that help with the blurry vision? It’s making it hard to work."}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes—once glucose normalizes, the lens swelling should resolve, usually within days. In the meantime, avoid driving if vision is significantly impaired."}
+{"turn_id": 15, "speaker": "patient", "text": "I took my temperature at home this morning—it was higher than usual. Around 38.4, actually."}
+{"turn_id": 16, "speaker": "doctor", "text": "Hmm—you’re right—I just rechecked: it’s 38.4 °C now. That’s a fever we didn’t see earlier. Let’s listen to your lungs and check for infection—this could be contributing to the glucose spike and worsening symptoms."}
+{"turn_id": 17, "speaker": "patient", "text": "I do have a sore throat and some ear fullness—I thought it was just a cold."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given the fever, pharyngeal erythema, and elevated glucose, I’m concerned about an acute infection stressing your system. We’ll add a rapid strep test and consider empiric antibiotics."}
+{"turn_id": 19, "speaker": "patient", "text": "Just checked my glucose again with my home monitor—it’s still 14.0 mmol/L, same as that reading from earlier today."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and clinical presentation, I’m diagnosing you with hypothyroidism, which we’ll manage alongside your other conditions."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling unusually fatigued and cold lately—could that be related?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Yes, those are classic symptoms. In addition to thyroid replacement, I’m prescribing Metformin 1000 mg twice daily to help with insulin resistance and blood sugar control."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin came back at 89 g/L, which is significantly low—we’ll need to investigate the cause of this anemia further."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s lower than I expected. I’ve had some shortness of breath climbing stairs lately."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your systolic blood pressure today was 149 mmHg—elevated, especially given your age and comorbidities."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been trying to cut back on salt, but my home readings have been inconsistent."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic pressure was 87 mmHg—also above target. We’ll monitor this closely, particularly with your new medication regimen."}
+{"turn_id": 8, "speaker": "patient", "text": "I checked my blood sugar this morning before breakfast—it was 13.6 mmol/L. That’s much higher than usual."}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes, that reading confirms significant hyperglycemia. It supports our decision to start Metformin, and we’ll adjust dosing if needed based on follow-up glucose logs."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also noticed some swelling in my ankles over the past week. Is that related to the blood pressure or something else?"}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s important to note—we’ll assess for possible heart failure or volume overload, especially given your borderline renal function and anemia."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve started taking iron supplements as suggested by my pharmacist—but I’m not sure if they’re helping yet."}
+{"turn_id": 13, "speaker": "doctor", "text": "We’ll repeat your CBC in two weeks. For now, continue the iron and watch for GI side effects like constipation or dark stools."}
+{"turn_id": 14, "speaker": "patient", "text": "I brought in my home BP log—I’ve been measuring twice daily. Most readings were around 130s over 80s."}
+{"turn_id": 15, "speaker": "doctor", "text": "Interesting—your systolic today was 133 mmHg, which is a notable improvement from the 149 we saw earlier this visit."}
+{"turn_id": 16, "speaker": "doctor", "text": "However, your diastolic is now 99 mmHg—higher than the 87 recorded earlier. That suggests some variability we’ll need to explore, possibly related to timing, posture, or stress."}
+{"turn_id": 17, "speaker": "patient", "text": "I did take my blood pressure right after walking up the clinic stairs—maybe that affected it?"}
+{"turn_id": 18, "speaker": "doctor", "text": "That could definitely explain the elevated diastolic. Let’s recheck after five minutes of rest next time—and continue tracking at home under standardized conditions."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm—my hemoglobin was still 89 g/L on that same lab draw, right? That’s the number you mentioned earlier."}

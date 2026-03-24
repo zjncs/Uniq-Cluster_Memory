@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your latest lab and vital signs from yesterday. Your fasting blood glucose was 13.7 mmol/L — that’s significantly elevated."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I’ve been feeling unusually tired and thirsty lately, and I’ve had to urinate more often at night."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure was 135 mmHg — within acceptable range for now — and your diastolic was 73 mmHg, which is also stable."}
+{"turn_id": 3, "speaker": "doctor", "text": "That diastolic reading of 73 mmHg aligns with what we saw earlier — no concerning trends there yet."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve also noticed my ankles have been a bit puffy, especially by evening."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s important — we’ll assess volume status carefully. Given your labs and symptoms, we need to consider possible underlying causes beyond diabetes."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your eGFR, albuminuria, and imaging findings, we’re diagnosing Chronic Kidney Disease Stage 3, likely secondary to long-standing diabetes and hypertension."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on insulin glargine 16 units once daily at bedtime — that’s continuing for now while we adjust other aspects of your care."}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, over the past week I’ve had blurred vision — it comes and goes, especially after meals."}
+{"turn_id": 9, "speaker": "doctor", "text": "Blurred vision can be a red flag for hyperglycemia-induced osmotic lens changes or early retinopathy. We’ll refer you to ophthalmology urgently for a dilated exam."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking my glucose at home — mostly before meals and at bedtime — and many readings are above 12 mmol/L."}
+{"turn_id": 11, "speaker": "doctor", "text": "That supports our concern. Let’s look at your most recent fasting value — did you check it this morning?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Your fasting glucose today was 16.0 mmol/L — higher than the 13.7 we saw yesterday. That suggests worsening glycemic control despite current insulin dosing."}
+{"turn_id": 13, "speaker": "patient", "text": "I missed two doses last weekend because I felt nauseous after eating something that didn’t agree with me."}
+{"turn_id": 14, "speaker": "doctor", "text": "That could definitely contribute. We’ll review your insulin technique and timing, and consider adding rapid-acting coverage for meals if needed."}
+{"turn_id": 15, "speaker": "patient", "text": "My blood pressure has felt a bit low sometimes — like lightheaded when standing up quickly."}
+{"turn_id": 16, "speaker": "doctor", "text": "Your diastolic pressure just now was 64 mmHg — lower than the 73 mmHg we recorded earlier this week. We’ll monitor for orthostatic changes and review your antihypertensive regimen."}
+{"turn_id": 17, "speaker": "patient", "text": "I rechecked my blood pressure at home this morning — it was back to 73 mmHg for the diastolic, same as that reading from earlier in the week."}
+{"turn_id": 18, "speaker": "doctor", "text": "Good — that reassures us the dip wasn’t sustained. Still, given your CKD and fluctuating pressures, I’m going to switch you from amlodipine to losartan 25 mg daily — it offers renal protection and better BP stability."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — and just to confirm, that 73 mmHg diastolic I got this morning matches the number you noted at the start, right?"}

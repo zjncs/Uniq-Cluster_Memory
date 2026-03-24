@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been having these weird palpitations lately—like my heart’s skipping or fluttering—especially in the afternoons. It started around last Monday, June 19th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Can you tell me more about the palpitations? How long do they last, and do you feel lightheaded or short of breath with them?"}
+{"turn_id": 2, "speaker": "patient", "text": "They usually last a minute or two, and sometimes I get a little dizzy—but no chest pain. I did check my pulse once during an episode, and it felt really irregular."}
+{"turn_id": 3, "speaker": "doctor", "text": "Got it. Let’s start with some vitals. I’ll take your temperature first."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your temperature is 36.7 °C—completely normal."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your symptoms, ECG findings, and risk factors—including your history of hypertension and elevated cholesterol—I’m diagnosing you with Coronary Artery Disease."}
+{"turn_id": 6, "speaker": "patient", "text": "Coronary Artery Disease? That sounds serious. Does that explain the palpitations?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Yes—it can cause arrhythmias like atrial fibrillation, which fits your description. Your resting heart rate right now is 55 bpm, which is on the lower side but not concerning yet given your current medications."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure is elevated at 163 mmHg—this is something we need to manage closely alongside your CAD."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking metoprolol 25 mg twice daily since last month, but I noticed my pulse was slower this morning—around 52—and I felt a bit fatigued."}
+{"turn_id": 10, "speaker": "doctor", "text": "That fatigue could be related to the bradycardia. Let’s hold off on the evening dose today while we reassess."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay. Also, I checked my blood sugar yesterday—it was 142 mg/dL fasting. But actually, when I checked again this morning, it was 168 mg/dL, so I’m a bit worried it’s trending up."}
+{"turn_id": 12, "speaker": "doctor", "text": "Thanks for tracking that. That reading this morning is higher than yesterday’s—and consistent with prediabetes. We’ll add HbA1c to your labs."}
+{"turn_id": 13, "speaker": "patient", "text": "Right—the HbA1c from three months ago was 5.9%. So this new number lines up with that trend."}
+{"turn_id": 14, "speaker": "doctor", "text": "Exactly—that number from three months ago helps confirm the progression. Given your CAD and rising glucose, I’m going to switch you from metoprolol to bisoprolol 5 mg once daily. It’s more cardioselective and may offer better metabolic neutrality."}
+{"turn_id": 15, "speaker": "patient", "text": "Bisoprolol—I remember you mentioned that drug before. Is it safer for my blood sugar?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes—studies show it has less impact on insulin sensitivity than metoprolol. We’ll also start you on low-dose aspirin and intensify lifestyle counseling."}
+{"turn_id": 17, "speaker": "patient", "text": "And what about the palpitations? Should I monitor my pulse daily?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Absolutely—keep a log, especially noting if you catch an irregular rhythm. If you ever feel faint, have chest pressure, or the palpitations last longer than five minutes, go straight to urgent care."}
+{"turn_id": 19, "speaker": "patient", "text": "Will do. Thanks—I’ll bring that log back next time, along with the home BP readings and that new glucose meter I just got."}

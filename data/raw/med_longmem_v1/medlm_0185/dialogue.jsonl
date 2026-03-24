@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your vital signs — your body temperature is 37.5 °C, which is within normal limits."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your fasting blood glucose this morning is 5.4 mmol/L — that’s well within target range for someone with Type 2 Diabetes."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, Doctor. I’ve been trying to stick to my diet and walk daily, but lately I’ve noticed some swelling in my ankles and calves."}
+{"turn_id": 3, "speaker": "doctor", "text": "I see — your hemoglobin level today is 171 g/L, which is on the higher end of normal but still acceptable."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is 72 bpm — steady and regular — and your blood pressure is 132/84 mmHg."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your history, labs, and clinical presentation, your primary diagnosis remains Type 2 Diabetes Mellitus."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, that’s right. But the lower limb edema has gotten more noticeable over the past week — it’s worse by evening, and doesn’t fully go down overnight."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s important — let’s assess for possible contributing factors like heart failure, renal involvement, or medication side effects. Are you taking any new medications or noticing shortness of breath?"}
+{"turn_id": 8, "speaker": "patient", "text": "No new meds — just the insulin glargine 10 units at night, as prescribed last visit."}
+{"turn_id": 9, "speaker": "doctor", "text": "Correct — you’re currently on Insulin glargine 10U qn. We’ll keep monitoring its effect on your glycemic control and watch for fluid retention patterns."}
+{"turn_id": 10, "speaker": "patient", "text": "Actually, when I checked my hemoglobin again this morning using the portable analyzer at the clinic lab, it read 180 g/L — quite a bit higher than before."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interesting — that hemoglobin value of 180 g/L suggests possible hemoconcentration or assay variation; we’ll repeat it with venous sampling to confirm."}
+{"turn_id": 12, "speaker": "doctor", "text": "Also, your temperature just rechecked at 36.3 °C — slightly lower than the earlier reading of 37.5 °C. Any chills or recent illness?"}
+{"turn_id": 13, "speaker": "patient", "text": "No chills — just fatigue and that persistent swelling. My feet feel heavy all day."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given the edema and elevated hemoglobin, let’s also check your renal function and albuminuria. Your heart rate has increased too — it’s now 96 bpm, up from 72 earlier."}
+{"turn_id": 15, "speaker": "doctor", "text": "That elevated heart rate — 96 bpm — could reflect early volume overload or sympathetic activation. We need to address this promptly."}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to add Amlodipine 5mg once daily to help manage potential hypertension-related fluid retention and reduce afterload. We’ll monitor for ankle swelling progression and orthostatic symptoms."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — I’ll start that today. Should I adjust the insulin dose if my sugars change?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Not yet — your glucose remains stable. Let’s hold off on insulin changes until we see how Amlodipine affects your volume status and BP over the next two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify — that heart rate of 72 bpm you recorded earlier matches what I saw on my home monitor this morning, and my blood glucose was also 5.4 mmol/L — same as your first reading."}

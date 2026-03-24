@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been going to the bathroom a lot lately—like, every hour or so—and I’m really thirsty all the time."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for coming in. You mentioned frequent urination—how long has that been going on? Any other symptoms?"}
+{"turn_id": 2, "speaker": "patient", "text": "It started about three days ago. I’ve also felt unusually tired and a bit foggy-headed."}
+{"turn_id": 3, "speaker": "doctor", "text": "Let me check your blood glucose right now. Okay—your reading is 15.0 mmol/L. That’s significantly elevated."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your blood pressure today is 142 over 88, so we’ll continue monitoring for essential hypertension, which we’ve previously diagnosed."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic pressure is 88 mmHg—still on the higher side, though systolic improved slightly from last visit."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg at night for cholesterol management—still taking that as prescribed?"}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, every night. But I’ve had a low-grade fever since yesterday—I took my temperature this morning and it was 38.6 °C."}
+{"turn_id": 8, "speaker": "doctor", "text": "I see—you’re running a fever. Let me take your vitals again. Your temperature is indeed 38.6 °C."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate is 99 bpm—elevated, likely due to the fever and possible metabolic stress."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also noticed some mild chest tightness when walking up stairs—nothing severe, but new for me."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll need to rule out infection or cardiac strain. Let’s repeat your heart rate in a few minutes after you’ve rested."}
+{"turn_id": 12, "speaker": "doctor", "text": "Now your heart rate is down to 70 bpm—much more stable, which suggests the earlier elevation was likely reactive to the fever."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your persistently high blood glucose and new symptoms, I’m going to start you on Metformin 1000mg twice daily to help with glycemic control."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay, I’ll start that today. Should I still monitor my sugar at home?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes—please do. In fact, your most recent fingerstick just now showed 16.0 mmol/L, so we’ll need to reassess dosing in 48 hours if it stays above 13."}
+{"turn_id": 16, "speaker": "patient", "text": "That’s strange—I tested before coming in and got 15.0, same as your first reading. I used the same meter."}
+{"turn_id": 17, "speaker": "doctor", "text": "Good—consistency helps. We’ll use that 15.0 as our baseline reference point for tracking trends."}
+{"turn_id": 18, "speaker": "patient", "text": "I rechecked just now while waiting—still 15.0 mmol/L. So it’s holding steady, at least for the moment."}
+{"turn_id": 19, "speaker": "doctor", "text": "That’s helpful—thanks for confirming that number. We’ll keep close watch and adjust Metformin if needed."}

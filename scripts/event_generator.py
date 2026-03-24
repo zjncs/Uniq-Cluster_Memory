@@ -203,27 +203,65 @@ class EventGenerator:
     """
     Med-LongMem 事件生成器。
 
-    生成一条 Hard 级对话样本的完整事件时间线，并注入对抗挑战。
+    支持三个难度等级：
+        Easy:   6-8 事件，0 冲突，0-1 共指，0 更新
+        Medium: 8-10 事件，1-2 冲突，1 共指，0-1 更新
+        Hard:   10-12 事件，2-3 冲突，1-2 共指，1-2 更新
     """
 
-    # Hard 级参数（v0.1 全部为 Hard）
-    HARD_CONFIG = {
-        "n_turns": 20,
-        "events_per_dialogue_min": 10,
-        "events_per_dialogue_max": 12,
-        "n_conflicts_min": 2,
-        "n_conflicts_max": 3,
-        "n_updates_min": 1,
-        "n_updates_max": 2,
-        "coref_span_p": 0.08,
-        "coref_span_min": 15,
-        "coref_span_max": 19,
-        "n_corefs_min": 1,
-        "n_corefs_max": 2,
+    DIFFICULTY_CONFIGS = {
+        "easy": {
+            "n_turns": 20,
+            "events_per_dialogue_min": 6,
+            "events_per_dialogue_max": 8,
+            "n_conflicts_min": 0,
+            "n_conflicts_max": 0,
+            "n_updates_min": 0,
+            "n_updates_max": 0,
+            "coref_span_p": 0.08,
+            "coref_span_min": 10,
+            "coref_span_max": 15,
+            "n_corefs_min": 0,
+            "n_corefs_max": 1,
+        },
+        "medium": {
+            "n_turns": 20,
+            "events_per_dialogue_min": 8,
+            "events_per_dialogue_max": 10,
+            "n_conflicts_min": 1,
+            "n_conflicts_max": 2,
+            "n_updates_min": 0,
+            "n_updates_max": 1,
+            "coref_span_p": 0.08,
+            "coref_span_min": 12,
+            "coref_span_max": 17,
+            "n_corefs_min": 1,
+            "n_corefs_max": 1,
+        },
+        "hard": {
+            "n_turns": 20,
+            "events_per_dialogue_min": 10,
+            "events_per_dialogue_max": 12,
+            "n_conflicts_min": 2,
+            "n_conflicts_max": 3,
+            "n_updates_min": 1,
+            "n_updates_max": 2,
+            "coref_span_p": 0.08,
+            "coref_span_min": 15,
+            "coref_span_max": 19,
+            "n_corefs_min": 1,
+            "n_corefs_max": 2,
+        },
     }
 
-    def __init__(self, seed: Optional[int] = None):
+    # 向后兼容
+    HARD_CONFIG = DIFFICULTY_CONFIGS["hard"]
+
+    def __init__(self, seed: Optional[int] = None, difficulty: str = "hard"):
         self.rng = random.Random(seed)
+        self.difficulty = difficulty.lower()
+        if self.difficulty not in self.DIFFICULTY_CONFIGS:
+            self.difficulty = "hard"
 
     def generate(self, dialogue_id: str) -> List[RawEvent]:
         """
@@ -232,7 +270,7 @@ class EventGenerator:
         Returns:
             按 turn_id 排序的 RawEvent 列表。
         """
-        cfg = self.HARD_CONFIG
+        cfg = self.DIFFICULTY_CONFIGS[self.difficulty]
         n_turns = cfg["n_turns"]
 
         # Step 1: 选择本条样本涉及的属性集合

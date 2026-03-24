@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly tired and kind of shaky in the mornings."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your history and today’s evaluation, your primary diagnosis is Essential Hypertension, confirmed as of April 5th."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate today is elevated at 115 beats per minute—well above the typical resting range."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure reading is 77 mmHg—within normal limits, but let’s interpret it alongside the systolic value."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve been checking my BP at home, and sometimes it’s high—but I wasn’t sure if that was just stress."}
+{"turn_id": 5, "speaker": "doctor", "text": "Yes—your systolic pressure today is 177 mmHg, which confirms stage 2 hypertension. That, combined with your elevated heart rate, raises concern."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also been having these weird fluttering feelings in my chest, especially after meals."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily, prescribed on April 5th—though I note this is typically for diabetes management, not hypertension. Let’s revisit that."}
+{"turn_id": 8, "speaker": "patient", "text": "Oh—I forgot to mention: I’ve had palpitations almost daily since last week, especially in the evenings."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s important. Palpitations plus tachycardia and elevated BP suggest possible autonomic dysregulation or medication-related effects. Are you taking anything else besides Metformin?"}
+{"turn_id": 10, "speaker": "patient", "text": "Just the Metformin—and I started it the same day I got my BP checked. My fasting glucose was 132, so my endocrinologist added it."}
+{"turn_id": 11, "speaker": "doctor", "text": "Ah—that explains the Metformin. But given your current presentation—hypertension, tachycardia, and palpitations—we need to address cardiovascular risk first. I’m going to prescribe Amlodipine 5mg daily, starting tomorrow."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay… but will that interact with the Metformin? And should I still take both?"}
+{"turn_id": 13, "speaker": "doctor", "text": "No significant interaction—but since your HbA1c came back only 5.6% at last week’s lab, we’ll hold off on Metformin for now. I’m discontinuing it effective today."}
+{"turn_id": 14, "speaker": "patient", "text": "Wait—I thought my blood sugar was high? I rechecked this morning before coffee, and it was 98 mg/dL. That’s normal, right?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes—that reading confirms your earlier elevated fasting glucose may have been situational. We’ll repeat fasting glucose and HbA1c in four weeks to reassess."}
+{"turn_id": 16, "speaker": "patient", "text": "Also, my pulse has been around 88–92 when I check at home—much lower than the 115 you measured. Could that be because I was nervous here?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Absolutely—white-coat effect is common. That number from last time likely reflects acute anxiety. Still, we’ll monitor trends with home logs and a 24-hour Holter next week."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. Should I avoid caffeine or salt while starting the Amlodipine?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes—limit sodium to under 1500 mg/day, and hold off on stimulants like caffeine for now. I’ll also order renal function tests and an ECG before your follow-up."}

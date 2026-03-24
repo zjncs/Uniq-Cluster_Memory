@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your vital signs from today's visit. Your systolic blood pressure is 128 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve noticed some swelling in my ankles and lower legs over the past few days — it’s worse by evening."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. That’s important — we’ll assess that further. Let me also check your diastolic pressure… it’s 104 mmHg, which is elevated."}
+{"turn_id": 3, "speaker": "patient", "text": "Oh, really? I didn’t know it was that high. My usual readings at home have been around 130 over 80."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your symptoms, lab results, and clinical exam, the primary diagnosis is Hypothyroidism — we’ll confirm with TSH and free T4 shortly."}
+{"turn_id": 5, "speaker": "patient", "text": "That makes sense — I’ve been feeling fatigued, cold all the time, and my skin’s gotten quite dry."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin today is 129 g/L — within normal range, though on the lower end for your age and sex."}
+{"turn_id": 7, "speaker": "doctor", "text": "I’m prescribing Lisinopril 20 mg once daily to help manage your hypertension and possibly reduce the edema."}
+{"turn_id": 8, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I stop my current ACE inhibitor?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes — discontinue your prior ACE inhibitor. Also, your fasting glucose has been trending up, so I’m adding Insulin glargine 16 units nightly to improve glycemic control."}
+{"turn_id": 10, "speaker": "patient", "text": "Got it. I’ve been checking my blood sugar more often — last night it was 152 mg/dL before bed."}
+{"turn_id": 11, "speaker": "doctor", "text": "Your heart rate today is 59 bpm — slightly bradycardic, but not alarming yet. We’ll monitor closely given your new medications."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve felt a bit lightheaded when standing up quickly — could that be related?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Possibly — orthostatic hypotension can occur with Lisinopril or thyroid hormone changes. Let’s recheck vitals after you sit quietly for two minutes."}
+{"turn_id": 14, "speaker": "doctor", "text": "Hmm — your heart rate dropped further to 50 bpm just now. That’s a notable change from earlier, so we’ll hold the Lisinopril dose for now and reassess tomorrow."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve also noticed my energy hasn’t improved much since starting levothyroxine last month — could my dose need adjustment?"}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s likely — your hemoglobin has also declined to 119 g/L since our last draw, which may reflect worsening fatigue or early anemia of chronic disease."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your systolic blood pressure is now 142 mmHg — higher than the 128 we saw earlier. That, combined with the edema and bradycardia, suggests we need to revisit both your thyroid and cardiac management."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked my pulse this morning at home, it was 59 bpm — same as the reading you took first thing, before the drop."}
+{"turn_id": 19, "speaker": "doctor", "text": "Thank you for that clarification — that number helps us distinguish between baseline rhythm and acute changes. We’ll order a 12-lead ECG and repeat thyroid panel today."}

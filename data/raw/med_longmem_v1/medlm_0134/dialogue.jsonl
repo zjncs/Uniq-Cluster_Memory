@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your diastolic blood pressure today is 79 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your body temperature is normal at 37.1 °C."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, doctor. I’ve been feeling a bit off lately — tired all the time, even after a full night’s sleep."}
+{"turn_id": 3, "speaker": "doctor", "text": "I see. Fatigue can have many causes — we’ll explore that. Let’s check your heart rate next."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 500mg twice daily for blood sugar control."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose this morning was 8.3 mmol/L — slightly elevated but not alarming yet."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I’ve had fatigue for about two weeks now — it’s worse in the afternoons."}
+{"turn_id": 7, "speaker": "doctor", "text": "Any chest discomfort, shortness of breath, or dizziness with activity?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is 98 bpm — a bit elevated but within acceptable range for now."}
+{"turn_id": 9, "speaker": "doctor", "text": "Based on your history, stress test results, and angiogram, your primary diagnosis remains Coronary Artery Disease."}
+{"turn_id": 10, "speaker": "doctor", "text": "I’m going to switch you from Atorvastatin 20mg to 40mg once daily at bedtime to better manage your LDL and reduce cardiovascular risk."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I monitor anything specific?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes — watch for muscle aches or dark urine, and continue checking your blood sugar regularly."}
+{"turn_id": 13, "speaker": "doctor", "text": "Hmm — your heart rate just spiked to 114 bpm. That’s higher than the 98 we saw earlier. Are you feeling anxious or short of breath right now?"}
+{"turn_id": 14, "speaker": "patient", "text": "A little lightheaded, yes — and my chest feels tight since I walked up the stairs before coming in."}
+{"turn_id": 15, "speaker": "doctor", "text": "Let’s get you seated and take another look. We may need to adjust your anti-anginal regimen."}
+{"turn_id": 16, "speaker": "patient", "text": "I did check my blood sugar before leaving home — it was already high, around 10.2 — but I wasn’t sure if that was relevant."}
+{"turn_id": 17, "speaker": "doctor", "text": "It absolutely is. Hyperglycemia can contribute to fatigue and even transient tachycardia. Let’s recheck it now."}
+{"turn_id": 18, "speaker": "patient", "text": "That reading from earlier — the 98 bpm — matches what I measured myself at home this morning with my wrist monitor."}
+{"turn_id": 19, "speaker": "doctor", "text": "Your blood glucose is now 11.7 mmol/L — significantly higher than the 8.3 we saw earlier. Given your symptoms and this trend, we’ll add a short-term insulin correction protocol and schedule a diabetes education follow-up."}

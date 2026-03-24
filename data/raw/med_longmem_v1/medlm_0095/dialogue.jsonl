@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you've been prescribed amlodipine 10 mg once daily for your high blood pressure—let’s review how that’s been going."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks for seeing me. I’ve been taking the amlodipine every morning as directed, but I’ve still been feeling pretty lightheaded, especially when standing up."}
+{"turn_id": 2, "speaker": "doctor", "text": "I’d like to check your vitals now. Let’s start with your temperature—this reads 36.3°C, which is within normal range."}
+{"turn_id": 3, "speaker": "patient", "text": "That’s reassuring. I haven’t had any fevers or chills lately."}
+{"turn_id": 4, "speaker": "doctor", "text": "Now let’s take your blood pressure—I’m getting a systolic reading of 167 mmHg. That’s elevated, even on medication."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I checked it at home yesterday and got the same number—167 mmHg. It’s been hovering around there all week."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is also quite high—124 beats per minute. That’s tachycardic and could explain the lightheadedness."}
+{"turn_id": 7, "speaker": "patient", "text": "I noticed my pulse feels really fast sometimes, especially in the afternoon."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your persistent hypertension, elevated heart rate, and symptoms, I’m confirming the diagnosis of essential hypertension. We’ll need to adjust your management."}
+{"turn_id": 9, "speaker": "patient", "text": "Makes sense—I’ve had high BP for years, but it’s never been this hard to control."}
+{"turn_id": 10, "speaker": "doctor", "text": "Your hemoglobin today is 142 g/L—solid, no anemia concerns right now."}
+{"turn_id": 11, "speaker": "patient", "text": "Good to hear. I’ve been eating more iron-rich foods lately, just in case."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your uncontrolled BP and tachycardia, I’m going to add metoprolol succinate 25 mg once daily to help lower both your heart rate and blood pressure."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay—I’ll start that tomorrow. Should I keep taking the amlodipine too?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes, continue the amlodipine for now. We’ll reassess in two weeks, and if your BP remains elevated or you develop side effects, we may consider adjusting the dose or switching agents."}
+{"turn_id": 15, "speaker": "patient", "text": "Understood. Any lifestyle tips you’d recommend while we wait?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Absolutely—limit sodium to under 1,500 mg/day, aim for 30 minutes of brisk walking most days, and monitor your BP at home twice daily, noting the time and whether you’re seated and rested."}
+{"turn_id": 17, "speaker": "patient", "text": "I’ll track that carefully. By the way, I had some bloodwork drawn last week—I got the results back this morning."}
+{"turn_id": 18, "speaker": "doctor", "text": "Ah—I see your most recent hemoglobin came back at 113 g/L. That’s a notable drop from the 142 g/L we saw earlier this visit, so we’ll need to investigate potential causes like GI blood loss or nutritional deficiencies."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—the 167 mmHg I mentioned earlier matches that first reading you took, so it’s consistent."}

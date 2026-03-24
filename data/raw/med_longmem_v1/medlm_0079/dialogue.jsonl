@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit tired lately and noticed some weight gain over the past few months."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your current medications—I see you’re on Atorvastatin 40mg every night, prescribed back in October."}
+{"turn_id": 2, "speaker": "doctor", "text": "You were also diagnosed with hypothyroidism last October, and we’ve been managing that with levothyroxine."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your most recent lab work from October showed a hemoglobin level of 110 g/L—slightly below the normal range for adult women."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose was 6.6 mmol/L at that time, which is in the prediabetic range."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve been trying to watch my diet, but I’m still not sure if my energy levels are related to the thyroid or something else."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s a good question. Fatigue can stem from several factors—hypothyroidism, anemia, or even blood sugar fluctuations. How’s your appetite and bowel habits been? Any cold intolerance or dry skin?"}
+{"turn_id": 7, "speaker": "patient", "text": "Definitely more cold-sensitive, and my skin has been drier. I’ve also had some constipation lately."}
+{"turn_id": 8, "speaker": "doctor", "text": "Those are classic signs—we’ll check your TSH and free T4 today to see if your levothyroxine dose needs adjustment. Also, let’s repeat the CBC to reassess your hemoglobin."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure reading today was 96 mmHg—elevated, especially alongside the other findings."}
+{"turn_id": 10, "speaker": "doctor", "text": "Wait—let me recheck that. Actually, this second reading shows 80 mmHg, so it looks like the first was likely affected by white-coat anxiety."}
+{"turn_id": 11, "speaker": "patient", "text": "Oh, good—I’ve been monitoring at home, and it’s usually around 78–82 mmHg diastolic."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s reassuring. Let’s also look at your glucose control. Did you check your blood sugar recently?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Your home glucose reading this morning was 4.9 mmol/L—much better than the 6.6 we saw in October. That suggests improved dietary adherence or possible early response to lifestyle changes."}
+{"turn_id": 14, "speaker": "patient", "text": "Yes, I started walking daily and cut back on refined carbs—I think it’s helping."}
+{"turn_id": 15, "speaker": "doctor", "text": "Excellent. Given your improved glucose and stable lipid profile, I’m going to hold off on intensifying diabetes prevention meds for now—but we’ll keep monitoring closely."}
+{"turn_id": 16, "speaker": "doctor", "text": "However, your hemoglobin remains at 110 g/L, and given your fatigue and hypothyroidism, I’d like to investigate iron studies and possibly add iron supplementation."}
+{"turn_id": 17, "speaker": "patient", "text": "Makes sense—I did feel a bit lightheaded when standing up quickly last week."}
+{"turn_id": 18, "speaker": "doctor", "text": "That could be orthostatic, but also consistent with mild anemia. We’ll check ferritin, TIBC, and vitamin B12 next visit."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—the same number as before, 110 g/L. I remember you mentioned it last time."}

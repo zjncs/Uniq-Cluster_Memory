@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 9.2 mmol/L — that’s elevated and suggests your diabetes may not be well controlled."}
+{"turn_id": 1, "speaker": "patient", "text": "Oh, I’ve been feeling really thirsty lately and going to the bathroom much more often — especially at night."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, that’s the polyuria I mentioned — it’s been going on for about a week now."}
+{"turn_id": 3, "speaker": "doctor", "text": "Thank you for sharing that. Frequent urination like that can be a red flag for hyperglycemia. Have you noticed any blurred vision or fatigue?"}
+{"turn_id": 4, "speaker": "doctor", "text": "I’m prescribing Lisinopril 10 mg once daily — we’ll use this to help protect your kidneys and manage blood pressure, given your glucose levels."}
+{"turn_id": 5, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I take it in the morning or evening?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Morning is fine — with or without food. Let’s also check your hemoglobin while we’re here."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin came back at 151 g/L — that’s within the normal range for you."}
+{"turn_id": 8, "speaker": "patient", "text": "That’s reassuring. But I did check my blood sugar again at home this morning before coming in — it was 9.2 mmol/L, same as your reading."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure today is 131 mmHg — nicely within target. How’s your energy level been lately?"}
+{"turn_id": 10, "speaker": "patient", "text": "Honestly, pretty low — and I’ve had some mild shortness of breath when climbing stairs."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s repeat the hemoglobin test — I’d like to double-check because your symptoms suggest possible anemia or volume shifts."}
+{"turn_id": 12, "speaker": "patient", "text": "That number matches the reading you gave me earlier — 9.2 mmol/L — so it’s consistent, at least."}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, the repeated glucose confirms persistent hyperglycemia. But your hemoglobin has dropped — it’s now 128 g/L, which is a meaningful decrease from the 151 we saw earlier."}
+{"turn_id": 14, "speaker": "doctor", "text": "That drop raises concern — could indicate early anemia, dehydration, or even medication-related effects. We’ll investigate further."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve also noticed my blood pressure feels higher — my home cuff showed 150 systolic this morning."}
+{"turn_id": 16, "speaker": "doctor", "text": "Indeed — I just rechecked, and your systolic is now 150 mmHg, up from 131 earlier. That’s a notable rise and may relate to volume status or sympathetic activation."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given the rising BP, falling hemoglobin, and persistent hyperglycemia, I’m going to switch you from Lisinopril to Telmisartan 40 mg daily — it offers better renal protection in diabetics and may improve volume tolerance."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay — should I stop the Lisinopril today and start Telmisartan right away?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, discontinue Lisinopril and begin Telmisartan this evening. We’ll repeat blood work in one week — including CBC, creatinine, and HbA1c — and reassess your glucose logs."}

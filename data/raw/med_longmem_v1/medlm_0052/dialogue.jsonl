@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately—fatigued, cold all the time, and my skin’s gotten dry."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals—I’m seeing your heart rate is 52 bpm today, which is on the lower side."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is 96 mmHg—elevated, especially alongside that low heart rate."}
+{"turn_id": 3, "speaker": "patient", "text": "Yeah, I’ve also had some trouble concentrating, and my hair’s thinning a bit. Could it be my thyroid?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Given your symptoms and labs, I’m diagnosing you with hypothyroidism. We’ll confirm with TSH and free T4, but this fits clinically."}
+{"turn_id": 5, "speaker": "patient", "text": "That makes sense—I was diagnosed with Hashimoto’s years ago, but I haven’t taken levothyroxine regularly."}
+{"turn_id": 6, "speaker": "doctor", "text": "Let’s get your thyroid panel today. In the meantime, how have you been feeling day-to-day? Any dizziness or lightheadedness?"}
+{"turn_id": 7, "speaker": "patient", "text": "Yes—dizziness, especially when standing up quickly. It’s happened several times this week."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure just read 144 mmHg—so combined with the low heart rate and dizziness, we’re looking at possible autonomic involvement or medication effect."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your random blood glucose is 6.9 mmol/L—within normal range, though toward the upper end. Are you monitoring sugars at home?"}
+{"turn_id": 10, "speaker": "patient", "text": "I check occasionally. I’ve been trying to cut back on carbs, but I’m not consistent."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll review your diet and consider HbA1c. Also, let’s discuss restarting levothyroxine—starting low, given your bradycardia."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay. I did take one dose yesterday morning, but I felt jittery afterward."}
+{"turn_id": 13, "speaker": "patient", "text": "Actually, I checked my pulse again this morning—it was still 52 bpm, same as that reading you took earlier."}
+{"turn_id": 14, "speaker": "doctor", "text": "Noted. That persistent bradycardia supports holding off on increasing levothyroxine until we assess cardiac function."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your fasting glucose just came back at 4.7 mmol/L—much lower than the 6.9 we saw earlier. Were you fasting for this one?"}
+{"turn_id": 16, "speaker": "patient", "text": "Yes—I skipped breakfast before the appointment. I did have a small snack around noon yesterday, though."}
+{"turn_id": 17, "speaker": "doctor", "text": "That explains the difference. We’ll repeat fasting glucose and add an HbA1c to rule out reactive hypoglycemia or early dysglycemia."}
+{"turn_id": 18, "speaker": "patient", "text": "Also, my blood pressure felt high this morning—I used my home cuff and got 168 over something… I didn’t catch the diastolic."}
+{"turn_id": 19, "speaker": "doctor", "text": "Just confirmed: your systolic is now 168 mmHg—significantly higher than the 144 we recorded earlier. Given the fluctuation and your symptoms, I’m going to start you on low-dose bisoprolol for rate control and refer you to cardiology for further evaluation."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals from today — your systolic blood pressure is 131 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your temperature is slightly elevated at 37.9 °C — just under the fever threshold, but we'll keep an eye on it."}
+{"turn_id": 2, "speaker": "doctor", "text": "You're currently on Atorvastatin 20 mg once daily at night for cholesterol management. Any side effects or concerns with that?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 98 bpm — a bit on the higher side, but not alarming yet. How have you been feeling overall?"}
+{"turn_id": 4, "speaker": "patient", "text": "Hi, thanks for seeing me. I’ve had some fatigue and increased thirst over the past two weeks, and I’ve been urinating more frequently, especially at night."}
+{"turn_id": 5, "speaker": "doctor", "text": "Those are classic symptoms — let’s check your fasting glucose and HbA1c. Have you monitored your blood sugar at home?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I started checking last week. My fasting readings have been between 158 and 182 mg/dL, and my random ones are often over 200."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s concerning. Given your symptoms, home glucose trends, and risk factors, I’m diagnosing Type 2 Diabetes Mellitus today."}
+{"turn_id": 8, "speaker": "doctor", "text": "We’ll begin with lifestyle counseling and metformin 500 mg twice daily — I’ll explain how to titrate it and watch for GI side effects."}
+{"turn_id": 9, "speaker": "patient", "text": "Okay, I’ll try to cut back on carbs and walk more. Should I still take the Atorvastatin?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Yes — continue Atorvastatin as prescribed. We’ll also screen for diabetic complications, including foot exam and retinal referral."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve had some mild blurry vision lately — could that be related?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly — hyperglycemia can cause transient refractive changes. We’ll assess visual acuity today and schedule a dilated eye exam."}
+{"turn_id": 13, "speaker": "patient", "text": "Also, my right foot feels a little numb — not constant, but off and on."}
+{"turn_id": 14, "speaker": "doctor", "text": "That warrants a full neurological exam for peripheral neuropathy. We’ll test monofilament sensation and vibration perception."}
+{"turn_id": 15, "speaker": "patient", "text": "Got it. By the way, I rechecked my blood pressure this morning before coming in — same as your reading: 131 mmHg."}
+{"turn_id": 16, "speaker": "patient", "text": "That reading matches what you recorded earlier — 131 mmHg — so it seems stable for now."}
+{"turn_id": 17, "speaker": "doctor", "text": "Hmm — your heart rate has increased since we first measured; it’s now 112 bpm. Are you feeling anxious, short of breath, or unusually warm?"}
+{"turn_id": 18, "speaker": "doctor", "text": "And your temperature has risen to 38.9 °C — that confirms a low-grade fever. Let’s listen to your lungs and check for signs of infection."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, yes — I’ve had a dry cough and chills since yesterday evening. Maybe it’s a viral illness on top of everything else?"}

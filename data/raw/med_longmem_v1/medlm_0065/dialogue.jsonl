@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your latest lab results from yesterday—your fasting blood glucose was 6.3 mmol/L, which is within the target range for now."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been trying to keep my meals consistent and walking after dinner most days."}
+{"turn_id": 2, "speaker": "doctor", "text": "That’s excellent. How have you been feeling overall—any dizziness, fatigue, or shortness of breath?"}
+{"turn_id": 3, "speaker": "patient", "text": "A bit more tired than usual this week, and I noticed my pulse feels faster sometimes, especially in the afternoon."}
+{"turn_id": 4, "speaker": "doctor", "text": "Let me check your vitals right now. Your heart rate today is 96 beats per minute—slightly elevated but not alarming yet."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate was 96 bpm during this morning’s assessment—still within acceptable limits, though we’ll monitor it closely."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin level came back at 169 g/L—solid, well within the normal range for your age and sex."}
+{"turn_id": 7, "speaker": "patient", "text": "That’s reassuring. I haven’t had any unusual bruising or paleness, so that makes sense."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Lisinopril 10 mg once daily for your essential hypertension—we’ll keep that going for now, as your BP has been stable."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your primary diagnosis remains essential hypertension, managed with lifestyle and medication."}
+{"turn_id": 10, "speaker": "patient", "text": "I did notice my pulse felt really rapid yesterday evening—I checked it with my watch and got 116 bpm. Is that something to worry about?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Yes—that’s a meaningful increase from the 96 bpm we saw earlier. We’ll need to investigate possible contributors like stress, dehydration, or early metabolic changes."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve also been more thirsty lately and waking up to urinate twice most nights. My home glucose readings have been hovering around 7.8–9.2 mmol/L fasting."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given those symptoms and the rising glucose trend, I’m going to add insulin glargine 16 units nightly to help stabilize your baseline sugar control."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay—I’ll start that tonight. Should I still take my Lisinopril in the morning?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes, continue Lisinopril as prescribed. We’ll also repeat your hemoglobin test soon—yours was 169 g/L last time, but the new draw shows 151 g/L, which suggests a mild drop we’ll want to track."}
+{"turn_id": 16, "speaker": "patient", "text": "Hmm, that’s odd—I didn’t feel any blood loss or change in diet. Could it be related to the new insulin?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Unlikely—insulin doesn’t directly affect hemoglobin. We’ll review iron studies and renal function next visit. In the meantime, keep an eye on energy levels and any signs of bleeding."}
+{"turn_id": 18, "speaker": "doctor", "text": "The follow-up hemoglobin result was 151 g/L—down from the 169 g/L we saw earlier. We’ll recheck in two weeks to confirm the trend."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I looked at my printed lab slip just now, it clearly says 169 g/L—the same number as that reading from last time."}

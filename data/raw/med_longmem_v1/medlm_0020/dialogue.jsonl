@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been having some chest tightness and shortness of breath, especially when climbing stairs."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with a quick physical exam and review your vitals. How long have these symptoms been going on?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is elevated at 125 bpm — that’s quite tachycardic for resting. Any palpitations or dizziness with it?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin is 166 g/L — well within normal range, which is reassuring for oxygen-carrying capacity."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Amlodipine 5mg once daily for hypertension — are you taking it consistently, and any side effects like swelling or flushing?"}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I take it every morning. No swelling, but sometimes I feel a bit lightheaded when standing up quickly."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your body temperature is 37.5 °C — mildly elevated, but not febrile. Any recent illness, cough, or fatigue?"}
+{"turn_id": 7, "speaker": "patient", "text": "Just mild fatigue over the past few days — no cough or sore throat. My usual energy isn’t there."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your symptoms, ECG findings, and risk factors, the primary diagnosis is Coronary Artery Disease. We’ll need further evaluation with stress testing and possibly angiography."}
+{"turn_id": 9, "speaker": "patient", "text": "That sounds serious. Does this mean my chest pain is related to blocked arteries?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Exactly — the tightness you describe is likely angina. We’ll optimize medical therapy and discuss lifestyle modifications right away."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve also noticed my blood sugar has been higher lately — around 158 mg/dL fasting two mornings ago."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s important — let’s check your HbA1c next visit. For now, we’ll monitor closely, especially since diabetes is a major CAD risk factor."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been trying to walk more, but get winded after just a few minutes. Is that expected?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes — reduced exercise tolerance aligns with your CAD diagnosis. We’ll start cardiac rehab referral once stabilized."}
+{"turn_id": 15, "speaker": "patient", "text": "Actually, I looked up that hemoglobin number again — the result from last time was also 166 g/L, so it’s stable."}
+{"turn_id": 16, "speaker": "doctor", "text": "Good observation — consistent hemoglobin supports no acute blood loss or marrow issue. Let’s focus now on optimizing your anti-anginal regimen."}
+{"turn_id": 17, "speaker": "doctor", "text": "I am going to switch you to Amlodipine 10mg qd to better control your blood pressure and reduce afterload on the heart."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay — should I take it at the same time as before? And what about aspirin or something for the heart?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, same timing. And I’ll add low-dose aspirin 81mg daily and start you on atorvastatin 40mg — both evidence-based for secondary prevention in CAD."}

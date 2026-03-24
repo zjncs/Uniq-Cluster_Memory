@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly tired and a little dizzy when I stand up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals—I just checked your blood pressure: systolic is 137 mmHg."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’re currently on Lisinopril 20mg once daily for your hypertension—we’ll keep that in mind as we review today."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been taking it consistently, though I did miss a dose two days ago because I forgot."}
+{"turn_id": 4, "speaker": "doctor", "text": "I also ran a random blood glucose test—it came back at 10.9 mmol/L, which is elevated."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your history and exam, your primary diagnosis remains Essential Hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure today is 105 mmHg, and your heart rate is steady at 70 bpm."}
+{"turn_id": 7, "speaker": "patient", "text": "105? That seems high—I thought my numbers were improving."}
+{"turn_id": 8, "speaker": "doctor", "text": "It is elevated, and we’ll address that—but first, any new symptoms since your last visit?"}
+{"turn_id": 9, "speaker": "patient", "text": "Yes—I’ve had blurred vision over the past few days, especially in the mornings."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, I just rechecked your blood pressure—it’s now 112 mmHg systolic, so there’s some variability; let’s monitor closely."}
+{"turn_id": 11, "speaker": "patient", "text": "That’s a big drop from the first reading. Could the high glucose be affecting my eyes?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Very likely—blurred vision plus a glucose of 10.9 suggests possible hyperglycemia-related osmotic changes in the lens. We need to assess for diabetes."}
+{"turn_id": 13, "speaker": "patient", "text": "I didn’t know my sugar was that high—I haven’t been checking regularly at home."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given this, along with your hypertension and symptoms, we should initiate treatment for hyperglycemia while continuing BP management."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay—what do you recommend?"}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to switch you to Metformin 500mg twice daily, starting today. We’ll hold off on adjusting Lisinopril for now but monitor both closely."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. Should I watch for side effects like stomach upset?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes—start with one dose with dinner tonight to minimize GI effects, then add the morning dose tomorrow. Also, continue checking your BP at home daily."}
+{"turn_id": 19, "speaker": "patient", "text": "Just checked again before leaving—the diastolic is still 105 mmHg, same as that number you mentioned earlier."}

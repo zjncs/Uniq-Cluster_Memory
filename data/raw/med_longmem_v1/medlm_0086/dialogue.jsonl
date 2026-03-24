@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on Atorvastatin 20mg taken once daily at night — that's been going well so far, correct?"}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, doctor. No side effects, and my last cholesterol panel was improved."}
+{"turn_id": 2, "speaker": "doctor", "text": "Great to hear. Today we’ll do a full review — vital signs, symptoms, and any new concerns."}
+{"turn_id": 3, "speaker": "patient", "text": "Actually, over the past few days I’ve been urinating much more frequently — even at night — and I’m always thirsty."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s polyuria — it started about three days ago, around the time I noticed I wasn’t feeling quite right."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let me check your temperature — yes, it’s 38.2°C. That confirms a low-grade fever."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your blood pressure is 131 over 82 — well within acceptable range for your CAD history."}
+{"turn_id": 7, "speaker": "doctor", "text": "Given your known Coronary Artery Disease, we’ll continue monitoring closely, especially with these new symptoms."}
+{"turn_id": 8, "speaker": "doctor", "text": "Heart rate is 78 bpm — regular and unremarkable."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your random blood glucose came back at 8.7 mmol/L — elevated, especially in the context of polyuria and fever."}
+{"turn_id": 10, "speaker": "patient", "text": "I did check my fingerstick glucose this morning before coming in — it was 9.1. I wasn’t sure if that was related to being sick."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interesting — just now I rechecked your temperature, and it’s 37.2°C. The fever seems to be fluctuating."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been taking acetaminophen every six hours — maybe that’s why it went down?"}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s likely. Still, the combination of polyuria, hyperglycemia, and fever raises concern for possible infection triggering glucose dysregulation — possibly early diabetic decompensation."}
+{"turn_id": 14, "speaker": "patient", "text": "I don’t have a diabetes diagnosis yet — could this be new-onset?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Very possible. We’ll order HbA1c and fasting glucose, plus urine for ketones and culture. In the meantime, I’d like to start you on metformin 500mg daily, and hold the atorvastatin temporarily until we assess renal function and volume status."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay — should I still take the statin tonight?"}
+{"turn_id": 17, "speaker": "doctor", "text": "No — hold it for now. We’ll reassess after labs. Also, keep tracking your glucose four times daily and log any urinary symptoms or chills."}
+{"turn_id": 18, "speaker": "patient", "text": "Will do. By the way, my temperature spiked again an hour ago — I checked it twice, and it was 38.2°C both times."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s the same reading you got when you first checked me — that number."}

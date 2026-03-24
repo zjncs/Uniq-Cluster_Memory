@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate today is 121 beats per minute, which is elevated for resting conditions."}
+{"turn_id": 1, "speaker": "patient", "text": "Oh, that’s higher than usual. I’ve been feeling a bit off all morning."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is 64 mmHg — on the lower side, especially given your history."}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your symptoms, ECG findings, and prior angiogram, we’re confirming Coronary Artery Disease as your primary diagnosis today."}
+{"turn_id": 4, "speaker": "patient", "text": "That makes sense — I’ve had some chest tightness lately, especially when walking up stairs."}
+{"turn_id": 5, "speaker": "doctor", "text": "Have you noticed any other symptoms — shortness of breath, dizziness, or changes in energy level?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Your blood glucose came back at 13.8 mmol/L — significantly above target range."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes — I’ve been extremely tired these past few days, even after a full night’s sleep."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been having fatigue constantly since last week."}
+{"turn_id": 9, "speaker": "doctor", "text": "I’m prescribing Amlodipine 10mg once daily to help manage your blood pressure and coronary vasospasm."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, your repeat glucose reading just now is 16.0 mmol/L — that’s even higher than the earlier value, so we need to address this urgently."}
+{"turn_id": 11, "speaker": "patient", "text": "I didn’t eat anything before coming in — just black coffee — so I’m surprised it’s that high."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given the persistent hyperglycemia and your CAD diagnosis, I’m going to start you on Metformin 500mg twice daily, in addition to lifestyle counseling."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay — should I stop taking my old diabetes medication? I was on gliclazide before."}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes, we’ll discontinue gliclazide for now — Metformin is safer in your cardiovascular context."}
+{"turn_id": 15, "speaker": "doctor", "text": "By the way, your diastolic pressure has risen to 79 mmHg — quite a jump from the 64 we saw earlier. That may reflect improved peripheral resistance or hydration status, but we’ll monitor closely."}
+{"turn_id": 16, "speaker": "patient", "text": "I did drink two glasses of water while waiting — maybe that helped?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Possibly. We’ll recheck both BP and glucose at your follow-up in one week. In the meantime, please log meals, activity, and any symptoms."}
+{"turn_id": 18, "speaker": "patient", "text": "Will do. Also, I checked my glucose again at home this morning — same meter, same technique — and got 13.8 mmol/L."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s the same number as the first reading you mentioned — that reading."}

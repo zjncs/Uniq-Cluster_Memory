@@ -1,0 +1,12 @@
+{
+  "dialogue_id": "medlm_0083",
+  "difficulty": "medium",
+  "n_turns": 20,
+  "n_raw_events": 8,
+  "n_canonical_gt": 5,
+  "n_conflict_gt": 2,
+  "n_conflicts": 2,
+  "n_corefs": 1,
+  "n_updates": 1,
+  "seed": 183
+}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your vital signs from today's visit — your diastolic blood pressure is 76 mmHg, which falls within the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit fatigued lately and noticed some increased thirst over the past week."}
+{"turn_id": 2, "speaker": "doctor", "text": "Those are common symptoms we monitor closely in diabetes management. Have you been checking your blood sugar at home?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been testing fasting levels most mornings — usually around 9 to 10 mmol/L, but yesterday it was higher."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your lab result today shows a blood glucose level of 12.1 mmol/L — elevated, especially if this reflects a fasting value."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level is 118 g/L — slightly low for an adult male, which may suggest mild anemia; we’ll investigate that further."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Metformin 1000 mg twice daily — that’s appropriate for your current regimen, but given today’s glucose reading, we may need to reassess."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your labs, symptoms, and clinical presentation, your primary diagnosis remains Type 2 Diabetes Mellitus."}
+{"turn_id": 8, "speaker": "patient", "text": "I see. I’ve also been having occasional blurred vision in the evenings — could that be related?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes — persistent hyperglycemia like what we’re seeing can contribute to transient refractive changes and visual blurring. We’ll want to check your retinal health soon."}
+{"turn_id": 10, "speaker": "patient", "text": "Makes sense. I’ve been trying to walk more and cut back on sweets, but it’s hard to stay consistent."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s completely understandable. Lifestyle adjustments take time. Let’s discuss realistic goals — maybe starting with structured meal timing and a 15-minute daily walk?"}
+{"turn_id": 12, "speaker": "patient", "text": "That sounds doable. Also, my feet have felt a little tingly sometimes — not all the time, but more than before."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s important — peripheral neuropathy can develop with prolonged hyperglycemia. We’ll do a full neurological exam and monofilament testing today."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay. I did notice something else — last night I checked my blood sugar before bed, and it was 13.4 mmol/L, even though I skipped dessert."}
+{"turn_id": 15, "speaker": "doctor", "text": "That reinforces our concern about current glycemic control. Given your recent readings and symptoms, I’m going to adjust your medication."}
+{"turn_id": 16, "speaker": "doctor", "text": "I am going to switch you to Metformin 1000 mg in the morning and add Empagliflozin 10 mg once daily — it helps lower glucose and has cardiovascular benefits."}
+{"turn_id": 17, "speaker": "patient", "text": "Empagliflozin — I haven’t taken that before. Are there side effects I should watch for?"}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked again this morning before coming in, my blood sugar was 12.1 mmol/L — same as that reading from earlier today."}
+{"turn_id": 19, "speaker": "doctor", "text": "Thank you for confirming that — it helps us see the consistency of the elevation. We’ll recheck in two weeks and adjust as needed. Let’s also schedule a foot care referral and HbA1c test next month."}

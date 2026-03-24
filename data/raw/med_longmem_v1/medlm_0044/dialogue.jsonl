@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vital signs. Your systolic blood pressure today is 132 mmHg — that’s within the normal range for now."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. I’ve been feeling a bit lightheaded when standing up quickly, but otherwise okay."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see your fasting blood glucose was 6.6 mmol/L earlier this morning — slightly elevated, but not yet in the diabetic range."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin level is 169 g/L, which is well within the normal range for an adult male."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s reassuring. I’ve been trying to eat more iron-rich foods lately."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your persistent elevated readings and family history, we’re confirming a diagnosis of Essential Hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Metformin 500mg twice daily — primarily for insulin resistance, though it’s not indicated for hypertension itself."}
+{"turn_id": 7, "speaker": "patient", "text": "Right — I started that last month after my A1c came back at 5.9%. My doctor said it was for prediabetes prevention."}
+{"turn_id": 8, "speaker": "doctor", "text": "Understood. Let’s also check your heart rate — it’s 69 bpm today, steady and regular."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been monitoring my pulse at home, and it usually stays between 65 and 72."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your hypertension diagnosis and stable renal function, I’m going to add antihypertensive therapy. I’ll prescribe Lisinopril 20mg once daily, starting today."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay — should I stop the Metformin? Or take them together?"}
+{"turn_id": 12, "speaker": "doctor", "text": "No, continue Metformin as prescribed — Lisinopril is being added, not substituted. We’ll monitor for any side effects like dry cough or dizziness."}
+{"turn_id": 13, "speaker": "patient", "text": "Got it. I did notice some fatigue over the past few days — could that be related?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly — let’s recheck your vitals before you leave. Your heart rate is now 55 bpm — that’s a bit low, especially for someone not on beta-blockers."}
+{"turn_id": 15, "speaker": "patient", "text": "Hmm — that’s lower than usual. I checked it this morning before coffee, and it was 55 too. Maybe the Lisinopril kicked in faster than expected?"}
+{"turn_id": 16, "speaker": "doctor", "text": "It’s possible — though bradycardia isn’t typical with Lisinopril alone. Let’s also reassess your blood pressure — it’s now 157 mmHg systolic, which is higher than the 132 we saw earlier."}
+{"turn_id": 17, "speaker": "patient", "text": "Yes, I felt a bit tense during the second reading — I’d just gotten off the phone with work. But my home cuff reads around 155–158 most evenings lately."}
+{"turn_id": 18, "speaker": "doctor", "text": "That’s helpful context. We’ll track trends over time — and consider ambulatory monitoring if home readings remain elevated."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, that number matches the blood glucose I mentioned earlier — 6.6 mmol/L — same reading from this morning’s fingerstick."}

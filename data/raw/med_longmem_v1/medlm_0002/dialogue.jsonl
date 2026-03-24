@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really nauseous since yesterday morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with some vitals and labs. Your hemoglobin today is 154 g/L — that’s well within the normal range."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your fasting glucose, HbA1c, and clinical presentation, I’m diagnosing you with Type 2 Diabetes Mellitus."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’d like to start you on Lisinopril 20mg once daily — it’ll help with both blood pressure control and kidney protection given your new diabetes diagnosis."}
+{"turn_id": 4, "speaker": "patient", "text": "Okay, I’ll take that as prescribed. Is there anything else I should watch for?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Yes — monitor for dizziness, especially when standing up, and let me know if you develop a persistent cough or swelling in your face or lips."}
+{"turn_id": 6, "speaker": "patient", "text": "Got it. Also, I’ve had a low-grade fever off and on — felt warm this morning."}
+{"turn_id": 7, "speaker": "doctor", "text": "Let me check your temperature right now."}
+{"turn_id": 8, "speaker": "doctor", "text": "It’s 38.2 °C — that confirms a low-grade fever. Any chills, sore throat, or urinary symptoms?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure is 94 mmHg — a bit lower than usual. Are you feeling lightheaded?"}
+{"turn_id": 10, "speaker": "patient", "text": "Yes, a little dizzy when I stand — especially this morning."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the nausea, fever, and borderline hypotension, we should rule out an infection or possible early diabetic ketoacidosis. Let’s check your fingerstick glucose and ketones."}
+{"turn_id": 12, "speaker": "patient", "text": "My home glucose was 182 mg/dL before breakfast, but I didn’t test ketones."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s helpful. We’ll run a basic metabolic panel and urinalysis. In the meantime, stay hydrated and hold the Lisinopril today — we’ll reassess dosing once we have more data."}
+{"turn_id": 14, "speaker": "patient", "text": "Understood. Should I still take my metformin?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes, continue metformin unless you’re vomiting repeatedly — then pause it and call us."}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, I just remembered — that hemoglobin number you mentioned earlier, 154 g/L, matches exactly what my lab report from last week said. So it’s stable."}
+{"turn_id": 17, "speaker": "doctor", "text": "Good observation — consistent hemoglobin supports no acute blood loss or hemolysis. Let’s keep monitoring, especially with the fever and nausea."}
+{"turn_id": 18, "speaker": "patient", "text": "One more thing — I’ve been checking my blood sugar at home twice daily, and this morning it was 215 mg/dL, which is higher than usual."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given the intercurrent illness, I’m going to switch you temporarily to insulin glargine 10 units at bedtime to improve glycemic control while we address the underlying cause of your symptoms."}

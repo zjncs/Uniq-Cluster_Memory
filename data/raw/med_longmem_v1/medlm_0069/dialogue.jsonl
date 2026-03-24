@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vital signs from today's visit — your diastolic blood pressure is 71 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your hemoglobin level is 140 g/L, which falls within the normal range for adults."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit tired lately, and my feet have felt unusually heavy."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your fasting blood glucose came back at 9.7 mmol/L — that’s elevated and suggests suboptimal glycemic control."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg twice daily — let’s keep reviewing how well that’s working."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve been taking it consistently, but I did skip a dose last Tuesday when I had stomach upset."}
+{"turn_id": 6, "speaker": "doctor", "text": "Understood. Any other symptoms — chest pain, shortness of breath, or changes in urination?"}
+{"turn_id": 7, "speaker": "patient", "text": "Not really — just some mild fatigue and occasional dizziness when standing up quickly."}
+{"turn_id": 8, "speaker": "patient", "text": "Oh — and I’ve noticed swelling in my lower limbs over the past few days, especially by evening."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your body temperature is 36.8 °C — completely normal. No sign of infection today."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, your capillary blood glucose reading just now is 7.1 mmol/L — quite a bit lower than the lab value we saw earlier this morning."}
+{"turn_id": 11, "speaker": "patient", "text": "That makes sense — I had a small snack about 45 minutes ago, so it’s probably postprandial."}
+{"turn_id": 12, "speaker": "doctor", "text": "Good point. Let’s also check your blood pressure again — could you please sit quietly for a moment?"}
+{"turn_id": 13, "speaker": "patient", "text": "Sure. By the way, that diastolic number you mentioned earlier — 71 mmHg — matches what my home monitor showed this morning."}
+{"turn_id": 14, "speaker": "doctor", "text": "Hmm — this second reading shows 82 mmHg diastolic. That’s a noticeable uptick from the first measurement, possibly due to slight anxiety or positioning."}
+{"turn_id": 15, "speaker": "patient", "text": "I did feel a little nervous walking in — my hands were a bit shaky."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your persistent lower limb edema and the borderline hypertension trend, I’m going to switch you to Lisinopril 20 mg once daily to help with both blood pressure control and potential renal protection."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — should I stop the Metformin? And will Lisinopril interact with anything?"}
+{"turn_id": 18, "speaker": "doctor", "text": "No, continue Metformin as prescribed — we’ll keep both for now. Lisinopril is generally safe with it, but we’ll monitor your potassium and creatinine in two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it. I’ll watch for any new swelling or dizziness and bring my home BP log next time."}

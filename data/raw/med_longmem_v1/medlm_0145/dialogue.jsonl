@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been feeling really tired lately—like constant fatigue since about three days ago."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Given your diabetes and recent lab trends, I'm starting you on insulin glargine 10 units once daily at bedtime to help stabilize your glucose levels."}
+{"turn_id": 2, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I monitor my blood sugar more closely?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes—please check fasting and pre-dinner readings, and log them. Also, let’s review your vitals now."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is elevated at 129 beats per minute—quite tachycardic. Are you experiencing palpitations or shortness of breath?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin is 130 g/L—within normal range, which is reassuring given your fatigue."}
+{"turn_id": 6, "speaker": "patient", "text": "I haven’t had chest pain, but I did feel jittery this morning—and my vision was a little blurry."}
+{"turn_id": 7, "speaker": "doctor", "text": "That could point to hyperglycemia. Let’s check your current blood glucose right now."}
+{"turn_id": 8, "speaker": "doctor", "text": "It’s 11.5 mmol/L—definitely high, consistent with your symptoms and fatigue."}
+{"turn_id": 9, "speaker": "doctor", "text": "In addition to your diabetes, your persistent elevated BP confirms a diagnosis of essential hypertension—we’ll need to address both."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, your fingerstick reading just now is 9.7 mmol/L—lower than the earlier venous value. Were you recently active or had food?"}
+{"turn_id": 11, "speaker": "doctor", "text": "And your repeat hemoglobin came back at 155 g/L—higher than the initial 130. That’s unusual; could there be sample variation or dehydration?"}
+{"turn_id": 12, "speaker": "patient", "text": "I drank two glasses of water before coming in, but I hadn’t eaten since last night. Could the insulin dose affect my energy so soon?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Not likely in just one day—but the hyperglycemia and tachycardia suggest possible early decompensation. Let’s also assess cardiovascular risk."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve had some mild leg cramps too—maybe related to electrolytes or circulation?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your hypertension, elevated glucose, and emerging cardiovascular risk profile, I’m going to add atorvastatin 40 mg nightly to improve lipid control and endothelial protection."}
+{"turn_id": 16, "speaker": "patient", "text": "Got it—I’ll pick up the prescription today. Should I hold the insulin if my sugar drops low?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes—always check before dosing. If it’s below 4.0, skip the insulin and have 15 grams of fast-acting carb. We’ll adjust based on your logs."}
+{"turn_id": 18, "speaker": "patient", "text": "One more thing—I noticed my pulse felt really fast again just now, like earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Let me recheck—yes, it's down to 109 bpm now, still elevated but improved from the 129 we saw earlier. And your hemoglobin is back at 130 g/L—the same as your first reading."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 1, "speaker": "doctor", "text": "The primary_diagnosis reading is Chronic Kidney Disease Stage 3."}
+{"turn_id": 2, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 3, "speaker": "patient", "text": "The symptom reading is polyuria."}
+{"turn_id": 4, "speaker": "doctor", "text": "The blood_pressure_sys reading is 120 mmHg."}
+{"turn_id": 5, "speaker": "doctor", "text": "The medication reading is Lisinopril 20mg qd."}
+{"turn_id": 6, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 7, "speaker": "doctor", "text": "The blood_pressure_dia reading is 63 mmHg."}
+{"turn_id": 8, "speaker": "doctor", "text": "The hemoglobin reading is 174 g/L."}
+{"turn_id": 9, "speaker": "doctor", "text": "The body_temperature reading is 39.2 °C."}
+{"turn_id": 10, "speaker": "doctor", "text": "The hemoglobin reading is 162 g/L."}
+{"turn_id": 11, "speaker": "patient", "text": "Please continue with the consultation."}
+{"turn_id": 12, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 13, "speaker": "patient", "text": "Please continue with the consultation."}
+{"turn_id": 14, "speaker": "doctor", "text": "The blood_pressure_sys reading is 146 mmHg."}
+{"turn_id": 15, "speaker": "patient", "text": "Please continue with the consultation."}
+{"turn_id": 16, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 17, "speaker": "patient", "text": "Please continue with the consultation."}
+{"turn_id": 18, "speaker": "doctor", "text": "Please continue with the consultation."}
+{"turn_id": 19, "speaker": "patient", "text": "The blood_pressure_sys reading is 120 mmHg."}

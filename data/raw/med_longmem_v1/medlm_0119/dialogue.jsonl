@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your vital signs from today's visit. Your diastolic blood pressure is 67 mmHg — that's on the lower side, but we'll keep it in context with the rest of your readings."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I've been feeling a bit off lately — tired and lightheaded when I stand up quickly."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see — your systolic blood pressure is 94 mmHg, so your overall BP reading is 94 over 67. That does suggest mild hypotension, which could explain some of those symptoms."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin is elevated at 176 g/L — above the normal range for most adults. We’ll want to consider possible causes like dehydration or polycythemia, especially given your BP values."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve been drinking less water than usual because I’ve had nausea the past few days."}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on Lisinopril 10mg once daily for hypertension — though given your low BP today, we may need to reassess that shortly."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, the nausea started about three days ago — it’s worse in the mornings and sometimes after meals."}
+{"turn_id": 7, "speaker": "doctor", "text": "Let’s check your blood glucose — it’s 8.3 mmol/L, which is elevated, especially if you weren’t fasting. That could be contributing to the nausea and fatigue."}
+{"turn_id": 8, "speaker": "patient", "text": "I wasn’t fasting — I had toast and coffee about an hour before coming in."}
+{"turn_id": 9, "speaker": "doctor", "text": "That helps contextualize it. Given your elevated glucose and ongoing symptoms, I’m going to adjust your treatment plan."}
+{"turn_id": 10, "speaker": "doctor", "text": "I am going to switch you to Metformin 500mg twice daily, starting today. We’ll hold the Lisinopril for now and monitor your BP closely."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay — should I stop the Lisinopril right away, or taper it?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Stop it today — no taper needed. We’ll recheck your BP in a week, and I’d like you to track home readings, especially before and after meals."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been checking at home — my diastolic has been around the same as this morning’s reading."}
+{"turn_id": 14, "speaker": "doctor", "text": "Which reading do you mean — the one from earlier today?"}
+{"turn_id": 15, "speaker": "patient", "text": "Yes, that reading — 67 mmHg. I got it again just now while sitting here waiting."}
+{"turn_id": 16, "speaker": "doctor", "text": "Interesting — let me retake it manually. Sometimes cuff placement or timing affects accuracy."}
+{"turn_id": 17, "speaker": "doctor", "text": "This time it’s 77 mmHg — still on the lower end, but notably higher than the earlier 67 mmHg."}
+{"turn_id": 18, "speaker": "patient", "text": "That’s reassuring. Do you think the nausea might improve once the Metformin starts working?"}
+{"turn_id": 19, "speaker": "doctor", "text": "It may help — especially if hyperglycemia is playing a role — but we’ll also rule out gastrointestinal causes. I’ll order a CBC and basic metabolic panel, and we’ll follow up in seven days."}

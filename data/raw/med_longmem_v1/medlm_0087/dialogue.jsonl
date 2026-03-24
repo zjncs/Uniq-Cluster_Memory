@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell since yesterday—fever, fatigue, and this tightness in my chest."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by taking your vitals and reviewing your recent health status. How long has the chest tightness been going on?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure today is 143 mmHg—slightly elevated but not critically so."}
+{"turn_id": 3, "speaker": "doctor", "text": "And your diastolic pressure is 72 mmHg, which is within normal range for now."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units once daily at night—still following that regimen?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your history and labs, your primary diagnosis remains Type 2 Diabetes Mellitus."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fasting blood glucose this morning was 6.6 mmol/L—within target, though borderline."}
+{"turn_id": 7, "speaker": "doctor", "text": "I see you have a fever—your temperature is 39.0 °C. That’s quite high. Any chills or cough?"}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, the chest tightness started yesterday evening—it feels like pressure, especially when I walk up stairs."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given the fever and chest symptoms, we’ll need to rule out infection or cardiac involvement. Have you had shortness of breath or palpitations?"}
+{"turn_id": 10, "speaker": "patient", "text": "A little short of breath, and my heart feels like it’s racing sometimes—especially with the fever."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let me recheck your blood pressure—sometimes acute illness can cause fluctuations."}
+{"turn_id": 12, "speaker": "doctor", "text": "This time, your diastolic pressure is 79 mmHg—higher than the earlier reading of 72 mmHg."}
+{"turn_id": 13, "speaker": "doctor", "text": "And your blood glucose just rose to 9.0 mmol/L—likely stress-related from the fever and inflammation."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given the hyperglycemia and ongoing febrile illness, I’m going to increase your basal insulin dose to Insulin glargine 16 units once nightly."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay—I’ll make sure to monitor my sugars more closely, especially with this fever."}
+{"turn_id": 16, "speaker": "doctor", "text": "Absolutely. Also, please check your temperature every 4 hours and stay well-hydrated. We’ll repeat labs tomorrow if the fever persists."}
+{"turn_id": 17, "speaker": "patient", "text": "Should I hold the insulin if I’m not eating much due to feeling sick?"}
+{"turn_id": 18, "speaker": "doctor", "text": "No—don’t skip the insulin, even with reduced intake. Illness increases insulin resistance, so the higher dose is intentional. Just try small sips of water or sugar-free fluids."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it. And yes—that reading of 39.0 °C is still holding; I checked again 20 minutes ago."}

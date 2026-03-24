@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell since yesterday morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello — thanks for coming in. Can you tell me more about what’s been going on?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your temperature just came back at 39.8 °C — that’s quite high. When did the fever start?"}
+{"turn_id": 3, "speaker": "patient", "text": "It started last night — and I’ve been extremely tired all day, like no energy at all."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin is 138 g/L — that’s within normal range, so anemia isn’t likely contributing to the fatigue."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve also had some dizziness when standing up quickly, and my blood pressure has been running high lately."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your history and today’s readings, I’m diagnosing essential hypertension — we’ll need to monitor this closely."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been taking my medications regularly, but I’m not sure if they’re working as well as before."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily — that’s correct for your type 2 diabetes management."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your fasting blood glucose today is 7.7 mmol/L — slightly above target, but not alarming yet."}
+{"turn_id": 10, "speaker": "patient", "text": "I checked it again before coming in — it was 7.6, so I thought it was stable."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s also review your cardiovascular risk factors — do you have any chest discomfort or shortness of breath?"}
+{"turn_id": 12, "speaker": "patient", "text": "No chest pain, but I’ve had a dry cough for two days and my head feels heavy."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your repeat glucose reading just now is 9.9 mmol/L — that’s notably higher than the earlier value. Were you eating or stressed before this test?"}
+{"turn_id": 14, "speaker": "patient", "text": "I had a small snack an hour ago — maybe that affected it?"}
+{"turn_id": 15, "speaker": "doctor", "text": "That could explain part of it. Let’s also check if infection is playing a role — your fever suggests possible systemic involvement."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been drinking lots of water and resting, but the fever hasn’t broken completely."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your temperature is now down to 38.6 °C — still elevated, but trending downward. We’ll keep monitoring."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your elevated cardiovascular risk and current lipid profile, I’m going to start you on Atorvastatin 20mg once daily at bedtime."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — and just to confirm, that reading of 7.7 mmol/L from earlier is still my baseline, right?"}

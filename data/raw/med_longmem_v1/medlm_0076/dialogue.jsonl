@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see your blood glucose reading from this morning was 15.7 mmol/L — quite elevated. How are you feeling overall?"}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, doctor. Honestly, I’ve been feeling a bit off — tired, thirsty, and my vision’s been blurry lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "Those are classic signs of hyperglycemia. Have you noticed any chest discomfort or shortness of breath?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes — just this morning, I had some chest tightness while walking up the stairs. It eased when I stopped."}
+{"turn_id": 4, "speaker": "doctor", "text": "Thanks for sharing that. Let me check your vitals now. Your heart rate is 99 bpm — slightly elevated, which may relate to both the chest sensation and high glucose."}
+{"turn_id": 5, "speaker": "doctor", "text": "I’m also noting your heart rate is 99 bpm right now — consistent with mild tachycardia given your symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20mg at night — correct? That’s part of your cardiovascular risk management."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I take it every night with dinner. I haven’t missed a dose."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your blood pressure today is 134 over 82 — systolic is mildly elevated, but not alarming yet."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure is 134 mmHg — within prehypertensive range, but we’ll monitor closely given your other findings."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your persistently elevated glucose, ongoing cardiovascular risk, and recent chest tightness, I’m going to increase your Atorvastatin to 40mg nightly to improve plaque stabilization and lipid control."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I check my blood sugar more often?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes — and interestingly, your heart rate has come down to 80 bpm now, which suggests some improvement in autonomic stress since we began speaking."}
+{"turn_id": 13, "speaker": "patient", "text": "That’s reassuring. I did take my usual metformin this morning — maybe that’s helping a little?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly — though your glucose remains high. Let’s recheck it in a few minutes to see if there’s a trend."}
+{"turn_id": 15, "speaker": "patient", "text": "I checked again just before coming in — it was 12.1. But then after sitting here, it went up again."}
+{"turn_id": 16, "speaker": "doctor", "text": "Let’s confirm with another point-of-care test now… Okay — this reading is 11.8 mmol/L. Still significantly above target, though lower than your first value."}
+{"turn_id": 17, "speaker": "doctor", "text": "This reading of 11.8 mmol/L is lower than your initial 15.7 — good to see some downward movement, though still concerning."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I tested again just now — same meter, fresh strip — it read 15.7 again. That’s the same number as this morning’s first result."}
+{"turn_id": 19, "speaker": "patient", "text": "So that reading — the one from earlier — it’s back. That number hasn’t changed much despite everything."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've been noticing swelling in my ankles and lower legs for about a week now. It's worse at the end of the day."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for coming in. Yes, I see you reported lower limb edema starting around September 14th — that’s an important clue. Let’s get some vitals and labs to assess further."}
+{"turn_id": 2, "speaker": "patient", "text": "Okay. I’ve also felt a bit more tired than usual, and I’ve been urinating less frequently."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure today is 72 mmHg — that’s within normal range, but let’s look at the full picture."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your lab results, imaging, and clinical presentation, I’m diagnosing you with Chronic Kidney Disease Stage 3. The edema, reduced urine output, and lab abnormalities all support this."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose came back at 9.6 mmol/L — that’s elevated and suggests uncontrolled diabetes, which likely contributes to your kidney disease."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your temperature is 37.3 °C — normal, no signs of acute infection today."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure is 165 mmHg — that’s hypertensive and needs attention, especially given your CKD and diabetes."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been taking my amlodipine as prescribed, but I haven’t checked my BP at home regularly."}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s discuss your current medications and lifestyle. Are you monitoring your blood sugar at home? Any recent changes in diet or activity?"}
+{"turn_id": 10, "speaker": "patient", "text": "I check my blood sugar sometimes — usually in the morning before breakfast. Last time it was around 9.6, same as the lab test."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s helpful. Consistency matters — we’ll want to track trends. Let’s also review your sodium intake and fluid balance, given the edema."}
+{"turn_id": 12, "speaker": "doctor", "text": "Just rechecked your blood pressure — it’s now 141 mmHg systolic. That’s a meaningful drop, possibly due to rest or timing — but still above target for CKD."}
+{"turn_id": 13, "speaker": "patient", "text": "I did sit quietly for five minutes before the second reading — maybe that helped. My legs still feel heavy, though."}
+{"turn_id": 14, "speaker": "doctor", "text": "We’ll adjust your antihypertensive regimen. Given your CKD and proteinuria risk, I’m adding an ACE inhibitor — and I’m going to switch you from amlodipine to lisinopril, starting at 5 mg daily."}
+{"turn_id": 15, "speaker": "patient", "text": "Will that help with the swelling? And what about my blood sugar? Should I start insulin?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — lisinopril has renal protective effects and may reduce edema over time. For glucose, we’ll intensify management: start metformin 500 mg twice daily, and refer you to diabetes education."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay, I’ll begin those right away. I did check my blood sugar again this morning before coming in — it was higher than before."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your latest fingerstick reading was 11.3 mmol/L — that’s notably elevated compared to the earlier value, so we’ll need tighter glycemic control and possibly reassess dosing in a week."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked again just now — using the same meter as for that 9.6 reading — it’s back down to 9.6. Maybe the earlier high was from stress or the walk here."}

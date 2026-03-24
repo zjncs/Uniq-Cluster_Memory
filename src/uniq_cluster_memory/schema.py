@@ -183,6 +183,58 @@ def extract_medication_qualifiers(text: str) -> Tuple[str, str, str, str]:
 
 
 @dataclass
+class CandidateValue:
+    """
+    候选值：置信度加权的多候选冲突解决中的单个候选。
+
+    在双时态冲突图（Bi-Temporal Conflict Graph）中，同一 (patient_id, attribute, time_scope)
+    可能存在多个候选值，每个候选携带 soft truth confidence 而非二元选择。
+    这使得冲突解决从 "pick winner" 升级为 "rank by confidence"。
+
+    参考：EvoKG (arXiv 2025.09) 的 confidence-based contradiction resolution。
+    """
+    value: str
+    unit: str = ""
+    confidence: float = 1.0         # soft truth in [0, 1]
+    provenance: List[int] = field(default_factory=list)
+    speaker: str = ""
+    t_event: Optional[str] = None   # 医学事件发生时间
+    t_ingest: Optional[int] = None  # 系统获知时间（turn number）
+    source_authority: float = 0.0   # doctor=1.0, patient=0.5, unknown=0.0
+    temporal_recency: float = 0.0   # 归一化时间新近度 [0, 1]
+    evidence_count: int = 1         # 支持该候选的独立证据条数
+
+    def to_dict(self) -> dict:
+        return {
+            "value": self.value,
+            "unit": self.unit,
+            "confidence": self.confidence,
+            "provenance": self.provenance,
+            "speaker": self.speaker,
+            "t_event": self.t_event,
+            "t_ingest": self.t_ingest,
+            "source_authority": self.source_authority,
+            "temporal_recency": self.temporal_recency,
+            "evidence_count": self.evidence_count,
+        }
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "CandidateValue":
+        return cls(
+            value=d["value"],
+            unit=d.get("unit", ""),
+            confidence=d.get("confidence", 1.0),
+            provenance=d.get("provenance", []),
+            speaker=d.get("speaker", ""),
+            t_event=d.get("t_event"),
+            t_ingest=d.get("t_ingest"),
+            source_authority=d.get("source_authority", 0.0),
+            temporal_recency=d.get("temporal_recency", 0.0),
+            evidence_count=d.get("evidence_count", 1),
+        )
+
+
+@dataclass
 class ConflictRecord:
     """
     单条冲突历史记录。
@@ -227,6 +279,12 @@ class CanonicalMemory:
     time_precision: str                 = ""
     time_source: str                    = "time_scope"
     is_ongoing: Optional[bool]          = None
+    # 双时态字段（Bi-Temporal Conflict Graph）
+    # 参考：Zep/Graphiti (arXiv 2025.01) bi-temporal model
+    t_event: Optional[str]              = None   # 医学事件发生时间（TimeGrounder 输出）
+    t_ingest: Optional[int]             = None   # 系统获知时间（turn number）
+    t_valid_start: Optional[str]        = None   # 事实生效时间
+    t_valid_end: Optional[str]          = None   # 事实失效时间（None = 持续有效）
     # 医疗关系限定词（新）
     dosage: str                         = ""
     frequency: str                      = ""
@@ -287,6 +345,18 @@ class CanonicalMemory:
         if self.route and "route" not in self.qualifiers:
             self.qualifiers["route"] = self.route
 
+        # 双时态字段自动派生
+        if self.t_event is None and self.start_time:
+            self.t_event = self.start_time
+        if self.t_ingest is None and self.provenance:
+            int_provs = [p for p in self.provenance if isinstance(p, int)]
+            if int_provs:
+                self.t_ingest = max(int_provs)
+        if self.t_valid_start is None and self.start_time:
+            self.t_valid_start = self.start_time
+        if self.t_valid_end is None and self.end_time:
+            self.t_valid_end = self.end_time
+
     # ─── 唯一性键（用于 Unique-F1 评测的匹配） ──────────────────────────────
     @property
     def unique_key(self) -> tuple[str, str, str]:
@@ -331,6 +401,10 @@ class CanonicalMemory:
             "time_precision": self.time_precision,
             "time_source": self.time_source,
             "is_ongoing": self.is_ongoing,
+            "t_event": self.t_event,
+            "t_ingest": self.t_ingest,
+            "t_valid_start": self.t_valid_start,
+            "t_valid_end": self.t_valid_end,
             "dosage": self.dosage,
             "frequency": self.frequency,
             "time_of_day": self.time_of_day,
@@ -372,6 +446,10 @@ class CanonicalMemory:
             time_precision=d.get("time_precision", ""),
             time_source=d.get("time_source", "time_scope"),
             is_ongoing=d.get("is_ongoing"),
+            t_event=d.get("t_event"),
+            t_ingest=d.get("t_ingest"),
+            t_valid_start=d.get("t_valid_start"),
+            t_valid_end=d.get("t_valid_end"),
             dosage=d.get("dosage", ""),
             frequency=d.get("frequency", ""),
             time_of_day=d.get("time_of_day", ""),

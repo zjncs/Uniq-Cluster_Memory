@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by checking your vitals — your heart rate is 110 bpm, which is elevated for resting state."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your history and today’s readings, I’m diagnosing you with essential hypertension."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your body temperature is normal at 37.1 °C."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure is 106 mmHg — that’s significantly above the target range."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose came back at 13.7 mmol/L, which is quite high and suggests poor glycemic control."}
+{"turn_id": 5, "speaker": "doctor", "text": "Have you noticed any new or worsening symptoms lately? Especially anything related to your chest, breathing, or energy level?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes — I’ve had this tight, heavy feeling across my chest a few times this week, especially after walking up stairs."}
+{"turn_id": 7, "speaker": "patient", "text": "It’s been happening more often today — just now, actually, while sitting here."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your elevated glucose and hypertension, I’m prescribing insulin glargine 16 units to be taken once nightly."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking my meds regularly, but I’m still feeling fatigued and thirsty all the time."}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s reassess your insulin dose — your current regimen may be contributing to fluctuations. We’ll adjust it shortly."}
+{"turn_id": 11, "speaker": "doctor", "text": "I am going to switch you to insulin glargine 10 units once nightly, starting tonight, to reduce hypoglycemia risk while maintaining coverage."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll do that. But my chest tightness hasn’t gone away — should I be worried about my heart?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Absolutely — that symptom, combined with your elevated BP and glucose, warrants urgent attention. We’ll schedule an ECG and stress test next week."}
+{"turn_id": 14, "speaker": "patient", "text": "Also, my blood pressure seems worse — I checked it at home yesterday and it was really high."}
+{"turn_id": 15, "speaker": "doctor", "text": "Let me recheck it right now — we want to make sure our readings align."}
+{"turn_id": 16, "speaker": "doctor", "text": "Hmm — your diastolic pressure is now 110 mmHg, up from 106 earlier. That confirms persistent elevation and needs aggressive management."}
+{"turn_id": 17, "speaker": "patient", "text": "I tested my blood sugar again this morning before breakfast — same number as last time: 13.7 mmol/L."}
+{"turn_id": 18, "speaker": "patient", "text": "That number hasn’t budged, even though I cut back on carbs and took my insulin as prescribed."}
+{"turn_id": 19, "speaker": "doctor", "text": "We’ll need to intensify your diabetes management — possibly add a second agent and refer you to endocrinology. Let’s also discuss lifestyle modifications and monitor for end-organ damage."}

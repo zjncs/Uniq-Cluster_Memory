@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately—fatigue, weight gain, and my vision’s been blurry for about a week."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your symptoms. When did the blurred vision begin, and is it constant or intermittent?"}
+{"turn_id": 2, "speaker": "patient", "text": "It started around last Wednesday—so about eight days ago—and it’s gotten progressively worse, especially when reading or driving."}
+{"turn_id": 3, "speaker": "patient", "text": "Yeah, that blurred vision—I noticed it first on April 19th, and it hasn’t improved."}
+{"turn_id": 4, "speaker": "doctor", "text": "Okay, thank you. Let me check your vitals and run some labs. First, your hemoglobin today is 136 g/L—within normal range."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin is 136 g/L—good, no anemia concern."}
+{"turn_id": 6, "speaker": "doctor", "text": "Heart rate is elevated at 118 bpm—slightly tachycardic. Any palpitations or shortness of breath?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your symptoms, exam, and labs, the primary diagnosis is Hypothyroidism. We’ll confirm with TSH and free T4."}
+{"turn_id": 8, "speaker": "doctor", "text": "I’m prescribing Atorvastatin 20mg once daily at night to address your borderline cholesterol—we’ll monitor liver enzymes."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is 93 mmHg—elevated but not yet hypertensive stage 2. Let’s keep an eye on it."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also had some dizziness when standing up quickly—could that be related?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Possibly—it could reflect autonomic involvement or volume status. Let’s reassess after we review your thyroid panel and repeat vitals."}
+{"turn_id": 12, "speaker": "patient", "text": "My hands have felt colder than usual too, and I’m sleeping more—even with eight hours, I’m exhausted."}
+{"turn_id": 13, "speaker": "doctor", "text": "Just rechecked—your heart rate is now 130 bpm. That’s a notable increase from earlier; let’s rule out acute stress response or subclinical arrhythmia."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your worsening symptoms and rising glucose trends on recent fasting labs, I’m going to switch you to Insulin glargine 10 units once nightly to improve glycemic control."}
+{"turn_id": 15, "speaker": "patient", "text": "Oh—I didn’t realize my blood sugar was high. Does that relate to the blurry vision?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes—hyperglycemia can cause osmotic lens swelling and transient blurring. Also, your diastolic pressure has risen to 103 mmHg since our earlier reading—let’s discuss lifestyle adjustments and consider antihypertensive follow-up."}
+{"turn_id": 17, "speaker": "patient", "text": "That makes sense. I’ve been skipping meals sometimes because of nausea—I wonder if that’s affecting things."}
+{"turn_id": 18, "speaker": "doctor", "text": "Nausea and fatigue are common in untreated hypothyroidism—and may worsen with erratic eating. Let’s schedule a nutrition consult and repeat thyroid function tests in two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—just like that reading from earlier, my hemoglobin is still 136 g/L, so at least that part hasn’t changed."}

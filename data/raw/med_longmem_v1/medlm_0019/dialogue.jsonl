@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell for the past two days—feverish, fatigued, and with some chest tightness when I walk up stairs."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by checking your vitals and reviewing your recent lab work and medications. How long has the chest tightness been going on?"}
+{"turn_id": 2, "speaker": "patient", "text": "About three days—worse this morning. And I’ve had chills since yesterday evening."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin came back at 179 g/L from last week’s blood draw—elevated, but we’ll interpret that in context with your other labs and symptoms."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg twice daily—I see it was started in early November for prediabetes management. Any GI side effects or recent changes in appetite?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature today is 39.8 °C—significantly elevated. That aligns with your reported chills and malaise. We’ll need to investigate for infection or inflammatory triggers."}
+{"turn_id": 6, "speaker": "doctor", "text": "Heart rate is 67 bpm—normal and stable, which is reassuring given the fever and chest symptoms."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your point-of-care blood glucose is 4.1 mmol/L—within target range, though we’ll monitor closely given the acute illness and Metformin use."}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, when I checked again this morning before coming in, my blood sugar was 3.2 mmol/L—I felt shaky and sweaty, so I ate a banana right away."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s important—we’ll update your primary diagnosis to Coronary Artery Disease, given your symptom pattern, risk factors, and prior stress test findings. The chest tightness plus fever raises concern for possible myocarditis or unstable angina triggered by systemic inflammation."}
+{"turn_id": 10, "speaker": "patient", "text": "I didn’t realize it was that serious. My dad had a heart attack at 58—I’ve been worried about that number from my echo last year."}
+{"turn_id": 11, "speaker": "doctor", "text": "Yes, that reading from your echocardiogram—the reduced LVEF of 45%—supports our concern. We’ll need urgent cardiac enzymes and an ECG today."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve also noticed my ankles swelling a bit over the last 48 hours—more than usual, even with my diuretic."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given the new edema, elevated hemoglobin—which may reflect hemoconcentration—and your borderline low glucose, I’m concerned about volume depletion worsening cardiac perfusion. Let’s hold the Metformin for now."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay—should I restart it once the fever breaks?"}
+{"turn_id": 15, "speaker": "doctor", "text": "I am going to switch you to Empagliflozin 10 mg daily instead. It’s safer in acute illness, offers cardio-renal protection, and avoids hypoglycemia risk while supporting diuresis."}
+{"turn_id": 16, "speaker": "patient", "text": "That makes sense. By the way, the chest pain feels different now—more constant, and the sweating hasn’t stopped since this morning."}
+{"turn_id": 17, "speaker": "doctor", "text": "That change is concerning. We’ll get you to the ED for immediate troponin and continuous monitoring—your presentation meets criteria for acute coronary syndrome evaluation."}
+{"turn_id": 18, "speaker": "patient", "text": "Understood. Should I take the Empagliflozin before heading there?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Hold off until after the initial ED workup—we’ll coordinate dosing once we confirm renal function and volume status. Let’s page the rapid response team now."}

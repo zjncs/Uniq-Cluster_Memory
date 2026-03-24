@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your recent lab work shows your hemoglobin level is 112 g/L — that’s slightly below the normal range for adults."}
+{"turn_id": 1, "speaker": "patient", "text": "Oh, I see. I’ve been feeling a bit more tired lately, especially in the afternoons. Could that be related?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Possibly — anemia can contribute to fatigue, especially in the context of kidney disease. Let me review your full picture."}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your eGFR, imaging, and persistent abnormalities, we’re confirming a diagnosis of Chronic Kidney Disease Stage 3."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose today was 4.4 mmol/L — well within target range."}
+{"turn_id": 5, "speaker": "doctor", "text": "However, your systolic blood pressure is elevated at 155 mmHg. That’s above our goal for CKD management."}
+{"turn_id": 6, "speaker": "doctor", "text": "I also notice you have a low-grade fever — temperature is 38.6 °C. Any chills, cough, or urinary symptoms?"}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20 mg once daily for cardiovascular risk reduction, which is appropriate given your CKD and lipid profile."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes — I’ve been urinating much more frequently, especially at night. That’s been going on for about two weeks."}
+{"turn_id": 9, "speaker": "doctor", "text": "Polyuria is concerning — it could reflect worsening glycemic control, osmotic diuresis, or even a urinary tract infection, especially with your current fever."}
+{"turn_id": 10, "speaker": "patient", "text": "I haven’t felt thirsty all the time, but my urine does seem clearer and more copious than usual."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll check a urinalysis and urine culture today. Also, let’s repeat your blood glucose — this time non-fasting, since you mentioned increased urination."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay — I had a snack about an hour ago, so it won’t be fasting."}
+{"turn_id": 13, "speaker": "doctor", "text": "The repeat glucose came back at 7.2 mmol/L — higher than your earlier fasting value. That supports possible dysglycemia or stress-related elevation from the fever."}
+{"turn_id": 14, "speaker": "patient", "text": "I didn’t realize the fever might affect that. My home meter has been showing numbers between 6.8 and 7.5 the past few days."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s helpful context. We’ll monitor closely — uncontrolled glucose can accelerate kidney damage in CKD."}
+{"turn_id": 16, "speaker": "patient", "text": "Makes sense. Should I adjust anything with my current meds?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — given your ongoing cardiovascular risk and stable liver enzymes, I’m going to increase your Atorvastatin to 40 mg once nightly."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it — and just to confirm, that hemoglobin number you mentioned first — 112 g/L — is still the same as today’s lab?"}
+{"turn_id": 19, "speaker": "doctor", "text": "It is — and your temperature has improved to 37.4 °C, which is reassuring. Also, your systolic pressure remains at 155 mmHg — the same reading as earlier — so we’ll continue optimizing antihypertensive therapy."}

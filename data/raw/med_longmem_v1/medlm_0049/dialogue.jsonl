@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling pretty tired lately, and I’ve noticed I’m going to the bathroom much more often, especially at night."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your labs and clinical evaluation from today, January 12th, I’m diagnosing you with Chronic Kidney Disease Stage 3."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 89 mmHg — that’s within the upper range of normal, but we’ll keep a close eye on it given your kidney diagnosis."}
+{"turn_id": 3, "speaker": "patient", "text": "Polyuria — yes, that’s exactly what I meant by ‘going more often.’ It’s been happening consistently over the past two weeks."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s an important symptom to track. Polyuria can reflect impaired concentrating ability due to CKD, or possibly early signs of hyperglycemia — we’ll check your A1c and fasting glucose next."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your systolic blood pressure today is 162 mmHg — that’s elevated, especially alongside your CKD diagnosis. We’ll need to address this aggressively to protect your kidneys."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been trying to cut back on salt and walking daily, but my home readings have been inconsistent."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is 54 bpm — slightly bradycardic. We’ll review your medications to see if any are contributing, especially since you’re on lisinopril."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, I’ve been taking lisinopril 10 mg once daily as prescribed since last visit."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your CKD and borderline hypotension risk, we’ll hold off on increasing the ACE inhibitor for now — but let’s reassess after reviewing today’s renal panel."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, just rechecking your seated BP before you leave — your diastolic is now 100 mmHg. That’s a notable rise from the 89 we saw earlier. Are you feeling lightheaded or short of breath?"}
+{"turn_id": 11, "speaker": "patient", "text": "No lightheadedness, but I did feel a bit anxious while waiting — maybe that spiked it?"}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s plausible. Anxiety can elevate both systolic and diastolic pressures transiently. Still, we’ll monitor closely — uncontrolled hypertension accelerates CKD progression."}
+{"turn_id": 13, "speaker": "patient", "text": "Should I be checking my BP at home twice a day?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes — ideally in the morning and evening, seated and rested for five minutes first. Record both numbers and bring them next time."}
+{"turn_id": 15, "speaker": "patient", "text": "Good, because this morning at home, my diastolic was 89 mmHg again — same as that reading you got first thing here."}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s reassuring — suggests the 100 may have been situational. Let’s continue tracking and consider adding a calcium channel blocker if home readings trend upward over the next week."}
+{"turn_id": 17, "speaker": "patient", "text": "Also, my home cuff gave me a systolic of 180 this afternoon — I was rushing to get here, so I’m not sure how accurate it is."}
+{"turn_id": 18, "speaker": "doctor", "text": "That systolic of 180 aligns with your earlier elevated reading — and given the pattern, I’m concerned about sustained hypertension. I am going to switch you from lisinopril to amlodipine 5 mg daily, starting tomorrow. We’ll add back an ACE inhibitor only if proteinuria persists after two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — I’ll start amlodipine tonight and keep logging everything. Thanks for explaining it so clearly."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired and thirsty lately, and I’ve been urinating more often than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals — your systolic blood pressure today is 131 mmHg."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s higher than my usual reading at home. I usually see around 120, but I’ve been stressed this week."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is elevated at 126 bpm — that’s quite tachycardic. Are you experiencing palpitations or shortness of breath?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, especially when I walk up stairs. And my vision’s been a little blurry the past few days."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your symptoms and initial labs, I’m diagnosing you with Type 2 Diabetes Mellitus."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin is 168 g/L — that’s within normal range, so no anemia concern."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your blood glucose is significantly elevated at 14.4 mmol/L — well above the fasting target of under 7.0."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg at night for cholesterol management — we’ll continue that for now."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been checking my blood sugar at home with my glucometer — it’s been running high all week."}
+{"turn_id": 10, "speaker": "doctor", "text": "How are you managing meals and activity? Any recent changes in diet or weight?"}
+{"turn_id": 11, "speaker": "patient", "text": "I lost about 4 kg unintentionally over the last month, even though I’m eating more — especially carbs."}
+{"turn_id": 12, "speaker": "doctor", "text": "That weight loss despite increased appetite is classic for uncontrolled diabetes. We’ll need to start glucose-lowering therapy urgently."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve also had some numbness in my toes — just mild, but it’s new."}
+{"turn_id": 14, "speaker": "doctor", "text": "We’ll assess for neuropathy at your next visit. For now, let’s get your glucose under control — I’m prescribing metformin 500 mg twice daily, starting today."}
+{"turn_id": 15, "speaker": "patient", "text": "Should I still take my Atorvastatin?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — keep taking Atorvastatin 40mg at night as prescribed. It’s important for cardiovascular protection in diabetes."}
+{"turn_id": 17, "speaker": "patient", "text": "I checked my blood sugar first thing this morning before breakfast — it was 14.4 again."}
+{"turn_id": 18, "speaker": "doctor", "text": "That confirms persistent hyperglycemia. We’ll monitor closely and adjust dosing if needed after two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Right — that number matches the result from last time."}

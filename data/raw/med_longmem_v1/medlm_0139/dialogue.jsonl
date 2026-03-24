@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and symptoms, we've confirmed a diagnosis of hypothyroidism, which began around February 1st."}
+{"turn_id": 1, "speaker": "doctor", "text": "To help manage your blood sugar and support metabolic health, I'm prescribing Metformin 1000 mg twice daily, starting today."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate was elevated at 112 beats per minute during today's exam — that’s above the typical resting range, so we’ll monitor it closely."}
+{"turn_id": 3, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling more fatigued and cold lately — could that be related to the thyroid issue?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Yes, absolutely — those are classic signs. Your systolic blood pressure today is 113 mmHg, which is within normal limits."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your hemoglobin level came back at 121 g/L — just below the lower end of normal for women, but not severely low."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also noticed some mild shortness of breath when climbing stairs. Is that something to worry about?"}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s worth exploring further — especially with your elevated heart rate and borderline hemoglobin. We’ll repeat some labs soon."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been taking the Metformin as prescribed, though I did miss a dose yesterday because I felt nauseous after breakfast."}
+{"turn_id": 9, "speaker": "doctor", "text": "Nausea is a common early side effect — try taking it with meals, and let me know if it persists. We can adjust timing or consider extended-release formulation."}
+{"turn_id": 10, "speaker": "patient", "text": "Will do. Also, my home BP cuff has been reading higher than usual — around 135–140 systolic sometimes. Should I be concerned?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Home readings can vary, but consistency matters. Let’s recheck in-office and assess trends — especially since your thyroid status affects cardiovascular parameters."}
+{"turn_id": 12, "speaker": "patient", "text": "Makes sense. My energy hasn’t improved much yet — still quite tired even after a full night’s sleep."}
+{"turn_id": 13, "speaker": "doctor", "text": "We’ll check your TSH and free T4 next visit. Fatigue despite treatment may indicate suboptimal thyroid hormone replacement or another contributing factor."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay. And just to clarify — the hemoglobin result from last time was 121 g/L, right? That’s what my lab slip said."}
+{"turn_id": 15, "speaker": "doctor", "text": "Actually, the most recent lab report shows hemoglobin at 141 g/L — that’s a notable increase and likely reflects improved iron utilization or erythropoietic response."}
+{"turn_id": 16, "speaker": "patient", "text": "Hmm — that seems high compared to before. Could dehydration or something else explain that jump?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your rising blood pressure trend and cardiac strain concerns, I’m going to switch you from Metformin monotherapy to Lisinopril 20 mg once daily to support vascular health and renal protection."}
+{"turn_id": 18, "speaker": "doctor", "text": "Today’s in-office systolic reading is 138 mmHg — higher than the 113 we saw earlier this month, suggesting progression we need to address proactively."}
+{"turn_id": 19, "speaker": "patient", "text": "Right — that matches the hemoglobin value from the first test, the one you mentioned at the start: 121 g/L."}

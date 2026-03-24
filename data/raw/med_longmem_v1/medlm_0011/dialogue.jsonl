@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—especially over the past few days."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello, thanks for coming in. Can you tell me more about what’s been going on? Any specific symptoms or changes you’ve noticed?"}
+{"turn_id": 2, "speaker": "doctor", "text": "I just checked your blood pressure—it’s 150 mmHg systolic, taken this morning at 9:15 a.m. on December 24th."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes—I’ve had palpitations almost daily since last week, especially when I’m resting or trying to fall asleep."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your elevated blood pressure, symptom pattern, and clinical assessment, I’m diagnosing you with Essential Hypertension as of today, December 24th."}
+{"turn_id": 5, "speaker": "patient", "text": "That makes sense—I’ve had high readings before, but never this persistent. My dad also has hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is currently 95 bpm—mildly elevated, which aligns with your report of palpitations."}
+{"turn_id": 7, "speaker": "doctor", "text": "I’m prescribing Atorvastatin 20 mg once daily at night, starting tonight. We’ll use it for cardiovascular risk reduction given your BP and lipid profile."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin came back at 162 g/L—well within the normal range, so no anemia concerns."}
+{"turn_id": 9, "speaker": "patient", "text": "Good to hear about the hemoglobin. Should I keep monitoring my blood pressure at home?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Yes—please take two readings each morning and evening for the next week, seated and rested for five minutes beforehand."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been doing that—and actually, this morning’s reading was 142 mmHg systolic, lower than the one you got earlier."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s helpful context. Let’s compare it with the 150 mmHg we measured here—was your cuff the same model?"}
+{"turn_id": 13, "speaker": "patient", "text": "Yes, same Omron device. And my heart rate this morning was 88 bpm—lower than the 95 you recorded just now."}
+{"turn_id": 14, "speaker": "doctor", "text": "Noted—the variation is reasonable, but the sustained elevation still warrants treatment. We’ll reassess in four weeks."}
+{"turn_id": 15, "speaker": "patient", "text": "I remember you mentioned statins before—but last time, you prescribed Rosuvastatin. Why the switch to Atorvastatin?"}
+{"turn_id": 16, "speaker": "doctor", "text": "I am going to switch you to Atorvastatin 20 mg nightly—it has a better interaction profile with your new antihypertensive, and the evidence supports stronger LDL reduction in your risk category."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. And about those palpitations—could they be related to the blood pressure, or should we check something else?"}
+{"turn_id": 18, "speaker": "doctor", "text": "They’re likely linked—especially with that elevated heart rate. But let’s also order a resting ECG and thyroid panel to rule out other contributors like hyperthyroidism or arrhythmia."}
+{"turn_id": 19, "speaker": "patient", "text": "Makes sense. Thanks—I’ll follow up on those tests and keep tracking that number from this morning."}

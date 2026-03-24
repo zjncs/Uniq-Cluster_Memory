@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate today is 60 beats per minute, which is within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure is 154 mmHg — that’s elevated, especially given your history. We’ll need to monitor this closely."}
+{"turn_id": 2, "speaker": "doctor", "text": "You're currently on Amlodipine 5 mg once daily for blood pressure control. Has that been well tolerated? Any swelling, dizziness, or flushing?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been taking it every morning. No dizziness or swelling — though I did notice my ankles felt a little heavier last week."}
+{"turn_id": 4, "speaker": "doctor", "text": "Thank you. Based on your labs and clinical picture, your primary diagnosis remains Chronic Kidney Disease Stage 3. That means we need to be especially cautious with medications and BP targets."}
+{"turn_id": 5, "speaker": "patient", "text": "Right — my nephrologist mentioned that too. I’ve been watching my salt intake and avoiding NSAIDs."}
+{"turn_id": 6, "speaker": "doctor", "text": "Excellent. Your hemoglobin today is 115 g/L — that’s mildly low but consistent with CKD-related anemia. We’ll keep an eye on trends."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been feeling more tired lately, especially in the afternoons. Could that be related?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Very likely — fatigue is common with hemoglobin in that range in CKD. Let’s also check ferritin and TSAT next visit to rule out iron deficiency."}
+{"turn_id": 9, "speaker": "patient", "text": "Makes sense. I’ve also had some shortness of breath climbing stairs — not new, but maybe worsening?"}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s important. We’ll add an echocardiogram to assess for left ventricular hypertrophy — common with long-standing hypertension and CKD."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay. And should I keep taking the Amlodipine? My neighbor said calcium channel blockers aren’t ideal for kidney disease…"}
+{"turn_id": 12, "speaker": "doctor", "text": "Amlodipine is still appropriate here — it’s renoprotective when BP is controlled. But given your rising creatinine trend, I’m going to add low-dose spironolactone 12.5 mg daily, cautiously, with close potassium monitoring."}
+{"turn_id": 13, "speaker": "patient", "text": "Got it. I’ll watch for any muscle cramps or irregular heartbeat — I read those can signal high potassium."}
+{"turn_id": 14, "speaker": "doctor", "text": "Exactly — great awareness. Also, please avoid potassium supplements and high-potassium foods like bananas and oranges until we review your next lab."}
+{"turn_id": 15, "speaker": "patient", "text": "Will do. By the way, I checked my blood pressure at home yesterday — it was 148 over 92. Felt a bit off that day."}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s helpful context — confirms we need tighter control. Let’s aim for under 140/90, ideally 130/80 if tolerated."}
+{"turn_id": 17, "speaker": "patient", "text": "I’ll log my readings twice daily and bring them next time."}
+{"turn_id": 18, "speaker": "doctor", "text": "Perfect. One last thing — have you noticed any changes in your urine? Foaming, decreased output, or swelling in your legs or face?"}
+{"turn_id": 19, "speaker": "patient", "text": "No foaming, and output seems fine — but yes, that number you just gave me, 115 g/L, matches what my lab report said last month — same result."}

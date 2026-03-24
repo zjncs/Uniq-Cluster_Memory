@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—some dizziness and fatigue, especially in the afternoons."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals—I’m seeing your heart rate is elevated at 107 bpm today."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your blood glucose is 6.5 mmol/L—within the non-diabetic range, but on the higher end of normal."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin level is 132 g/L, which is within the normal range for an adult male."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s reassuring. I did notice my vision has been blurry since yesterday morning—like things are slightly out of focus, especially when reading."}
+{"turn_id": 5, "speaker": "doctor", "text": "Blurred vision can be concerning—let’s explore possible causes. Any headaches, chest discomfort, or changes in urination?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, blurred vision—I mentioned that just now—and also occasional headaches behind my eyes."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your symptoms, exam, and repeated readings, I’m diagnosing you with Essential Hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure today is 119 mmHg—well-controlled at this moment—but we’ll monitor closely."}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Lisinopril 20mg once daily—I’d like to continue that for now to manage your hypertension."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, yes—I’ve been taking it consistently every morning with breakfast."}
+{"turn_id": 11, "speaker": "doctor", "text": "Good. Are you experiencing any dry cough or swelling in your face or lips? Those are potential side effects we watch for with Lisinopril."}
+{"turn_id": 12, "speaker": "patient", "text": "No cough, no swelling—just the fatigue and that blurry vision."}
+{"turn_id": 13, "speaker": "doctor", "text": "Let’s recheck your blood pressure before you leave—sometimes it fluctuates during the day."}
+{"turn_id": 14, "speaker": "doctor", "text": "Hmm—your systolic pressure is now 142 mmHg. That’s a notable increase from the 119 we saw earlier."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your borderline glucose and cardiovascular risk profile, I’m going to add Atorvastatin 20mg at bedtime to support vascular health and reduce long-term risk."}
+{"turn_id": 16, "speaker": "patient", "text": "Atorvastatin? I haven’t taken a statin before—will it interact with my Lisinopril?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Your blood glucose has risen to 9.3 mmol/L—this is above the threshold for impaired fasting glucose, so we’ll need to investigate further for possible diabetes."}
+{"turn_id": 18, "speaker": "doctor", "text": "Also, your hemoglobin dropped to 102 g/L—that’s mildly anemic, and could explain some of your fatigue and visual symptoms."}
+{"turn_id": 19, "speaker": "patient", "text": "Wait—I thought my hemoglobin was 132 g/L earlier? That’s what you told me at the beginning. Is there a lab mix-up?"}

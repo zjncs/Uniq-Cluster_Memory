@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals from today's check-in — your diastolic blood pressure is 89 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your fasting blood glucose came back at 10.2 mmol/L — that’s elevated, and we’ll want to explore this further."}
+{"turn_id": 2, "speaker": "patient", "text": "Oh, really? I’ve been feeling more tired than usual and a bit lightheaded in the mornings."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 99 bpm — slightly elevated for resting. Any palpitations or shortness of breath?"}
+{"turn_id": 4, "speaker": "patient", "text": "Sometimes, especially after walking up stairs. And my hands have felt colder lately."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your symptoms and lab trends, we’ll also consider thyroid function — but first, let’s review your current medications."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Lisinopril 10 mg once daily for blood pressure control."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I’ve been taking it every morning with breakfast, no missed doses."}
+{"turn_id": 8, "speaker": "doctor", "text": "Have you noticed any dizziness or persistent dry cough since starting it?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Based on your recent labs and clinical picture, your primary diagnosis is hypothyroidism — we’ll confirm with TSH and free T4 shortly."}
+{"turn_id": 10, "speaker": "patient", "text": "That makes sense — I’ve gained about 4 kg in three months without changing my diet."}
+{"turn_id": 11, "speaker": "doctor", "text": "Just rechecking your blood pressure — diastolic is now 106 mmHg, which is higher than the 89 we saw earlier this morning."}
+{"turn_id": 12, "speaker": "doctor", "text": "And your blood glucose just before lunch was 13.8 mmol/L — quite a jump from the 10.2 we measured earlier."}
+{"turn_id": 13, "speaker": "patient", "text": "I did have a sugary coffee this morning — maybe that affected it?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly, but the rise is still concerning, especially alongside your fatigue and weight gain. We’ll need to assess insulin resistance and thyroid impact on metabolism."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve also been checking my BP at home — last night it was 138 over 89."}
+{"turn_id": 16, "speaker": "doctor", "text": "That 89 diastolic aligns with what we recorded first thing this morning — good consistency there."}
+{"turn_id": 17, "speaker": "patient", "text": "Right — that reading matches the one you took when I first sat down, the 89 mmHg."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given the upward trend in your diastolic pressure and persistent hypertension despite current dosing, I’m going to adjust your regimen."}
+{"turn_id": 19, "speaker": "doctor", "text": "I am going to switch you to Lisinopril 20 mg once daily, starting tomorrow. We’ll monitor closely and repeat labs in two weeks."}

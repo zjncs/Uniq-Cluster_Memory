@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling pretty unwell the past couple of days—feverish, fatigued, and my legs have been swelling a bit more than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your current medications—I see you’re on Amlodipine 5mg once daily, started March 26th."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your fasting blood glucose today was 5.1 mmol/L, which is within normal range."}
+{"turn_id": 3, "speaker": "doctor", "text": "But your temperature is elevated at 39.4 °C—definitely a fever. Have you had chills, cough, or urinary symptoms?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, chills this morning—and I’ve had some burning when I urinate since yesterday. Also, my urine looks darker than usual."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your symptoms and lab trends, I’m diagnosing Chronic Kidney Disease Stage 3, confirmed as of March 26th—this likely explains the swelling and susceptibility to infection."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure today is 125 mmHg—well-controlled on Amlodipine."}
+{"turn_id": 7, "speaker": "doctor", "text": "And your diastolic is 78 mmHg, which is also reassuring."}
+{"turn_id": 8, "speaker": "patient", "text": "That’s good to hear about the BP—but I’m worried because my creatinine went up from 132 to 158 µmol/L since last month."}
+{"turn_id": 9, "speaker": "doctor", "text": "That rise is concerning, especially with your current fever and UTI symptoms—it suggests possible acute kidney injury on top of your CKD Stage 3."}
+{"turn_id": 10, "speaker": "patient", "text": "Right—I’ve also been checking my blood sugar at home. This morning it was 7.8 mmol/L, which is higher than that reading you just mentioned."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s an important update—your home glucose of 7.8 mmol/L contrasts with the 5.1 we measured earlier today. Were you fasting then?"}
+{"turn_id": 12, "speaker": "patient", "text": "No, I’d just finished breakfast—an omelet and toast. So maybe that explains it."}
+{"turn_id": 13, "speaker": "doctor", "text": "Makes sense. Still, we’ll monitor closely, especially since hyperglycemia can worsen kidney stress during infection."}
+{"turn_id": 14, "speaker": "patient", "text": "Also, I forgot to tell you—I stopped the Amlodipine two days ago because my BP felt ‘too low’ and I got dizzy standing up."}
+{"turn_id": 15, "speaker": "doctor", "text": "Ah—that explains the slight BP variability. But stopping it abruptly isn’t safe, especially with CKD. I’m going to switch you to Amlodipine 2.5mg daily instead—lower dose, better tolerated, and renal-safe."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, I’ll restart it tonight. And for the fever and UTI—should I take antibiotics?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes—we’ll start nitrofurantoin, but only after confirming your eGFR is above 30 mL/min, which it is—around 42, based on your latest labs and that CKD Stage 3 diagnosis."}
+{"turn_id": 18, "speaker": "patient", "text": "Good. One more thing—the swelling in my ankles seems worse than last visit, when you first noted the CKD."}
+{"turn_id": 19, "speaker": "doctor", "text": "Exactly—that edema aligns with your current volume status and the worsening kidney function. We’ll add a low-dose furosemide for now, and recheck electrolytes and creatinine in 48 hours."}

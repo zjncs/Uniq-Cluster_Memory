@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 11.7 mmol/L — that's above the target range for someone with diabetes."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your diastolic blood pressure is 64 mmHg, which is on the lower side but still within acceptable limits for now."}
+{"turn_id": 2, "speaker": "patient", "text": "Oh, I’ve been feeling a bit lightheaded in the mornings, especially when standing up quickly. Could that be related?"}
+{"turn_id": 3, "speaker": "doctor", "text": "That’s possible — orthostatic symptoms can occur with low diastolic pressure or fluctuating glucose. Let’s review your current regimen and symptoms more closely."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve been taking my insulin at night as prescribed, and checking sugars before bed and in the morning."}
+{"turn_id": 5, "speaker": "doctor", "text": "How have your home glucose readings been lately? Any patterns — highs after meals, or overnight lows?"}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on insulin glargine 16 units once daily at bedtime — that’s what we started two weeks ago to improve baseline control."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I’ve been consistent with that. Though yesterday morning I felt shaky and checked — it was 4.1, so I had juice right away."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is 166 g/L — solid, no signs of anemia, which is reassuring given your hypertension and diabetes management."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your primary diagnosis remains essential hypertension, which we’ve been managing alongside your type 2 diabetes."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, your second glucose reading today — drawn 30 minutes after the first — was 8.5 mmol/L. That’s a notable drop, and suggests some insulin activity or possible lab variability."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your borderline-low diastolic pressure and recent lightheadedness, I’m going to switch you from your previous antihypertensive to amlodipine 5 mg once daily — it’s better tolerated and less likely to cause excessive diastolic dip."}
+{"turn_id": 12, "speaker": "patient", "text": "Amlodipine — I think I tried that years ago. Did it cause swelling in my ankles?"}
+{"turn_id": 13, "speaker": "doctor", "text": "It can, though often at higher doses. We’ll start low and monitor for edema, heart rate, and your symptoms. Also, let’s adjust your evening insulin dose down to 14 units for now to reduce hypoglycemia risk."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay, I’ll do that. And I’ll keep logging my sugars and BP twice daily."}
+{"turn_id": 15, "speaker": "patient", "text": "By the way, I checked my diastolic pressure again this morning at home — it was 64 mmHg, same as the one you recorded earlier."}
+{"turn_id": 16, "speaker": "doctor", "text": "Thanks for confirming that — consistency across settings helps us assess stability. Let’s also check your ankle reflexes and foot sensation today, given your diabetes duration."}
+{"turn_id": 17, "speaker": "patient", "text": "My feet feel fine — no numbness or tingling. But my energy has been low the past few days, even with good sleep."}
+{"turn_id": 18, "speaker": "doctor", "text": "Low energy could reflect suboptimal glucose control, mild volume depletion, or even early medication effects. We’ll recheck electrolytes and renal function next week, and repeat HbA1c in three months."}
+{"turn_id": 19, "speaker": "patient", "text": "Sounds good. I’ll bring my logbook next time — including all BP and sugar readings, plus notes on how I’m feeling."}

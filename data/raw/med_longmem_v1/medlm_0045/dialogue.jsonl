@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vital signs—I just measured your diastolic blood pressure at 90 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me today. I've been feeling quite off lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I'm sorry to hear that. Can you tell me more about what's been going on?"}
+{"turn_id": 3, "speaker": "doctor", "text": "You're currently on Atorvastatin 20mg once daily at night—still taking it as prescribed?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose came back at 14.0 mmol/L—significantly elevated."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve been taking the statin every night. But honestly, I haven’t been checking my sugars regularly—I only tested once last week and it was high."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve had constant fatigue—it’s been hard to get through the day, even after a full night’s sleep."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin is 124 g/L—slightly low for your age and sex, which could contribute to the fatigue."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is steady at 72 bpm, and rhythm sounds regular on auscultation."}
+{"turn_id": 9, "speaker": "patient", "text": "That makes sense—I’ve also noticed some dizziness when standing up quickly."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, I just rechecked your diastolic pressure—it’s now 71 mmHg. That’s a notable drop from the 90 we saw earlier."}
+{"turn_id": 11, "speaker": "patient", "text": "Oh—I did skip breakfast this morning because I felt nauseous. Could that affect it?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly. We’ll monitor it closely, especially given your elevated glucose and symptoms. Have you been drinking enough fluids?"}
+{"turn_id": 13, "speaker": "patient", "text": "Not really—I’ve been urinating a lot and feel thirsty all the time, but I keep forgetting to drink water."}
+{"turn_id": 14, "speaker": "doctor", "text": "Those are classic hyperglycemic symptoms. Given your two elevated readings—including the one from earlier—and your ongoing fatigue and polyuria, we need to adjust your diabetes management urgently."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your most recent fingerstick glucose is 15.5 mmol/L—higher than the 14.0 we saw at the start of the visit."}
+{"turn_id": 16, "speaker": "patient", "text": "That’s strange—I didn’t eat anything between tests. Maybe my meter is off?"}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll confirm with a venous sample, but in the meantime, I’m going to switch you from Atorvastatin to Rosuvastatin 10mg—lower dose, better renal safety profile given your current metabolic picture."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I still take it at bedtime?"}
+{"turn_id": 19, "speaker": "patient", "text": "By the way—your earlier note said my heart rate was 72 bpm, and it’s still exactly that now."}

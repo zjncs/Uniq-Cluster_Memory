@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on Lisinopril 20mg once daily for your blood pressure control."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, but lately I've been feeling quite dizzy—especially when standing up quickly."}
+{"turn_id": 2, "speaker": "doctor", "text": "I just reviewed your point-of-care blood glucose—it's elevated at 14.3 mmol/L. That’s significantly above target."}
+{"turn_id": 3, "speaker": "patient", "text": "Really? I haven’t been monitoring it regularly—I thought the dizziness was just from the blood pressure meds."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic blood pressure today is 79 mmHg—within normal range—but let’s hold that thought while we look at the full picture."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve also felt unusually tired and short of breath walking up stairs."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s important to note. Given your persistent hypertension and symptoms, we’ll need to reassess your regimen carefully."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your history and today’s findings, I’m confirming a diagnosis of Essential Hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin is low at 98 g/L—suggesting mild anemia, which could contribute to fatigue and dizziness."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic pressure is elevated at 172 mmHg—so despite Lisinopril, your BP remains uncontrolled."}
+{"turn_id": 10, "speaker": "patient", "text": "Could the dizziness be related to the anemia—or maybe my blood sugar?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the inadequate BP control and side effects, I am going to switch you to Amlodipine 5mg once daily instead of Lisinopril."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay—I’ll start that tomorrow. Should I still check my blood sugar?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, absolutely. Let’s monitor it closely—especially since hyperglycemia can worsen both dizziness and fatigue."}
+{"turn_id": 14, "speaker": "patient", "text": "I did check once this morning before coming in—my fingerstick reading was high again."}
+{"turn_id": 15, "speaker": "doctor", "text": "We’ll need to investigate possible undiagnosed diabetes or medication-related hyperglycemia."}
+{"turn_id": 16, "speaker": "doctor", "text": "Actually, your repeat glucose reading just now is even higher—16.0 mmol/L—so this confirms ongoing significant hyperglycemia."}
+{"turn_id": 17, "speaker": "patient", "text": "That’s concerning. Could the anemia be getting worse too? I’ve felt more pale and weak lately."}
+{"turn_id": 18, "speaker": "doctor", "text": "Unfortunately, yes—the latest hemoglobin is now down to 80 g/L, indicating progression of anemia that needs urgent evaluation."}
+{"turn_id": 19, "speaker": "patient", "text": "Wait—I remember your earlier note said it was 98 g/L. Is that the same number you mentioned before?"}

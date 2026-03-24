@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your current medications. You're on Atorvastatin 40mg once daily at night, correct?"}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, that's right—I've been taking it every evening for about six months."}
+{"turn_id": 2, "speaker": "doctor", "text": "And as we discussed last visit, your chronic kidney disease has been classified as Stage 3, based on your eGFR and persistent albuminuria over the past year."}
+{"turn_id": 3, "speaker": "patient", "text": "Right—I remember you explained that means my kidneys are moderately reduced in function, but still working."}
+{"turn_id": 4, "speaker": "doctor", "text": "Exactly. Today, your resting heart rate is 56 beats per minute—slightly bradycardic, but not alarming unless you're symptomatic."}
+{"turn_id": 5, "speaker": "patient", "text": "Actually, I’ve had some palpitations lately—mostly in the afternoon, sometimes with lightheadedness."}
+{"turn_id": 6, "speaker": "doctor", "text": "Thanks for mentioning that. Let’s check your blood glucose—it’s 6.2 mmol/L now, which is within target range for fasting."}
+{"turn_id": 7, "speaker": "patient", "text": "That’s reassuring. I’ve been trying to keep carbs lower at breakfast."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your blood pressure today is 134 over 107—so systolic is okay, but diastolic is elevated, which concerns me given your CKD."}
+{"turn_id": 9, "speaker": "patient", "text": "107? That *is* high—I usually see around 80–85 for the bottom number at home."}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s recheck in a few minutes after you’ve rested. Also, your glucose just now was 4.3 mmol/L—much lower than the 6.2 we saw earlier. Have you eaten since your first reading?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes—I had a small apple about 20 minutes ago. Maybe that’s why it dropped? Though I didn’t feel shaky or sweaty."}
+{"turn_id": 12, "speaker": "doctor", "text": "That could explain it—but we’ll monitor closely, especially since you’re not currently on glucose-lowering meds. Given your CKD and recent glucose variability, I think it’s time to start Metformin."}
+{"turn_id": 13, "speaker": "patient", "text": "Metformin? I thought that wasn’t recommended with kidney disease."}
+{"turn_id": 14, "speaker": "doctor", "text": "Not at advanced stages—but with Stage 3A and an eGFR above 45, it’s safe and guideline-recommended. I’m prescribing Metformin 1000mg twice daily, starting low and titrating up."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay, I’ll start that tomorrow. Should I check my BP at home more often?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes—and here’s an update: your repeat BP after rest is 114 over 82. The systolic dropped significantly from the earlier 134, likely due to initial anxiety."}
+{"turn_id": 17, "speaker": "patient", "text": "Ah, that makes sense—I was a little nervous when I first sat down."}
+{"turn_id": 18, "speaker": "doctor", "text": "Exactly. So while the 114 reading is reassuring, I’d like you to track both numbers daily. And just to confirm—you told me earlier your home systolic was 134, matching our first office reading?"}
+{"turn_id": 19, "speaker": "patient", "text": "Yes, that’s the number I got this morning—the same as your first reading."}

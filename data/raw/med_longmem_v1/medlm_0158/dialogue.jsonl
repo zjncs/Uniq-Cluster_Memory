@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let me start by taking your temperature — it's 37.5 °C, which is within the normal range but slightly elevated."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit off lately — mostly very thirsty and going to the bathroom much more often than usual."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, that’s what I meant — I’ve had polyuria for about three days now, especially at night."}
+{"turn_id": 3, "speaker": "doctor", "text": "I see. Let’s check your vital signs more thoroughly. Your heart rate is 97 bpm — a bit on the higher side, but not alarming yet."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is 97 bpm — let me note that down."}
+{"turn_id": 5, "speaker": "doctor", "text": "Systolic blood pressure is 106 mmHg — nicely controlled today."}
+{"turn_id": 6, "speaker": "patient", "text": "That’s good to hear. Though I did feel lightheaded once yesterday when standing up quickly."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your history, exam, and current readings, I’m diagnosing essential hypertension — though today’s BP is well-controlled, we’ll continue monitoring closely."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been taking lisinopril 10 mg daily as prescribed. Any adjustments needed?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s hold off on changes for now — your numbers look stable, but I want to rule out secondary causes given the new polyuria and mild tachycardia."}
+{"turn_id": 10, "speaker": "patient", "text": "I also had a fingerstick glucose reading at home this morning — it was 12.4 mmol/L, which worried me."}
+{"turn_id": 11, "speaker": "doctor", "text": "Hmm — your systolic blood pressure just read 134 mmHg, which is higher than the 106 we saw earlier. Did you move or feel anxious before this measurement?"}
+{"turn_id": 12, "speaker": "patient", "text": "I shifted in the chair just before — maybe that affected it. I’ve been stressed about the frequent urination and fatigue."}
+{"turn_id": 13, "speaker": "doctor", "text": "Understandable. We’ll repeat the BP in a few minutes and order fasting glucose, HbA1c, and basic metabolic panel to assess for diabetes or electrolyte shifts."}
+{"turn_id": 14, "speaker": "patient", "text": "Also, my urine has a sweet smell sometimes — could that be related?"}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s an important clue — combined with polyuria and elevated home glucose, it raises concern for new-onset diabetes. We’ll prioritize those labs."}
+{"turn_id": 16, "speaker": "patient", "text": "Makes sense. By the way, my temperature is still 37.5 °C — same as when you first checked."}
+{"turn_id": 17, "speaker": "patient", "text": "That reading from earlier — my temperature is still 37.5 °C, so no change there."}
+{"turn_id": 18, "speaker": "doctor", "text": "Let me recheck your vitals before we wrap up — your heart rate remains at 97 bpm, consistent with what we saw earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Actually, your temperature is now 36.2 °C — down from the initial 37.5 °C. That suggests the earlier elevation may have been situational or transient."}

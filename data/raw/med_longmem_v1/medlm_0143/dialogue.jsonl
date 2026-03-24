@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your diastolic blood pressure today is 63 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, doctor. Actually, I’ve been having palpitations since yesterday — kind of a fluttering feeling in my chest, especially after meals."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Your hemoglobin level is 145 g/L — that’s within the normal range, so anemia isn’t likely contributing to your symptoms."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 77 bpm — steady and not tachycardic, which is reassuring given the palpitations."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your history and current readings, the primary diagnosis is Essential Hypertension — though your diastolic is on the lower side today."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose came back at 13.6 mmol/L — significantly elevated, suggesting uncontrolled diabetes mellitus."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I’ve been feeling really thirsty and urinating more often lately — I didn’t realize it could be this high."}
+{"turn_id": 7, "speaker": "doctor", "text": "That fits. Given the hyperglycemia, we’ll need to address your diabetes aggressively alongside your hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "I’m prescribing Metformin 500 mg twice daily — start today, with meals, to help lower your blood sugar and improve insulin sensitivity."}
+{"turn_id": 9, "speaker": "patient", "text": "Okay, I’ll begin that right away. Should I monitor anything at home? Like blood sugar or blood pressure?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Yes — please check your blood glucose before meals and at bedtime for now, and log your BP twice daily, especially in the morning and evening."}
+{"turn_id": 11, "speaker": "patient", "text": "Got it. I’ve been checking at home — just want to make sure I’m doing it right."}
+{"turn_id": 12, "speaker": "doctor", "text": "Your most recent home reading shows diastolic pressure at 60 mmHg — slightly lower than the 63 we saw earlier this morning."}
+{"turn_id": 13, "speaker": "doctor", "text": "And your latest fingerstick glucose was 11.1 mmol/L — still elevated, but down from the 13.6 in the lab this morning."}
+{"turn_id": 14, "speaker": "patient", "text": "That’s interesting — I skipped breakfast today, so maybe that helped bring it down a bit?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly — but we’ll need sustained control. Since your BP remains low-normal and your glucose is persistently high, we should adjust your antihypertensive strategy too."}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to switch you from your current regimen to Lisinopril 20 mg once daily — it’s an ACE inhibitor that helps both BP and diabetic kidney protection."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — and just to confirm, that diastolic number you mentioned first, 63 mmHg — that’s consistent with what I’ve been seeing at home, so I think it’s reliable."}
+{"turn_id": 18, "speaker": "patient", "text": "And that hemoglobin result — 145 g/L — matches what my clinic lab showed last month, so no change there."}
+{"turn_id": 19, "speaker": "doctor", "text": "Exactly — stable hemoglobin supports that your fatigue or palpitations aren’t due to anemia. Let’s recheck glucose, BP, and renal function in two weeks, and we’ll adjust dosing if needed."}

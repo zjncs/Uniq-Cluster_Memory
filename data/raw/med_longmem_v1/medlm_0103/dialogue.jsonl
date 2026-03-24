@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you've been started on insulin glargine 10 units once daily at bedtime to help manage your blood sugar levels."}
+{"turn_id": 1, "speaker": "doctor", "text": "At your last visit on November 10th, your systolic blood pressure was 157 mmHg — a bit elevated, so we’ll keep an eye on that."}
+{"turn_id": 2, "speaker": "doctor", "text": "You were diagnosed with Type 2 Diabetes Mellitus during that same visit, and we’re focusing on optimizing both glycemic and cardiovascular control."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate was elevated at 108 beats per minute that day — not alarming, but worth noting alongside your other vitals."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your temperature was normal at 37.4°C — within the typical range."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve been taking the insulin every night as prescribed. My fasting sugars have been hovering around 130–150 mg/dL."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s a good start. How’s your energy level? Any dizziness, chest tightness, or shortness of breath?"}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve felt a little fatigued, and yesterday I noticed some mild chest discomfort when walking up stairs."}
+{"turn_id": 8, "speaker": "doctor", "text": "Any fever, chills, cough, or urinary symptoms? And have you checked your blood pressure at home recently?"}
+{"turn_id": 9, "speaker": "patient", "text": "No cough or chills, but I did feel warm yesterday evening. I took my BP this morning — it was still 157 mmHg, same as before."}
+{"turn_id": 10, "speaker": "doctor", "text": "Thank you for tracking that. Let’s repeat your vitals now — I’d like to check your current temperature, heart rate, and blood pressure."}
+{"turn_id": 11, "speaker": "patient", "text": "Sure. I’ve also had some increased thirst over the past two days, and I’m urinating more frequently."}
+{"turn_id": 12, "speaker": "doctor", "text": "Those are classic hyperglycemia symptoms — could indicate your current regimen needs adjustment, especially if there’s an underlying stressor like infection."}
+{"turn_id": 13, "speaker": "patient", "text": "I did notice a sore throat this morning, and my glands feel swollen."}
+{"turn_id": 14, "speaker": "doctor", "text": "Let me examine your throat and listen to your lungs. Given your symptoms and vital trends, we should consider an acute illness contributing to your glucose and BP fluctuations."}
+{"turn_id": 15, "speaker": "patient", "text": "Makes sense — I’ve also been feeling quite warm all day."}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, that reading from last time — the 157 mmHg — matches what I saw just now at home, so it’s consistent."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your temperature is now 38.6°C — that confirms a low-grade fever, likely indicating an infectious process. We’ll need to address that promptly."}
+{"turn_id": 18, "speaker": "patient", "text": "Oh — I didn’t realize it had gone up that much. Is that why my blood sugar spiked?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Exactly — and interestingly, your repeat blood pressure is now down to 139 mmHg, likely reflecting improved vascular tone after hydration and reduced sympathetic drive. I am going to switch you to insulin glargine 12 units nightly for the next week and add acetaminophen for fever; we’ll recheck in 48 hours."}

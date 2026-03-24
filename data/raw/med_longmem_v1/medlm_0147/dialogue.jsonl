@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your vitals from this morning — your fasting blood glucose was 6.0 mmol/L, which is within the target range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Yes, I checked it myself before coming in — felt fine this morning."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your history and today’s assessment, I’m confirming your primary diagnosis as Coronary Artery Disease, which we’ve been managing with lifestyle modifications and medications."}
+{"turn_id": 3, "speaker": "patient", "text": "Right, that’s what we discussed last visit. I’ve been trying to walk more and cut back on salt."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate today is elevated at 99 bpm — slightly above normal, though not critically so. We’ll monitor that closely."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 104 mmHg — that’s also higher than ideal, especially given your CAD diagnosis."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve been feeling a bit lightheaded sometimes, especially when standing up quickly."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units nightly — let’s keep that unchanged for now, but I’ll want to review your logs next time."}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, I’ve had a dull headache since yesterday afternoon — not severe, but persistent."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin level is 180 g/L — that’s elevated and could contribute to viscosity-related symptoms like headache or hypertension."}
+{"turn_id": 10, "speaker": "doctor", "text": "I’m going to switch you from atorvastatin 20 mg to 40 mg once daily to improve lipid control and reduce cardiovascular risk."}
+{"turn_id": 11, "speaker": "doctor", "text": "But I noticed your blood glucose rose to 8.2 mmol/L during your midday check — that’s higher than this morning’s reading of 6.0. Any changes in meals or activity?"}
+{"turn_id": 12, "speaker": "patient", "text": "I had a larger lunch than usual — some pasta and bread — and didn’t take my short-acting insulin because I wasn’t sure if I should."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your heart rate is now 111 bpm — up from 99 earlier — likely reflecting increased sympathetic tone. Let’s reassess your hydration and consider checking for orthostatic changes."}
+{"turn_id": 14, "speaker": "patient", "text": "I did feel a bit warm and shaky around noon — maybe that’s related?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly — hyperglycemia can cause those symptoms, especially with rising glucose trends. We’ll adjust your prandial coverage if needed."}
+{"turn_id": 16, "speaker": "patient", "text": "Also, my blood pressure readings at home have been fluctuating — sometimes high, sometimes normal."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your elevated hemoglobin and persistent hypertension, we may need to evaluate for secondary causes like polycythemia or renal artery stenosis. Let’s order a CBC, renal panel, and consider an echocardiogram."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, that makes sense. I’ll bring my home log next time."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm — that 6.0 mmol/L I mentioned earlier is the same as the reading you saw this morning, and my diastolic pressure today matched yours at 104 mmHg."}

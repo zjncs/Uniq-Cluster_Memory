@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've noticed swelling in my ankles and lower legs over the past week — it's worse by evening and doesn't go down much even after resting."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Let me check your blood pressure first — it's 100 mmHg systolic today."}
+{"turn_id": 2, "speaker": "patient", "text": "That seems low — I usually run around 130. I’ve been feeling a bit lightheaded when standing up quickly."}
+{"turn_id": 3, "speaker": "doctor", "text": "Noted. We’ll monitor that closely. Based on your symptoms and recent labs, I’d like to start you on Metformin 500 mg twice daily to help manage your blood sugar and support kidney health."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg bid — we’ll continue that regimen for now, given your glucose and renal function."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your most recent fasting blood glucose was 7.5 mmol/L — slightly elevated but not alarming yet."}
+{"turn_id": 6, "speaker": "doctor", "text": "Putting all this together — the edema, reduced kidney filtration, and lab trends — your primary diagnosis is Chronic Kidney Disease Stage 3."}
+{"turn_id": 7, "speaker": "patient", "text": "Stage 3? Does that mean it’s getting worse? I’m worried about how fast this is progressing."}
+{"turn_id": 8, "speaker": "doctor", "text": "It’s stable for now, but we need to be proactive — especially with fluid balance, blood pressure, and avoiding nephrotoxic meds. How’s your appetite been? Any fatigue or shortness of breath?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin came back at 127 g/L — within normal range, though toward the lower end for someone your age and sex."}
+{"turn_id": 10, "speaker": "patient", "text": "I have been more tired lately, and sometimes my skin looks paler. Could that be related to the kidney issue?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Yes — CKD can affect erythropoietin production. We’ll keep an eye on your hemoglobin and iron studies. Any history of GI bleeding or heavy periods?"}
+{"turn_id": 12, "speaker": "patient", "text": "No bleeding, but I did notice my urine has been foamy for a few weeks. And my legs feel heavier every day."}
+{"turn_id": 13, "speaker": "doctor", "text": "Foamy urine suggests proteinuria — consistent with CKD progression. We’ll order a urine ACR and repeat renal panel next week."}
+{"turn_id": 14, "speaker": "patient", "text": "Should I cut back on salt or protein? I’ve read conflicting advice online."}
+{"turn_id": 15, "speaker": "doctor", "text": "Good question. For Stage 3 CKD, we recommend moderate sodium restriction — under 2 g/day — and high-quality, not high-quantity, protein. A dietitian will help tailor this."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, thank you. Also, I rechecked my blood sugar this morning before breakfast — same as before."}
+{"turn_id": 17, "speaker": "doctor", "text": "Actually, your latest hemoglobin result is 104 g/L — that’s a meaningful drop from the 127 we saw earlier this month. We’ll need to investigate further — possibly iron deficiency or early anemia of chronic disease."}
+{"turn_id": 18, "speaker": "patient", "text": "That’s concerning… could the Metformin be contributing? Or is it the kidney disease getting worse?"}
+{"turn_id": 19, "speaker": "patient", "text": "Yes — it’s the same reading: 7.5 mmol/L, just like that number from last time."}

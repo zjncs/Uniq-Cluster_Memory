@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vitals — your diastolic blood pressure today is 66 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks for seeing me. I’ve been feeling a bit off lately — my heart’s been racing sometimes, especially in the afternoons."}
+{"turn_id": 2, "speaker": "patient", "text": "Yeah, palpitations — like my heart’s skipping or just pounding out of my chest."}
+{"turn_id": 3, "speaker": "doctor", "text": "I see. How long have you been noticing that? Any triggers — stress, caffeine, lying down?"}
+{"turn_id": 4, "speaker": "patient", "text": "It started about three days ago. I cut back on coffee, but it still happens — even when I’m resting."}
+{"turn_id": 5, "speaker": "doctor", "text": "Okay, let’s check your blood pressure again. Hmm — systolic is now 156 mmHg. That’s elevated, though diastolic remains low at 66."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure today is 156 mmHg."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Metformin 1000 mg twice daily for type 2 diabetes — correct?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your persistent elevated readings and absence of secondary causes, I’m diagnosing essential hypertension."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin level is 171 g/L — within normal range, no anemia concerns."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your BP pattern and symptoms, I’m going to switch you from no antihypertensive to Amlodipine 5 mg once daily."}
+{"turn_id": 11, "speaker": "doctor", "text": "Just rechecked — your diastolic pressure is now 81 mmHg, which is higher than the 66 we saw earlier."}
+{"turn_id": 12, "speaker": "patient", "text": "Oh, really? I thought it was supposed to go down with medication — is that normal?"}
+{"turn_id": 13, "speaker": "doctor", "text": "It can fluctuate — especially with white-coat effect or timing. But let’s monitor closely. Did you take your Metformin this morning?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Wait — this reading shows systolic at 180 mmHg. That’s significantly higher than the 156 we saw earlier. Any anxiety just now?"}
+{"turn_id": 15, "speaker": "patient", "text": "I did feel nervous walking in — but honestly, my home cuff gave me 66 for the bottom number this morning too, same as your first reading."}
+{"turn_id": 16, "speaker": "patient", "text": "That reading — the 66 — matches what you got when I first sat down. It’s consistent for me at home."}
+{"turn_id": 17, "speaker": "doctor", "text": "Interesting — so you're seeing low diastolic with variable systolic. We’ll need ambulatory monitoring to assess for possible wide pulse pressure or autonomic influence."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. I’ve also noticed dizziness when standing up fast — could that relate?"}
+{"turn_id": 19, "speaker": "patient", "text": "And that 156 top number you measured earlier — it’s the same one I got on my wrist monitor yesterday afternoon."}

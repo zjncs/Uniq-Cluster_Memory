@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—tired, and my vision has been blurry sometimes."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your lab work from today: your hemoglobin is 175 g/L, which is on the higher side for your age and sex."}
+{"turn_id": 2, "speaker": "patient", "text": "Really? That seems high—I didn’t expect that. I’ve been taking my iron supplements regularly."}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes, we’ll keep an eye on it. Also, your blood pressure today was 140 over 84 mmHg—slightly elevated systolic, but diastolic is within acceptable range."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your labs, imaging, and clinical history, I’m diagnosing you with Chronic Kidney Disease Stage 3."}
+{"turn_id": 5, "speaker": "patient", "text": "Stage 3? That sounds serious. What does that mean for my daily life?"}
+{"turn_id": 6, "speaker": "doctor", "text": "It means your kidneys are moderately impaired—we’ll focus on slowing progression through BP control, diet, and medication adjustments."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on insulin glargine 10 units nightly—I’d like to continue that for now, but we’ll monitor closely given your CKD."}
+{"turn_id": 8, "speaker": "patient", "text": "Okay. And the blurry vision—I’ve had it on and off for about two weeks, especially in the mornings."}
+{"turn_id": 9, "speaker": "patient", "text": "It’s been blurry vision—like looking through fog—and sometimes I get headaches with it."}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s important. Blurred vision in someone with diabetes and CKD raises concern for retinopathy or fluctuating glucose. Have you checked your blood sugar at home recently?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes—I’ve been checking fasting sugars, and they’ve been between 130 and 160 mg/dL."}
+{"turn_id": 12, "speaker": "doctor", "text": "I just reviewed your repeat hemoglobin result from the same draw—it’s 150 g/L. That’s lower than the earlier reading of 175 g/L from the same sample; we’ll recheck to clarify the discrepancy."}
+{"turn_id": 13, "speaker": "patient", "text": "Oh—I didn’t realize there were two values. Is that common?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Occasionally, especially with assay variability. We’ll send a new sample to confirm. In the meantime, let’s address your glucose control more aggressively."}
+{"turn_id": 15, "speaker": "patient", "text": "That makes sense. My energy’s been low, and I feel thirsty all the time."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your CKD stage and current glycemic pattern, I’m going to add Metformin—but at a reduced dose due to renal clearance concerns."}
+{"turn_id": 17, "speaker": "doctor", "text": "I am going to switch you to Metformin 1000 mg twice daily, starting next week, and taper the insulin as tolerated under close monitoring."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start that. By the way, my home BP monitor shows the diastolic number is still 84—the same as the one you recorded earlier."}
+{"turn_id": 19, "speaker": "patient", "text": "Yeah, that number—84—is consistent across readings this week, including the one you took."}

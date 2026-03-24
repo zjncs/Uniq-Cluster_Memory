@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've noticed swelling in my ankles and lower legs over the past few days—especially worse by evening."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for sharing that. Given your history, I'm going to start you on Lisinopril 20mg once daily to help manage both blood pressure and kidney protection."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate today is 67 beats per minute—within normal range."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’m also seeing your systolic blood pressure at 91 mmHg—on the lower side, especially with the edema, so we’ll monitor closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "You have a low-grade fever—38.5 °C—which could suggest an underlying inflammatory or infectious process we’ll need to investigate further."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs and imaging, the primary diagnosis is Chronic Kidney Disease Stage 3. We’ll focus on slowing progression and managing complications."}
+{"turn_id": 6, "speaker": "patient", "text": "That makes sense—I’ve been feeling more fatigued lately, and my urine seems foamy sometimes."}
+{"turn_id": 7, "speaker": "doctor", "text": "Those are consistent with CKD. Let’s also check your blood glucose—we’ll want to rule out diabetes as a contributing factor."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose is 6.6 mmol/L—elevated but not yet in the diabetic range. We’ll repeat this and consider HbA1c."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been trying to cut back on salt, but the swelling hasn’t improved much—even with the Lisinopril."}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s important to note. Edema despite ACE inhibition may point to volume overload or possible medication limitation due to renal function."}
+{"turn_id": 11, "speaker": "patient", "text": "I did take my temperature this morning—it was normal—but yesterday it spiked again after my afternoon walk."}
+{"turn_id": 12, "speaker": "doctor", "text": "We’ll keep tracking that fever. Let’s reassess vital signs now—your heart rate has increased since earlier."}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—your current heart rate is 87 bpm, up from 67 earlier today. That could reflect dehydration, fever response, or early cardiac strain given the edema."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve also been feeling lightheaded when standing up quickly—could that be related?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly—orthostatic symptoms plus low BP and rising HR raise concern for volume status or autonomic involvement. We’ll adjust management accordingly."}
+{"turn_id": 16, "speaker": "patient", "text": "My glucose reading this morning was the same as the one you saw earlier—6.6 mmol/L."}
+{"turn_id": 17, "speaker": "doctor", "text": "Thanks—that’s consistent with the result from earlier today. We’ll watch for trends and consider whether insulin resistance is playing a role."}
+{"turn_id": 18, "speaker": "doctor", "text": "Good news—your temperature has come down to 37.3 °C now, so the fever appears to be resolving."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your persistent edema, borderline low BP, and rising heart rate, I’m going to switch you from Lisinopril to Amlodipine 10mg once daily—it’s safer in advanced CKD and better for volume-sensitive hypertension."}

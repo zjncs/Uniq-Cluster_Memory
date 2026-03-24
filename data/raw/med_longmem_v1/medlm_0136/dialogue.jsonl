@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and clinical evaluation, I’m diagnosing you with Chronic Kidney Disease Stage 3, confirmed as of your visit on October 16th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure today was 109 mmHg — that’s on the lower side, but we’ll keep monitoring it closely given your kidney function."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level came back at 139 g/L, which is within the normal range for now, though we’ll watch it carefully over time."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, doctor — I’ve been feeling nauseous almost daily for about a week now, especially in the mornings. It’s not severe, but it’s persistent."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg twice daily for your type 2 diabetes — we’ll need to reassess that given your CKD stage, since metformin carries increased risk with reduced renal clearance."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic pressure was 100 mmHg today — elevated, and concerning alongside the systolic reading we saw earlier. That suggests possible diastolic hypertension, which we’ll address urgently."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also noticed my energy is low, and I’ve been more thirsty than usual lately. My home glucose monitor has been showing higher numbers too."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fasting blood glucose today was 9.3 mmol/L — above target, consistent with suboptimal glycemic control."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been trying to stick to my diet and take my meds regularly, but maybe something’s changed? My kidneys… could that be affecting my sugars or BP?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Absolutely — declining kidney function can impact both blood pressure regulation and glucose metabolism. We’ll adjust your antihypertensive therapy today."}
+{"turn_id": 10, "speaker": "doctor", "text": "I’m going to switch you from your previous regimen to Amlodipine 10 mg once daily — it’s safer in CKD and will help manage your elevated diastolic pressure."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I stop the Metformin myself, or do you want to handle that?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes — please hold the Metformin starting today. I’ll prescribe an alternative that’s renally safe, like Dapagliflozin, pending further review of your eGFR."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your blood glucose just before lunch was 12.5 mmol/L — that’s significantly higher than the 9.3 we saw earlier this morning, suggesting marked postprandial hyperglycemia."}
+{"turn_id": 14, "speaker": "patient", "text": "That’s strange — I didn’t eat anything different. Maybe my meter’s off? Or could the nausea be making me skip meals and then overcorrect?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin came back at 156 g/L — that’s higher than the 139 we measured earlier today. We’ll recheck it next week to rule out lab variability or hemoconcentration."}
+{"turn_id": 16, "speaker": "patient", "text": "I also checked my blood pressure at home this morning — same as yours: 109 over 100. So that reading wasn’t a fluke."}
+{"turn_id": 17, "speaker": "doctor", "text": "Thanks for confirming — that consistency tells us your diastolic elevation is real and likely contributing to your symptoms, including the nausea."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. I’ve been dizzy when standing up too fast — could that be related?"}
+{"turn_id": 19, "speaker": "patient", "text": "And just to clarify — that 109 systolic you recorded earlier? That’s the exact number I got at home this morning, so it’s definitely reproducible."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, doctor. I've been feeling nauseous since yesterday morning, and it hasn't really let up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let's start with a quick assessment. Are you experiencing any chest discomfort, shortness of breath, or dizziness along with the nausea?"}
+{"turn_id": 2, "speaker": "patient", "text": "No chest pain, but I did feel a bit lightheaded when standing up quickly this morning."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin level today is 154 g/L — that’s within the normal range for an adult male."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your blood glucose is 5.4 mmol/L — well within target, no sign of hypo- or hyperglycemia."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is elevated at 97 bpm — slightly tachycardic, though not critically so."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your history, ECG findings, and symptom pattern, I’m diagnosing Coronary Artery Disease as the primary condition."}
+{"turn_id": 7, "speaker": "doctor", "text": "You're currently on Atorvastatin 40mg once daily at night — we’ll continue that for lipid management and plaque stabilization."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure is 119 mmHg — excellent control, especially given your CAD diagnosis."}
+{"turn_id": 9, "speaker": "patient", "text": "That’s reassuring. But the nausea keeps me worried — could it be related to my heart?"}
+{"turn_id": 10, "speaker": "doctor", "text": "It’s possible — gastrointestinal symptoms like nausea can sometimes be atypical presentations of cardiac ischemia, especially in older adults or those with diabetes."}
+{"turn_id": 11, "speaker": "doctor", "text": "Actually, I just double-checked the lab report — your hemoglobin came back as 132 g/L on the repeat draw. That’s lower than the earlier value, so we’ll monitor for anemia or occult GI bleeding."}
+{"turn_id": 12, "speaker": "patient", "text": "Oh — I did notice my stool was darker last week. Should I mention that?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes, absolutely — that’s important. We’ll order a fecal occult blood test and consider an upper endoscopy given the hemoglobin drop and dark stools."}
+{"turn_id": 14, "speaker": "patient", "text": "Makes sense. Also, my blood pressure has felt a little more variable lately — some days my home readings are higher, especially in the evening."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your CAD and now the borderline elevated heart rate plus BP variability, we should optimize your antihypertensive regimen."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been checking my pulse manually too — it still feels fast, like that reading from earlier."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, that elevated heart rate remains clinically relevant — especially alongside your symptoms and diagnosis."}
+{"turn_id": 18, "speaker": "patient", "text": "And just now, when I stood up, my pulse felt strong and rapid again — same as that number you mentioned earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given all this, I’m going to add Amlodipine 5mg once daily in the morning to help control your blood pressure and reduce afterload on the heart — and that may also help with the tachycardia and nausea."}

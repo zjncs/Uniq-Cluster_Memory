@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off this week—fatigue, chills, and some shortness of breath."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals and a quick history. Are you experiencing any chest discomfort or palpitations?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 106 mmHg—elevated, especially alongside your reported symptoms."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes—I’ve had chest tightness since yesterday morning, especially when climbing stairs."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin level came back at 174 g/L—within normal range for an adult male, but let’s keep that in context with your other findings."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve also been unusually tired, even after sleeping eight hours. My skin feels dry, and I’ve gained about four pounds in two weeks."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your symptoms, lab results, and exam, the primary diagnosis is Hypothyroidism—we’ll confirm with TSH and free T4 shortly."}
+{"turn_id": 7, "speaker": "patient", "text": "Hypothyroidism? That makes sense—I read about fatigue and weight gain, but I didn’t expect the chest tightness."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is elevated at 118 bpm—tachycardic, likely reactive to both thyroid dysfunction and possible underlying inflammation."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your temperature is 38.7 °C—fever is present, suggesting an acute component, possibly subacute thyroiditis given your presentation."}
+{"turn_id": 10, "speaker": "patient", "text": "I did have a sore throat last week—could that be related?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Possibly. Subacute thyroiditis often follows a viral illness. We’ll check ESR and thyroid antibodies. In the meantime, let’s manage your symptoms."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay. My chest tightness hasn’t improved with rest, and I feel lightheaded when standing up quickly."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your temperature has come down to 37.9 °C—still low-grade, but trending downward, which is encouraging."}
+{"turn_id": 14, "speaker": "patient", "text": "That’s good. My energy level feels slightly better this afternoon, though I’m still fatigued."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your repeat hemoglobin is now 180 g/L—mildly elevated from the earlier 174 g/L, likely reflecting hemoconcentration due to mild dehydration and fever."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll start levothyroxine at 25 mcg daily, and add ibuprofen for pain and inflammation. Avoid iodine-rich foods for now."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. Should I monitor my pulse or BP at home?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes—track your heart rate and temperature twice daily. If chest tightness worsens or you develop swelling or voice changes, call immediately."}
+{"turn_id": 19, "speaker": "patient", "text": "Understood. And just to clarify—that first hemoglobin reading, 174 g/L, was consistent with what you saw earlier today."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, doctor. I’ve had a pretty bad headache since yesterday morning—October 7th—and it hasn’t let up much."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with some basics—any nausea, vision changes, or neck stiffness with that headache?"}
+{"turn_id": 2, "speaker": "patient", "text": "No nausea or vision issues, but I did feel a bit lightheaded when standing up quickly this morning."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’m prescribing Atorvastatin 40 mg to be taken once daily at night, starting today. It’ll help manage your cholesterol and reduce cardiovascular risk."}
+{"turn_id": 4, "speaker": "patient", "text": "Okay—I’ve been on statins before, so I know what to watch for. Should I be concerned about muscle pain?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Yes, definitely report any unexplained muscle aches or weakness. Based on your history and today’s evaluation, your primary diagnosis is Coronary Artery Disease."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your temperature is normal—36.5 °C—so no sign of infection right now."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure is elevated at 145 mmHg—let’s keep an eye on that."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is quite high—119 beats per minute. That’s likely contributing to your headache and lightheadedness."}
+{"turn_id": 9, "speaker": "patient", "text": "That makes sense—I’ve been feeling anxious all day, and my chest feels tight sometimes."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given the persistent hypertension and tachycardia, I’m going to add Amlodipine 10 mg once daily in the morning. We’ll discontinue the previous antihypertensive and monitor closely."}
+{"turn_id": 11, "speaker": "patient", "text": "Got it—I’ll take the Amlodipine in the morning and the Atorvastatin at night. Any dietary advice?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes—reduce sodium intake, avoid processed foods, and try to incorporate more potassium-rich foods like bananas and spinach."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve cut back on salt already, but I’ll double-check labels. Also, my usual morning walk has felt harder lately."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s consistent with increased cardiac workload. Let’s schedule a stress test next week to assess functional capacity."}
+{"turn_id": 15, "speaker": "patient", "text": "Sounds good. I also noticed my ankles have been slightly swollen the past two days."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll check for peripheral edema and review your fluid status—could relate to the elevated BP and heart rate."}
+{"turn_id": 17, "speaker": "patient", "text": "One more thing—I rechecked my blood pressure at home just before coming in, and it was even higher than earlier."}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes—your systolic reading just now is 175 mmHg, which is significantly elevated compared to the 145 we saw earlier. We’ll need to adjust your regimen promptly."}
+{"turn_id": 19, "speaker": "patient", "text": "Good thing my temperature is still normal—that reading from earlier, 36.5 °C, hasn’t changed."}

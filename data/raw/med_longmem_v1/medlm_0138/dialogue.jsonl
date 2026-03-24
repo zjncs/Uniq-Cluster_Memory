@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 4.9 mmol/L — that’s within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your hemoglobin level is 178 g/L, which is on the higher end of normal for an adult male."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit tired lately, and my ankles have been swelling more than usual."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes — I’ve noticed lower limb edema over the past few days, especially by evening."}
+{"turn_id": 4, "speaker": "doctor", "text": "Given your history and current findings, I’m diagnosing you with Coronary Artery Disease — we’ll need to optimize your cardiac management."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your body temperature is 37.2 °C — completely normal, no sign of infection."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also had some shortness of breath when climbing stairs. And my legs feel heavy all day."}
+{"turn_id": 7, "speaker": "doctor", "text": "Let me check your vitals again. I’ll listen to your heart and lungs, and assess the edema further."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is currently 95 bpm — slightly elevated, which may reflect volume overload or early decompensation."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking my metoprolol as prescribed, but I missed two doses last week because I felt dizzy."}
+{"turn_id": 10, "speaker": "doctor", "text": "Just rechecked — your heart rate is now 68 bpm, likely reflecting the beta-blocker effect after rest. That’s reassuring."}
+{"turn_id": 11, "speaker": "doctor", "text": "The lower limb edema suggests possible fluid retention. We should evaluate your renal function and review your diuretic regimen."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been using furosemide 20 mg daily, but sometimes skip it if I’m not swollen in the morning."}
+{"turn_id": 13, "speaker": "doctor", "text": "Skipping doses can lead to rebound fluid retention. Let’s adjust your plan — I’m going to switch you to bumetanide 1 mg twice daily, starting tomorrow."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your latest hemoglobin is 161 g/L — down from 178 g/L earlier this morning. That drop may reflect hemodilution due to fluid retention."}
+{"turn_id": 15, "speaker": "patient", "text": "Oh — so the swelling could be affecting my blood counts? That makes sense."}
+{"turn_id": 16, "speaker": "doctor", "text": "Exactly. We’ll repeat labs in one week, including BNP and electrolytes, and schedule an echocardiogram next month."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your random blood glucose just came back at 7.6 mmol/L — higher than your fasting value this morning. Let’s discuss your carbohydrate intake and consider adjusting your metformin dose."}
+{"turn_id": 18, "speaker": "patient", "text": "Wait — that doesn’t match the hemoglobin reading you mentioned earlier. You said it was 178 g/L before — that number hasn’t changed for me."}
+{"turn_id": 19, "speaker": "patient", "text": "And my fasting glucose was definitely 4.9 mmol/L this morning — I checked it myself right before coming in, same as your first reading."}

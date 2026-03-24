@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've had a pretty bad headache since this morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "I see. When did the headache start, and is it constant or intermittent? Any nausea or visual changes?"}
+{"turn_id": 2, "speaker": "patient", "text": "It started around 7 a.m. today — sharp, throbbing, mostly behind my right eye. No nausea, but I’ve felt unusually thirsty all day."}
+{"turn_id": 3, "speaker": "doctor", "text": "Let me check your blood glucose — that’s likely relevant given your diabetes history. Hmm, it’s 13.7 mmol/L. That’s significantly elevated."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is also up at 112 bpm — tachycardic for resting state. Let’s take your temperature and blood pressure next."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve been feeling hot and shaky too, and I urinated more than usual this morning."}
+{"turn_id": 6, "speaker": "doctor", "text": "That fits with hyperglycemia. Did you take your insulin as scheduled this morning?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on today’s readings and your symptoms, I’m continuing your Insulin glargine at 16 units nightly — but we’ll need to monitor closely."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your temperature is 39.6 °C — that’s a high fever. This isn’t just hyperglycemia; there’s likely an acute infection triggering this decompensation."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is 86 mmHg — borderline low given your tachycardia and fever. We need to rule out sepsis or UTI."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve had some burning when I pee since yesterday — I thought it was just dehydration."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s important — urinary symptoms plus fever and hyperglycemia raise concern for pyelonephritis. Let’s get a urinalysis and blood cultures stat."}
+{"turn_id": 12, "speaker": "patient", "text": "My pulse feels really fast now — like it’s pounding in my ears."}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes — your heart rate has climbed further to 130 bpm, which is concerning in the context of rising fever and possible infection. We’ll start IV fluids and empiric antibiotics immediately."}
+{"turn_id": 14, "speaker": "patient", "text": "Should I still take my evening insulin?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes — but I’ll adjust the dose based on hourly glucose checks. We may add rapid-acting insulin for correction if needed."}
+{"turn_id": 16, "speaker": "patient", "text": "The chills came back about an hour ago — and my head hurts even worse now."}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll give acetaminophen for the fever and headache, but the priority is treating the underlying infection. Are you able to keep fluids down?"}
+{"turn_id": 18, "speaker": "patient", "text": "Not really — I vomited once after drinking water."}
+{"turn_id": 19, "speaker": "patient", "text": "That fever hasn’t broken — it’s still 39.6 °C, just like the reading you took earlier."}

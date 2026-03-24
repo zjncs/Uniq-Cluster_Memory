@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately—tired all the time and a bit lightheaded when I stand up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals and review your medications. When did these symptoms begin?"}
+{"turn_id": 2, "speaker": "patient", "text": "About two weeks ago—gradually got worse, especially after my morning insulin dose."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your systolic blood pressure today is 178 mmHg—elevated, especially given your history of hypertension."}
+{"turn_id": 4, "speaker": "patient", "text": "Yeah, I’ve been checking at home—it’s been hovering around 175–180 most mornings."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose this morning was 9.5 mmol/L—higher than your target range."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units nightly. Has your dose felt adequate? Any episodes of hypoglycemia?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is 75 bpm—within normal limits—and your rhythm is regular."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, fatigue is the main thing—I’m sleeping enough but wake up exhausted. Also some mild dizziness."}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s check your feet for neuropathy and listen to your heart and lungs. Any chest pain or shortness of breath?"}
+{"turn_id": 10, "speaker": "patient", "text": "No chest pain, but I’ve noticed my ankles feel a little puffy in the evenings."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your elevated BP and new edema, I’m going to add Lisinopril 20 mg once daily—start tomorrow morning."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll do that. Should I still take the evening insulin as usual?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—and your glucose just rechecked at 5.9 mmol/L, which is much better—likely reflecting improved control since your last dose."}
+{"turn_id": 14, "speaker": "patient", "text": "That’s interesting—I didn’t eat anything between readings, so maybe the insulin kicked in later than usual?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly. We’ll monitor closely. Also, your BP has dropped a bit since we started Lisinopril—let me retake it."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve been taking my home BP cuff more often—I think it’s trending down, but not consistently."}
+{"turn_id": 17, "speaker": "doctor", "text": "This reading shows systolic at 149 mmHg—definitely improved from the 178 earlier."}
+{"turn_id": 18, "speaker": "doctor", "text": "And your heart rate is now 59 bpm—slightly bradycardic; let’s hold off on further antihypertensive escalation for now."}
+{"turn_id": 19, "speaker": "patient", "text": "Wait—I just checked my wrist monitor again: it says 75 bpm and 178 systolic, same as that first reading you took. Maybe the cuff was loose before?"}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you've been started on Atorvastatin 40mg taken once daily at night since December 13th to help manage your cardiovascular risk."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your blood pressure reading today was 109 over 61 — the systolic value is well within normal range."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your fasting blood glucose came back at 14.1 mmol/L, which is significantly elevated and consistent with uncontrolled diabetes."}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your labs, symptoms, and clinical assessment, your primary diagnosis is Type 2 Diabetes Mellitus, confirmed as of December 13th."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve been feeling really off lately — not sure if it’s related, but I’m exhausted all the time."}
+{"turn_id": 5, "speaker": "doctor", "text": "Fatigue is a very common symptom in uncontrolled diabetes, especially when blood sugar stays high. Let’s dig deeper into that."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also had some dizziness when standing up quickly — could that be connected?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure was 61 mmHg earlier — on the lower side, which may contribute to those lightheaded episodes."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, fatigue has been constant for about two weeks — worse in the mornings."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate was elevated at 121 beats per minute just now — that’s tachycardic and likely reflects your body’s stress response to hyperglycemia."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been drinking more water and urinating frequently too — my vision’s been blurry sometimes."}
+{"turn_id": 11, "speaker": "doctor", "text": "Those are classic signs of hyperglycemia. Let’s check your glucose again before we finalize the plan."}
+{"turn_id": 12, "speaker": "doctor", "text": "This second reading shows 10.1 mmol/L — still high, but notably lower than the 14.1 we saw earlier this morning."}
+{"turn_id": 13, "speaker": "patient", "text": "I skipped breakfast today because I felt nauseous — maybe that affected it?"}
+{"turn_id": 14, "speaker": "doctor", "text": "That could explain part of the drop, but we need sustained control. Let’s reassess your vital trends."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your repeat heart rate is now 106 bpm — improved from 121, but still elevated."}
+{"turn_id": 16, "speaker": "doctor", "text": "And your diastolic pressure has risen to 74 mmHg — a bit more stable than the earlier 61."}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your persistent hyperglycemia, symptoms, and suboptimal response to current management, I am going to switch you to Insulin glargine 16 units once daily at night, starting tonight."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay — will that help with the fatigue and dizziness?"}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked my glucose at home just before coming in, it was 14.1 mmol/L — same as that first reading — and my pulse felt really fast, like 121 again."}

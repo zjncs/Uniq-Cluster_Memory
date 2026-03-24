@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your diastolic blood pressure today is 106 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your history and today's readings, I'm diagnosing you with essential hypertension."}
+{"turn_id": 2, "speaker": "patient", "text": "Okay, that makes sense — I've had some headaches and dizziness lately."}
+{"turn_id": 3, "speaker": "doctor", "text": "Have you noticed any other symptoms — like changes in urination, fatigue, or shortness of breath?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin level came back at 86 g/L — that's significantly low and suggests moderate anemia."}
+{"turn_id": 5, "speaker": "patient", "text": "I have been feeling unusually tired, and my skin looks pale. Could that be related?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Yes, that’s very consistent with the anemia. We’ll investigate the cause — likely iron deficiency or chronic disease given your hypertension."}
+{"turn_id": 7, "speaker": "patient", "text": "Actually, I’ve also been urinating much more frequently — especially at night. That’s new over the past two weeks."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is elevated at 115 bpm — that’s tachycardic, and could reflect compensatory response to anemia or volume shifts from polyuria."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been drinking more water too — maybe that’s why I’m peeing so much?"}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s possible, but we should rule out diabetes or other endocrine causes. I’ll order fasting glucose and HbA1c."}
+{"turn_id": 11, "speaker": "doctor", "text": "Just rechecked your blood pressure — diastolic is now 88 mmHg. That’s a notable drop from the 106 we saw earlier — were you sitting quietly for both measurements?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes, same position — but I did take my lisinopril about 45 minutes before this one. Maybe it kicked in?"}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s likely. We may need to adjust the dose or timing. Also, given your anemia and tachycardia, I’m concerned about volume status — are you eating well and avoiding NSAIDs?"}
+{"turn_id": 14, "speaker": "patient", "text": "I haven’t taken ibuprofen in months, but my appetite’s been poor — I’ve lost about five pounds unintentionally."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s important — let’s add ferritin, TSH, and renal function tests. We’ll also consider a GI workup for possible occult bleeding."}
+{"turn_id": 16, "speaker": "patient", "text": "Should I stop the lisinopril until we figure things out?"}
+{"turn_id": 17, "speaker": "doctor", "text": "No — but I am going to switch you to losartan 25 mg daily. It’s gentler on renal perfusion, especially with potential volume depletion and anemia."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your heart rate has improved — it’s now 91 bpm, down from 115 earlier. That’s encouraging, though still mildly elevated."}
+{"turn_id": 19, "speaker": "patient", "text": "Right — that matches the hemoglobin result from earlier, the 86 g/L. I just got the lab report again confirming it."}

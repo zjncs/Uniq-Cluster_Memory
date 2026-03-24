@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Your hemoglobin level today is 95 g/L, which is below the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I’ve been feeling really off lately—I’ve had these weird palpitations, especially in the afternoon."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’re currently on Metformin 1000 mg twice daily for your type 2 diabetes—let’s keep that going for now, but we’ll monitor closely."}
+{"turn_id": 3, "speaker": "patient", "text": "Okay. I’ve also been unusually tired and cold, even indoors. My skin feels dry too."}
+{"turn_id": 4, "speaker": "doctor", "text": "Those symptoms align with possible thyroid dysfunction. Let’s check your thyroid function shortly."}
+{"turn_id": 5, "speaker": "patient", "text": "I did a finger-prick glucose test this morning—it read 6.6 mmol/L, same as my last clinic visit."}
+{"turn_id": 6, "speaker": "doctor", "text": "That matches our in-office reading of 6.6 mmol/L just now—good control for now, though we’ll adjust if needed."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your labs and clinical picture, your primary diagnosis is Hypothyroidism. We’ll start levothyroxine soon."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your temperature is elevated at 39.9 °C—this is concerning. Any chills, sore throat, or cough?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic blood pressure is 102 mmHg today—slightly high, likely related to the fever and stress response."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve had a headache all day and my neck feels stiff. No cough, but my throat is mildly sore."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the fever, neck stiffness, and sore throat, we need to rule out meningitis—let’s get urgent blood work and consider lumbar puncture."}
+{"turn_id": 12, "speaker": "patient", "text": "That sounds scary. Could this be related to my thyroid or diabetes?"}
+{"turn_id": 13, "speaker": "doctor", "text": "The fever and acute symptoms aren’t typical of hypothyroidism or well-controlled diabetes—this appears to be a separate acute infection."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been taking my Metformin regularly, but I skipped it yesterday because I wasn’t eating much due to nausea."}
+{"turn_id": 15, "speaker": "doctor", "text": "Understood—we’ll hold Metformin until you’re rehydrated and eating consistently, then restart cautiously."}
+{"turn_id": 16, "speaker": "doctor", "text": "I just rechecked your blood pressure—it’s now 108 mmHg diastolic, up from 102 earlier; the fever is likely driving this rise."}
+{"turn_id": 17, "speaker": "patient", "text": "My energy hasn’t improved, and I’m still short of breath walking to the bathroom."}
+{"turn_id": 18, "speaker": "patient", "text": "That reading from earlier—the hemoglobin of 95 g/L—is still what I saw on my lab slip. It hasn’t changed since this morning."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your anemia, fatigue, and acute illness, I’m going to switch you from Metformin to insulin glargine temporarily to avoid lactic acidosis risk and give better glycemic control during this febrile episode."}

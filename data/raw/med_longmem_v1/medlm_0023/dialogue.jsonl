@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate today is 63 bpm, which is within the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me. I’ve been feeling a bit off lately."}
+{"turn_id": 2, "speaker": "patient", "text": "Actually, I’ve had episodes of dizziness — especially when standing up quickly — over the past few days."}
+{"turn_id": 3, "speaker": "doctor", "text": "I see. Any lightheadedness, nausea, or fainting? And have you noticed it happening at certain times of day or after meals?"}
+{"turn_id": 4, "speaker": "patient", "text": "Mostly in the mornings — and sometimes right after I take my meds. It’s not constant, but it’s worrying."}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily for type 2 diabetes — we started that last month to help with glycemic control."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure today is 88 mmHg — slightly elevated, though your systolic was 132, so overall BP is 132/88."}
+{"turn_id": 7, "speaker": "doctor", "text": "Given your persistent elevated blood pressure readings over the last three visits, your primary diagnosis remains Essential Hypertension."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose this morning was 7.9 mmol/L — above target, though not critically high."}
+{"turn_id": 9, "speaker": "patient", "text": "That’s actually higher than my home meter showed yesterday — I got 6.4 mmol/L fasting then. Is that difference concerning?"}
+{"turn_id": 10, "speaker": "doctor", "text": "It’s worth noting — yes. That reading from yesterday was lower, but today’s value suggests your glucose isn’t as well controlled as we’d hoped. Let’s review your diet and timing of Metformin."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been taking it with breakfast and dinner, like you said. But I did skip the evening dose two nights ago because I felt queasy — maybe that affected today’s number?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly — inconsistent dosing can cause fluctuations. Also, dizziness could be related to either hypotension, orthostatic drop, or even mild hypoglycemia — though 7.9 doesn’t suggest that. Let’s check your standing BP next."}
+{"turn_id": 13, "speaker": "patient", "text": "When I stood up just now in the waiting room, I got dizzy again — and my pulse felt slower than usual. Could that be connected to the heart rate you just measured?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes — that’s an important clue. A heart rate of 63 bpm at rest is fine, but if it doesn’t rise appropriately on standing, it may point to autonomic involvement or medication effect. We’ll assess orthostatic vitals now."}
+{"turn_id": 15, "speaker": "patient", "text": "Also — that reading from this morning… do you think the Metformin might be contributing? I read it can rarely cause dizziness."}
+{"turn_id": 16, "speaker": "doctor", "text": "It’s uncommon, but possible — especially with GI upset or volume depletion. Given your symptoms and borderline BP, I’m going to switch you from Metformin to Empagliflozin 10mg once daily. It’s gentler on BP and may reduce dizziness risk."}
+{"turn_id": 17, "speaker": "patient", "text": "Empagliflozin? Okay — will that interact with my lisinopril? I’ve been on that for the hypertension since June."}
+{"turn_id": 18, "speaker": "doctor", "text": "No major interaction — in fact, they complement each other. Lisinopril helps with afterload, and Empagliflozin offers cardio-renal protection. We’ll monitor your potassium and creatinine in two weeks."}
+{"turn_id": 19, "speaker": "patient", "text": "Thank you — and just to clarify, I should stop the Metformin entirely starting today, right? Not taper it?"}

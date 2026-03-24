@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—more tired than usual and my ankles have been swelling a little."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your recent labs and imaging, we’re confirming a diagnosis of Chronic Kidney Disease Stage 3, effective as of August 15th."}
+{"turn_id": 2, "speaker": "patient", "text": "Stage 3? That sounds serious—I’ve been trying to watch my salt and fluids, but I’m not sure what else to do."}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes, it’s important to monitor closely. By the way, your temperature today is 38.0 °C—so you do have a low-grade fever."}
+{"turn_id": 4, "speaker": "patient", "text": "Oh—I did notice my heart racing earlier today. Palpitations, especially when I stood up quickly."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let me check your blood pressure now—systolic is 119, diastolic is 98 mmHg. That diastolic is elevated, which could contribute to your symptoms."}
+{"turn_id": 6, "speaker": "patient", "text": "Really? I thought high blood pressure usually means both numbers are up. And my pulse feels slow sometimes too."}
+{"turn_id": 7, "speaker": "doctor", "text": "Good observation—we just measured your heart rate at 53 bpm, which is on the lower side. That may be related to your CKD or medications."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units nightly for your diabetes, correct? That remains appropriate for now."}
+{"turn_id": 9, "speaker": "doctor", "text": "Just to confirm—the systolic reading I mentioned was 119 mmHg, consistent with your last home log. Let’s keep tracking that daily."}
+{"turn_id": 10, "speaker": "patient", "text": "Yes, I take the insulin every night. But yesterday I skipped a dose because my fingerstick sugar was only 82 mg/dL before bed."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s understandable—but with CKD, your insulin clearance slows down, so skipping doses can still risk hypoglycemia. Let’s review your home monitoring technique."}
+{"turn_id": 12, "speaker": "patient", "text": "Makes sense. Also, the palpitations seem worse in the evening—I wonder if it’s tied to the fever or something else?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Possibly. Fever increases metabolic demand, and with reduced kidney function, electrolyte shifts—like potassium or magnesium—can trigger arrhythmias. We’ll check your basic metabolic panel today."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay. And my blood pressure—it’s been all over the place at home. Sometimes normal, sometimes high like today."}
+{"turn_id": 15, "speaker": "doctor", "text": "We’ll reassess BP after you’ve rested five minutes—let’s get another reading now."}
+{"turn_id": 16, "speaker": "patient", "text": "Sure. I just checked mine this morning before coming in—got 122 over 82."}
+{"turn_id": 17, "speaker": "doctor", "text": "Ah—here’s the reading: diastolic is 82 mmHg now. That’s notably lower than the 98 we saw earlier. Let’s hold off on antihypertensives until we understand this variability."}
+{"turn_id": 18, "speaker": "patient", "text": "Right—I remember that first reading you took was 98. Is that the same number you meant when you said it was elevated?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, exactly—that reading from earlier, the 98, is the one we’re comparing to. Given the fluctuation and your symptoms, I’m going to switch you from Insulin glargine to basal insulin degludec starting tonight, 8 units, to improve stability and reduce hypoglycemia risk."}

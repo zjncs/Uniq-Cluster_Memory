@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been having palpitations since last Sunday—around October 15th. They come on especially after meals and sometimes wake me up at night."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Let’s start with some vitals. Your blood glucose today is 9.0 mmol/L—elevated, especially fasting. Are you monitoring it regularly at home?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I check it every morning before breakfast—I usually get around 8.5 to 9.2. I’ve been trying to cut back on carbs, but it hasn’t budged much."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 61 bpm—within normal range, though on the lower side. Any dizziness or fatigue with the palpitations?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic blood pressure is 86 mmHg—slightly elevated but not alarming yet. Systolic was 138, so overall BP is 138/86."}
+{"turn_id": 5, "speaker": "patient", "text": "I do feel a bit short of breath walking up stairs, and my chest gets tight sometimes—not sharp pain, more like pressure."}
+{"turn_id": 6, "speaker": "doctor", "text": "Given your symptoms, risk factors, and today’s findings, I’m diagnosing Coronary Artery Disease. We’ll confirm with further testing, but this explains the palpitations and exertional chest tightness."}
+{"turn_id": 7, "speaker": "patient", "text": "That’s concerning—I didn’t realize it could be heart-related. My father had a heart attack at 58."}
+{"turn_id": 8, "speaker": "doctor", "text": "Family history definitely increases your risk. Let’s also address your blood sugar—we need tighter control, as diabetes accelerates CAD progression."}
+{"turn_id": 9, "speaker": "doctor", "text": "I’m prescribing Metformin 1000mg twice daily, starting today. Take it with breakfast and dinner to minimize GI side effects."}
+{"turn_id": 10, "speaker": "doctor", "text": "By the way, your repeat glucose reading just now is 6.6 mmol/L—much better than the 9.0 earlier. Did you eat something since the first test?"}
+{"turn_id": 11, "speaker": "patient", "text": "No, I haven’t eaten—but I did walk briskly to the clinic from the parking lot. Maybe that lowered it?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly—exercise can acutely improve insulin sensitivity. Still, we’ll aim for consistent pre-meal readings under 7.0. Let’s recheck in two weeks."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your heart rate is now 73 bpm—up from 61 earlier. That’s likely due to the mild activity and maybe some anxiety about today’s visit."}
+{"turn_id": 14, "speaker": "patient", "text": "I *have* been stressed lately—my job has been overwhelming, and I’m sleeping poorly."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your elevated diastolic pressure and CAD diagnosis, I’m adding Amlodipine 10mg once daily to help relax your arteries and reduce cardiac workload."}
+{"turn_id": 16, "speaker": "patient", "text": "Will that interact with the Metformin? And will it help with the palpitations?"}
+{"turn_id": 17, "speaker": "doctor", "text": "No significant interaction—both are safe together. Amlodipine won’t stop palpitations directly, but by improving coronary perfusion and lowering afterload, it reduces triggers over time."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start both today. Should I still monitor my BP at home?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes—please record it twice daily. Just now I got 100 mmHg for diastolic, but you mentioned earlier that your home reading matched the first clinic value—86 mmHg—and your glucose was again 9.0 mmol/L, just like the initial test."}

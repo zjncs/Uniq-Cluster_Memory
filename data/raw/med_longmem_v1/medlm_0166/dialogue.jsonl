@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent stress test and angiogram, I’m confirming a diagnosis of Coronary Artery Disease, dated February 25th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your resting heart rate today is 62 beats per minute — that’s within the normal range and reassuring for someone with CAD."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see you're currently on Metformin 1000 mg twice daily — we’ll keep that going for your type 2 diabetes management, as it also has cardiovascular benefits."}
+{"turn_id": 3, "speaker": "patient", "text": "Thank you, Doctor. I’ve been trying to walk more and cut back on salt, but I’ve had some chest tightness when climbing stairs."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s important — let’s discuss those symptoms in more detail. Any shortness of breath or dizziness accompanying the tightness?"}
+{"turn_id": 5, "speaker": "patient", "text": "Just mild shortness of breath, no dizziness. It usually eases after I stop and rest for a minute or two."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin level came back at 180 g/L — that’s elevated, though not critically so. We’ll monitor this closely, especially given your CAD."}
+{"turn_id": 7, "speaker": "doctor", "text": "Have you noticed any headaches, flushing, or unusual fatigue lately? Those can sometimes accompany higher hemoglobin levels."}
+{"turn_id": 8, "speaker": "patient", "text": "A bit more fatigue than usual, and yes — occasional headaches, especially in the morning."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure reading today is 165 mmHg. That’s above our target for CAD management, which is ideally below 130 mmHg."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking it at home — it’s usually around 155–160 in the evening. I take my medications regularly."}
+{"turn_id": 11, "speaker": "doctor", "text": "Thanks for tracking that. Let’s recheck it now — please sit quietly for a minute before we measure again."}
+{"turn_id": 12, "speaker": "doctor", "text": "Hmm — this reading shows 180 mmHg systolic. That’s notably higher than the 165 we saw earlier. Was there anything different just before this measurement?"}
+{"turn_id": 13, "speaker": "patient", "text": "I stood up quickly before the cuff went on — maybe that spiked it? I did feel a little lightheaded for a second."}
+{"turn_id": 14, "speaker": "doctor", "text": "That could explain the elevation. Still, even accounting for that, your BP remains suboptimally controlled, and we need to address it proactively."}
+{"turn_id": 15, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin value is again 180 g/L — consistent with the earlier lab draw. This reinforces that the elevation isn’t a fluke."}
+{"turn_id": 16, "speaker": "patient", "text": "Does that mean I might have polycythemia? My brother was diagnosed with something similar last year."}
+{"turn_id": 17, "speaker": "doctor", "text": "It’s possible, but we’ll need additional tests — like serum erythropoietin and JAK2 mutation testing — to clarify. For now, let’s focus on your BP and cardiac risk reduction."}
+{"turn_id": 18, "speaker": "doctor", "text": "I am going to switch you from your current antihypertensive regimen to Lisinopril 20 mg once daily — it’s an ACE inhibitor with strong evidence for reducing cardiovascular events in CAD patients."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — and just to confirm, that hemoglobin number you mentioned earlier — the 180 g/L — is the same one from the lab report you showed me at the start?"}

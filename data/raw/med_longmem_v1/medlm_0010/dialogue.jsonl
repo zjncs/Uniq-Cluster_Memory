@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your recent lab work — your hemoglobin level came back at 92 g/L, which is below the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Oh, that’s lower than last time. I’ve been feeling more tired lately, especially when walking up stairs."}
+{"turn_id": 2, "speaker": "doctor", "text": "Yes, and your diastolic blood pressure today is 68 mmHg — on the lower side, especially given your history. How have you been feeling with dizziness or lightheadedness?"}
+{"turn_id": 3, "speaker": "patient", "text": "A little dizzy when standing up quickly, yes — and my ankles have been swelling more over the past week."}
+{"turn_id": 4, "speaker": "doctor", "text": "That aligns with your established diagnosis of Coronary Artery Disease — we’ll need to assess whether this is worsening heart function contributing to fluid retention."}
+{"turn_id": 5, "speaker": "patient", "text": "Exactly — the lower limb edema has gotten worse since last Thursday. It’s mostly in both ankles, and it doesn’t go down much even after elevating them overnight."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is currently 90 bpm — slightly elevated for resting, which may reflect compensatory effort given the anemia and possible decompensation."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve also noticed my pulse feels stronger than usual, especially in my neck — like it’s pounding sometimes."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your body temperature is 36.1 °C — well within normal limits, so no sign of acute infection contributing to this picture."}
+{"turn_id": 9, "speaker": "patient", "text": "No fever, no chills — just fatigue, shortness of breath on exertion, and this persistent swelling."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given the low hemoglobin, borderline low diastolic pressure, elevated heart rate, and new-onset edema, I’m concerned about early heart failure exacerbation. Let’s order a BNP and repeat ferritin studies."}
+{"turn_id": 11, "speaker": "patient", "text": "I remember my hemoglobin was 104 g/L three months ago — so it’s dropped quite a bit. Could the iron pills I started help?"}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s right — the drop from 104 g/L to 92 g/L is significant, and suggests either ongoing blood loss or inadequate absorption. We’ll check for GI sources and consider IV iron if oral isn’t sufficient."}
+{"turn_id": 13, "speaker": "patient", "text": "Actually, when I checked again this morning before coming in, my blood pressure was 118 over 72 — so the diastolic was a bit higher than what you just recorded."}
+{"turn_id": 14, "speaker": "doctor", "text": "Thanks for that update — the 68 mmHg reading was taken after you’d been sitting quietly for five minutes, but home readings can vary. We’ll monitor trends closely."}
+{"turn_id": 15, "speaker": "patient", "text": "And the swelling — it’s worse in the evenings, and my rings feel tight by dinner time. That number from last time — the 92 g/L — makes me wonder if it’s related."}
+{"turn_id": 16, "speaker": "doctor", "text": "It absolutely could be — anemia reduces oxygen-carrying capacity, forcing the heart to work harder, which over time can worsen fluid retention in patients with CAD."}
+{"turn_id": 17, "speaker": "patient", "text": "I’ve also been taking lisinopril 10 mg daily, but my cardiologist mentioned possibly adjusting it. Is that still appropriate?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your current low diastolic pressure and signs of volume overload, I am going to switch you to sacubitril/valsartan instead — it’s better tolerated in this context and improves outcomes in HFrEF."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — thank you. I’ll bring my home BP log next time, and let you know how the swelling responds over the next week."}

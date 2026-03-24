@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired lately, and I noticed my ankles have been swelling up quite a bit over the past few days."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Can you tell me more about the swelling? When did it start, and have you noticed any other symptoms like shortness of breath or chest discomfort?"}
+{"turn_id": 2, "speaker": "patient", "text": "It started around last Friday—so about three days ago—and it’s mostly in both ankles, worse by evening. No chest pain, but I’ve had some dizziness when standing up quickly."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes—I measured it yesterday morning, and my lower limbs were definitely puffy. That’s when I decided to come in."}
+{"turn_id": 4, "speaker": "doctor", "text": "Okay, thank you. Let’s get some vitals and labs done right away. Based on your history and presentation, I’m concerned about possible underlying hypertension-related complications."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your blood pressure reading today is elevated, and after reviewing your chart and exam, I’m diagnosing you with Essential Hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your random blood glucose came back at 15.5 mmol/L—significantly above normal. We’ll need to investigate this further, especially given your edema and hypertension."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure is 60 mmHg—on the low side, especially paired with that systolic of 155. That pulse pressure is quite wide, which raises concern for vascular stiffness or possible volume shifts."}
+{"turn_id": 8, "speaker": "doctor", "text": "And your systolic blood pressure is 155 mmHg—consistent with stage 2 hypertension per current guidelines."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your temperature is elevated at 38.8 °C—suggesting an acute inflammatory or infectious process. Given your edema and hyperglycemia, we need to rule out infection or decompensated state."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve had a sore throat for two days and some chills—I didn’t realize the fever was that high."}
+{"turn_id": 11, "speaker": "doctor", "text": "I just rechecked your temperature—it’s now 37.5 °C, so it appears to be trending down, likely in response to hydration and rest since you arrived."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve also been very thirsty and urinating more frequently—especially at night. Could that be related to the high blood sugar?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Absolutely—that’s classic for hyperglycemia. Given your glucose level, new-onset diabetes or uncontrolled pre-existing diabetes is highly likely. We’ll order HbA1c and ketones urgently."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been taking amlodipine 5 mg daily for my blood pressure, but my doctor increased it to 10 mg two weeks ago."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your persistent edema, borderline hypotension, and now confirmed hyperglycemia, I’m going to switch you from amlodipine to losartan 50 mg daily—it’s better tolerated in metabolic syndrome and offers renal protection."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I still monitor my blood pressure at home?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes—and I see your repeat glucose check just came in at 16.0 mmol/L, so it’s remained elevated despite no recent food intake. That confirms significant dysregulation."}
+{"turn_id": 18, "speaker": "doctor", "text": "We’ll initiate basal insulin temporarily while we work up the diabetes diagnosis, and continue close BP monitoring."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm—I checked my blood pressure again before leaving, and it’s still 155 over 60, same as that first reading. And my fingerstick glucose is 15.5 again—just like the one you got earlier."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your blood pressure reading today is 142 mmHg systolic — slightly elevated, but let’s review the full picture."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your fasting blood glucose came back at 8.8 mmol/L — above the target range for someone with known hypertension and prediabetes risk."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level is 168 g/L — well within the normal range, so no anemia concerns there."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been having palpitations off and on since yesterday — especially in the afternoon, like my heart is skipping or racing."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your temperature is 37.2 °C — completely normal right now."}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on Lisinopril 10 mg once daily for blood pressure control — how well has that been tolerated? Any cough or dizziness?"}
+{"turn_id": 6, "speaker": "patient", "text": "No cough, and I haven’t felt dizzy, but the palpitations make me nervous — could it be related to the blood pressure or something else?"}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s a good question. Palpitations can arise from multiple causes — including electrolyte shifts, thyroid function, or even anxiety — but given your elevated glucose and BP, we’ll need to assess cardiac rhythm and metabolic status more closely."}
+{"turn_id": 8, "speaker": "patient", "text": "I also noticed I’ve been thirstier than usual and urinating more frequently — maybe that’s tied to the high blood sugar?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes — those are classic hyperglycemic symptoms. Based on your clinical picture today, I’m diagnosing Essential Hypertension, and we now need to address this emerging glycemic dysregulation as well."}
+{"turn_id": 10, "speaker": "patient", "text": "Does that mean I’ll need more medication? I’m already taking Lisinopril every morning."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll likely need to add glucose-lowering therapy soon — but first, let’s rule out acute infection or other stressors that might be elevating both glucose and heart rate."}
+{"turn_id": 12, "speaker": "patient", "text": "Actually, I’ve had a low-grade headache since this morning and felt a bit warm — not sure if it’s just fatigue or something else."}
+{"turn_id": 13, "speaker": "doctor", "text": "Let me check again — ah, your temperature is now 38.3 °C. That’s a low-grade fever — possibly indicating an underlying infection, which could explain both the palpitations and the glucose elevation."}
+{"turn_id": 14, "speaker": "patient", "text": "Oh — I didn’t realize it had gone up. I did feel warmer earlier, but thought it was just the room."}
+{"turn_id": 15, "speaker": "doctor", "text": "Fever can significantly stress the cardiovascular and metabolic systems. Let’s get a rapid flu test and consider CRP — but in the meantime, we should act on your persistent hyperglycemia."}
+{"turn_id": 16, "speaker": "patient", "text": "That number — 8.8 mmol/L — it’s the same as the one you mentioned earlier. It hasn’t come down, even though I skipped dessert last night."}
+{"turn_id": 17, "speaker": "doctor", "text": "Exactly — and with ongoing symptoms and now a fever, oral agents alone may not suffice. We need more reliable glucose control starting tonight."}
+{"turn_id": 18, "speaker": "patient", "text": "Will insulin be hard to manage? I’ve never used it before."}
+{"turn_id": 19, "speaker": "doctor", "text": "I’m going to start you on Insulin glargine 16 units once nightly — it’s a long-acting basal insulin that helps stabilize fasting glucose without frequent dosing. We’ll teach you proper injection technique before you leave."}

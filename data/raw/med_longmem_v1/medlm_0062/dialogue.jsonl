@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I came in today for my routine diabetes check-up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello! Let's start with your vitals — your systolic blood pressure is 128 mmHg, which is within the normal range."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s reassuring. I’ve been trying to stay consistent with my diet and walking."}
+{"turn_id": 3, "speaker": "doctor", "text": "Great to hear. Any new symptoms or concerns since your last visit?"}
+{"turn_id": 4, "speaker": "patient", "text": "Actually, yes — I’ve had some dizziness, especially when standing up quickly, over the past few days."}
+{"turn_id": 5, "speaker": "doctor", "text": "I’m prescribing Metformin 1000mg twice daily to help manage your blood glucose — we’ll continue monitoring closely given the dizziness."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate right now is 101 bpm — a bit elevated. Are you feeling anxious or unwell today?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is 36.1 °C — completely normal."}
+{"turn_id": 8, "speaker": "patient", "text": "I wasn’t aware my heart rate was that high — I do feel a little lightheaded, but no fever or chills."}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s recheck your vitals in a few minutes after you’ve rested — dizziness plus tachycardia could suggest orthostatic changes or volume status issues."}
+{"turn_id": 10, "speaker": "doctor", "text": "Now your heart rate has dropped to 73 bpm — much more stable. That supports the idea that the earlier elevation was situational."}
+{"turn_id": 11, "speaker": "patient", "text": "Good — I did sit quietly for a couple of minutes. The dizziness hasn’t been constant, just intermittent."}
+{"turn_id": 12, "speaker": "doctor", "text": "We’ll also check your fasting glucose and HbA1c today. Has your home glucose monitoring shown any patterns?"}
+{"turn_id": 13, "speaker": "patient", "text": "Mostly in the 130–160 mg/dL range before meals, but once last week it dipped to 68 — I had juice right away and felt better."}
+{"turn_id": 14, "speaker": "doctor", "text": "That hypoglycemic episode may be contributing to the dizziness — we’ll review your timing and dosing of current meds carefully."}
+{"turn_id": 15, "speaker": "patient", "text": "Makes sense. I’ve been taking my meds as prescribed, but maybe the timing needs adjusting?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Your temperature is now 36.0 °C — still well within normal limits, consistent with our earlier reading."}
+{"turn_id": 17, "speaker": "patient", "text": "That matches the systolic number you gave me earlier — 128 mmHg — so at least my BP stayed steady between checks."}
+{"turn_id": 18, "speaker": "doctor", "text": "Exactly — stable BP and normalized heart rate after rest are encouraging. I’m going to switch you to Metformin 500mg twice daily for two weeks to assess if lower dosing reduces dizziness without compromising control."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay, I’ll start that tomorrow and keep track of any dizziness or glucose readings. Thanks, Doctor!"}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—I’ve been urinating much more frequently than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your recent labs and clinical evaluation, your primary diagnosis is Chronic Kidney Disease Stage 3, confirmed as of August 23rd."}
+{"turn_id": 2, "speaker": "doctor", "text": "I’ve started you on Atorvastatin 40 mg taken once daily at bedtime to help manage cardiovascular risk, which is especially important with CKD."}
+{"turn_id": 3, "speaker": "patient", "text": "Okay, I’ve been taking that nightly. But the frequent urination—it’s happening day and night, and I’m quite thirsty too."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, that’s the polyuria I mentioned—I’ve been going every hour or so, especially after meals."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose today was elevated at 13.6 mmol/L—this is significantly above target and suggests uncontrolled hyperglycemia."}
+{"turn_id": 6, "speaker": "patient", "text": "That’s surprising—I didn’t know my sugar was that high. Could that be why I’m peeing so much?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Yes, absolutely—your heart rate is stable at 65 bpm, which is within normal limits."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your body temperature is 36.7°C—completely normal—and your hemoglobin is 179 g/L, which is slightly elevated but not concerning in this context."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your symptoms and lab results, we need to address this hyperglycemia urgently. Let’s also rule out diabetic ketoacidosis—any nausea, abdominal pain, or fruity breath?"}
+{"turn_id": 10, "speaker": "patient", "text": "No nausea or vomiting, but I’ve had some fatigue and blurry vision over the past few days."}
+{"turn_id": 11, "speaker": "doctor", "text": "Those are classic signs of hyperglycemia. We’ll repeat point-of-care glucose and check ketones. In the meantime, let’s discuss lifestyle adjustments and possible pharmacologic intervention."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been trying to cut back on sweets, but I eat rice and bread regularly—maybe that’s contributing?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Very likely. Carbohydrate load matters—even complex carbs can raise glucose quickly in insulin-resistant states. Let’s also reassess renal safety of any new meds given your CKD stage."}
+{"turn_id": 14, "speaker": "doctor", "text": "Just rechecked your temperature—it’s now 36.2°C, still well within normal range but slightly lower than our earlier reading."}
+{"turn_id": 15, "speaker": "patient", "text": "My pulse feels slower than usual today—I counted it just before coming in and got 65, same as before."}
+{"turn_id": 16, "speaker": "doctor", "text": "Interesting—our most recent monitor reading shows your heart rate dropped to 50 bpm. That’s a notable change from the 65 we saw earlier, so we’ll keep an eye on it, especially with statin use and potential electrolyte shifts."}
+{"turn_id": 17, "speaker": "patient", "text": "Should I stop the Atorvastatin? I read it can affect blood sugar sometimes."}
+{"turn_id": 18, "speaker": "doctor", "text": "We’ll keep the Atorvastatin—it’s important for your kidney and heart protection—but I am going to add Metformin 500 mg twice daily, starting today. Given your eGFR, we’ll use the lowest effective dose and monitor renal function closely."}
+{"turn_id": 19, "speaker": "doctor", "text": "Your repeat glucose is now 11.6 mmol/L—still high, but down from 13.6, which is encouraging. And yes, that reading of 65 bpm you mentioned—that matches our first heart rate measurement, so we’ll treat the 50 as a transient dip for now."}

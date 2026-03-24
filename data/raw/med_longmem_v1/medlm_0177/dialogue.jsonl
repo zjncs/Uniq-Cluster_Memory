@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent lab work and clinical evaluation, I’m diagnosing you with Type 2 Diabetes Mellitus, effective as of your visit on November 14th."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling a bit more tired lately and noticed some increased thirst—could that be related?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Yes, those are classic symptoms. Let’s review your labs and vitals from that same day to get a full picture."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin level was 162 g/L—well within the normal range for your age and sex."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s reassuring. My father had anemia, so I’ve always worried about that."}
+{"turn_id": 5, "speaker": "doctor", "text": "Understandable. We’ll keep monitoring it. How have you been managing your diet and activity since diagnosis?"}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve cut back on sugary drinks and started walking 30 minutes most days."}
+{"turn_id": 7, "speaker": "doctor", "text": "Great progress. Your blood pressure that day was 117 over 76 mmHg—excellent control."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20 mg taken nightly for cardiovascular risk reduction, which aligns with your diabetes management plan."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your fasting blood glucose was 6.4 mmol/L—just above the target threshold, but not alarmingly high."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, your hemoglobin came back as 142 g/L in the second sample drawn that same morning—slightly lower than the first reading of 162. We’ll repeat this next visit to clarify."}
+{"turn_id": 11, "speaker": "doctor", "text": "And your fingerstick glucose later that day was 4.4 mmol/L—suggesting possible mild hypoglycemia, especially if you skipped a meal or increased activity without adjusting intake."}
+{"turn_id": 12, "speaker": "patient", "text": "Ah, yes—I did skip lunch that day because of a meeting. I felt a little shaky in the afternoon."}
+{"turn_id": 13, "speaker": "doctor", "text": "That explains it. Let’s talk about strategies to prevent that—consistent carb intake and timing of meals will be key."}
+{"turn_id": 14, "speaker": "patient", "text": "Makes sense. Should I be checking my glucose at home regularly?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Given the variability we’re seeing, yes—I’d recommend checking fasting and two hours after meals for the next two weeks and logging them."}
+{"turn_id": 16, "speaker": "patient", "text": "Will do. Also, my ankles have been a bit swollen the past few days—nothing severe, but noticeable."}
+{"turn_id": 17, "speaker": "doctor", "text": "Thanks for mentioning that. Given your borderline elevated vascular risk and new symptom, I’d like to add a blood pressure agent with renal protective properties."}
+{"turn_id": 18, "speaker": "doctor", "text": "I’m going to switch you from Atorvastatin monotherapy to include Amlodipine 10 mg once daily—this will help with both BP control and peripheral edema."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay—just to confirm, that’s the same blood sugar reading of 6.4 mmol/L we discussed earlier, and the hemoglobin value of 162 g/L you first mentioned?"}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—tired, thirsty, and I’ve noticed some frequent urination."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals—I’m getting a systolic blood pressure of 96 mmHg today."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s lower than usual for me. I usually run around 120–130 systolic at home."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your temperature is 37.3 °C—within normal limits for now."}
+{"turn_id": 4, "speaker": "patient", "text": "I’ve had a slight fever on and off the past two days, but it’s been mild."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is steady at 73 bpm."}
+{"turn_id": 6, "speaker": "patient", "text": "That matches what my wrist monitor showed this morning—same number."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your symptoms, labs, and history, I’m diagnosing you with Type 2 Diabetes Mellitus."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose today is 5.9 mmol/L—elevated but not critically high."}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Amlodipine 5mg once daily for hypertension—let’s keep that going for now."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also been checking my sugar at home. This morning before breakfast, it was 3.9 mmol/L—I felt shaky and sweaty."}
+{"turn_id": 11, "speaker": "doctor", "text": "Ah—that reading conflicts with the 5.9 we just got. Was that fingerstick done after fasting? Any recent activity or missed meals?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes, I hadn’t eaten since midnight, and I skipped my afternoon walk yesterday—maybe that contributed?"}
+{"turn_id": 13, "speaker": "doctor", "text": "That could explain the dip. Given the variability and your symptoms, I’d like to start basal insulin to improve glycemic stability."}
+{"turn_id": 14, "speaker": "doctor", "text": "I’m going to switch you to Insulin glargine 16 units once nightly, starting tonight."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay—I’ll need training on how to inject and monitor more closely, right?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Absolutely. We’ll review timing, site rotation, hypoglycemia recognition, and when to check sugars—especially before bed and if you feel unwell."}
+{"turn_id": 17, "speaker": "patient", "text": "Actually, I took my temperature again just before coming in—it’s 38.6 °C now. I think I might be coming down with something."}
+{"turn_id": 18, "speaker": "doctor", "text": "That’s a notable rise from the 37.3 we saw earlier. Let’s listen to your lungs and check for infection—fever can significantly impact glucose control."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—I just rechecked: my blood sugar is back to 5.9 mmol/L, same as that first reading, and my pulse is still 73 bpm, just like earlier."}

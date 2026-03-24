@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly dizzy and tired, especially in the mornings."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals—I just measured your blood pressure: systolic is 120 mmHg."}
+{"turn_id": 2, "speaker": "patient", "text": "That sounds normal, right? My usual readings at home have been around there."}
+{"turn_id": 3, "speaker": "doctor", "text": "Yes, that’s reassuring. You’re currently on Lisinopril 20mg once daily—we started that last month for blood pressure control and cardiac protection."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic pressure today is 62 mmHg—on the lower side, but not critically so yet."}
+{"turn_id": 5, "speaker": "patient", "text": "Oh—I’ve had some nausea this morning, actually. Not severe, but it’s been happening a few times this week."}
+{"turn_id": 6, "speaker": "doctor", "text": "Given your history and today’s findings, I’m confirming your primary diagnosis as Coronary Artery Disease. That guides our treatment decisions."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your heart rate is 51 bpm—mildly bradycardic, which we’ll monitor closely, especially with your current meds."}
+{"turn_id": 8, "speaker": "patient", "text": "I did notice my pulse felt slow sometimes—I’ve been checking it with my smartwatch."}
+{"turn_id": 9, "speaker": "doctor", "text": "Good awareness. Let’s repeat the BP now—sometimes position or timing affects it. Are you seated comfortably?"}
+{"turn_id": 10, "speaker": "doctor", "text": "This time, your diastolic pressure is 78 mmHg—higher than the earlier reading of 62. That’s more in line with what we’d expect on Lisinopril."}
+{"turn_id": 11, "speaker": "patient", "text": "That makes sense—I stood up quickly before the first reading. Maybe that threw it off."}
+{"turn_id": 12, "speaker": "doctor", "text": "Exactly—orthostatic changes can influence this. Let’s check your heart rate again in a moment."}
+{"turn_id": 13, "speaker": "doctor", "text": "Now your heart rate is 50 bpm—slightly lower than the 51 we saw earlier. We’ll keep an eye on trends, especially with your symptoms."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve also noticed mild lightheadedness when standing—could that be related to the low heart rate or the medication?"}
+{"turn_id": 15, "speaker": "doctor", "text": "It could be. Given the persistent bradycardia and new-onset nausea, I’m going to switch you from Lisinopril to Amlodipine 5mg daily—it’s less likely to affect heart rate and still protects your coronary arteries."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, I’ll start that tomorrow. Should I stop the Lisinopril cold turkey?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes—discontinue Lisinopril tonight and begin Amlodipine tomorrow morning. Monitor for swelling or flushing, and let me know if dizziness worsens."}
+{"turn_id": 18, "speaker": "patient", "text": "Will do. By the way, I checked my pulse again just now—it’s back to 51."}
+{"turn_id": 19, "speaker": "patient", "text": "Same as that number you got at the start—the 51 bpm."}

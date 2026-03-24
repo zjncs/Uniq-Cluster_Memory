@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your systolic blood pressure today is 172 mmHg, which is elevated."}
+{"turn_id": 1, "speaker": "doctor", "text": "You're currently on Metformin 1000mg twice daily for blood sugar control — is that still well-tolerated?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level came back at 161 g/L, which is within the normal range for you."}
+{"turn_id": 3, "speaker": "doctor", "text": "I also noticed your heart rate is quite high at 122 bpm — did you feel palpitations or shortness of breath before coming in?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, actually — I’ve had chest tightness on and off for about three weeks, especially when walking up stairs."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s important. Have you noticed any dizziness, sweating, or nausea accompanying the chest discomfort?"}
+{"turn_id": 6, "speaker": "patient", "text": "A little sweating, yes — and once I had to stop walking because my left arm felt heavy."}
+{"turn_id": 7, "speaker": "doctor", "text": "Any history of hypertension or diabetes in your family? And how long have you been taking Metformin?"}
+{"turn_id": 8, "speaker": "patient", "text": "My father had a heart attack at 58, and I’ve been on Metformin for about eight months — since my A1c was 7.4% last spring."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your symptoms, family history, elevated BP, tachycardia, and risk profile, I’m diagnosing you with Coronary Artery Disease."}
+{"turn_id": 10, "speaker": "patient", "text": "Oh — that’s concerning. Does that mean I need a stent or something right away?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Not necessarily yet — we’ll schedule a stress test and coronary CT angiogram first. But we need to act quickly on risk modification."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay. By the way, I checked my blood sugar this morning before breakfast — it was 142 mg/dL, not too different from last time."}
+{"turn_id": 13, "speaker": "doctor", "text": "That reading is consistent with your current regimen, but given your new CAD diagnosis, we’ll need to optimize both glycemic and cardiovascular control."}
+{"turn_id": 14, "speaker": "patient", "text": "Actually, when I checked again this morning, my blood sugar was 158 mg/dL — higher than usual, even though I skipped dessert last night."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s worth noting — and given your tachycardia and elevated BP, Metformin alone isn’t enough. I am going to switch you to Empagliflozin 10mg daily, which has proven cardiovascular benefits in CAD patients."}
+{"turn_id": 16, "speaker": "patient", "text": "Empagliflozin? I haven’t heard of that one — what does it do differently?"}
+{"turn_id": 17, "speaker": "doctor", "text": "It’s an SGLT2 inhibitor — helps your kidneys remove excess glucose *and* reduces heart failure hospitalizations and cardiovascular death in people with CAD. We’ll monitor your volume status closely."}
+{"turn_id": 18, "speaker": "patient", "text": "And what about that high heart rate? Should I be worried about the 122 bpm we saw earlier?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes — that number is clinically significant, especially alongside your chest symptoms and the diagnosis. We’ll add low-dose metoprolol succinate next visit, pending your echocardiogram results."}

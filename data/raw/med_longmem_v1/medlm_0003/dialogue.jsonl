@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals from this morning — your body temperature is 36.2 °C, which is within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your hemoglobin level is 129 g/L — that’s slightly low for an adult male but still in the acceptable range; we’ll keep an eye on it."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 95 mmHg, which is elevated — we’ll want to monitor that closely, especially given your diabetes history."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your fasting blood glucose is 6.6 mmol/L — just above target for optimal control. How has your home monitoring been going?"}
+{"turn_id": 4, "speaker": "patient", "text": "It’s been up and down. Some mornings it’s around 6.2, other days closer to 7.4 — I’ve been trying to stick to my meal plan."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s helpful context. Any new symptoms lately — fatigue, thirst, frequent urination, or changes in vision?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes — I’ve noticed blurred vision over the past two days, especially when reading or driving at night."}
+{"turn_id": 7, "speaker": "doctor", "text": "Blurred vision can be a sign of fluctuating glucose levels — let’s correlate that with your recent readings. Was your glucose higher on the days you noticed the blurring?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your current pattern and the new symptom, I’m prescribing Insulin glargine 10 units once daily at bedtime to improve overnight and fasting control."}
+{"turn_id": 9, "speaker": "patient", "text": "Okay — I’ll start tonight. Should I adjust my current rapid-acting insulin dose too?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Not yet — we’ll hold off for now and reassess in one week. Please log your fasting glucose, pre-meal, and bedtime values, plus any episodes of blurred vision."}
+{"turn_id": 11, "speaker": "patient", "text": "Will do. Also, I checked my blood sugar this morning before breakfast — it was 6.8 mmol/L, so a bit higher than the 6.6 you recorded earlier."}
+{"turn_id": 12, "speaker": "doctor", "text": "Thanks for that — that reading is consistent with what we saw in clinic, though slightly elevated. Let’s see how it trends with the new basal insulin."}
+{"turn_id": 13, "speaker": "patient", "text": "One more thing — last week my diastolic was 88 mmHg, but today it’s 95. Is that something to worry about?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes, that rise is meaningful — the 95 mmHg we measured today is higher than the 88 you mentioned from last week. We’ll want to rule out white-coat effect and consider lifestyle adjustments or possible antihypertensive initiation if it persists."}
+{"turn_id": 15, "speaker": "patient", "text": "Makes sense. And my hemoglobin — you said it was 129. That’s actually lower than the 134 from my lab last month. Any concern there?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Good catch — yes, that drop from 134 to 129 is modest but worth tracking. We’ll repeat it in four weeks and check ferritin and B12 to assess for early iron or vitamin deficiency."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. Also, I’ve been using the same glucometer for six months — could calibration drift explain some of the variation?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Possibly — let’s verify today’s reading with our in-office meter to confirm accuracy. If there’s a discrepancy, we’ll replace your test strips and review technique."}
+{"turn_id": 19, "speaker": "patient", "text": "That’d be great — thanks. I’ll bring my logbook and meter next time."}

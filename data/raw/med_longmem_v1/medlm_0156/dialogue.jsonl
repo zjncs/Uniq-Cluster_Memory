@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately, especially in the mornings."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in today. Can you tell me more about what’s been going on? Any specific symptoms or changes you've noticed?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Let me check your vitals — your heart rate is 73 bpm, which is within normal range."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve had dizziness — especially when standing up quickly. It’s happened a few times this week."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s important. Let’s review your current medications and recent labs. You’re currently on Amlodipine for blood pressure control."}
+{"turn_id": 5, "speaker": "doctor", "text": "I’m prescribing Amlodipine 5mg once daily to help manage your hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure today is 88 mmHg — slightly elevated but not alarming yet."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin level is 140 g/L — solid, no anemia concerns."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your history, lab trends, and clinical presentation, your primary diagnosis remains Type 2 Diabetes Mellitus."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your fasting blood glucose today is 10.5 mmol/L — above target, suggesting suboptimal glycemic control."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, let me recheck your blood pressure — this time it's showing a diastolic of 73 mmHg, quite a drop from the earlier reading."}
+{"turn_id": 11, "speaker": "patient", "text": "That’s strange — I did feel lightheaded right before that second reading. Maybe it’s related?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly — orthostatic changes could explain both the dizziness and the BP fluctuation. Let’s monitor that closely."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your hemoglobin has trended upward — today’s value is 153 g/L, which is higher than your previous result."}
+{"turn_id": 14, "speaker": "doctor", "text": "Wait — actually, let me correct that: your most recent lab report shows hemoglobin at 153 g/L, but I see your baseline was 140 g/L. That’s a meaningful increase."}
+{"turn_id": 15, "speaker": "patient", "text": "I haven’t had any transfusions or iron supplements — could dehydration be affecting these numbers?"}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s a good point — hemoconcentration could elevate hemoglobin. Let’s also assess hydration status and renal function."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your heart rate just spiked to 103 bpm — notably higher than the 73 we saw earlier. Are you feeling anxious or short of breath right now?"}
+{"turn_id": 18, "speaker": "patient", "text": "A little shaky, yes — and my palms are sweaty. That reading feels different from the one you mentioned earlier — the one at 73 bpm."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your elevated glucose, recurrent dizziness, and hemodynamic variability, I’m going to start Metformin 1000mg twice daily to improve glycemic control and reduce cardiovascular strain. And just to clarify — your hemoglobin remains stable at 140 g/L per your last confirmed draw, so the 153 may reflect transient factors."}

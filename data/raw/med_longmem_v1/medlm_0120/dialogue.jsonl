@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your current medications. You're currently on insulin glargine 16 units once daily at bedtime."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, that's right—I've been taking it every night since my last visit."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 80 mmHg—within normal range, but let’s keep an eye on it."}
+{"turn_id": 3, "speaker": "patient", "text": "That sounds reassuring. I’ve been trying to monitor my salt intake more closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "Great. How have you been feeling overall this week? Any new symptoms or concerns?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is 69 beats per minute—steady and within normal limits."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve had some fatigue lately, and I’m urinating much more frequently than usual—especially at night."}
+{"turn_id": 7, "speaker": "doctor", "text": "You mentioned increased urination—polyuria. That’s important. Have you noticed any associated thirst, blurry vision, or weight changes?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is 139 g/L—solid, well within the normal range for your age and sex."}
+{"turn_id": 9, "speaker": "patient", "text": "Yes, definitely polyuria—I’m up three or four times each night, and I feel dehydrated even after drinking water."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your insulin regimen and these symptoms, we’ll want to check your fasting and postprandial glucose levels—but first, let’s recheck your vitals."}
+{"turn_id": 11, "speaker": "doctor", "text": "Hmm—your diastolic pressure just came in at 62 mmHg. That’s lower than the 80 we saw earlier. Are you feeling lightheaded or dizzy?"}
+{"turn_id": 12, "speaker": "patient", "text": "A little dizzy when I stand up quickly—especially in the mornings."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s notable. Let’s also reassess your heart rate now—stand still for a moment while I take it again."}
+{"turn_id": 14, "speaker": "doctor", "text": "It’s now 59 bpm—slightly bradycardic compared to the 69 earlier. We’ll need to consider possible medication interactions or autonomic involvement."}
+{"turn_id": 15, "speaker": "patient", "text": "Could my insulin be contributing to this? I’ve also been skipping dinner sometimes because of nausea."}
+{"turn_id": 16, "speaker": "doctor", "text": "Nausea and variable meals may be affecting both your glucose control and autonomic stability. Given your lipid profile and cardiovascular risk, I am going to switch you to atorvastatin 40 mg once daily at bedtime."}
+{"turn_id": 17, "speaker": "doctor", "text": "This will help with long-term vascular protection—and we’ll taper off any overlapping agents as needed."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I continue the insulin as prescribed?"}
+{"turn_id": 19, "speaker": "patient", "text": "And just to confirm—the hemoglobin result from earlier, that 139 g/L, is still consistent with what you saw before?"}

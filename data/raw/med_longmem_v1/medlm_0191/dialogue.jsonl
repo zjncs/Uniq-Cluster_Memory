@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning, Ms. Chen. Let's start by reviewing your recent lab work and symptoms. How have you been feeling over the past week?"}
+{"turn_id": 1, "speaker": "doctor", "text": "Your most recent hemoglobin level was 97 g/L — that’s below the normal range, suggesting mild anemia."}
+{"turn_id": 2, "speaker": "patient", "text": "I’ve been feeling more tired than usual, and my legs have felt heavy — especially by evening."}
+{"turn_id": 3, "speaker": "doctor", "text": "You’re currently on Metformin 1000 mg twice daily for type 2 diabetes — is that still well tolerated? Any gastrointestinal side effects?"}
+{"turn_id": 4, "speaker": "doctor", "text": "At your last visit, your heart rate was 97 bpm — slightly elevated but not alarming at the time."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature was 37.3 °C — within the normal low-grade range, no fever noted."}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, the Metformin hasn’t caused stomach issues, but I’ve noticed swelling in both ankles — it gets worse after standing all day."}
+{"turn_id": 7, "speaker": "patient", "text": "That lower limb edema started about three days ago and hasn’t improved with elevating my legs."}
+{"turn_id": 8, "speaker": "doctor", "text": "Thanks for mentioning that — edema can signal several things, including cardiac or renal involvement. Let’s check your vitals again today."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your blood glucose this morning was 13.0 mmol/L — higher than your target range, especially fasting."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interestingly, your temperature just now reads 36.2 °C — quite a bit lower than the 37.3 °C we recorded earlier this morning."}
+{"turn_id": 11, "speaker": "doctor", "text": "And your repeat glucose reading — taken 20 minutes after the first — is now 16.0 mmol/L, which suggests rising levels despite no food intake."}
+{"turn_id": 12, "speaker": "patient", "text": "I did feel a bit shaky and thirsty before coming in — maybe that’s related?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Your heart rate is now 111 bpm — up from 97 earlier — likely reflecting sympathetic activation from hyperglycemia or volume shifts."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your edema, rising glucose, tachycardia, and borderline anemia, I’m concerned about possible early heart failure or diabetic decompensation."}
+{"turn_id": 15, "speaker": "patient", "text": "I haven’t had chest pain, but I do get short of breath climbing stairs now."}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll order urgent BNP, renal function, and an echocardiogram. In the meantime, I’d like to adjust your medications."}
+{"turn_id": 17, "speaker": "doctor", "text": "I am going to switch you to Atorvastatin 20 mg once daily at night — this will help with cardiovascular risk modulation, especially given your current presentation."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay — should I stop the Metformin while starting the new pill?"}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, that 37.3 °C reading you mentioned earlier — I just checked my thermometer again, and it’s showing 37.3 °C now too."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent labs and clinical evaluation, I’m diagnosing you with Chronic Kidney Disease Stage 3, confirmed as of your visit on October 25th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your diastolic blood pressure was 87 mmHg during that same visit — slightly elevated, so we’ll monitor that closely."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your fasting blood glucose came back at 14.0 mmol/L — significantly above target, which raises concern for uncontrolled diabetes."}
+{"turn_id": 3, "speaker": "patient", "text": "That’s higher than I expected. I’ve been trying to watch my diet, but I’ve also had more fatigue and frequent urination lately."}
+{"turn_id": 4, "speaker": "doctor", "text": "Those are classic symptoms of hyperglycemia — and given your CKD stage, managing blood sugar becomes even more critical to protect your kidneys."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve been checking my glucose at home sometimes — but I’m not sure how often or when is best."}
+{"turn_id": 6, "speaker": "doctor", "text": "On the same day, your systolic blood pressure was 120 mmHg — so overall BP was 120 over 87. That diastolic number is what we’re most concerned about right now."}
+{"turn_id": 7, "speaker": "doctor", "text": "We’re starting you on Metformin 1000 mg twice daily, as it’s generally safe in early CKD and helps improve insulin sensitivity."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve heard Metformin can cause stomach upset — should I take it with food?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes, absolutely — always take it with meals to minimize GI side effects. Also, avoid it if you develop vomiting or dehydration, especially since your kidney function is reduced."}
+{"turn_id": 10, "speaker": "patient", "text": "Got it. And how often should I check my blood sugar now?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s start with fasting and two hours after your largest meal — and bring your log to our next visit in four weeks."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ll do that. My sister has diabetes too — she told me her A1c was 8.2 last month. Mine was 9.4 last week."}
+{"turn_id": 13, "speaker": "doctor", "text": "That aligns with your glucose level — an A1c of 9.4% roughly correlates with an average glucose around 13–14 mmol/L. We’ll aim to get that below 7.5% given your CKD."}
+{"turn_id": 14, "speaker": "patient", "text": "Is there anything else I should be watching for — like swelling or changes in urine?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes — watch for foamy urine, reduced output, new swelling in your ankles or face, or shortness of breath. Those could signal worsening kidney function or fluid overload."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay. I’ve also noticed some mild leg cramps at night — could that be related?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Possibly — electrolyte shifts or volume depletion can contribute, especially with high glucose levels pulling fluid into the bloodstream. Let’s check your potassium and magnesium next time."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. I checked my glucose again this morning before breakfast — same number as before."}
+{"turn_id": 19, "speaker": "patient", "text": "It was 14.0 mmol/L — just like that reading from October 25th."}

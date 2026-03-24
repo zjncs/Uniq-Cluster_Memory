@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been having these weird heart flutters—palpitations—since yesterday morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals. Your diastolic blood pressure today is 78 mmHg."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your labs and clinical presentation, the primary diagnosis is hypothyroidism."}
+{"turn_id": 3, "speaker": "doctor", "text": "I notice your temperature is elevated—39.9 °C. That’s concerning and not typical for uncomplicated hypothyroidism. Any chills or sore throat?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve had a low-grade fever off and on, but it spiked this morning—I felt really hot and shaky."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let’s check your blood glucose—it’s important given your symptoms and thyroid status."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your blood glucose is 11.1 mmol/L—elevated, especially fasting. Have you noticed increased thirst or urination?"}
+{"turn_id": 7, "speaker": "patient", "text": "Actually, yes—I’ve been drinking more water and waking up twice at night to pee."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is 79 bpm—normal for now—but that contrasts with your palpitations. We’ll need an ECG shortly."}
+{"turn_id": 9, "speaker": "patient", "text": "I’m also feeling fatigued and my skin has been dry, even though I’ve been using moisturizer daily."}
+{"turn_id": 10, "speaker": "doctor", "text": "Those are classic hypothyroid symptoms. But the fever and hyperglycemia suggest something else may be going on—possibly thyroiditis or an intercurrent infection."}
+{"turn_id": 11, "speaker": "patient", "text": "I did have a mild cough last week, but it went away. Could that be related?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly. Let’s order a TSH, free T4, CRP, and blood cultures to rule out subacute thyroiditis or sepsis."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been taking levothyroxine 50 mcg daily since my last visit—should I keep taking it?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Given the fever and possible inflammation, I’m going to hold levothyroxine temporarily while we investigate further."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay. Also, my home BP monitor showed something different earlier—I think around 63 for the bottom number?"}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s interesting—we just recorded 78 mmHg diastolic earlier, but let me recheck manually."}
+{"turn_id": 17, "speaker": "doctor", "text": "This reading shows 63 mmHg diastolic—lower than before. That drop could reflect dehydration or early septic physiology, especially with the fever and high glucose."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked again just now, it was back to 78 mmHg—the same as that reading from earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Good—consistency helps. We’ll repeat vitals hourly and start IV fluids while we await labs. Let’s also add metformin 500 mg once daily pending endocrine review, given your persistent hyperglycemia."}

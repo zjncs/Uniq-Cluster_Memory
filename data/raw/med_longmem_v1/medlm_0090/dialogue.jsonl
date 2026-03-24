@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit fatigued lately and had some shortness of breath when climbing stairs."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals — your diastolic blood pressure today is 68 mmHg."}
+{"turn_id": 2, "speaker": "doctor", "text": "And your systolic blood pressure is 136 mmHg — so overall, BP is 136 over 68."}
+{"turn_id": 3, "speaker": "patient", "text": "That’s lower than usual for me — I usually run around 140 over 85 at home."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your symptoms, ECG, and prior angiogram, we’re confirming a diagnosis of Coronary Artery Disease."}
+{"turn_id": 5, "speaker": "patient", "text": "Right — I remember the stent placement last year. Has anything new come up?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Yes — we’re continuing Metformin 500mg twice daily to support metabolic control, especially given your borderline glucose trends."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been taking it consistently, though I did skip a dose two days ago because I felt nauseated."}
+{"turn_id": 8, "speaker": "doctor", "text": "Noted. Let’s also review your labs — your hemoglobin came back at 86 g/L, which is below normal."}
+{"turn_id": 9, "speaker": "patient", "text": "That’s concerning — I’ve been feeling unusually pale and dizzy on standing."}
+{"turn_id": 10, "speaker": "doctor", "text": "Your diastolic pressure just rechecked at 86 mmHg — quite a jump from the 68 we saw earlier. Was there any change in position or activity between readings?"}
+{"turn_id": 11, "speaker": "patient", "text": "I stood up quickly before the second reading — maybe that’s why it spiked? But my home cuff gave me 68 again this morning."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s helpful context. We’ll monitor closely — orthostatic variation can be significant in CAD patients, especially with anemia."}
+{"turn_id": 13, "speaker": "patient", "text": "Anemia? Is that related to the low hemoglobin?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes — and your repeat hemoglobin today is now 80 g/L, down from 86 — suggesting progression we need to investigate further."}
+{"turn_id": 15, "speaker": "patient", "text": "Down again? That’s worrying. Could it be from the Metformin? I read it can affect B12."}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s a valid concern — and given the drop and your symptoms, I’m going to switch you from Metformin to Empagliflozin 10mg once daily, which is safer for renal and hematologic parameters."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay — will that help with the fatigue too?"}
+{"turn_id": 18, "speaker": "patient", "text": "By the way, I brought in my home log — that 68 mmHg diastolic reading this morning matches the one you got first thing."}
+{"turn_id": 19, "speaker": "doctor", "text": "Thank you — we’ll use that consistency to guide our management. Let’s order ferritin, B12, folate, and a reticulocyte count, and schedule a cardiology follow-up in two weeks."}

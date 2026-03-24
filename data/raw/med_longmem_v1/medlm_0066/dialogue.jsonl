@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 9.9 mmol/L — that's elevated and suggests your diabetes isn't fully controlled."}
+{"turn_id": 1, "speaker": "doctor", "text": "You're currently on Metformin 500 mg twice daily, which we started last month. How well have you been tolerating it?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is 69 mmHg — within normal range — but I notice your heart rate is quite high at 125 bpm."}
+{"turn_id": 3, "speaker": "doctor", "text": "That elevated heart rate, along with your glucose level, makes me want to explore other factors. Any chest discomfort or shortness of breath?"}
+{"turn_id": 4, "speaker": "patient", "text": "No chest pain, but I’ve been feeling really tired lately — like no matter how much I sleep, I’m exhausted."}
+{"turn_id": 5, "speaker": "patient", "text": "Yeah, the fatigue has been pretty constant for about two weeks now."}
+{"turn_id": 6, "speaker": "doctor", "text": "Thanks for sharing that. Fatigue can be multifactorial — especially with elevated glucose and tachycardia. Let’s review your labs and kidney function."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your eGFR and creatinine confirm Chronic Kidney Disease Stage 3. That’s an important factor in how we manage both your diabetes and medications."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your CKD Stage 3, ongoing hyperglycemia, and persistent symptoms, we need a more effective glucose-lowering strategy."}
+{"turn_id": 9, "speaker": "patient", "text": "Does that mean changing my meds? Metformin hasn’t seemed to help much lately."}
+{"turn_id": 10, "speaker": "doctor", "text": "Exactly — and because of your reduced kidney function, we’ll need to be cautious with oral agents. Metformin is still appropriate for now, but we’ll add insulin."}
+{"turn_id": 11, "speaker": "patient", "text": "Insulin? I’ve never used it before — is it safe with my kidneys?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Yes — insulin doesn’t require kidney metabolism. We’ll start with a long-acting basal insulin: Insulin glargine 16 units once nightly."}
+{"turn_id": 13, "speaker": "doctor", "text": "I am going to switch you to Insulin glargine 16U qn, in addition to continuing your current Metformin dose for now."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay, I’ll start that tonight. Should I still check my blood sugar regularly?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Absolutely — please monitor fasting and bedtime glucose daily. Also watch for hypoglycemia symptoms like shakiness or sweating."}
+{"turn_id": 16, "speaker": "patient", "text": "Got it. One thing — my heart rate feels fast all the time, even when I’m just sitting."}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s consistent with what we saw earlier — your heart rate was 125 bpm. We’ll evaluate for possible contributors like anemia or thyroid dysfunction, given your CKD and fatigue."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked again this morning before coming in, my blood sugar was 12.7 mmol/L — higher than the first reading."}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, that reading conflicts with our earlier value — and notably, your heart rate remains at 125 bpm, the same number we observed at the start of your visit."}

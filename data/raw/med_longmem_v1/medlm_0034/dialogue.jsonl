@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your latest fasting blood glucose reading—it was 7.4 mmol/L on February 26th. How have you been feeling since then?"}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks for seeing me. Honestly, I've been really tired lately—just dragging myself through the day."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Fatigue can have many causes—we’ll explore that. Did you notice any other symptoms like fever, shortness of breath, or dizziness?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your temperature was elevated at 38.4°C on the same day—we’ll want to rule out infection as a contributor to both the fever and fatigue."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily, started on February 26th. Have you experienced any gastrointestinal side effects or noticed changes in your appetite?"}
+{"turn_id": 5, "speaker": "patient", "text": "Yes—I’ve had some nausea, especially after the evening dose, and my appetite’s been low. Also, I’ve felt unusually weak."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin came back at 102 g/L on February 26th—that’s below normal and could explain part of your fatigue and weakness. We’ll need to investigate potential causes like iron deficiency or chronic inflammation."}
+{"turn_id": 7, "speaker": "patient", "text": "That makes sense—I’ve definitely felt fatigued, especially in the afternoons. It’s hard to concentrate at work."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your elevated blood pressure—systolic was 176 mmHg on February 26th—and your anemia, we should assess cardiovascular strain and renal function. Are you experiencing headaches or visual changes?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic blood pressure reading that day was 176 mmHg—well above the target for someone with diabetes and anemia. That’s concerning and needs prompt attention."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve had occasional dull headaches, mostly in the mornings. And yes, my vision’s been a bit blurry sometimes."}
+{"turn_id": 11, "speaker": "doctor", "text": "Blurred vision plus hypertension raises concern for hypertensive retinopathy or diabetic changes—we’ll refer you for urgent ophthalmology review."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, that sounds serious. Should I stop the Metformin? My stomach hasn’t settled at all."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given the persistent nausea and your borderline renal parameters, I’m going to switch you from Metformin to Empagliflozin 10mg once daily—it’s safer in mild renal impairment and may even support blood pressure control."}
+{"turn_id": 14, "speaker": "patient", "text": "Empagliflozin—I’ve heard it can cause urinary tract infections. Is that something I should watch for?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes, exactly—increased urination and burning on voiding are red flags. Also, monitor for signs of volume depletion, especially with your current BP and anemia."}
+{"turn_id": 16, "speaker": "patient", "text": "Got it. I’ll be careful. By the way, I checked my blood pressure again this morning—it was still 176 mmHg systolic."}
+{"turn_id": 17, "speaker": "doctor", "text": "That reading confirms persistent stage 2 hypertension. We’ll add Amlodipine 5mg daily starting today, and recheck in one week. Avoid NSAIDs and limit salt intake."}
+{"turn_id": 18, "speaker": "patient", "text": "Understood. Should I repeat the hemoglobin test soon? I’m worried it might be getting worse."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked again this morning, my systolic blood pressure was still 176 mmHg—the same number as that reading from last time."}

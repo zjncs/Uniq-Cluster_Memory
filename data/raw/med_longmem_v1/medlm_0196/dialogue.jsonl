@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vitals — your diastolic blood pressure today is 75 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks. I’ve had a pretty bad headache since this morning — it’s been throbbing and constant."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Any other symptoms? Fever, nausea, or changes in vision?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your temperature is elevated at 39.0 °C — that’s a significant fever."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve felt hot and sweaty all day, and my head feels like it’s pounding. I also feel unusually thirsty and have been urinating more often."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let me check your blood glucose — it’s 15.6 mmol/L, which is markedly elevated."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your history, exam, and these readings, the primary diagnosis is Essential Hypertension, though your current presentation suggests an acute metabolic issue likely related to uncontrolled diabetes."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been on insulin for a few years, but lately my sugars have been harder to manage — especially with this fever."}
+{"turn_id": 8, "speaker": "doctor", "text": "That makes sense — illness increases insulin resistance. Let’s review your current regimen."}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units nightly — we’ll keep that for now, but we’ll need to adjust based on your glucose trends."}
+{"turn_id": 10, "speaker": "patient", "text": "My blood pressure has felt a bit off too — sometimes I get lightheaded when standing up."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your hypertension diagnosis and recent lightheadedness, I’m going to switch you from your previous ACE inhibitor to Lisinopril 20 mg once daily — it’s better tolerated and offers renal protection in diabetes."}
+{"turn_id": 12, "speaker": "doctor", "text": "Just rechecked your glucose — it’s now 16.0 mmol/L, so it’s trending slightly upward despite your usual dose."}
+{"turn_id": 13, "speaker": "patient", "text": "I did take my insulin last night as prescribed, but I skipped breakfast because I wasn’t feeling well — maybe that contributed?"}
+{"turn_id": 14, "speaker": "doctor", "text": "That could definitely play a role — during illness, we usually recommend continuing basal insulin and adding correction doses, even if eating less."}
+{"turn_id": 15, "speaker": "patient", "text": "Oh, I didn’t know that. Should I be checking my sugars more often right now?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — at least every 4 hours, including overnight, and test for ketones if glucose stays above 13.9 mmol/L or if you feel nauseated."}
+{"turn_id": 17, "speaker": "doctor", "text": "Another vital check — your diastolic pressure has dropped to 65 mmHg, which may explain your lightheadedness, especially with the fever and possible volume depletion."}
+{"turn_id": 18, "speaker": "patient", "text": "That lines up — I’ve felt dizzy several times today, especially after sitting up quickly."}
+{"turn_id": 19, "speaker": "patient", "text": "Just checked again — that reading from earlier, 15.6 mmol/L, is still accurate, and my temperature remains at 39.0 °C, same as before."}

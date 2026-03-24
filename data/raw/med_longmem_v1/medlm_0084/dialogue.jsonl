@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—tired all the time and short of breath when I walk up stairs."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your lab results from today: your hemoglobin is 87 g/L, which is significantly lower than normal—we’ll need to investigate that further."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure is 86 mmHg—slightly elevated, especially alongside your other findings."}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your history, labs, and clinical presentation, your primary diagnosis remains Type 2 Diabetes Mellitus, which we’ll continue managing closely."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve been trying to watch my diet and check my sugars at home—but some readings have been high, especially fasting."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s important context. Let’s also assess your vital signs now—your temperature is 36.7 °C, which is within normal limits."}
+{"turn_id": 6, "speaker": "doctor", "text": "Actually, let me recheck that—no, the thermometer reads 36.7 °C. We’ll keep monitoring."}
+{"turn_id": 7, "speaker": "patient", "text": "I did notice something else this morning—I got this tight, heavy feeling across my chest when I was unloading groceries. It lasted about five minutes and went away when I rested."}
+{"turn_id": 8, "speaker": "patient", "text": "Chest tightness—it’s not sharp or shooting, just a dull pressure, like someone’s sitting on me."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s concerning—especially with your elevated systolic blood pressure today: 150 mmHg. We’ll need to evaluate cardiac risk carefully."}
+{"turn_id": 10, "speaker": "doctor", "text": "Wait—your temperature just registered 38.2 °C on the second reading. That’s a fever; it wasn’t there a few minutes ago. Are you feeling warm or chills?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes—I just realized I’ve had a low-grade fever since yesterday, and my throat feels scratchy. Maybe it’s a viral infection?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly. But given your anemia, diabetes, and new chest symptoms, we’ll need to rule out infection-related stress on your heart—and consider whether this fever is contributing to your fatigue and tachycardia."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve also been more thirsty than usual and urinating frequently—even at night. My home glucose log shows several readings over 200 mg/dL."}
+{"turn_id": 14, "speaker": "doctor", "text": "That suggests your current regimen isn’t fully controlling your blood sugar. I’m going to adjust your treatment—I’m switching you from metformin monotherapy to a combination of metformin and empagliflozin to improve glycemic control and offer cardiovascular protection."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay—I’ve heard good things about empagliflozin. Should I stop the old dose entirely?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes—discontinue the previous extended-release metformin and start both medications together as prescribed. Also, hydrate well, but avoid NSAIDs given your renal risk and anemia."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. And about the chest tightness—should I go to the ER if it happens again?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Absolutely—if it recurs, especially with sweating, nausea, or radiating pain, call 911 immediately. For now, I’ll order urgent ECG, troponin, CBC, and CRP—and schedule a cardiology consult by end of week."}
+{"turn_id": 19, "speaker": "patient", "text": "Understood. By the way—that systolic number you mentioned earlier, 150 mmHg—that’s the same as what my wrist monitor showed at home this morning."}

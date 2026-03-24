@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent evaluation, I’m diagnosing you with Coronary Artery Disease, confirmed as of September 9th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure today is 177 mmHg — that’s elevated and something we’ll need to manage closely."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I’ve been feeling a bit short of breath when climbing stairs lately."}
+{"turn_id": 3, "speaker": "doctor", "text": "That’s consistent with CAD. Have you noticed any chest discomfort or dizziness?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your body temperature is normal at 36.1 °C — no sign of acute infection today."}
+{"turn_id": 5, "speaker": "patient", "text": "No fever, but I’ve had some swelling in my ankles by evening."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin level is 145 g/L — well within the normal range, which is reassuring for cardiac oxygen delivery."}
+{"turn_id": 7, "speaker": "doctor", "text": "Are you currently taking any medications for diabetes or hypertension?"}
+{"turn_id": 8, "speaker": "patient", "text": "Yes — I’ve been extremely tired lately, even after eight hours of sleep. Just constant fatigue."}
+{"turn_id": 9, "speaker": "doctor", "text": "I see you’re on Metformin 1000mg twice daily for type 2 diabetes — we’ll keep that unchanged for now."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve also been taking Lisinopril 10mg every morning for blood pressure, but it hasn’t brought my numbers down much."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your persistent elevation, I’m going to switch you from Lisinopril to Amlodipine 5mg once daily — it’s more effective for your current profile."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll start that tomorrow. Any side effects I should watch for?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Mild ankle swelling can occur — but since you already have some, we’ll monitor closely and adjust if needed."}
+{"turn_id": 14, "speaker": "patient", "text": "Also, my home BP readings have been varying — sometimes over 180."}
+{"turn_id": 15, "speaker": "doctor", "text": "Let’s review your technique and consider ambulatory monitoring. Consistency matters for treatment decisions."}
+{"turn_id": 16, "speaker": "patient", "text": "Makes sense. I’ll bring my log next time."}
+{"turn_id": 17, "speaker": "doctor", "text": "Before we wrap up — any new symptoms or concerns since our last check-in?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Just rechecked your blood pressure — it’s now 162 mmHg, which is an improvement but still above target."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s interesting — my temperature is still 36.1 °C, same as earlier, and my hemoglobin came back at 145 g/L again, just like the first reading."}

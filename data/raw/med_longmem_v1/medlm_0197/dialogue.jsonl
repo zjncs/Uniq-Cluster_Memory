@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've noticed swelling in my ankles and lower legs over the past few days—especially at the end of the day."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for sharing that. Have you had any shortness of breath, chest discomfort, or fatigue lately? Any recent weight gain?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes—I’ve gained about three kilograms this week, and I feel more tired than usual. Sometimes I get a dull ache in my chest when walking up stairs."}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your symptoms and history, I’m starting you on Amlodipine 10 mg once daily to help manage your blood pressure and reduce afterload on the heart."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin level today is 135 g/L—within the normal range, which is reassuring for now."}
+{"turn_id": 5, "speaker": "doctor", "text": "I also noted your heart rate is elevated at 97 beats per minute—slightly tachycardic—and may reflect compensatory effort given your symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fasting blood glucose is 7.4 mmol/L, which is above target. We’ll need to monitor this closely, especially with cardiovascular disease."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure is 85 mmHg today—elevated but not yet in hypertensive crisis range."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been checking my BP at home—sometimes it’s higher, sometimes lower. Should I be worried about the fluctuations?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your symptoms, exam findings, and risk profile, I’m diagnosing Coronary Artery Disease as the primary condition contributing to your presentation."}
+{"turn_id": 10, "speaker": "patient", "text": "That makes sense—I’ve had intermittent chest tightness for months, but I thought it was just stress."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll need to optimize your antihypertensive regimen and add cardiac risk reduction strategies. Let’s also schedule an ECG and echocardiogram soon."}
+{"turn_id": 12, "speaker": "patient", "text": "I’ve been taking my Amlodipine regularly, but I still feel puffy in my legs—worse this morning than yesterday."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s important—fluid retention despite calcium channel blockade suggests we may need additional afterload reduction and RAAS inhibition."}
+{"turn_id": 14, "speaker": "patient", "text": "My home BP cuff showed 142 over 85 this morning—same diastolic as last time, but systolic crept up."}
+{"turn_id": 15, "speaker": "doctor", "text": "Just now, I rechecked your diastolic pressure—it’s 96 mmHg, which is higher than our earlier reading of 85 mmHg. That confirms rising peripheral resistance."}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to switch you from Amlodipine monotherapy to Lisinopril 20 mg once daily to improve ventricular remodeling and reduce edema."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay—I’ll start that tomorrow. My pulse feels slower now, though. I counted it just now—it’s around 82."}
+{"turn_id": 18, "speaker": "doctor", "text": "Indeed—your current heart rate is 82 bpm, down from 97 earlier. That’s likely due to improved hemodynamics and reduced sympathetic drive."}
+{"turn_id": 19, "speaker": "patient", "text": "That’s good—I remember your first reading said my hemoglobin was 135 g/L and my diastolic was 85 mmHg. But now my own reading matches that 85, and I’m hoping my hemoglobin hasn’t dropped—since I felt more fatigued, I wondered if it might be lower, but I trust that original 135 result."}

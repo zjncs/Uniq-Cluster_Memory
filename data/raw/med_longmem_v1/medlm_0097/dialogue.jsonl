@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately—fatigued, cold all the time, and my vision’s been blurry."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your labs from today: your blood glucose came back at 15.2 mmol/L—significantly elevated."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your symptoms and lab work, your primary diagnosis is hypothyroidism—we’ll confirm with TSH and free T4 shortly."}
+{"turn_id": 3, "speaker": "patient", "text": "Hypothyroidism? That makes sense—I’ve had dry skin and constipation too. But what about the high blood sugar? Is that related?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Good question. We’ll investigate whether this is new-onset diabetes or secondary to thyroid dysfunction. Let’s review your other vitals and labs."}
+{"turn_id": 5, "speaker": "patient", "text": "I also noticed my vision got blurry just a few days ago—like things are hazy, especially when reading."}
+{"turn_id": 6, "speaker": "patient", "text": "Blurred vision has been persistent since Sunday—worse in the mornings."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin today is 161 g/L—within normal range, so anemia isn’t contributing to fatigue."}
+{"turn_id": 8, "speaker": "patient", "text": "My blood pressure was 134 over 82 at home yesterday. Does that matter?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Yes—it’s relevant. Your systolic pressure today is 134 mmHg, which is mildly elevated but not urgent. We’ll monitor it closely given your glucose levels."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking levothyroxine 50 mcg daily for two weeks, but I’m still tired. And my appetite hasn’t changed much."}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll adjust your levothyroxine dose after reviewing your TSH. In the meantime, let’s address the hyperglycemia—have you checked your glucose at home?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes—I’ve been testing fasting and post-meal. It’s been between 14 and 16 most days."}
+{"turn_id": 13, "speaker": "doctor", "text": "That aligns with our concern. Let’s repeat hemoglobin—we’ll check it again to assess for any acute change."}
+{"turn_id": 14, "speaker": "doctor", "text": "The repeat hemoglobin is now 137 g/L—down from 161 earlier today. That suggests possible sample variation or early hemodilution; we’ll recheck tomorrow."}
+{"turn_id": 15, "speaker": "patient", "text": "Could the blurred vision be from the high sugar? My eyes feel strained."}
+{"turn_id": 16, "speaker": "doctor", "text": "Very likely—acute hyperglycemia can cause osmotic lens swelling and transient refractive changes. We’ll refer you for urgent ophthalmology if it persists beyond glucose control."}
+{"turn_id": 17, "speaker": "patient", "text": "I tested again just before coming in—my glucose was 16.0 mmol/L. I’m worried it’s getting worse."}
+{"turn_id": 18, "speaker": "doctor", "text": "That’s concerning—16.0 mmol/L confirms persistent hyperglycemia. I am going to start you on basal insulin temporarily while we investigate further."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I double-checked that first reading—the one you told me was 15.2—that number matches what I saw on my meter this morning too."}

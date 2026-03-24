@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve had a pretty bad headache since yesterday morning—December 13th—and it hasn’t let up much, even with extra water and rest."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by checking your vitals. How long have you been experiencing this headache, and is it associated with dizziness, nausea, or visual changes?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure is elevated at 172 mmHg—this could be contributing to the headache. We’ll need to monitor that closely."}
+{"turn_id": 3, "speaker": "doctor", "text": "Given your hypertension and recent readings, I’m prescribing Amlodipine 10 mg once daily, starting today. Please take it at the same time each day, preferably in the morning."}
+{"turn_id": 4, "speaker": "patient", "text": "Okay, I’ll start that right away. I’ve been feeling unusually tired lately—more than usual—and my legs feel heavy sometimes."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is 93 bpm—mildly elevated. That, along with fatigue and headache, makes me want to look deeper into possible underlying causes."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your labs and clinical picture—including reduced eGFR and persistent proteinuria—you meet criteria for Chronic Kidney Disease Stage 3. This likely explains some of your symptoms."}
+{"turn_id": 7, "speaker": "patient", "text": "CKD Stage 3? That sounds serious. Does that mean my kidneys are failing?"}
+{"turn_id": 8, "speaker": "doctor", "text": "It means there’s moderate, but not severe, loss of kidney function. Importantly, your hemoglobin is quite low at 89 g/L—well below normal—which points to anemia of chronic disease, common in CKD."}
+{"turn_id": 9, "speaker": "patient", "text": "I did feel lightheaded when I stood up quickly last week. Could that be from the low hemoglobin?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Yes, absolutely—that orthostatic lightheadedness fits with anemia. We’ll need to check ferritin, B12, and folate, and consider erythropoiesis-stimulating agents if iron stores are adequate."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve also noticed my urine looks foamy more often lately, and I’ve gained about four pounds in two weeks."}
+{"turn_id": 12, "speaker": "doctor", "text": "That weight gain and foamy urine suggest possible fluid retention and proteinuria—we’ll confirm with a urine albumin-to-creatinine ratio and repeat serum creatinine."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been taking the Amlodipine for five days now, and my headaches are better—but my blood pressure at home has been hovering around 158/92 most mornings."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s helpful context. Since your home readings remain elevated despite Amlodipine, I’m going to add low-dose lisinopril—5 mg daily—to help protect your kidneys and improve BP control."}
+{"turn_id": 15, "speaker": "patient", "text": "Got it—I’ll start the lisinopril tomorrow. Should I stop the Amlodipine?"}
+{"turn_id": 16, "speaker": "doctor", "text": "No, keep both for now. We’ll watch your potassium and creatinine closely over the next few weeks, especially given your CKD."}
+{"turn_id": 17, "speaker": "patient", "text": "One more thing—I got my lab results back yesterday, and my hemoglobin was still 89 g/L. That’s the same number as before."}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes, that’s consistent with the value we saw earlier. Since it hasn’t improved, we’ll proceed with iron studies and discuss starting IV iron if oral isn’t tolerated or effective."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—that number from last time. I remember you said it was concerning, and it hasn’t changed."}

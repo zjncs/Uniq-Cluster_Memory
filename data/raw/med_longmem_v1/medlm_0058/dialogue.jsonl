@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your fasting blood glucose today is 4.7 mmol/L — that’s within the normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks. Actually, I’ve been feeling nauseous since this morning — it started right after breakfast."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Let me check your vitals — your heart rate is 50 bpm, which is a bit low. Any dizziness or fatigue?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve felt lightheaded a couple of times, especially when standing up quickly."}
+{"turn_id": 4, "speaker": "doctor", "text": "And your blood pressure is 118 over 62 — the diastolic is on the lower side. How long has the nausea been going on?"}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg twice daily — we started that two weeks ago for prediabetes management."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure is 62 mmHg — slightly below the typical lower limit of 65. We’ll monitor that closely."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve also noticed my hands feel a little shaky sometimes, mostly in the late afternoon."}
+{"turn_id": 8, "speaker": "doctor", "text": "That could be related to glucose fluctuations or even medication timing. Are you eating consistently with your doses?"}
+{"turn_id": 9, "speaker": "patient", "text": "I usually take the morning dose with breakfast, but sometimes skip lunch — then the afternoon dose feels too strong."}
+{"turn_id": 10, "speaker": "doctor", "text": "Just rechecked your blood pressure — diastolic is now 60 mmHg. That’s a slight drop from earlier; we’ll keep an eye on orthostatic changes."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been checking my pulse at home, and it’s often around 50 — same as what you found earlier."}
+{"turn_id": 12, "speaker": "doctor", "text": "A persistent heart rate in the 50s, especially with lightheadedness and nausea, raises concern for possible bradycardia or autonomic involvement. Any history of thyroid issues or heart disease?"}
+{"turn_id": 13, "speaker": "patient", "text": "No heart problems, but I was diagnosed with hypothyroidism last year — I’m on levothyroxine 50 mcg daily."}
+{"turn_id": 14, "speaker": "doctor", "text": "Let’s review your medications — Metformin isn’t typically associated with bradycardia or hypotension, but combined with levothyroxine and possible volume depletion from nausea, it could contribute."}
+{"turn_id": 15, "speaker": "patient", "text": "I did cut back on salt and fluids a bit because of the nausea — maybe that’s making the low BP worse?"}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s very likely. Dehydration can amplify both hypotension and bradycardic symptoms. Let’s adjust your plan."}
+{"turn_id": 17, "speaker": "patient", "text": "Yeah — that reading from earlier matches what I’ve been seeing at home: my heart rate stays around 50."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given your symptomatic bradycardia, recurrent nausea, and borderline hypotension, I am going to switch you from Metformin to Empagliflozin 10 mg once daily — it’s gentler on hemodynamics and may reduce GI side effects."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay, I’ll start that tomorrow. Should I still monitor my blood sugar and pulse at home?"}

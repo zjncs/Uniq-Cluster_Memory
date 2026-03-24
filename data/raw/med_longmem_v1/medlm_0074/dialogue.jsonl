@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—mostly some discomfort in my chest and general fatigue."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your vitals—I’m seeing your diastolic blood pressure is 94 mmHg today."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s higher than usual for me. I usually check at home, and it’s been around 82–86 most days."}
+{"turn_id": 3, "speaker": "doctor", "text": "Got it—we’ll keep an eye on that. Before we go further, are you currently taking any medications for diabetes or heart health?"}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re on Metformin 500mg twice daily, correct? That’s what’s listed in your chart as of today."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your fasting blood glucose came back at 9.1 mmol/L—elevated, especially given your recent symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is 104 bpm—mildly tachycardic—and you’re not on any beta-blockers yet."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, the chest tightness has been happening more often—especially when I walk up stairs or after meals."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your symptoms, elevated glucose, tachycardia, and blood pressure pattern, I’m diagnosing Coronary Artery Disease—likely with underlying metabolic stress."}
+{"turn_id": 9, "speaker": "patient", "text": "That sounds serious. Does this mean my diabetes is getting worse? I’ve been trying to eat better."}
+{"turn_id": 10, "speaker": "doctor", "text": "It’s interconnected—poor glycemic control can accelerate vascular damage. We need tighter glucose management, and we’ll also assess for ischemia with an ECG and stress test."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay… I’ve also noticed my feet feel a little numb sometimes—could that be related?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Possibly—peripheral neuropathy is common with prolonged hyperglycemia. We’ll check your monofilament sensation and HbA1c next visit."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been checking my sugar at home—this morning it was 10.3 before breakfast. I’m worried it’s not improving."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your persistent hyperglycemia and new CAD diagnosis, I’m going to increase your Metformin to 1000mg twice daily starting today."}
+{"turn_id": 15, "speaker": "patient", "text": "Will that help with the chest tightness too? Or do I need something else for my heart?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Metformin helps indirectly by improving insulin sensitivity and reducing cardiac strain—but we’ll also add low-dose aspirin and schedule a cardiology consult for possible beta-blocker initiation."}
+{"turn_id": 17, "speaker": "patient", "text": "Makes sense. By the way, I rechecked my blood pressure just now in the waiting room—it was 110 for the bottom number."}
+{"turn_id": 18, "speaker": "doctor", "text": "Ah—that’s a notable rise from the 94 mmHg we recorded earlier. We’ll monitor for white-coat effect or early diastolic dysfunction."}
+{"turn_id": 19, "speaker": "patient", "text": "And my heart rate is still 104 bpm—the same as that reading from earlier."}

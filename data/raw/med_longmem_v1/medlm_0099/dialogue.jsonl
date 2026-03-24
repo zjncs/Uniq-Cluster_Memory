@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your vitals from today's visit. Your systolic blood pressure is 176 mmHg — that's elevated, and we'll want to address that."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I've been feeling a bit off — actually, I've had nausea since this morning."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see. Nausea can be related to several things — hypertension, kidney function, or even blood sugar. Let’s check your labs and review your medications."}
+{"turn_id": 3, "speaker": "patient", "text": "I’ve been taking Lisinopril 10mg once daily, as prescribed last month."}
+{"turn_id": 4, "speaker": "doctor", "text": "Correct — I’m continuing Lisinopril for blood pressure control and kidney protection. Given your recent labs and clinical picture, your primary diagnosis is Chronic Kidney Disease Stage 3."}
+{"turn_id": 5, "speaker": "patient", "text": "Stage 3? That sounds serious. Is that why I’ve been so tired lately?"}
+{"turn_id": 6, "speaker": "doctor", "text": "It could be — and your fasting blood glucose today is 9.9 mmol/L, which is above target and may contribute to both fatigue and kidney stress. We’ll need to optimize your diabetes management too."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been checking my sugars at home — they’ve been hovering around 8–10 most mornings."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level today is 118 g/L — slightly low but within a range we often see in early CKD. We’ll monitor it closely."}
+{"turn_id": 9, "speaker": "patient", "text": "My diastolic pressure was 77 mmHg just now — is that okay with the high systolic?"}
+{"turn_id": 10, "speaker": "doctor", "text": "That wide pulse pressure — 176 over 77 — suggests possible arterial stiffness, common in CKD and hypertension. We’ll reassess after adjusting therapy."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve also noticed more shortness of breath climbing stairs lately."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s important — let’s repeat your blood pressure before you leave. This time, it’s 174 over 87 mmHg. The diastolic has risen — that’s a meaningful change from earlier."}
+{"turn_id": 13, "speaker": "patient", "text": "Wait — you said 77 earlier, right? Now it’s 87? I thought lower diastolic was better…"}
+{"turn_id": 14, "speaker": "doctor", "text": "Good observation. The increase may reflect improved peripheral resistance — but we’ll interpret it alongside other trends. Your hemoglobin today is 106 g/L — down from 118 last time — suggesting possible progression in anemia of chronic disease."}
+{"turn_id": 15, "speaker": "patient", "text": "But I checked my lab report again this morning — it says 118 g/L. That’s the same number you gave me earlier."}
+{"turn_id": 16, "speaker": "doctor", "text": "Ah — thank you for catching that. Let me verify the lab draw time. Yes, the morning sample shows 118 g/L — so the 106 was likely from an older report. We’ll go with the most recent value: 118 g/L."}
+{"turn_id": 17, "speaker": "patient", "text": "And what about the nausea? Could the Lisinopril be causing it?"}
+{"turn_id": 18, "speaker": "doctor", "text": "It’s possible — ACE inhibitors like Lisinopril can cause GI side effects. Given your symptoms and the stable hemoglobin reading we just confirmed, I’m going to switch you to Losartan 50mg daily instead — it’s kidney-protective with a lower risk of nausea."}
+{"turn_id": 19, "speaker": "patient", "text": "That makes sense — and yes, that 118 g/L is the number from today’s venipuncture, the one you mentioned first."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Good morning, Doctor. I’ve been feeling unusually tired and noticed some swelling in my ankles lately."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your labs from yesterday—your blood glucose was elevated at 15.3 mmol/L."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level was 113 g/L, which is on the lower end of normal but not critically low."}
+{"turn_id": 3, "speaker": "patient", "text": "I see. I’ve also been short of breath when walking up stairs, and my legs feel heavy."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes—the lower limb edema has been getting worse over the past week, especially by evening."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s important. Given your history and current findings, your primary diagnosis remains Essential Hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20mg at bedtime for lipid management—still continuing that."}
+{"turn_id": 7, "speaker": "patient", "text": "Right, I’ve been taking it consistently. But my home BP readings have been high—I measured 168 over something yesterday."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your diastolic pressure today was 102 mmHg—definitely elevated and contributing to your symptoms."}
+{"turn_id": 9, "speaker": "doctor", "text": "Actually, when I rechecked your hemoglobin just now, it came back at 99 g/L—lower than the 113 we saw earlier this week."}
+{"turn_id": 10, "speaker": "doctor", "text": "And your repeat glucose reading this morning was 11.8 mmol/L—still high, but down from 15.3."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the persistent hyperglycemia and your edema, I’m going to start you on Insulin glargine 10 units at bedtime to improve glycemic control."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay—I’ll need some training on how to inject that safely."}
+{"turn_id": 13, "speaker": "doctor", "text": "Absolutely—we’ll schedule a diabetes nurse visit before you leave. Also, let’s monitor for signs of heart failure given the edema and hypertension."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been watching my salt intake, but the swelling hasn’t improved much even with elevation."}
+{"turn_id": 15, "speaker": "doctor", "text": "We may consider adding a low-dose diuretic after reviewing your renal function and electrolytes next week."}
+{"turn_id": 16, "speaker": "patient", "text": "Makes sense. By the way, my fatigue has been so bad I’ve had trouble concentrating at work."}
+{"turn_id": 17, "speaker": "doctor", "text": "That could be linked to both anemia and uncontrolled glucose—we’ll investigate iron studies and HbA1c next."}
+{"turn_id": 18, "speaker": "patient", "text": "One more thing—I brought today’s fingerstick result: hemoglobin came out as 113 again."}
+{"turn_id": 19, "speaker": "doctor", "text": "Ah—that matches the first reading we got, not the lower one from the lab draw. We’ll reconcile the discrepancy with a peripheral smear and reticulocyte count."}

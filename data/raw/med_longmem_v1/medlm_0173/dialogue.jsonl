@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling off since yesterday—kind of achy and tired."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me start by checking your temperature—it’s 37.9 °C, which is slightly elevated."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I’ve had a headache all day—dull but persistent, mostly across my forehead."}
+{"turn_id": 3, "speaker": "doctor", "text": "Any nausea, visual changes, or neck stiffness with that headache? And have you had fevers or chills?"}
+{"turn_id": 4, "speaker": "patient", "text": "No nausea or stiffness, but I did feel warm earlier—I thought maybe I was coming down with something."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let’s listen to your heart and lungs first. You mentioned chest discomfort before—any this week?"}
+{"turn_id": 6, "speaker": "patient", "text": "Just mild pressure when walking up stairs—not like before, but it’s there."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin is 163 g/L—well within normal range, so no anemia concern right now."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your diastolic blood pressure is 69 mmHg—on the lower side, but not alarming yet."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your history, stress test results, and current symptoms, I’m confirming coronary artery disease as the primary diagnosis."}
+{"turn_id": 10, "speaker": "doctor", "text": "I just rechecked your temperature—it’s now 36.5 °C, so the earlier elevation may have been transient."}
+{"turn_id": 11, "speaker": "patient", "text": "That makes sense—I drank two glasses of water and rested before coming in."}
+{"turn_id": 12, "speaker": "doctor", "text": "We’ll also monitor your blood work closely. Your lipid panel looks stable, and renal function is normal."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been taking my atenolol every morning, but sometimes I skip it if I feel lightheaded."}
+{"turn_id": 14, "speaker": "doctor", "text": "Skipping doses can be risky—especially with CAD. Let’s adjust your regimen to improve consistency."}
+{"turn_id": 15, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin came back at 176 g/L—higher than the earlier 163 g/L. Could reflect hydration status or lab variation, but we’ll track it."}
+{"turn_id": 16, "speaker": "patient", "text": "I noticed my thermometer at home read 37.9 °C again this morning—same as that first reading you took."}
+{"turn_id": 17, "speaker": "patient", "text": "That reading matches the one you got when I first walked in—the 37.9 °C."}
+{"turn_id": 18, "speaker": "doctor", "text": "I’m going to switch you from atenolol to bisoprolol—lower dose, more consistent absorption, and less likely to cause lightheadedness."}
+{"turn_id": 19, "speaker": "doctor", "text": "One last check: your diastolic pressure is now 82 mmHg—but you mentioned earlier it was 69 mmHg, and that’s the number we saw at the start."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vitals. Your diastolic blood pressure today is 95 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me. I’ve been feeling a bit lightheaded when standing up lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see — your heart rate is 64 bpm, which is within normal range. That’s reassuring, though we’ll keep an eye on orthostatic symptoms."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, it happens mostly in the mornings. I also noticed my feet feel a little tingly sometimes."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s important — we’ll assess for possible peripheral neuropathy. How has your blood sugar been trending?"}
+{"turn_id": 5, "speaker": "doctor", "text": "You’re currently on Insulin glargine 10 units nightly — let’s review how that’s working and whether adjustments are needed."}
+{"turn_id": 6, "speaker": "patient", "text": "My fasting sugars have been around 130–150 mg/dL, but I had one reading of 182 last Thursday before breakfast."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure today is 103 mmHg — slightly lower than usual, but still in acceptable range given your age and treatment goals."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is 169 g/L — well within normal limits, so no anemia concerns at this time."}
+{"turn_id": 9, "speaker": "doctor", "text": "As we discussed previously, your primary diagnosis remains Type 2 Diabetes Mellitus, with ongoing focus on glycemic and cardiovascular risk management."}
+{"turn_id": 10, "speaker": "patient", "text": "Right — I’ve been trying to walk more and cut back on carbs. But I’m worried about the dizziness getting worse."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s consider whether your insulin dose or timing might be contributing. Also, do you check your BP at home?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes, I use my wrist monitor every morning before meds. It usually reads between 100 and 110 systolic."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s helpful. We’ll also screen for autonomic involvement — orthostatic hypotension could explain the lightheadedness."}
+{"turn_id": 14, "speaker": "patient", "text": "I did notice my BP dropped a bit more yesterday — I think it was around 90 systolic when I stood up quickly."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s notable. Let’s recheck your seated and standing pressures now to assess for orthostasis."}
+{"turn_id": 16, "speaker": "patient", "text": "Sure — I’ll sit here while you get the cuff ready."}
+{"turn_id": 17, "speaker": "doctor", "text": "Interesting — your seated systolic is now 90 mmHg. That’s lower than the 103 we recorded earlier this visit. We’ll need to investigate possible over-treatment or volume status."}
+{"turn_id": 18, "speaker": "patient", "text": "Hmm — maybe it’s the new water pill my cardiologist added two weeks ago? I forgot to mention it."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked again just now, it’s back to 103 — that number matches what you got earlier."}

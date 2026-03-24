@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell the past couple of days."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello — thanks for coming in. Can you tell me more about what’s been going on?"}
+{"turn_id": 2, "speaker": "patient", "text": "I’ve had a high fever, chills, and my heart has been racing — especially when I’m lying down."}
+{"turn_id": 3, "speaker": "doctor", "text": "Any other symptoms? Cough, shortness of breath, chest discomfort?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your history and today’s assessment, your primary diagnosis is Essential Hypertension, confirmed as of September 5th."}
+{"turn_id": 5, "speaker": "doctor", "text": "I’m prescribing Metformin 500mg twice daily, starting today — this will help manage your blood sugar, which we’ll monitor closely."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure today is 77 mmHg — within acceptable range for now, though we’ll keep an eye on it."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes — the palpitations are what worry me most. They started two days ago and haven’t let up."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose came back at 7.4 mmol/L — slightly elevated, which supports initiating Metformin."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your temperature is quite high — 39.6 °C — suggesting an acute febrile illness. We’ll need to investigate possible infection."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking acetaminophen, but the fever keeps coming back. My throat feels sore too."}
+{"turn_id": 11, "speaker": "doctor", "text": "Let’s check your throat and listen to your lungs. Given your hypertension and current symptoms, we’ll also reassess cardiovascular stability."}
+{"turn_id": 12, "speaker": "doctor", "text": "I just rechecked your temperature — it’s now 38.7 °C, so there’s some response to antipyretics, but it’s still concerning."}
+{"turn_id": 13, "speaker": "patient", "text": "My legs have felt a bit swollen since yesterday — and I’m more tired than usual."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your persistent hypertension and new signs of possible volume overload or early heart strain, I’m going to switch you from no antihypertensive to Lisinopril 10mg once daily, starting today."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay — should I stop the Metformin? And is the Lisinopril safe with the fever?"}
+{"turn_id": 16, "speaker": "doctor", "text": "No, continue Metformin as prescribed. Lisinopril is appropriate here, but we’ll monitor renal function and potassium closely given the fever and potential dehydration."}
+{"turn_id": 17, "speaker": "patient", "text": "I’ve also noticed dizziness when standing up quickly — maybe that’s related?"}
+{"turn_id": 18, "speaker": "doctor", "text": "That could reflect orthostatic changes — let’s check your BP again while seated and standing. Also, how’s your fluid intake?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Your seated diastolic pressure is now 72 mmHg — a slight drop from the earlier reading of 77. Let’s hold off on further antihypertensive escalation until we see how you respond to Lisinopril and address the fever."}

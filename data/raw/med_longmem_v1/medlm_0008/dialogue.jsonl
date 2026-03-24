@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling more tired than usual lately, and I’ve noticed some swelling in my ankles."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your current medications—I see you’re on Metformin 1000mg twice daily, started back on February 11th."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, that’s right. I’ve been taking it consistently, though I did skip a dose last week when I had stomach upset."}
+{"turn_id": 3, "speaker": "doctor", "text": "I notice your heart rate was elevated at 107 bpm during your visit on February 11th—did you feel palpitations or shortness of breath around that time?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin was 101 g/L on that same date, which is below normal—we’ll want to investigate possible causes, including kidney-related anemia."}
+{"turn_id": 5, "speaker": "patient", "text": "I haven’t had chest pain, but I do get lightheaded when standing up quickly. And yes, I’ve felt quite pale and fatigued."}
+{"turn_id": 6, "speaker": "doctor", "text": "That lightheadedness could be related to both the anemia and your blood pressure—I see your diastolic pressure was 70 mmHg on February 11th, which is on the lower side for someone with CKD."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your diastolic blood pressure reading of 70 mmHg on February 11th is something we’ll monitor closely, especially given your kidney function."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your labs and clinical picture, your primary diagnosis is Chronic Kidney Disease Stage 3, confirmed on February 11th."}
+{"turn_id": 9, "speaker": "patient", "text": "Stage 3—that sounds serious. Does that mean my kidneys are getting worse?"}
+{"turn_id": 10, "speaker": "doctor", "text": "It means there’s moderate, persistent reduction in kidney function. We’ll focus on slowing progression—tight glucose control, BP management, and avoiding nephrotoxic meds."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been checking my blood sugar at home—it’s been running higher than usual, often above 180 mg/dL before meals."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your CKD Stage 3 and the elevated HbA1c we saw last month, continuing Metformin requires caution. I’m going to switch you to Dapagliflozin 10mg daily—it’s kidney-protective and approved for CKD."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay, I’ll start that. Should I stop the Metformin right away?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Yes—discontinue Metformin today. We’ll also add oral iron supplementation and schedule a ferritin and reticulocyte count next week to assess the anemia further."}
+{"turn_id": 15, "speaker": "patient", "text": "Got it. By the way, I rechecked my hemoglobin at the lab yesterday—the result came back as 101 g/L again."}
+{"turn_id": 16, "speaker": "patient", "text": "That’s the same number as the one from February 11th—the result from last time."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, that reading confirms persistent anemia. Given the stability—and your CKD—we’ll now consider erythropoiesis-stimulating agent evaluation if iron stores are replete."}
+{"turn_id": 18, "speaker": "patient", "text": "Makes sense. I’ll bring my home BP log next time—I’ve been tracking it daily since the last visit."}
+{"turn_id": 19, "speaker": "doctor", "text": "Excellent. Let’s also repeat creatinine, eGFR, and CBC in two weeks—and please call if you develop new swelling, shortness of breath, or dizziness worsening on standing."}

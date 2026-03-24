@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vital signs. Your diastolic blood pressure today is 64 mmHg — that's on the lower side, but we'll keep it in context with the rest."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. I've been feeling a bit lightheaded when I stand up quickly, especially in the mornings."}
+{"turn_id": 2, "speaker": "doctor", "text": "Thanks for sharing that — orthostatic symptoms can sometimes relate to blood pressure. Let me check your systolic reading now."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your systolic blood pressure is 132 mmHg, so your full reading is 132 over 64. That pulse pressure is a bit wide — we’ll monitor it closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "I’m also noticing you have a low-grade fever — your temperature is 38.5 °C. Have you had any chills, sore throat, or cough recently?"}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, actually — I’ve had a dry cough for three days and felt unusually fatigued. I thought it was just a cold, but the fever hasn’t broken."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s helpful. Given your diabetes and this new febrile illness, we’ll want to be extra cautious about glucose control and possible infection triggers."}
+{"turn_id": 7, "speaker": "patient", "text": "Right — my blood sugar has been harder to manage this week. I checked it yesterday evening and it was 210 mg/dL, even after my usual dose."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Lisinopril 10mg once daily for blood pressure and renal protection — we’ll hold off adjusting that for now, given the acute illness."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your primary diagnosis remains Type 2 Diabetes Mellitus, and with this intercurrent infection, we may need temporary adjustments to your insulin or oral agents — let’s review your home glucose logs."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been logging them — my fasting numbers are mostly between 140–180, but last night’s reading was 225. And honestly, I skipped my metformin yesterday because I wasn’t eating much."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s important — skipping metformin during illness isn’t recommended unless there’s vomiting or renal concern. Let’s talk about sick-day rules for diabetes management."}
+{"turn_id": 12, "speaker": "patient", "text": "I didn’t realize that. Also, I measured my blood pressure again this morning at home — it was 128 over 58. That lower number worries me."}
+{"turn_id": 13, "speaker": "doctor", "text": "Thanks for that update — yes, the 58 diastolic is even lower than the 64 we saw here earlier. We’ll assess volume status and consider whether Lisinopril should be held temporarily while you're febrile and possibly dehydrated."}
+{"turn_id": 14, "speaker": "patient", "text": "Makes sense. My urine output has decreased, and I’ve had some dizziness when bending over."}
+{"turn_id": 15, "speaker": "doctor", "text": "Those are red flags for mild hypovolemia. I’m going to pause your Lisinopril until your fever resolves and you’re reliably hydrated — we’ll restart it once you’re stable."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay — and for the fever and cough, should I take anything besides fluids and rest?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Given your diabetes and the duration of symptoms, I’d like to do a rapid flu test and check a chest X-ray if the cough persists beyond five days. For now, acetaminophen as needed for fever — avoid NSAIDs due to your BP meds and renal risk."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it. One more thing — I noticed my left foot feels warmer than the right, and there’s a small blister near my big toe I hadn’t seen before."}
+{"turn_id": 19, "speaker": "doctor", "text": "Let’s examine that right away. Any numbness or pain? With diabetes, even minor skin changes warrant urgent attention — we’ll culture the blister and consider starting empiric antibiotics if there’s early cellulitis."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vital signs. Your systolic blood pressure today is 180 mmHg — that's elevated."}
+{"turn_id": 1, "speaker": "patient", "text": "Oh, really? I’ve been feeling a bit lightheaded when I stand up, but I wasn’t sure if it was related."}
+{"turn_id": 2, "speaker": "doctor", "text": "Thanks for sharing that. Any chest discomfort, shortness of breath, or palpitations?"}
+{"turn_id": 3, "speaker": "patient", "text": "No chest pain, but I’ve noticed some swelling in my ankles and lower legs over the past few days."}
+{"turn_id": 4, "speaker": "doctor", "text": "I see — your diastolic pressure is also high at 102 mmHg. That, combined with the edema, raises concern for possible fluid retention or worsening hypertension."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, the swelling is worse by evening, and my shoes feel tighter. I’ve also been more tired than usual."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate is 85 bpm — within normal range, though on the higher side given your BP elevation."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Metformin 500 mg twice daily — correct? That’s for your type 2 diabetes, right?"}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, that’s right. I’ve been taking it consistently, and my fasting sugars have been around 130–150 mg/dL lately."}
+{"turn_id": 9, "speaker": "patient", "text": "The lower limb edema started about three days ago — mostly in both ankles, pitting when I press lightly."}
+{"turn_id": 10, "speaker": "doctor", "text": "Have you noticed any changes in your urine output, weight gain, or shortness of breath lying flat?"}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve gained about four pounds since last week, and I’ve been waking up once at night to urinate — but not short of breath yet."}
+{"turn_id": 12, "speaker": "doctor", "text": "That weight gain and nocturia are red flags. Let’s recheck your blood pressure — just to confirm the reading we got earlier."}
+{"turn_id": 13, "speaker": "patient", "text": "It’s still 180 — same as that reading from when you first checked this morning."}
+{"turn_id": 14, "speaker": "doctor", "text": "Hmm. Let me check your pulse again… interesting — your heart rate is now 59 bpm, which is notably slower than the 85 we saw earlier."}
+{"turn_id": 15, "speaker": "doctor", "text": "That bradycardia, along with persistent hypertension and new edema, makes me concerned about possible medication interaction or early heart failure decompensation."}
+{"turn_id": 16, "speaker": "patient", "text": "Could it be related to the Metformin? I read online it can cause swelling sometimes…"}
+{"turn_id": 17, "speaker": "doctor", "text": "Metformin isn’t typically associated with edema — but your diastolic pressure has actually increased to 110 mmHg since our first measurement, which is concerning and suggests worsening control."}
+{"turn_id": 18, "speaker": "doctor", "text": "I’m going to switch you from Metformin to Empagliflozin 10 mg daily — it has cardio-renal protective benefits and may help reduce the edema and improve BP control."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — I’ll start that today. Should I monitor my blood pressure at home and watch for dizziness with the slower heart rate?"}

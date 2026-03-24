@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired lately and noticed some swelling in my ankles."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with your blood glucose — it’s elevated at 14.9 mmol/L today."}
+{"turn_id": 2, "speaker": "patient", "text": "That’s higher than usual for me. I’ve been trying to watch my diet, but it’s been inconsistent."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, the swelling — it’s mostly in my lower limbs, especially by evening. It doesn’t go away even after resting."}
+{"turn_id": 4, "speaker": "doctor", "text": "I’m measuring your blood pressure now — systolic is 138 mmHg. That’s mildly elevated."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve had a few dizzy spells when standing up quickly. Could that be related?"}
+{"turn_id": 6, "speaker": "doctor", "text": "Diastolic pressure is 104 mmHg — that’s significantly elevated and concerning."}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your labs, exam, and history, I’m diagnosing Chronic Kidney Disease Stage 3."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your heart rate is 77 bpm — within normal range for now."}
+{"turn_id": 9, "speaker": "patient", "text": "Stage 3? What does that mean for my daily life and medications?"}
+{"turn_id": 10, "speaker": "doctor", "text": "It means your kidneys are moderately impaired, so we’ll need to manage blood pressure, glucose, and avoid nephrotoxic drugs carefully."}
+{"turn_id": 11, "speaker": "doctor", "text": "I just rechecked your blood glucose — it’s 13.3 mmol/L, still high but slightly improved from this morning’s 14.9."}
+{"turn_id": 12, "speaker": "patient", "text": "I took my metformin as prescribed this morning, but skipped breakfast — could that affect it?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Possibly — skipping meals can cause erratic glucose swings. We’ll also review your antihypertensive regimen shortly."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your heart rate has increased to 90 bpm — likely reflecting early sympathetic activation, possibly due to volume overload or hypertension."}
+{"turn_id": 15, "speaker": "patient", "text": "The swelling feels worse today, and my legs feel heavy all day."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given the persistent edema, rising diastolic pressure, and CKD progression, I’m going to switch you from amlodipine to spironolactone 25 mg daily — it’s both antihypertensive and helps with fluid retention."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay, I’ll start that right away. Should I monitor anything at home?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes — check your weight daily, watch for shortness of breath or worsening swelling, and avoid NSAIDs or potassium supplements unless directed."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm — my blood sugar is still 14.9 mmol/L, same as that first reading, and my diastolic pressure remains at 104 mmHg, like before."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really tired and thirsty lately, and I’ve been urinating more often than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your vitals and recent labs. How have you been managing your diabetes since your last visit?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 88 mmHg — that’s within the normal range."}
+{"turn_id": 3, "speaker": "doctor", "text": "You’re currently on insulin glargine 16 units once daily at bedtime — are you taking it consistently and without missed doses?"}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is elevated at 98 bpm — slightly tachycardic. Any chest discomfort, shortness of breath, or palpitations?"}
+{"turn_id": 5, "speaker": "patient", "text": "No chest pain, but I’ve felt a bit shaky sometimes, especially before meals."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your fingerstick blood glucose just came back at 12.5 mmol/L — quite high, especially fasting. Have you checked your levels at home recently?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Based on your symptoms, exam, and labs, your primary diagnosis remains Type 2 Diabetes Mellitus, with clear evidence of hyperglycemia."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, I check most mornings — usually between 9 and 11 mmol/L, but yesterday it was 13.2 before breakfast."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s concerning — sustained readings above 10 mmol/L suggest your current regimen may not be sufficient. Are you following your meal plan and monitoring carbs?"}
+{"turn_id": 10, "speaker": "patient", "text": "I try, but I’ve had some stress at work, and I skipped my evening walk a few times this week."}
+{"turn_id": 11, "speaker": "doctor", "text": "Stress and reduced activity definitely impact glucose control. Let’s reassess your insulin dose and consider adding a daytime agent if needed."}
+{"turn_id": 12, "speaker": "doctor", "text": "Just rechecked your glucose — now it’s 14.1 mmol/L. That rise suggests possible dawn phenomenon or insufficient basal coverage."}
+{"turn_id": 13, "speaker": "patient", "text": "Oh, I didn’t eat anything between the first and second test — just sat here."}
+{"turn_id": 14, "speaker": "doctor", "text": "Understood. Let’s also look at your blood pressure trends — we’ll need to monitor closely given your elevated glucose and heart rate."}
+{"turn_id": 15, "speaker": "patient", "text": "My home BP cuff has been giving me similar numbers — I think it was around 88 for the bottom number earlier this morning too."}
+{"turn_id": 16, "speaker": "patient", "text": "That reading from earlier — the 88 mmHg diastolic — matches what I saw at home this morning."}
+{"turn_id": 17, "speaker": "doctor", "text": "Interesting — just retaken manually, your diastolic is now 104 mmHg. That’s a notable increase; let’s repeat in five minutes and assess for white-coat effect or volume status."}
+{"turn_id": 18, "speaker": "doctor", "text": "Given the persistent hyperglycemia despite glargine, I’m going to increase your insulin glargine to 20 units nightly and add metformin 500 mg once daily with breakfast."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — I’ll start that tonight. Should I check my sugars more often, and when should I come back?"}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see your temperature is elevated at 39.5 °C — have you been feeling feverish since yesterday?"}
+{"turn_id": 1, "speaker": "doctor", "text": "Your diastolic blood pressure is 98 mmHg today — a bit high. Are you experiencing dizziness or headaches?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin is 98 g/L, which is below normal. Have you noticed fatigue, shortness of breath, or paleness lately?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been extremely tired and my skin feels pale. Also, my nails look brittle."}
+{"turn_id": 4, "speaker": "patient", "text": "And I’ve had this tight, heavy feeling in my chest all morning — not sharp, but hard to ignore."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate is elevated at 121 bpm — that’s likely contributing to the chest tightness. Let’s check your oxygen saturation and listen to your lungs."}
+{"turn_id": 6, "speaker": "patient", "text": "It’s worse when I walk up the stairs — I get winded right away."}
+{"turn_id": 7, "speaker": "doctor", "text": "Given your symptoms and labs, we need to rule out anemia-related cardiac strain and possible infection. Any recent infections or chills?"}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Metformin 500mg twice daily — are you still taking it regularly?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Your primary diagnosis remains hypothyroidism, but with this new presentation, we’ll need to assess thyroid function again and consider whether it’s contributing to your anemia and tachycardia."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking the Metformin as prescribed, but I’ve also been skipping breakfast sometimes because of nausea."}
+{"turn_id": 11, "speaker": "doctor", "text": "Nausea could be related to the fever or possibly thyroid hormone imbalance. Let’s hold the Metformin temporarily while we investigate further."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay — should I restart it once I feel better?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Actually, just now I rechecked your diastolic pressure — it’s 92 mmHg. That’s lower than the earlier reading, but still in the elevated range."}
+{"turn_id": 14, "speaker": "patient", "text": "That number matches what the nurse recorded earlier — 98 mmHg — so maybe it was a transient spike?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Good point — variability happens, especially with anxiety or pain. We’ll monitor it closely over the next 24 hours."}
+{"turn_id": 16, "speaker": "patient", "text": "I’ve also had some swelling in my ankles — not severe, but noticeable when I take off my shoes."}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s important — peripheral edema plus tachycardia and low hemoglobin raises concern for high-output heart failure secondary to severe anemia or thyroid storm. We’ll order TSH, free T4, ferritin, and a reticulocyte count today."}
+{"turn_id": 18, "speaker": "patient", "text": "What about treatment until we get those results?"}
+{"turn_id": 19, "speaker": "doctor", "text": "I am going to switch you to Levothyroxine 25 mcg daily starting today, pending TSH confirmation, and refer you urgently to hematology for your anemia evaluation."}

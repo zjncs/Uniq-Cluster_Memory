@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate is 91 beats per minute, which is within the normal range but on the higher side."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your recent labs and imaging, I'm diagnosing you with Chronic Kidney Disease Stage 3. We'll need to monitor your eGFR and proteinuria closely."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your body temperature is elevated at 39.6°C — that’s a significant fever. Have you had chills or rigors?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, and I’ve also noticed my vision has been blurry all day — like everything’s slightly out of focus."}
+{"turn_id": 4, "speaker": "doctor", "text": "Blurred vision with fever and CKD raises concern for possible metabolic or infectious causes — we’ll check your blood glucose and consider a urinalysis."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve been feeling unusually fatigued, and my urine looks foamy sometimes. Also, my ankles have been swelling a bit."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin is 159 g/L — that’s actually well-preserved for someone with Stage 3 CKD, which is reassuring."}
+{"turn_id": 7, "speaker": "patient", "text": "I did take some ibuprofen yesterday for the headache, but I stopped after reading it might not be safe with my kidneys."}
+{"turn_id": 8, "speaker": "doctor", "text": "That was wise — NSAIDs can worsen kidney function, especially in CKD. Let’s avoid those moving forward."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been checking my blood sugar at home — it’s been running high, around 180–220 mg/dL fasting."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your blurred vision and hyperglycemia, we should evaluate for diabetic retinopathy and adjust your diabetes management."}
+{"turn_id": 11, "speaker": "doctor", "text": "Just rechecked — your heart rate is now 109 bpm. That’s a notable increase from the 91 we saw earlier. Are you feeling more short of breath or lightheaded?"}
+{"turn_id": 12, "speaker": "patient", "text": "Yes, I’m getting winded just walking to the bathroom, and my head feels heavy."}
+{"turn_id": 13, "speaker": "doctor", "text": "We’ll draw blood cultures and start empiric antibiotics shortly — this clinical picture suggests possible pyelonephritis or sepsis given your CKD, fever, and tachycardia."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your temperature has climbed further — it’s now 40.0°C. That reinforces our concern for an acute infectious process."}
+{"turn_id": 15, "speaker": "patient", "text": "I took acetaminophen an hour ago, but it didn’t bring it down much. Should I take another dose?"}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, when I checked my pulse at home this morning before coming in, it was exactly 91 bpm — same as that reading you took first thing."}
+{"turn_id": 17, "speaker": "doctor", "text": "I’m going to switch you from metformin to insulin glargine temporarily — your current hyperglycemia and acute illness make oral agents less safe right now."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay — and what about my kidneys? Is there anything else we can do to protect them while I’m sick?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes — we’ll hold your ACE inhibitor for now, ensure hydration without overload, and repeat creatinine and electrolytes in 12 hours. Let’s get you admitted for IV antibiotics and close monitoring."}

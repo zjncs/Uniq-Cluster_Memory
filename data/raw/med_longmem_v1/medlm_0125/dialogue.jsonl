@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your hemoglobin level today is 142 g/L, which falls within the normal range for adults."}
+{"turn_id": 1, "speaker": "doctor", "text": "I also see your body temperature is elevated at 38.2 °C — have you been feeling feverish or unwell this morning?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I’ve had chills since yesterday evening and a mild headache. No cough or sore throat, though."}
+{"turn_id": 3, "speaker": "doctor", "text": "Any recent exposure to sick contacts or changes in activity? Also, how’s your energy level been?"}
+{"turn_id": 4, "speaker": "patient", "text": "My energy’s been low, and I skipped my usual walk two days ago because I felt so tired."}
+{"turn_id": 5, "speaker": "doctor", "text": "Let’s check your vital signs more thoroughly. I’ll measure your blood pressure next."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure is 136 mmHg — well-controlled for now, especially given your diagnosis of essential hypertension."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Atorvastatin 20mg once daily at night for cholesterol management. Are you tolerating it well? Any muscle aches or digestive issues?"}
+{"turn_id": 8, "speaker": "patient", "text": "No side effects — I’ve been taking it consistently with dinner every night."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your persistent fatigue, low-grade fever, and stable but borderline BP, we’ll need to consider whether there’s an underlying inflammatory or metabolic component. Your primary diagnosis remains essential hypertension."}
+{"turn_id": 10, "speaker": "patient", "text": "I did notice my ankles were slightly swollen last night — not sure if that’s related."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s worth noting. Let’s reassess your hemoglobin — sometimes inflammation can suppress it, but let’s see what today’s value shows."}
+{"turn_id": 12, "speaker": "doctor", "text": "Hmm — your repeat hemoglobin is 164 g/L, which is higher than the 142 we saw earlier this morning. That’s unusual — could reflect hemoconcentration or lab variability. We’ll monitor closely."}
+{"turn_id": 13, "speaker": "patient", "text": "I drank less water yesterday — maybe that’s why it went up?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly. Dehydration can elevate hemoglobin. Let’s also recheck your blood pressure after you’ve rested for a few minutes."}
+{"turn_id": 15, "speaker": "patient", "text": "Sure — I’ll sit quietly for a minute."}
+{"turn_id": 16, "speaker": "doctor", "text": "Now your systolic pressure is 158 mmHg — higher than the 136 we recorded earlier. That rise may reflect pain, anxiety, or the febrile state. Let’s address the fever first."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your temperature has come down to 37.0 °C — much better. That likely explains part of the BP fluctuation and improved comfort."}
+{"turn_id": 18, "speaker": "patient", "text": "Yes, I feel warmer but less shaky now. My blood pressure was 136 earlier — that number feels more typical for me when I’m resting."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your new symptoms, rising glucose concerns, and stable renal function, I am going to start you on Metformin 1000mg twice daily — and yes, that 142 g/L hemoglobin from your first draw remains our baseline reference point."}

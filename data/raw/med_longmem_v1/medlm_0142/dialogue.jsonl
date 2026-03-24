@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vital signs—I'm seeing your diastolic blood pressure is 102 mmHg today."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Yeah, I've been feeling a bit off lately—kind of fatigued and lightheaded sometimes."}
+{"turn_id": 2, "speaker": "doctor", "text": "Thanks for sharing that. Have you noticed any dizziness when standing up, or any chest discomfort?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 70 bpm—steady and within normal range."}
+{"turn_id": 4, "speaker": "doctor", "text": "Body temperature is 36.8 °C—completely normal."}
+{"turn_id": 5, "speaker": "patient", "text": "Actually, I’ve had this dull headache almost every morning this week—mostly behind my eyes."}
+{"turn_id": 6, "speaker": "doctor", "text": "Given your elevated diastolic pressure and persistent headache, the working diagnosis is Essential Hypertension."}
+{"turn_id": 7, "speaker": "patient", "text": "Hypertension? But my blood pressure was fine last year—what could have changed?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is 160 g/L—well within the normal range for an adult male."}
+{"turn_id": 9, "speaker": "patient", "text": "I haven’t been taking my home BP cuff seriously, but I did check it twice yesterday—it was 158 over 104."}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s consistent with what we’re seeing. We’ll need to monitor closely and consider lifestyle adjustments first."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve cut back on salt and started walking daily—but the headaches haven’t improved much."}
+{"turn_id": 12, "speaker": "doctor", "text": "We’ll also run some labs to rule out secondary causes—renal function, electrolytes, and repeat CBC in a few days."}
+{"turn_id": 13, "speaker": "patient", "text": "I’m a little worried—I read online that low hemoglobin can cause headaches too."}
+{"turn_id": 14, "speaker": "doctor", "text": "That’s a good point, but your initial hemoglobin was solid at 160 g/L, so anemia isn’t likely driving this."}
+{"turn_id": 15, "speaker": "doctor", "text": "However, your follow-up hemoglobin came back at 149 g/L—slightly lower, though still in the normal range."}
+{"turn_id": 16, "speaker": "doctor", "text": "Also, your heart rate today is 89 bpm—higher than the 70 we recorded earlier this morning."}
+{"turn_id": 17, "speaker": "patient", "text": "Wait—did you say 89? Because when I checked my pulse just now in the waiting room, it was exactly 70."}
+{"turn_id": 18, "speaker": "doctor", "text": "Interesting—that reading matches the one from earlier. Let me recheck manually to confirm consistency."}
+{"turn_id": 19, "speaker": "patient", "text": "Yes, that number—the 70 bpm—is what I got both times: once this morning at home and just now."}

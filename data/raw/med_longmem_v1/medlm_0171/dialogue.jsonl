@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning! Let's start by reviewing your lab results from last week's visit. Your hemoglobin was 161 g/L — that’s within the normal range for you."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your symptoms and thyroid function tests, we confirmed a primary diagnosis of hypothyroidism."}
+{"turn_id": 2, "speaker": "doctor", "text": "You’ve been on atorvastatin 20 mg once daily for cholesterol management — we’ll keep that going for now."}
+{"turn_id": 3, "speaker": "patient", "text": "Actually, over the past few days I’ve been urinating much more frequently — especially at night. It’s been pretty disruptive to my sleep."}
+{"turn_id": 4, "speaker": "doctor", "text": "Thanks for mentioning that — polyuria can be linked to several conditions, including thyroid dysfunction or glucose metabolism issues. Let’s check your blood pressure first."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure today is 65 mmHg — nice and stable."}
+{"turn_id": 6, "speaker": "doctor", "text": "And your systolic reading is 147 mmHg — slightly elevated, but not urgent. We’ll monitor it closely."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been feeling a bit lightheaded when standing up quickly — could that relate to the blood pressure?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Possibly — orthostatic changes can contribute. Let me recheck your vitals just to be sure."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate is 78 bpm — regular and unremarkable."}
+{"turn_id": 10, "speaker": "doctor", "text": "Hmm — this time, your diastolic pressure is 60 mmHg. That’s a bit lower than the 65 we saw earlier — let’s see if it’s consistent."}
+{"turn_id": 11, "speaker": "patient", "text": "I did skip breakfast this morning — maybe that’s why it’s lower?"}
+{"turn_id": 12, "speaker": "doctor", "text": "That could explain the slight dip. Let’s also revisit your labs — your hemoglobin has increased to 180 g/L since last measurement. That’s notably higher and warrants follow-up to rule out polycythemia or dehydration."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your rising LDL and stable tolerance, I’m going to increase your atorvastatin dose to 40 mg once daily, effective tonight."}
+{"turn_id": 14, "speaker": "patient", "text": "Okay — I’ll start that tonight. Should I watch for any side effects?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes — muscle aches or unusual fatigue, and report them right away. Also, we’ll repeat liver enzymes in four weeks."}
+{"turn_id": 16, "speaker": "doctor", "text": "By the way, your most recent systolic reading dropped to 135 mmHg — that’s a good improvement from the 147 earlier. Likely reflects better hydration and reduced stress during the second measurement."}
+{"turn_id": 17, "speaker": "patient", "text": "That makes sense — I relaxed more the second time. And just to confirm, my diastolic was 65 mmHg before — that’s the number we discussed earlier, right?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Exactly — that 65 mmHg reading is what we noted first, and it’s still clinically relevant as your baseline today."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it — thanks for clarifying. I’ll track my symptoms and BP at home and bring the log next visit."}

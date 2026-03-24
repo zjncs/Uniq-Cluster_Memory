@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent stress test and angiogram results from July 29th, we’ve confirmed a diagnosis of Coronary Artery Disease."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling quite anxious lately — especially when climbing stairs or even just walking quickly."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see your blood pressure reading from today’s visit is 159 mmHg systolic — that’s elevated, and consistent with what we saw during your initial workup last week."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, my home monitor has been showing high numbers too — mostly between 150 and 160. I’ve been trying to cut back on salt."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s good. Let’s also review your medications and symptoms. Any new or worsening issues since your last appointment?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature just now registered at 39.4 °C — that’s a significant fever. Have you had chills, sore throat, or cough?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes, I started feeling flu-like two days ago — fatigue, headache, and some muscle aches. I thought it was just a cold at first."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fingerstick glucose came back at 5.6 mmol/L — well within target range for someone with CAD and no known diabetes."}
+{"turn_id": 8, "speaker": "patient", "text": "Actually, I’ve also noticed palpitations — especially in the afternoon, sometimes lasting several minutes. My pulse feels irregular then."}
+{"turn_id": 9, "speaker": "doctor", "text": "Palpitations with fever could suggest an arrhythmia triggered by infection or inflammation. We’ll need an ECG and possibly telemetry monitoring."}
+{"turn_id": 10, "speaker": "patient", "text": "Should I still take my metoprolol as prescribed? I skipped one dose yesterday because my heart felt so jumpy."}
+{"turn_id": 11, "speaker": "doctor", "text": "No — don’t skip doses without consulting us. Metoprolol helps control both heart rate and blood pressure, especially important given your CAD and current symptoms."}
+{"turn_id": 12, "speaker": "patient", "text": "Got it. I’ll resume it tonight. Also, my chest feels tight when I lie flat — like mild pressure, not sharp pain."}
+{"turn_id": 13, "speaker": "doctor", "text": "That’s worth noting — orthopnea can signal worsening cardiac function, particularly in the setting of acute illness. Let’s repeat vitals shortly."}
+{"turn_id": 14, "speaker": "doctor", "text": "Hmm — your temperature has risen further: now 40.0 °C. That’s concerning. We’ll need blood cultures and consider starting empiric antibiotics after labs."}
+{"turn_id": 15, "speaker": "patient", "text": "That’s higher than earlier — I did take two paracetamol before coming in, but it hasn’t brought it down much."}
+{"turn_id": 16, "speaker": "doctor", "text": "Your repeat glucose is now 8.3 mmol/L — elevated compared to the 5.6 mmol/L we saw earlier. Stress hyperglycemia is likely, but we’ll monitor closely."}
+{"turn_id": 17, "speaker": "patient", "text": "Right — I remember that first reading of 5.6 mmol/L you mentioned. It was reassuring at the time, especially since I’m not diabetic."}
+{"turn_id": 18, "speaker": "doctor", "text": "Exactly — and given this acute febrile illness and rising glucose, I’m going to switch you from metoprolol to carvedilol temporarily. It offers better anti-ischemic and anti-inflammatory effects in this context."}
+{"turn_id": 19, "speaker": "patient", "text": "Okay — and just to confirm, my glucose is back to 5.6 mmol/L now, same as that reading from earlier today."}

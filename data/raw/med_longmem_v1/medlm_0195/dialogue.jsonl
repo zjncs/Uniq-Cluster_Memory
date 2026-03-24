@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi doctor, I’ve been feeling nauseous since yesterday morning."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let me check your vitals right away — your heart rate is elevated at 114 beats per minute."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your blood glucose is 8.8 mmol/L — that’s above target range for fasting, especially given your symptoms."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure is 97 mmHg — a bit high, which we’ll monitor closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "I see you’re currently on insulin glargine 16 units nightly. How consistent have you been with dosing and timing?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your temperature is 37.6 °C — mildly elevated but not yet febrile."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve taken the insulin every night as prescribed, but I skipped dinner twice this week because of the nausea."}
+{"turn_id": 7, "speaker": "doctor", "text": "That could explain the hyperglycemia despite insulin — missing meals can disrupt glucose balance and increase stress hormones."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your history, labs, and exam, your primary diagnosis is Type 2 Diabetes Mellitus, currently decompensated."}
+{"turn_id": 9, "speaker": "patient", "text": "Does that mean my diabetes is getting worse? I’ve also had some dizziness when standing up."}
+{"turn_id": 10, "speaker": "doctor", "text": "Dizziness could relate to orthostatic changes or volume status — let’s reassess your BP and pulse after you sit up."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay, I feel a little lightheaded now just sitting here."}
+{"turn_id": 12, "speaker": "doctor", "text": "Let me recheck your heart rate — it’s now 85 bpm, much more stable than earlier."}
+{"turn_id": 13, "speaker": "doctor", "text": "Actually, when I checked again just now, your heart rate is 85 bpm — quite a drop from the 114 we saw at the start."}
+{"turn_id": 14, "speaker": "doctor", "text": "And your temperature has risen to 38.9 °C — that suggests an acute infectious process may be contributing to your nausea and metabolic instability."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your elevated diastolic pressure and new fever, I’m going to add amlodipine 5 mg daily to help control vascular tone while we address the underlying trigger."}
+{"turn_id": 16, "speaker": "patient", "text": "Amlodipine? I’ve never taken that before — will it interact with my insulin?"}
+{"turn_id": 17, "speaker": "doctor", "text": "No significant interaction — it works on calcium channels in blood vessels, not glucose metabolism. We’ll watch for ankle swelling or flushing."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it. By the way, I checked my blood sugar again this morning — same number as before: 8.8 mmol/L."}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, that reading matches the one from earlier today — persistent hyperglycemia despite basal insulin, which reinforces the need to investigate for infection or other stressors."}

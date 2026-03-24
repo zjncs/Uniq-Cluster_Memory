@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve had a pretty persistent headache since yesterday morning—started around noon and hasn’t really let up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start with vitals—I’m checking your temperature now. It’s 36.5 °C, which is within normal range."}
+{"turn_id": 2, "speaker": "patient", "text": "Good to know. I’ve also felt a bit lightheaded a couple of times today, especially when standing up quickly."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’ll check your blood pressure next. Systolic is 138… diastolic is 75 mmHg—so that’s on the lower end of normal, but not concerning yet."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Lisinopril 10mg once daily—is that correct? Any side effects like cough or dizziness?"}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, that’s right. I haven’t had a cough, but the dizziness you just mentioned—it does feel worse after taking my morning dose."}
+{"turn_id": 6, "speaker": "doctor", "text": "Let’s check your blood glucose. Your fingerstick reading is 8.1 mmol/L—elevated, especially if you’re fasting. When did you last eat?"}
+{"turn_id": 7, "speaker": "patient", "text": "I had black coffee this morning, nothing else—so technically fasting. I’ve been trying to monitor it more closely since my last A1c was high."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your pulse is quite fast—126 bpm. That’s tachycardic. Are you feeling anxious or short of breath? Any chest discomfort?"}
+{"turn_id": 9, "speaker": "patient", "text": "A little anxious, yes—and my heart feels like it’s racing, especially with the headache. No chest pain, though."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given the combination of headache, lightheadedness, tachycardia, and elevated glucose, we need to look at possible contributors—including medication effects and metabolic stress."}
+{"turn_id": 11, "speaker": "patient", "text": "Could the Lisinopril be playing a role? My sister said her BP med made her feel shaky and wired."}
+{"turn_id": 12, "speaker": "doctor", "text": "I am going to switch you from Lisinopril to Amlodipine 10mg once daily. It’s a calcium channel blocker—less likely to cause tachycardia or glucose fluctuations, and better tolerated if orthostatic symptoms persist."}
+{"turn_id": 13, "speaker": "doctor", "text": "I just rechecked your glucose—it’s now 9.7 mmol/L. That’s higher than the 8.1 we saw earlier. Did anything change between readings?"}
+{"turn_id": 14, "speaker": "patient", "text": "No—I didn’t eat or drink anything. Maybe the first reading was off? My meter sometimes gives different numbers."}
+{"turn_id": 15, "speaker": "doctor", "text": "We’ll keep an eye on that. Let’s also reassess your temperature before you leave—just to rule out low-grade inflammation or infection as a contributor to the headache and tachycardia."}
+{"turn_id": 16, "speaker": "patient", "text": "That makes sense. I did feel slightly warm earlier, but I didn’t take my temperature at home."}
+{"turn_id": 17, "speaker": "doctor", "text": "Your temperature is now 37.5 °C—mildly elevated. Not a fever per se, but consistent with a systemic stress response."}
+{"turn_id": 18, "speaker": "patient", "text": "Hmm—I remember the first glucose reading you took was 8.1 mmol/L. That’s the number I’ve been tracking in my log this week."}
+{"turn_id": 19, "speaker": "doctor", "text": "Right—that reading from earlier, the 8.1 mmol/L, matches your home log and is likely the most reliable fasting value today. We’ll use that as our baseline for adjusting your diabetes management."}

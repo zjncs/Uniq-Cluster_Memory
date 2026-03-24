@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your hemoglobin level today is 111 g/L — slightly below the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "I see your body temperature is elevated at 39.3 °C — you're running a fever. Have you had chills or any recent infections?"}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, I've felt quite unwell since yesterday — fatigue, some shortness of breath, and my ankles have been swelling."}
+{"turn_id": 3, "speaker": "doctor", "text": "You're currently on Insulin glargine 10 units nightly for diabetes management. Are you taking it consistently?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, every night before bed — though I did skip it two nights ago because I wasn’t eating much."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your history and today’s findings, your primary diagnosis remains Coronary Artery Disease. We’ll need to monitor cardiac strain closely given your symptoms."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure is 132 mmHg — within acceptable limits for now, though we’ll watch it carefully."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve also noticed my legs feel heavy, and there’s noticeable puffiness around my ankles and feet."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes — lower limb edema has been getting worse over the past three days, especially by evening."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your blood glucose this morning was 13.3 mmol/L — significantly elevated, which may be contributing to your symptoms."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given your hypertension, CAD, and worsening edema, I’m going to switch you from your previous ACE inhibitor to Lisinopril 20 mg once daily."}
+{"turn_id": 11, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin came back at 87 g/L — that’s a notable drop from the 111 g/L we saw earlier today. This suggests possible acute blood loss or hemolysis we need to investigate urgently."}
+{"turn_id": 12, "speaker": "doctor", "text": "Your systolic blood pressure has risen to 149 mmHg — higher than the 132 mmHg we recorded earlier. That, combined with the edema and fever, raises concern for decompensated heart failure."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your latest blood glucose is now 16.0 mmol/L — up from 13.3 mmol/L earlier. That degree of hyperglycemia could be worsening your fluid retention and cardiac workload."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been drinking more water but still feel very thirsty and urinating frequently."}
+{"turn_id": 15, "speaker": "doctor", "text": "Those are classic signs of uncontrolled diabetes. We’ll adjust your insulin regimen and add close glucose monitoring. Do you have a home glucometer?"}
+{"turn_id": 16, "speaker": "patient", "text": "Yes, I check twice a day — fasting and before dinner. But lately the numbers have been all over the place."}
+{"turn_id": 17, "speaker": "doctor", "text": "We’ll arrange urgent labs including CBC, renal panel, BNP, and HbA1c — and possibly an echocardiogram given your edema, elevated BP, and CAD history."}
+{"turn_id": 18, "speaker": "patient", "text": "Should I keep taking the insulin as prescribed until I see you again?"}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, I just checked at home — that reading matches the 13.3 mmol/L you noted earlier, and my cuff gave me 132 mmHg again, same as your first measurement."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your hemoglobin level today is 143 g/L — that's within the normal range for your age and sex."}
+{"turn_id": 1, "speaker": "doctor", "text": "Based on your lab work and imaging, we're confirming a diagnosis of Chronic Kidney Disease Stage 3. We'll need to monitor your kidney function closely going forward."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is elevated at 93 beats per minute — slightly above baseline. Have you been feeling any palpitations or shortness of breath?"}
+{"turn_id": 3, "speaker": "patient", "text": "Not really — just some fatigue lately, especially in the afternoons. And my ankles have been a little puffy."}
+{"turn_id": 4, "speaker": "doctor", "text": "I’ve prescribed Lisinopril 10mg once daily. It helps protect your kidneys and manage blood pressure — we’ll start it today."}
+{"turn_id": 5, "speaker": "patient", "text": "Okay, I’ll take it with breakfast. Should I watch for dizziness? My sister had that on Lisinopril."}
+{"turn_id": 6, "speaker": "doctor", "text": "Yes, that’s important — especially when standing up. Let me know if you feel lightheaded or develop a persistent dry cough."}
+{"turn_id": 7, "speaker": "patient", "text": "Will do. Also, my home BP cuff has been giving me inconsistent readings — should I bring it in next time?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Your seated diastolic blood pressure today is 66 mmHg — on the lower side, but not concerning yet given your systolic reading."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your systolic pressure is 156 mmHg — that’s elevated, so we’ll keep monitoring closely, especially with the new medication."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been trying to cut back on salt and walk more. Do you think my diet could be affecting my energy?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Absolutely — nutrition plays a big role in CKD management. We’ll refer you to our renal dietitian for personalized guidance."}
+{"turn_id": 12, "speaker": "patient", "text": "That would be helpful. I also wanted to ask — my fasting glucose last month was 128 mg/dL. Is that something we should address?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes — with your kidney disease and borderline glucose, we need to screen carefully for diabetes. Let’s check your HbA1c next visit."}
+{"turn_id": 14, "speaker": "patient", "text": "Right — that matches the hemoglobin number you mentioned earlier, 143 g/L. It’s reassuring that it hasn’t dropped since my last test."}
+{"turn_id": 15, "speaker": "doctor", "text": "Given your glucose trend and kidney function, I’m going to add Metformin 1000mg twice daily — starting at a low dose to minimize GI side effects and avoid strain on your kidneys."}
+{"turn_id": 16, "speaker": "patient", "text": "Metformin? I thought that wasn’t safe with kidney issues — isn’t there a risk of lactic acidosis?"}
+{"turn_id": 17, "speaker": "doctor", "text": "That’s a great question. With your current eGFR — which is still above 45 mL/min/1.73m² — Metformin is safe and guideline-recommended. We’ll recheck your kidney function in 3 months before adjusting."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it. And just now, when I checked my BP at the front desk again, it read 145 over 68 — lower than before."}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, your systolic pressure has come down to 145 mmHg — that’s a positive response to today’s adjustments. We’ll continue tracking both arms and home readings."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—more tired than usual and some dizziness when I stand up."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Let’s start by reviewing your vitals and recent labs. How long have you been experiencing those symptoms?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your latest evaluation, your primary diagnosis is Type 2 Diabetes Mellitus, confirmed as of April 10th this year."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure was 81 mmHg during that visit—within normal range, though we’ll keep monitoring it closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate was elevated at 129 beats per minute that day—higher than ideal, especially given your diabetes and fatigue complaints."}
+{"turn_id": 5, "speaker": "doctor", "text": "Systolic blood pressure was 145 mmHg, which places you in the Stage 1 hypertension range—we’ll want to address that alongside your diabetes management."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg once daily at night for lipid management, started on April 10th."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your hemoglobin level was 143 g/L at that time—solidly within the normal range for your age and sex."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been checking my blood pressure at home. It’s been hovering around 140–150 over 80 most days."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s consistent with what we saw on April 10th. Are you taking your Atorvastatin regularly, and have you noticed any muscle aches or changes in urine color?"}
+{"turn_id": 10, "speaker": "patient", "text": "Yes, I take it every night. No muscle pain, but I did notice my urine looked darker last week—like strong tea."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s important—I’d like to check your liver enzymes and renal function, especially given the statin and your borderline hypertension."}
+{"turn_id": 12, "speaker": "patient", "text": "Also, my glucose readings at home have been high—mostly 160–200 mg/dL fasting, even with diet changes."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your persistent hyperglycemia and elevated BP, we should consider intensifying your diabetes regimen—possibly adding an SGLT2 inhibitor for dual cardio-renal protection."}
+{"turn_id": 14, "speaker": "patient", "text": "That sounds reasonable. My energy hasn’t improved, and I’ve lost about 4 pounds unintentionally in the past month."}
+{"turn_id": 15, "speaker": "doctor", "text": "Unintentional weight loss plus fatigue and dark urine raises concern for possible hemolysis or early renal involvement—we’ll need a CBC, reticulocyte count, and urinalysis today."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay. By the way, my pulse feels really fast sometimes—like my heart is racing even when I’m just sitting."}
+{"turn_id": 17, "speaker": "patient", "text": "I checked my systolic pressure again this morning—it was 145 mmHg, same as that reading from April 10th."}
+{"turn_id": 18, "speaker": "doctor", "text": "Hmm—your heart rate just now is 130 bpm, slightly higher than the 129 we recorded on April 10th. That’s concerning given your symptoms and possible volume depletion."}
+{"turn_id": 19, "speaker": "doctor", "text": "And your hemoglobin has dropped to 120 g/L—down from 143 g/L back in April. We’ll need to investigate for anemia, possibly related to chronic disease or GI blood loss."}

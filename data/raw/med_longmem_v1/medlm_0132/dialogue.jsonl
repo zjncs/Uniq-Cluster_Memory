@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your hemoglobin level today is 159 g/L — that’s well within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your blood glucose is 7.7 mmol/L — slightly elevated, but not alarming at this time. Are you monitoring it regularly at home?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your systolic blood pressure is 135 mmHg — borderline high, but consistent with your diagnosis of essential hypertension."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been checking my blood sugar twice a day since my last visit. It’s usually between 6.8 and 7.5 — though yesterday it was higher after lunch."}
+{"turn_id": 4, "speaker": "doctor", "text": "Thanks for that detail. Let’s also review your current medications — you’re on Lisinopril 20 mg once daily, correct?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Yes — Lisinopril 20 mg once daily is what we started last month to manage your blood pressure."}
+{"turn_id": 6, "speaker": "patient", "text": "That’s right. I haven’t missed a dose, but I did notice a bit of dry cough lately — nothing severe, but it’s persistent."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is 37.4 °C — completely normal. No signs of acute infection today."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your ongoing hypertension and the new symptoms, your primary diagnosis remains essential hypertension."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve also felt a little more fatigued this week, and I had a low-grade fever yesterday evening — around 37.8, I think."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, just now your temperature registered 38.4 °C — that suggests a mild febrile response. Let’s keep an eye on that."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given the persistent cough and now the fever, I’m going to switch you from Lisinopril to Amlodipine 10 mg once daily — it’s equally effective for blood pressure control and won’t cause that cough."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll start that today. Should I stop the Lisinopril cold turkey or taper it?"}
+{"turn_id": 13, "speaker": "doctor", "text": "You can discontinue Lisinopril today — no taper needed. We’ll monitor your BP closely over the next week."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your repeat hemoglobin came back at 148 g/L — a modest drop from the 159 we saw earlier this morning. We’ll recheck in a week to see if it stabilizes."}
+{"turn_id": 15, "speaker": "patient", "text": "I’ve been feeling lightheaded a couple of times when standing up quickly — could that be related?"}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s possible — orthostatic symptoms can occur with BP fluctuations or medication changes. Let’s check your sitting and standing pressures now."}
+{"turn_id": 17, "speaker": "patient", "text": "I checked my BP at home this morning before coming in — it was lower than usual."}
+{"turn_id": 18, "speaker": "doctor", "text": "Indeed — your systolic pressure is now 106 mmHg, which is notably lower than the 135 we recorded earlier. That may explain the lightheadedness."}
+{"turn_id": 19, "speaker": "patient", "text": "Right — that 135 reading you took at the start is the one I was thinking of when I said my home readings felt off compared to that number."}

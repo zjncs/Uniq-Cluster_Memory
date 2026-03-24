@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate today is 65 bpm, which is within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your systolic blood pressure is 147 mmHg — that’s elevated, so we’ll want to monitor that closely."}
+{"turn_id": 2, "speaker": "patient", "text": "Yeah, I’ve been feeling a bit off lately — kind of fatigued and short of breath sometimes."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your blood glucose came back at 14.2 mmol/L — that’s significantly high, especially for someone not currently in diabetic ketoacidosis."}
+{"turn_id": 4, "speaker": "doctor", "text": "Based on your labs and imaging, we’re confirming a diagnosis of Chronic Kidney Disease Stage 3."}
+{"turn_id": 5, "speaker": "patient", "text": "I’ve also had some chest tightness over the past few days — mostly when walking up stairs or after meals."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your hemoglobin is low at 97 g/L — consistent with anemia of chronic disease, likely related to your CKD."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily — but given your kidney function, we need to revisit its safety."}
+{"turn_id": 8, "speaker": "patient", "text": "Right — my nephrologist mentioned Metformin might not be ideal anymore. What are my options?"}
+{"turn_id": 9, "speaker": "doctor", "text": "Let’s hold off on further conclusions until we review all your data — including repeat vitals taken just now."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, your heart rate just measured 89 bpm — up from 65 earlier. Any palpitations or dizziness?"}
+{"turn_id": 11, "speaker": "patient", "text": "No palpitations, but I did feel lightheaded once yesterday — maybe when standing up quickly."}
+{"turn_id": 12, "speaker": "doctor", "text": "Interesting — your systolic blood pressure is now 120 mmHg, down from 147 earlier. That could explain the lightheadedness."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been trying to cut back on salt and drink more water — could that have brought it down?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Possibly — but we also need to consider orthostatic changes and whether your antihypertensives need adjustment."}
+{"turn_id": 15, "speaker": "patient", "text": "I haven’t started any new meds — just the Metformin and my usual lisinopril."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your elevated glucose, anemia, and CKD, we’ll need to optimize both glycemic and cardiovascular risk management."}
+{"turn_id": 17, "speaker": "patient", "text": "Makes sense. My last A1c was 9.4%, so clearly things aren’t well controlled."}
+{"turn_id": 18, "speaker": "patient", "text": "By the way — that 147 mmHg reading you took first thing? I checked it again at home this morning and got the same number."}
+{"turn_id": 19, "speaker": "doctor", "text": "Given your cardiovascular risk profile and that persistent hyperglycemia — which matches the 14.2 mmol/L we saw earlier — I’m going to start you on Atorvastatin 20mg at bedtime to reduce long-term risk."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been having these palpitations off and on since last Monday—February 13th. They usually happen in the afternoon and last a few minutes."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Can you tell me more about the palpitations? Any dizziness, shortness of breath, or chest discomfort with them?"}
+{"turn_id": 2, "speaker": "patient", "text": "No chest pain or trouble breathing, but sometimes I feel a little lightheaded right after. And my hands get a bit shaky."}
+{"turn_id": 3, "speaker": "doctor", "text": "Let me check your vitals now—I’m getting your heart rate at 62 bpm. That’s within normal range, though it’s on the lower side."}
+{"turn_id": 4, "speaker": "patient", "text": "Really? I thought it might be racing when I feel those flutters."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your body temperature is 37.3 °C—completely normal. No sign of fever or infection today."}
+{"turn_id": 6, "speaker": "doctor", "text": "Blood pressure is 132 over 80 mmHg—diastolic is 80, which is fine, but we’ll keep an eye on it given your symptoms."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been managing my blood sugar pretty closely lately. I’m on Metformin 1000mg twice a day."}
+{"turn_id": 8, "speaker": "doctor", "text": "Yes, I see that in your chart—you’re currently on Metformin 1000mg bid. That aligns with your diagnosis of Type 2 Diabetes Mellitus, which we confirmed last year and reaffirmed today based on your HbA1c and fasting glucose."}
+{"turn_id": 9, "speaker": "doctor", "text": "Type 2 Diabetes Mellitus remains your primary diagnosis. We’ll continue monitoring your glycemic control closely."}
+{"turn_id": 10, "speaker": "patient", "text": "Do you think the palpitations could be related to my diabetes—or maybe something else like stress or caffeine?"}
+{"turn_id": 11, "speaker": "doctor", "text": "It’s possible—but we also need to rule out arrhythmias, thyroid dysfunction, or electrolyte imbalances. Let’s order an ECG and thyroid panel next week."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, that makes sense. I’ve also noticed my energy levels are lower than usual this week."}
+{"turn_id": 13, "speaker": "doctor", "text": "Any recent changes in sleep, diet, or medications? Any new over-the-counter supplements?"}
+{"turn_id": 14, "speaker": "patient", "text": "No new meds or supplements. Just the same routine—though I did skip my morning Metformin once because I felt nauseous."}
+{"turn_id": 15, "speaker": "doctor", "text": "Interesting—I just rechecked your temperature, and it’s 36.0 °C. That’s slightly lower than the 37.3 °C I recorded earlier, so it may reflect a mild diurnal variation or measurement difference."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your borderline diastolic pressure and recent lightheadedness, I’m going to add Amlodipine 5mg once daily to help with vascular tone and reduce cardiac workload."}
+{"turn_id": 17, "speaker": "patient", "text": "You mentioned my heart rate was 62 bpm earlier—that reading matches what I saw on my wrist monitor this morning, so it seems consistent."}
+{"turn_id": 18, "speaker": "doctor", "text": "Good to hear. We’ll repeat the BP and HR in two weeks, and I’d like you to log any palpitation episodes—time, duration, triggers, and how you felt before and after."}
+{"turn_id": 19, "speaker": "patient", "text": "Will do. Thanks, Doctor—I’ll start Amlodipine tomorrow and bring my log to the follow-up."}

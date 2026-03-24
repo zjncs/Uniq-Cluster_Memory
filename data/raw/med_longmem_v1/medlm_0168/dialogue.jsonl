@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit lightheaded in the mornings, and my home blood pressure monitor has been giving me some inconsistent readings lately."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in today. Let’s start by reviewing your vitals and recent lab work. How long have you been experiencing those symptoms?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your diastolic blood pressure today is 108 mmHg — that’s elevated."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate is 78 bpm — within normal range, but let’s keep an eye on it."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose is 6.1 mmol/L — slightly above optimal but not yet in diabetic range."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your persistent elevated BP readings and absence of secondary causes, the primary diagnosis is Essential Hypertension."}
+{"turn_id": 6, "speaker": "patient", "text": "I see. I’ve been trying to cut back on salt and walk more — but I’m still worried about my numbers."}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Metformin 1000mg twice daily — primarily for insulin resistance and prediabetes management, which aligns with your glucose level."}
+{"turn_id": 8, "speaker": "doctor", "text": "Interestingly, your systolic pressure today also reads 108 mmHg — that’s unusually low relative to your diastolic, suggesting possible measurement artifact or orthostatic variation. We’ll recheck."}
+{"turn_id": 9, "speaker": "patient", "text": "Oh, I didn’t realize the systolic was that low — I usually get readings around 130–140 at home."}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s review your medication adherence and timing. Are you taking Metformin consistently with meals? Any side effects like GI upset?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes, I take it with breakfast and dinner. No stomach issues — just occasional fatigue."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your elevated diastolic pressure and persistent hypertension despite lifestyle efforts, we need to address your BP more directly."}
+{"turn_id": 13, "speaker": "doctor", "text": "I am going to switch you to Amlodipine 5mg once daily — a calcium channel blocker that will help relax your blood vessels and lower both systolic and diastolic pressures."}
+{"turn_id": 14, "speaker": "doctor", "text": "Just now, after a brief rest, your systolic pressure rose to 126 mmHg — still elevated, but more consistent with your usual home readings."}
+{"turn_id": 15, "speaker": "doctor", "text": "And your heart rate dropped to 62 bpm — likely reflecting early vagal response or improved vascular tone; we’ll monitor this closely, especially with Amlodipine initiation."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, I’ll start Amlodipine tomorrow. Should I stop Metformin?"}
+{"turn_id": 17, "speaker": "doctor", "text": "No — continue Metformin as prescribed. Amlodipine and Metformin work through different pathways and are safe to use together. We’ll reassess in four weeks."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it. And just to confirm — my diastolic was 108 earlier, right? That’s the same number I saw on my cuff this morning."}
+{"turn_id": 19, "speaker": "patient", "text": "Yeah — that reading matches the one from earlier, the 108 mmHg."}

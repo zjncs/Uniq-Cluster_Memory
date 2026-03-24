@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling unusually tired lately, and my legs have been swollen for about a week."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thank you for coming in. Based on your symptoms and lab work, we’ve confirmed a diagnosis of hypothyroidism, which likely started around early June."}
+{"turn_id": 2, "speaker": "patient", "text": "Yes, the swelling is mostly in my ankles and calves — it’s worse by evening, and pressing leaves a slight dent."}
+{"turn_id": 3, "speaker": "doctor", "text": "I just measured your blood pressure: systolic is 107 mmHg."}
+{"turn_id": 4, "speaker": "doctor", "text": "And diastolic is 102 mmHg — that’s quite elevated, especially the diastolic component."}
+{"turn_id": 5, "speaker": "patient", "text": "Really? That seems high. I’ve been checking at home sometimes — last week it was 138 over 86, but today before coming in, it read 142 over 94."}
+{"turn_id": 6, "speaker": "doctor", "text": "Given your persistent hypertension and the edema, I’m prescribing amlodipine 10 mg once daily, starting today."}
+{"turn_id": 7, "speaker": "patient", "text": "Okay, I’ll start that. My sister takes amlodipine too — she said it helped her swelling."}
+{"turn_id": 8, "speaker": "doctor", "text": "That’s consistent — calcium channel blockers like amlodipine can help with both BP and peripheral edema. Let’s also check your heart rate."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your pulse is 53 bpm — that’s on the lower side, especially with hypothyroidism and now starting a calcium channel blocker."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve noticed I get lightheaded when standing up quickly — could that be related?"}
+{"turn_id": 11, "speaker": "doctor", "text": "Possibly. Hypothyroidism slows heart rate, and amlodipine can add to that. We’ll monitor closely — let’s repeat thyroid function tests next week."}
+{"turn_id": 12, "speaker": "patient", "text": "Also, I’ve been taking levothyroxine 50 mcg since last month — but yesterday my home BP cuff showed 110 over 104, which matches your reading earlier."}
+{"turn_id": 13, "speaker": "doctor", "text": "That diastolic number — 104 — is concerning. It’s close to the 102 we saw just now, so that confirms persistent diastolic hypertension."}
+{"turn_id": 14, "speaker": "patient", "text": "Right, that’s the same reading as before — I remember your note said '102 mmHg' — that number really stood out to me."}
+{"turn_id": 15, "speaker": "doctor", "text": "Exactly — and given your bradycardia and borderline hypotension risk, I’m going to switch you from amlodipine to losartan 50 mg daily instead."}
+{"turn_id": 16, "speaker": "patient", "text": "Losartan? I tried that years ago — it made my potassium go up. Should I get that checked again?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, absolutely. We’ll check renal function and potassium before starting, and again in one week. Also, continue levothyroxine — we may need to titrate it up once your TSH comes back."}
+{"turn_id": 18, "speaker": "patient", "text": "Got it. And just to clarify — that low heart rate of 53, is that why you’re changing the BP med?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes — combining amlodipine with your underlying bradycardia and hypothyroid state increases risk of symptomatic bradycardia or hypotension. Losartan is safer in this context."}

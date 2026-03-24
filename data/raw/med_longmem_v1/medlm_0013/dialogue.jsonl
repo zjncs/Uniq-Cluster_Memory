@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning, Mr. Thompson. Thanks for coming in today. Let's start by reviewing your current medications and health status."}
+{"turn_id": 1, "speaker": "doctor", "text": "You're currently on Lisinopril 20mg once daily — we started that back in February to help manage your blood pressure and protect your kidneys."}
+{"turn_id": 2, "speaker": "doctor", "text": "As we discussed at your last visit, your diagnosis is Chronic Kidney Disease Stage 3, confirmed by eGFR trending between 35–44 mL/min/1.73m² over the past six months."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I remember. I’ve been trying to watch my salt intake and stay hydrated, but I’ve noticed I’m more tired than usual lately."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose at our visit on February 4th was 5.4 mmol/L — well within the normal range, so no signs of diabetes at this time."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your heart rate was 90 bpm during that same visit — slightly elevated, though not alarming given your reported activity level and stress."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your diastolic blood pressure was 75 mmHg — good, though your systolic was 142, so we’re still aiming for tighter control."}
+{"turn_id": 7, "speaker": "patient", "text": "Right — and I did mention fatigue before, but it’s gotten worse over the past two weeks. Sometimes I nap after lunch just to get through the afternoon."}
+{"turn_id": 8, "speaker": "patient", "text": "I’ve been feeling fatigued — it’s been going on since early February, and it’s not improving even with more sleep."}
+{"turn_id": 9, "speaker": "doctor", "text": "That’s important — fatigue can be multifactorial in CKD: anemia, electrolyte shifts, or even medication side effects. Let’s check your hemoglobin and ferritin today."}
+{"turn_id": 10, "speaker": "patient", "text": "Makes sense. I also noticed my ankles have been a little puffy the last few days — maybe more than usual?"}
+{"turn_id": 11, "speaker": "doctor", "text": "We’ll assess for volume overload — edema could suggest worsening renal perfusion or fluid retention. I’ll listen to your lungs and check JVP too."}
+{"turn_id": 12, "speaker": "patient", "text": "Actually, when I checked my blood sugar at home this morning, it was 7.1 mmol/L — higher than that reading from February 4th."}
+{"turn_id": 13, "speaker": "doctor", "text": "Thanks for sharing that — that number is above our target fasting range. Given your CKD and the upward trend, I’d like to repeat HbA1c and consider whether early dysglycemia is contributing to your fatigue."}
+{"turn_id": 14, "speaker": "patient", "text": "And the Lisinopril — I read online it can cause tiredness. Could that be it?"}
+{"turn_id": 15, "speaker": "doctor", "text": "It’s possible — ACE inhibitors like Lisinopril do list fatigue as a less common side effect. Given your persistent symptoms and the new glucose elevation, I am going to switch you to Losartan 50mg daily instead."}
+{"turn_id": 16, "speaker": "patient", "text": "Losartan? Okay — will that help with the swelling too?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — it’s also an antihypertensive with renal protective effects, and often better tolerated for fatigue. We’ll monitor your potassium and creatinine closely after the switch."}
+{"turn_id": 18, "speaker": "patient", "text": "That sounds good. By the way, the fatigue hasn’t improved since that reading from last time — I’m still struggling most days."}
+{"turn_id": 19, "speaker": "doctor", "text": "Understood — let’s treat this holistically: adjust the med, run labs today, and schedule a follow-up in two weeks to review the results and reassess that number from last time."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vital signs — your temperature today is 37.1 °C, which is within normal range."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Thanks for seeing me. I’ve been feeling a bit off lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see you’re here for a routine follow-up. Any new symptoms or concerns since your last visit?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Your fasting blood glucose this morning is 6.2 mmol/L — slightly elevated but not alarming yet."}
+{"turn_id": 4, "speaker": "patient", "text": "Yeah, I’ve noticed some fatigue and occasional headaches in the afternoons."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 82 mmHg — well within target range for someone with hypertension."}
+{"turn_id": 6, "speaker": "doctor", "text": "You're still on Metformin 500mg twice daily — how’s that been tolerated? Any GI side effects?"}
+{"turn_id": 7, "speaker": "doctor", "text": "Systolic pressure is 128 mmHg — nice and controlled. That’s reassuring."}
+{"turn_id": 8, "speaker": "patient", "text": "The Metformin’s been okay, though I did forget one dose last Tuesday. Otherwise, no stomach issues."}
+{"turn_id": 9, "speaker": "patient", "text": "Actually, I’ve had episodes of dizziness — especially when standing up quickly — over the past few days."}
+{"turn_id": 10, "speaker": "doctor", "text": "Dizziness on orthostasis — that’s important. Let’s check your BP again after you stand, and review your meds and hydration."}
+{"turn_id": 11, "speaker": "patient", "text": "I’ve been drinking more water, and my urination hasn’t changed much. No chest pain or palpitations."}
+{"turn_id": 12, "speaker": "doctor", "text": "We’ll also want to rule out hypoglycemia or medication interactions — your glucose was stable this morning, but let’s monitor closely."}
+{"turn_id": 13, "speaker": "patient", "text": "I checked my sugar at home yesterday evening — it was 5.8, so not low. But I did feel lightheaded after dinner."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given the dizziness and your BP readings, we may need to adjust your antihypertensive therapy — let’s take another set of vitals now."}
+{"turn_id": 15, "speaker": "patient", "text": "My temperature feels normal — same as when you first checked, that reading of 37.1 °C."}
+{"turn_id": 16, "speaker": "doctor", "text": "I’m going to switch you from your current regimen to Amlodipine 10mg once daily — it’s better tolerated and less likely to cause orthostatic dizziness than some alternatives."}
+{"turn_id": 17, "speaker": "doctor", "text": "Hmm — your temperature just came back at 37.7 °C. That’s a mild elevation compared to the 37.1 °C we saw earlier."}
+{"turn_id": 18, "speaker": "doctor", "text": "And your diastolic pressure is now 74 mmHg — lower than the 82 mmHg we recorded before. That could explain the dizziness."}
+{"turn_id": 19, "speaker": "patient", "text": "Wait — that 74 seems low. My other reading today was definitely 82 mmHg, the one you noted earlier."}

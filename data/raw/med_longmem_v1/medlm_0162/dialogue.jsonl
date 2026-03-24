@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Doctor, I've been feeling dizzy off and on since yesterday morning—especially when I stand up quickly."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Let’s start with a quick assessment. Are you experiencing any fever, chills, or shortness of breath?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Your heart rate is 62 bpm—within normal limits but on the lower side. We’ll keep that in mind as we evaluate your dizziness."}
+{"turn_id": 3, "speaker": "patient", "text": "No shortness of breath, but I did feel warm earlier today—like I might be coming down with something."}
+{"turn_id": 4, "speaker": "doctor", "text": "You’re currently on Lisinopril 10mg once daily for blood pressure and kidney protection. Given your CKD, we need to monitor this closely."}
+{"turn_id": 5, "speaker": "doctor", "text": "Based on your labs and eGFR, your primary diagnosis remains Chronic Kidney Disease Stage 3."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your temperature is elevated at 38.1 °C—suggesting a low-grade fever. That could contribute to your dizziness."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your systolic blood pressure is 92 mmHg—lower than usual. That may also explain the lightheadedness when standing."}
+{"turn_id": 8, "speaker": "patient", "text": "Yes—I’ve felt unsteady all day. My ankles are a little swollen too, and I’m more tired than usual."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic pressure is 99 mmHg—unusually high relative to your systolic. That widened pulse pressure raises concern for possible volume shifts or autonomic involvement."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been checking my blood sugar at home—it’s been running high, especially at night. I’m worried it’s affecting my kidneys more."}
+{"turn_id": 11, "speaker": "doctor", "text": "Given your rising nocturnal glucose levels and current CKD status, I’m going to switch you from oral agents to Insulin glargine 10 units nightly to improve glycemic control and reduce renal stress."}
+{"turn_id": 12, "speaker": "doctor", "text": "Just rechecked your diastolic pressure—it’s now 85 mmHg. That’s a significant drop from the 99 we saw earlier. Let’s hold off on further antihypertensive adjustments until we see how the insulin affects your volume status."}
+{"turn_id": 13, "speaker": "patient", "text": "That makes sense. Should I hold my Lisinopril today? I didn’t take it this morning because I felt so dizzy."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your repeat systolic reading is now 90 mmHg—consistent with hypotension risk, especially with the Lisinopril and possible volume depletion. We’ll hold it for now and reassess tomorrow."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your temperature has risen to 38.9 °C—this suggests progression of an infectious or inflammatory process. We’ll need urine and blood cultures before deciding on antibiotics."}
+{"turn_id": 16, "speaker": "patient", "text": "I had some burning when I urinated last night—could that be related?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Very likely. That, combined with the fever, elevated diastolic earlier, and CKD, raises concern for pyelonephritis. We’ll get a urinalysis and send a urine culture right away."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay—I’ll go do that now. Should I still take my evening insulin?"}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, I just rechecked my temperature at home—it’s back down to 38.1 °C, same as that reading you took earlier—and my pulse is still 62, like the one you noted at the start."}

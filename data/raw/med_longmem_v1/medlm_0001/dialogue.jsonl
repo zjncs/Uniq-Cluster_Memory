@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. Thanks for seeing me today."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello! How have you been feeling since your last visit? Any new symptoms or concerns?"}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your recent evaluation, I’ve confirmed a diagnosis of essential hypertension, first noted on September 6th."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your heart rate at that visit was 76 beats per minute — well within the normal range."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your systolic blood pressure reading that day was 104 mmHg, which is actually on the lower side of normal — we’ll keep monitoring it closely given your hypertension diagnosis."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, I’ve had some nausea lately — started around the same time, on September 6th. It’s been intermittent, mostly in the mornings."}
+{"turn_id": 6, "speaker": "doctor", "text": "I see. Nausea can have many causes — let’s explore whether it might be related to medications, diet, or other factors. Did you start anything new around that time?"}
+{"turn_id": 7, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg taken once nightly, initiated on September 6th as part of your cardiovascular risk management plan."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your fasting blood glucose that day was 4.8 mmol/L — completely normal and reassuring."}
+{"turn_id": 9, "speaker": "patient", "text": "I haven’t changed my diet or started any new supplements. But I did notice my energy has been low, and sometimes I feel lightheaded when standing up quickly."}
+{"turn_id": 10, "speaker": "doctor", "text": "That’s helpful — orthostatic symptoms plus nausea make me want to double-check your volume status and review your antihypertensive regimen. Are you still on lisinopril?"}
+{"turn_id": 11, "speaker": "patient", "text": "Yes, I’m still taking lisinopril 10mg every morning, just like before."}
+{"turn_id": 12, "speaker": "doctor", "text": "Given your low-normal systolic pressure and these symptoms, I’d like to hold off on intensifying antihypertensive therapy for now. Let’s reassess in two weeks after holding the lisinopril for a few days under supervision."}
+{"turn_id": 13, "speaker": "patient", "text": "Okay, I’ll do that. Also, I rechecked my pulse this morning — same as before."}
+{"turn_id": 14, "speaker": "patient", "text": "That reading from September 6th — my heart rate was 76 bpm — it’s unchanged today."}
+{"turn_id": 15, "speaker": "doctor", "text": "Thanks for confirming that. Stable heart rate is reassuring, especially with the lightheadedness — suggests it’s not driven by tachycardia or arrhythmia."}
+{"turn_id": 16, "speaker": "patient", "text": "Actually, when I checked again this morning, my blood sugar was 5.6 mmol/L — slightly higher than the 4.8 we saw on September 6th."}
+{"turn_id": 17, "speaker": "doctor", "text": "Noted — that’s still well within normal limits, but I’ll monitor trends. Given your nausea and borderline hypotension, I’m going to switch you from lisinopril to low-dose amlodipine 2.5mg daily, starting next week."}
+{"turn_id": 18, "speaker": "patient", "text": "Okay, I’ll start that as directed. Should I continue the Atorvastatin?"}
+{"turn_id": 19, "speaker": "doctor", "text": "Yes, please continue the Atorvastatin 40mg at night. We’ll repeat BP, HR, and glucose in follow-up, and I’ll check renal function and electrolytes before adjusting further."}

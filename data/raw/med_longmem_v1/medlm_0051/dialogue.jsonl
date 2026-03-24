@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Based on your recent visit and evaluation, I’m diagnosing you with essential hypertension, which we’ll manage carefully moving forward."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your hemoglobin level came back at 161 g/L — that’s well within the normal range for an adult male."}
+{"turn_id": 2, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling generally okay, though I did notice some fatigue over the past few days."}
+{"turn_id": 3, "speaker": "doctor", "text": "I’ve prescribed Atorvastatin 20 mg to be taken once daily at night — this will help manage your cholesterol and support cardiovascular health."}
+{"turn_id": 4, "speaker": "patient", "text": "Got it. I started that last night. But actually, I had a bit of a fever this morning — my thermometer read 38.7°C."}
+{"turn_id": 5, "speaker": "doctor", "text": "Ah — yes, your temperature was elevated at 38.7°C during today’s assessment. That’s consistent with what you’re reporting."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your heart rate was stable at 79 bpm — not tachycardic, which is reassuring given the fever."}
+{"turn_id": 7, "speaker": "patient", "text": "That’s good to hear. My blood pressure was also checked earlier — it felt a little low, but I didn’t catch the numbers."}
+{"turn_id": 8, "speaker": "doctor", "text": "Yes, your diastolic pressure was 64 mmHg — slightly lower than usual, though still within acceptable limits for now."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given your ongoing cardiovascular risk profile and the fact that your LDL remains above target despite current dosing, I’m going to increase your Atorvastatin to 40 mg nightly."}
+{"turn_id": 10, "speaker": "patient", "text": "Okay, I’ll adjust that tonight. By the way — when I reviewed my lab results just now, I noticed my hemoglobin was listed as 144 g/L. That seemed lower than before."}
+{"turn_id": 11, "speaker": "doctor", "text": "You're right — that reading differs from the 161 g/L we saw earlier in the same lab session. Let me double-check the timing and specimen labels — sometimes duplicate draws can get mismatched."}
+{"turn_id": 12, "speaker": "doctor", "text": "After reviewing the lab logs, the 144 g/L appears to be from a repeat draw drawn 45 minutes after the first — likely affected by mild hemoconcentration from the fever. We’ll rely on the initial value of 161 g/L as the more accurate baseline."}
+{"turn_id": 13, "speaker": "patient", "text": "Makes sense. So the 161 g/L is the one we should go by — that’s the number from the first blood draw this morning."}
+{"turn_id": 14, "speaker": "doctor", "text": "Exactly. That’s the reference value for tracking — especially important since we’re monitoring for any statin-related hematologic effects, though those are rare."}
+{"turn_id": 15, "speaker": "patient", "text": "Right. I haven’t noticed bruising or unusual bleeding, but I’ll keep an eye out."}
+{"turn_id": 16, "speaker": "doctor", "text": "Good. Also, let’s monitor your temperature closely over the next 48 hours — if the fever persists beyond that or you develop chills or shortness of breath, please call us immediately."}
+{"turn_id": 17, "speaker": "patient", "text": "Will do. And just to confirm — I’m now on 40 mg of Atorvastatin every night, correct?"}
+{"turn_id": 18, "speaker": "patient", "text": "Yes — and that 161 g/L is the hemoglobin value we discussed first, the one before the repeat test."}
+{"turn_id": 19, "speaker": "doctor", "text": "Correct — that’s the validated baseline. We’ll recheck it in six weeks along with liver enzymes and lipid panel. In the meantime, stay well-hydrated and avoid grapefruit juice."}

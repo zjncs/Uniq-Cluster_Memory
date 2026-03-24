@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really unwell lately—very tired, thirsty all the time, and I’ve been urinating much more frequently than usual."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your symptoms and recent lab work, I’m diagnosing you with Type 2 Diabetes Mellitus, effective as of your visit on December 29th."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your blood pressure today was 133 mmHg systolic—elevated but not yet in hypertensive crisis. We’ll monitor this closely given your new diabetes diagnosis."}
+{"turn_id": 3, "speaker": "patient", "text": "That makes sense—I’ve had some dizziness when standing up quickly, and my vision’s been a little blurry too."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is elevated at 95 bpm, which may reflect stress, dehydration, or early autonomic involvement—we’ll consider that in context."}
+{"turn_id": 5, "speaker": "patient", "text": "Yes, the frequent urination—polyuria—is one of the main things that brought me in. It’s been going on for about two weeks now."}
+{"turn_id": 6, "speaker": "doctor", "text": "I also noticed your body temperature is elevated at 39.2 °C—this suggests an acute infection, possibly contributing to your glycemic instability and symptom flare-up."}
+{"turn_id": 7, "speaker": "patient", "text": "Oh—I did have a sore throat and chills starting two days ago. I thought it was just a cold, but it’s gotten worse."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your hemoglobin level is low at 95 g/L, indicating mild anemia. We’ll investigate potential causes, including chronic inflammation from infection or possible nutritional deficits related to your diabetes."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been eating less because of the nausea—I didn’t realize that could affect my blood counts."}
+{"turn_id": 10, "speaker": "doctor", "text": "Let’s address the infection first: I’ll prescribe amoxicillin-clavulanate for suspected bacterial pharyngitis, and we’ll recheck your temperature and CBC in 48 hours."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay—and what about my blood sugar? My home meter showed 18.2 mmol/L this morning before breakfast."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s significantly elevated. Given your current infection and high glucose, I’m starting you on basal insulin glargine tonight, 10 units subcutaneously at bedtime, while continuing metformin at 500 mg twice daily."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been taking metformin since my last endocrinology visit—but I missed a few doses last week because of stomach upset."}
+{"turn_id": 14, "speaker": "doctor", "text": "Understood. Since GI intolerance persists, I’m going to switch you to extended-release metformin 500 mg once daily with dinner to improve tolerability and adherence."}
+{"turn_id": 15, "speaker": "patient", "text": "That sounds better—I’ll try it right away. Should I check my sugars more often while on insulin?"}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes—fasting, pre-meal, and bedtime glucose checks for now. Also, please hydrate well and avoid sugary drinks, especially with the fever."}
+{"turn_id": 17, "speaker": "patient", "text": "Got it. And about the anemia—I remember you mentioned my hemoglobin was low. Is that something we need to treat urgently?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Not acutely, but it’s important to clarify the cause. We’ll repeat the CBC and add ferritin, B12, and folate next week—especially since low hemoglobin can worsen fatigue and mask hypoglycemia symptoms."}
+{"turn_id": 19, "speaker": "patient", "text": "Right—that reading from last time, 95 g/L, matches what I saw on my lab slip yesterday. It hasn’t changed."}

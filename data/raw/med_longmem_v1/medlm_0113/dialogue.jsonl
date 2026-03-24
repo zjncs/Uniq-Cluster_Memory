@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. Thanks for seeing me today."}
+{"turn_id": 1, "speaker": "doctor", "text": "Hello! Good to see you. How have you been feeling since your last visit?"}
+{"turn_id": 2, "speaker": "patient", "text": "Honestly, a bit off—I’ve had some dizziness in the mornings and my energy’s been low."}
+{"turn_id": 3, "speaker": "doctor", "text": "Let me check your vitals. Your diastolic blood pressure today is 90 mmHg."}
+{"turn_id": 4, "speaker": "patient", "text": "That sounds high—I thought it was supposed to be under 80?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Yes, and your systolic reading is 129 mmHg—so overall, 129 over 90."}
+{"turn_id": 6, "speaker": "doctor", "text": "You’re currently on Insulin glargine 16 units at night. We’ll keep that for now, but let’s review your glucose control closely."}
+{"turn_id": 7, "speaker": "patient", "text": "I’ve been really fatigued lately—even after a full night’s sleep."}
+{"turn_id": 8, "speaker": "doctor", "text": "Given your consistent elevated diastolic pressure and family history, I’m diagnosing essential hypertension."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your fasting blood glucose came back at 9.5 mmol/L—higher than our target range."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been trying to watch my carbs, but maybe I’m not doing enough?"}
+{"turn_id": 11, "speaker": "doctor", "text": "I’m going to start you on Atorvastatin 40 mg at night—not just for cholesterol, but also for vascular protection given your hypertension and glucose levels."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll take that as prescribed. Should I monitor anything specific?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Yes—please check your blood glucose before breakfast and at bedtime for the next week. Let me know if you see patterns."}
+{"turn_id": 14, "speaker": "doctor", "text": "Good news: your follow-up glucose today is 7.2 mmol/L—much improved from the 9.5 we saw earlier this morning."}
+{"turn_id": 15, "speaker": "patient", "text": "That’s reassuring. I did skip dessert last night and walked for 20 minutes after dinner."}
+{"turn_id": 16, "speaker": "doctor", "text": "That likely helped. Let’s also recheck your blood pressure in a few minutes to confirm consistency."}
+{"turn_id": 17, "speaker": "patient", "text": "It’s still 90—same as that reading when you first checked."}
+{"turn_id": 18, "speaker": "doctor", "text": "Right—the same diastolic number we recorded at the start of the visit. That confirms persistent elevation, so we’ll need to optimize your antihypertensive plan soon."}
+{"turn_id": 19, "speaker": "patient", "text": "Understood. Should I schedule a follow-up in two weeks?"}

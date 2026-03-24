@@ -1,64 +1,55 @@
 # Uniq-Cluster Memory
 
-Uniq-Cluster Memory (UCM) is a research codebase for **patient-level unique memory construction** from long medical dialogues.
+Uniq-Cluster Memory (UCM) is a research system for **conflict-aware temporal memory construction** from long medical dialogues.
 
-The current project focuses on Task 1:
+Given a multi-turn patient-doctor dialogue, UCM extracts structured medical facts, groups them into information bundles, grounds relative time expressions, detects value conflicts with bi-temporal tracking, and outputs a set of unique canonical memories with full provenance and conflict history.
 
-- extract structured medical facts from multi-turn dialogue
-- merge repeated mentions into information bundles
-- ground relative time expressions
-- maintain unique canonical memories with explicit conflict history
+## Key Results (Med-LongMem v0.1, n=20)
 
-This repository is currently best understood as a **research prototype with quantitative evidence**, not as a production system.
+| System | Unique-F1(S) | Unique-F1(R) | Conflict-F1 |
+|--------|-------------|-------------|-------------|
+| **UCM (ours)** | **0.8508** | **0.8585** | **0.9762** |
+| Long-Context LLM | 0.3848 | 0.5273 | 0.8867 |
+| Graphiti (simulated) | 0.0627 | 0.5622 | 0.3450 |
+| No Memory | 0.0000 | 0.5938 | 0.1292 |
 
-## Current Status
+## Algorithmic Contributions
 
-The repository already supports:
+1. **Bi-Temporal Conflict Graph**: Each memory carries four timestamps (t_event, t_ingest, t_valid_start, t_valid_end) with confidence-weighted multi-candidate conflict resolution instead of binary winner selection. Ref: Zep/Graphiti (arXiv 2025.01), EvoKG (arXiv 2025.09).
 
-- `Med-LongMem` quantitative evaluation for Task 1
-- `M1` extraction-only evaluation
-- module ablations
-- real-world validation on official `MedDialog`
+2. **Causal Deconfounded Information Bundling**: Structural causal model with backdoor adjustment to prevent spurious event coreference caused by lexical overlap, temporal proximity, and speaker identity confounders. Ref: Causal Graph ECR (Scientific Reports 2025).
 
-Current supporting docs:
-
-- task-oriented plan: `docs/task1_research_plan.md`
-- publication-oriented summary: `docs/task1_publication_summary.md`
+3. **Medical Domain Formal Constraints**: Rule-based temporal logic constraints (medication start/stop, diagnosis-test ordering, dose monotonicity) that adjust candidate confidence without LLM calls. Ref: ALICE (ASE 2024).
 
 ## Pipeline
 
-The main UCM pipeline is:
+```
+Dialogue → M1 (Event Extraction) → M2 (Attribute Clustering)
+         → M2.5 (Information Bundle Construction + Causal Deconfounding)
+         → M3 (Time Grounding + Bi-Temporal Conflict Resolution + Formal Constraints)
+         → M4 (Compression) → M5 (Hybrid Retrieval)
+```
 
-1. `M1` event extraction
-2. `M2` attribute clustering
-3. `M2.5` information bundle construction
-4. `M3` time grounding + uniqueness/conflict management
-5. `M4` memory compression
-6. `M5` retrieval
-
-Core entry:
-
-- `src/uniq_cluster_memory/pipeline.py`
+Core entry: `src/uniq_cluster_memory/pipeline.py`
 
 ## Repository Layout
 
 ```text
 uniq_cluster_memory/
-├── baselines/          baseline systems
-├── benchmarks/         dataset loaders
-├── configs/            retrieval and policy configs
-├── docs/               design notes and research summaries
-├── evaluation/         metric implementations
-├── experiments/        quantitative experiment runners
-├── scripts/            utility and validation scripts
+├── baselines/              baseline systems (long_context_llm, graphiti, hybrid_rag, recursive_summary)
+├── benchmarks/             dataset loaders (med_longmem, meddialog, meditod, longmemeval)
+├── evaluation/             metrics (uniqueness, conflict, temporal, extraction, llm_judge, error_analysis)
+├── experiments/            experiment runners (eval_our_method, run_ablation, eval_extraction)
+├── scripts/                utilities (generate_med_longmem, build_realworld_validation, etc.)
 ├── src/uniq_cluster_memory/
-│   ├── m1_event_extraction/
-│   ├── m2_clustering/
-│   ├── m3_uniqueness/
-│   ├── m4_compression/
-│   ├── m5_retrieval/
-│   └── pipeline.py
-└── tests/              unit and regression tests
+│   ├── m1_event_extraction/    LLM-based sliding window extractor
+│   ├── m2_clustering/          attribute clustering + causal_scorer
+│   ├── m3_uniqueness/          time_grounder + conflict_detector + formal_constraints + manager
+│   ├── m4_compression/         lightweight compression
+│   ├── m5_retrieval/           hybrid struct+semantic+recency retrieval
+│   ├── schema.py               CanonicalMemory, CandidateValue, ConflictRecord
+│   └── pipeline.py             orchestrator
+└── tests/                  88 unit and regression tests
 ```
 
 ## Setup
@@ -69,150 +60,85 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set one LLM key before running experiments:
+Set one LLM key:
 
 ```bash
-export QWEN_API_KEY="your-api-key-here"
-# or
 export DASHSCOPE_API_KEY="your-api-key-here"
-# or
-export OPENAI_API_KEY="your-api-key-here"
-```
-
-Optional runtime knobs:
-
-```bash
-export LLM_TIMEOUT_SECONDS=60
-export LLM_MAX_RETRIES=2
-export QWEN_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+# or QWEN_API_KEY / OPENAI_API_KEY
 ```
 
 ## Datasets
 
-The codebase currently uses:
+- `Med-LongMem v1.0`: 200 samples (40 Easy / 80 Medium / 80 Hard), GT-first synthetic benchmark
+- `Med-LongMem v0.1`: 20 Hard samples (validation release)
+- `MedDialog`: real-world external validation (silver GT + audit)
 
-- `Med-LongMem`: main quantitative benchmark for unique-memory evaluation
-- `MedDialog`: real-world external validation
-- `LongMemEval`: auxiliary long-memory benchmark support
+Generate Med-LongMem v1.0:
 
-Expected local data locations:
-
-- `data/raw/med_longmem`
-- `data/raw/meddialog`
-- `data/raw/meddialog_official`
-- `data/raw/longmemeval`
+```bash
+PYTHONPATH=. .venv/bin/python scripts/generate_med_longmem.py \
+  --n_samples 200 --difficulty mix --seed 100 \
+  --output_dir data/raw/med_longmem_v1
+```
 
 ## Main Commands
 
-### 1. Run Task 1 Main Evaluation
+### Run Full Evaluation
 
 ```bash
-export PYTHONPATH=.
-export QWEN_API_KEY="your-api-key-here"
-
-.venv/bin/python experiments/eval_our_method.py \
+PYTHONPATH=. .venv/bin/python experiments/eval_our_method.py \
   --data_path data/raw/med_longmem \
   --output_path results/main_results/our_method_eval.json
 ```
 
-This evaluates the full UCM pipeline on `Med-LongMem` and reports:
-
-- `Unique-F1(strict)`
-- `Unique-F1(relaxed)`
-- `Conflict-F1`
-- `Attribute Coverage`
-- `Redundancy`
-
-### 2. Evaluate M1 Extraction
+### Run Ablation Experiments (8 variants)
 
 ```bash
-export PYTHONPATH=.
-export QWEN_API_KEY="your-api-key-here"
-
-.venv/bin/python experiments/eval_extraction.py \
-  --data_path data/raw/med_longmem \
-  --output_path results/main_results/extraction_eval_med_longmem.json
+PYTHONPATH=. .venv/bin/python experiments/run_ablation.py \
+  --ablation all --max_samples 20
 ```
 
-This reports:
+Ablation variants: `full`, `w/o_time`, `w/o_conflict`, `w/o_m4`, `w/o_m2`, `w/o_bitemporal`, `w/o_formal_constraints`, `w/o_causal_deconfound`
 
-- strict event F1: `attribute + value + unit + time_scope`
-- relaxed event F1: `attribute + value + unit`
-- field-level F1 for `attribute/value/unit/time_scope/speaker`
-
-### 3. Run Ablations
+### Run Baselines
 
 ```bash
-export PYTHONPATH=.
-export QWEN_API_KEY="your-api-key-here"
+# Long-Context LLM
+PYTHONPATH=. .venv/bin/python baselines/long_context_llm.py \
+  --data_path data/raw/med_longmem
 
-.venv/bin/python experiments/run_ablation.py \
-  --ablation all \
-  --max_samples 20
+# Graphiti (simulated)
+PYTHONPATH=. .venv/bin/python baselines/graphiti_baseline.py \
+  --data_path data/raw/med_longmem
 ```
 
-Output:
-
-- `results/ablation/ablation_summary.json`
-
-### 4. Build Real-World Validation Package
+### Run LLM-as-Judge Evaluation
 
 ```bash
-export PYTHONPATH=.
-export QWEN_API_KEY="your-api-key-here"
-
-.venv/bin/python scripts/build_realworld_validation.py \
-  --data_path data/raw/meddialog_official/processed_zh_test.json \
-  --n_samples 20 \
-  --min_turns 10 \
-  --audit_ratio 0.2 \
-  --case_count 5 \
-  --reference_date 2024-01-01 \
-  --output_dir results/real_world_validation/meddialog_official_zh_test_long_r20_s42_ref2024
+PYTHONPATH=. .venv/bin/python evaluation/llm_judge_eval.py \
+  --data_path data/raw/med_longmem --max_samples 20
 ```
 
-Notes:
+### Run Error Analysis
 
-- `MedDialog` does not provide gold labels for unique memory
-- this script should be used for `silver GT + audit + case study`
-- do not use the same-version silver output as headline self-proof
+```bash
+PYTHONPATH=. .venv/bin/python evaluation/error_analysis.py \
+  --data_path data/raw/med_longmem --max_samples 20
+```
 
-### 5. Run Tests
+### Run Tests
 
 ```bash
 .venv/bin/python -m pytest -q
 ```
 
-## Useful Scripts
+## Ablation Results (Med-LongMem v0.1)
 
-- `scripts/run_pipeline.py`: run UCM on a chosen dataset
-- `scripts/run_manual_eval_meddialog.py`: build a manual review package for `MedDialog`
-- `scripts/generate_med_longmem.py`: generate or extend the synthetic benchmark
-- `scripts/preview_bundles.py`: inspect bundle graph outputs on a few samples
-
-## Current Evidence Chain
-
-The current Task 1 evidence is organized as:
-
-1. `M1` extraction quality on `Med-LongMem`
-2. full UCM Task 1 metrics on `Med-LongMem`
-3. ablations for `time`, `conflict`, `M2`, and `M4`
-4. real-world validation on official `MedDialog`
-
-See:
-
-- `docs/task1_publication_summary.md`
-
-## Limitations
-
-- real-world `MedDialog` validation is currently `silver + audit`, not real-world gold evaluation
-- `M1` still has long-tail latency on some noisy dialogues
-- `M4` is currently a supporting layer, not the strongest contribution of the system
-
-## Recommendation
-
-For reporting or paper writing, the strongest current framing is:
-
-- use `Med-LongMem` as the main quantitative benchmark
-- use `MedDialog` as real-world qualitative validation
-- emphasize `information bundling + time grounding + conflict history`
+| Variant | U-F1(S) | Δ | C-F1 |
+|---------|---------|---|------|
+| full | 0.8508 | — | 0.9762 |
+| w/o_time | 0.1233 | -85.5% | 0.2583 |
+| w/o_m2 | 0.5680 | -33.2% | 0.0000 |
+| w/o_causal_deconfound | 0.7700 | -9.5% | 0.8533 |
+| w/o_formal_constraints | 0.7900 | -7.1% | 0.9233 |
+| w/o_m4 | 0.8349 | -1.9% | 0.9662 |

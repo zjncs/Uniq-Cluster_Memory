@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on insulin glargine 10 units every night for your diabetes management."}
+{"turn_id": 1, "speaker": "patient", "text": "Yes, I've been taking it consistently at bedtime for the past few months."}
+{"turn_id": 2, "speaker": "doctor", "text": "Let’s review your overall health today. Have you noticed any new or worsening symptoms lately?"}
+{"turn_id": 3, "speaker": "doctor", "text": "Based on your recent labs and clinical assessment, your primary diagnosis is Chronic Kidney Disease Stage 3."}
+{"turn_id": 4, "speaker": "doctor", "text": "I also noticed your temperature was elevated at 39.0 °C when you arrived—have you had chills, fatigue, or any signs of infection?"}
+{"turn_id": 5, "speaker": "doctor", "text": "Your blood pressure reading just now was 167 over 92 mmHg—higher than we'd like, especially given your kidney disease."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve felt really tired and achy the last two days, and I’ve been urinating much more frequently than usual."}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s important—increased urination can be related to both hyperglycemia and possible urinary tract involvement in CKD. Any burning or urgency?"}
+{"turn_id": 8, "speaker": "patient", "text": "Yes, polyuria—especially overnight—I’m up three or four times a night to go."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your heart rate is also elevated at 123 bpm—likely reflecting your fever and possible volume depletion from frequent urination."}
+{"turn_id": 10, "speaker": "patient", "text": "I did take some acetaminophen earlier, and my fever seemed to come down a bit."}
+{"turn_id": 11, "speaker": "doctor", "text": "That aligns with your current temperature of 37.9 °C—we’re seeing improvement, though still mildly febrile."}
+{"turn_id": 12, "speaker": "patient", "text": "My legs feel a little swollen this morning, and I’ve had a dull headache since yesterday."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your CKD, hypertension, and persistent hyperglycemia despite basal insulin, we need to reassess your glucose-lowering strategy."}
+{"turn_id": 14, "speaker": "patient", "text": "I’ve been checking my sugars at home—they’ve been running high, mostly 180–220 before meals."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your repeat BP after hydration and rest is now 139 over 84 mmHg—much better, and likely reflects improved volume status."}
+{"turn_id": 16, "speaker": "doctor", "text": "That’s a good sign—but let’s address your glycemic control more comprehensively."}
+{"turn_id": 17, "speaker": "patient", "text": "Is there something else I should be taking besides the insulin?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes—I’m going to add metformin 1000 mg twice daily, starting today. We’ll monitor your renal function closely, but your eGFR is stable enough to proceed safely."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify—my blood pressure was back up to 167 mmHg when I checked it again at home an hour ago, the same number as that reading from earlier."}

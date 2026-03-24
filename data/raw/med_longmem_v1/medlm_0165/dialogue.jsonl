@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — your heart rate today is 77 beats per minute, which is within the normal range."}
+{"turn_id": 1, "speaker": "doctor", "text": "You're currently on insulin glargine 16 units once daily at bedtime for blood sugar control."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your fasting blood glucose this morning was 6.5 mmol/L — that’s well within target for someone with diabetes."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure reading is 99 mmHg — slightly elevated, but we’ll monitor it closely."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your hemoglobin level is 121 g/L, which is mildly low but not critically so — we’ll consider possible contributing factors like chronic disease or nutritional status."}
+{"turn_id": 5, "speaker": "doctor", "text": "How have you been feeling overall since your last visit? Any new symptoms or concerns?"}
+{"turn_id": 6, "speaker": "patient", "text": "Actually, I’ve had some nausea off and on since yesterday — it’s not constant, but it comes in waves, especially after meals."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, I mentioned that — nausea, mostly in the mornings and after lunch."}
+{"turn_id": 8, "speaker": "doctor", "text": "Thanks for clarifying. Given your history and current presentation, I’d like to confirm your primary diagnosis: coronary artery disease, which we’ve been managing alongside your type 2 diabetes."}
+{"turn_id": 9, "speaker": "doctor", "text": "Coronary artery disease — confirmed based on your prior stress test and angiogram findings from last year."}
+{"turn_id": 10, "speaker": "patient", "text": "Right, yes. My cardiologist said it’s stable, but I’ve been more tired lately, and sometimes my chest feels a bit tight when I walk up stairs."}
+{"turn_id": 11, "speaker": "doctor", "text": "That’s important — let’s check your heart rate again now. Hmm, it’s dropped to 56 bpm. That’s a noticeable change from the 77 we saw earlier — any dizziness or lightheadedness?"}
+{"turn_id": 12, "speaker": "patient", "text": "A little dizzy when I stand up quickly — and my ankles have been a bit swollen the past two days."}
+{"turn_id": 13, "speaker": "doctor", "text": "Given the bradycardia, new edema, and elevated diastolic pressure, I think it’s time to adjust your antihypertensive regimen. I’m going to switch you from your current calcium channel blocker to amlodipine 10 mg once daily."}
+{"turn_id": 14, "speaker": "patient", "text": "Amlodipine? I’ve taken that before — didn’t it make my ankles swell more?"}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s a fair concern — we’ll start at the lowest effective dose and add close monitoring. Your diastolic pressure has risen to 110 mmHg, which supports the need for adjustment."}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — your heart rate is now 56 bpm, down from 77 earlier. We’ll hold off on beta-blockers for now and reassess in one week."}
+{"turn_id": 17, "speaker": "doctor", "text": "I am going to switch you to amlodipine 10 mg once daily, starting tomorrow morning. Please take it with breakfast and avoid grapefruit juice."}
+{"turn_id": 18, "speaker": "doctor", "text": "And your diastolic blood pressure is now 110 mmHg — higher than the 99 we recorded earlier — so we’ll track this closely over the next few days."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to confirm — my blood sugar is still 6.5 mmol/L, same as that reading from this morning."}

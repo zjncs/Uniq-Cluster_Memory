@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vitals — today's systolic blood pressure is 132 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Hi, thanks for seeing me. I’ve been feeling a bit fatigued and lightheaded, especially when standing up."}
+{"turn_id": 2, "speaker": "doctor", "text": "I see your heart rate is elevated at 130 bpm — that’s quite high for resting. Any chest discomfort or palpitations?"}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, sometimes my heart feels like it’s racing, and I get short of breath walking up stairs."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic blood pressure is 66 mmHg — on the lower side, which may contribute to those symptoms."}
+{"turn_id": 5, "speaker": "patient", "text": "That makes sense — I’ve noticed dizziness more often in the afternoons."}
+{"turn_id": 6, "speaker": "doctor", "text": "Based on your labs and imaging, we’re confirming Chronic Kidney Disease Stage 3 as your primary diagnosis."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fasting blood glucose today is 8.3 mmol/L — above target range for someone with CKD and diabetes risk."}
+{"turn_id": 8, "speaker": "doctor", "text": "You're currently on Metformin 1000mg twice daily — let’s keep that for now while we monitor closely."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been trying to watch my diet, but I admit I skipped checking my glucose a few times last week."}
+{"turn_id": 10, "speaker": "doctor", "text": "Consistent monitoring is key — especially since kidney function affects how medications are cleared."}
+{"turn_id": 11, "speaker": "patient", "text": "Right — I’ve also had some swelling in my ankles lately, more than usual."}
+{"turn_id": 12, "speaker": "doctor", "text": "Actually, your blood glucose just rechecked at 10.5 mmol/L — that’s a notable rise from this morning’s 8.3, so we’ll need to reassess your regimen."}
+{"turn_id": 13, "speaker": "patient", "text": "Oh — I did have a larger lunch than planned, but still… that’s higher than I expected."}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your CKD Stage 3, rising glucose, and borderline hypotension, we need better renal-protective control."}
+{"turn_id": 15, "speaker": "patient", "text": "Is there something else we can add or change? Metformin’s been okay, but maybe not enough anymore."}
+{"turn_id": 16, "speaker": "doctor", "text": "Yes — I’m going to switch you to Lisinopril 20mg once daily. It helps protect your kidneys and manage blood pressure long-term."}
+{"turn_id": 17, "speaker": "doctor", "text": "Also, your repeat heart rate is now 113 bpm — still elevated, but down from 130 earlier. That’s encouraging, though we’ll keep watching it."}
+{"turn_id": 18, "speaker": "patient", "text": "That diastolic number you mentioned earlier — 66 mmHg — I checked it again at home this morning, and it was the same."}
+{"turn_id": 19, "speaker": "doctor", "text": "Thanks for confirming that reading — consistent low diastolic pressure reinforces our need to avoid over-diuresis and monitor for orthostatic changes."}

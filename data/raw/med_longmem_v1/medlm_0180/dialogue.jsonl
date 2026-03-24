@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Your hemoglobin level today is 174 g/L — that's within the normal range for adult males."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit tired lately, but I wasn’t sure if it was related to anything serious."}
+{"turn_id": 2, "speaker": "doctor", "text": "We’ll keep an eye on that. Let’s also review your current medications and recent lab values."}
+{"turn_id": 3, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40 mg once daily at night for cholesterol management and cardiovascular protection."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your fasting blood glucose came back at 13.1 mmol/L — significantly elevated, suggesting uncontrolled diabetes."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your history, risk factors, and test results, your primary diagnosis remains Coronary Artery Disease."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your systolic blood pressure today is 168 mmHg — that’s in the stage 2 hypertension range."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes — I’ve had palpitations several times this week, especially after meals or when I’m stressed."}
+{"turn_id": 8, "speaker": "doctor", "text": "That’s important. Palpitations can be linked to hyperglycemia, hypertension, or even arrhythmias — we’ll evaluate further."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your diastolic pressure is 71 mmHg, so your full reading is 168 over 71."}
+{"turn_id": 10, "speaker": "patient", "text": "I checked my blood sugar at home yesterday — it was 12.4, so it seems consistently high."}
+{"turn_id": 11, "speaker": "doctor", "text": "Actually, your repeat hemoglobin value from the same blood draw was 180 g/L — slightly higher than the first reading of 174. We’ll monitor for any trends."}
+{"turn_id": 12, "speaker": "patient", "text": "Oh, okay — I didn’t realize there were two readings. Is that something to worry about?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Given your persistently high glucose, I am going to switch you from oral agents to Insulin glargine 16 units once nightly to improve glycemic control."}
+{"turn_id": 14, "speaker": "patient", "text": "Alright, I’ll start that tonight. Should I still check my sugars regularly?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Yes — please log fasting and postprandial readings. Also, let’s recheck your blood pressure next visit."}
+{"turn_id": 16, "speaker": "doctor", "text": "By the way, your most recent diastolic pressure reading was 78 mmHg — up from 71 earlier — likely due to technique or cuff placement, but we’ll track it closely."}
+{"turn_id": 17, "speaker": "patient", "text": "Right — that matches the 174 g/L hemoglobin you mentioned at the start."}
+{"turn_id": 18, "speaker": "doctor", "text": "Your latest systolic reading today is 180 mmHg — up from the 168 we saw earlier — so we’ll need to reassess your antihypertensive regimen too."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked my BP at home this morning, it was 168 — same as the first number you gave me."}

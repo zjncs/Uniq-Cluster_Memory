@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. I see you're currently on Lisinopril 20mg once daily for blood pressure control—started back on May 15th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your primary diagnosis remains essential hypertension, which we've been managing with that medication."}
+{"turn_id": 2, "speaker": "doctor", "text": "At your visit today, your heart rate was elevated at 130 beats per minute—higher than expected for resting state."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your hemoglobin level came back at 171 g/L, which is within the upper end of normal for adult males."}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I’ve been taking the Lisinopril regularly. But over the past two days, I’ve noticed my vision getting blurry—especially when reading or looking at screens."}
+{"turn_id": 5, "speaker": "patient", "text": "It’s been pretty consistent since yesterday morning."}
+{"turn_id": 6, "speaker": "doctor", "text": "That’s concerning—your fingerstick blood glucose just came back at 12.7 mmol/L, which is significantly elevated and could explain the blurred vision."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your temperature is normal at 36.9°C, so no signs of acute infection right now."}
+{"turn_id": 8, "speaker": "patient", "text": "I didn’t realize my sugar was that high—I haven’t been checking regularly, but I have been feeling more thirsty and tired lately."}
+{"turn_id": 9, "speaker": "doctor", "text": "Given this new information, we need to assess whether you may have undiagnosed type 2 diabetes—and how it’s interacting with your hypertension management."}
+{"turn_id": 10, "speaker": "patient", "text": "Makes sense. My father was diagnosed with diabetes in his fifties, so I guess I’m at higher risk."}
+{"turn_id": 11, "speaker": "doctor", "text": "I just rechecked your heart rate—it’s now 111 bpm, still elevated but down from the earlier 130. That suggests some responsiveness, though we’ll monitor closely."}
+{"turn_id": 12, "speaker": "doctor", "text": "I’m going to add Atorvastatin 20mg at night to help with cardiovascular risk reduction, especially given your hypertension and now elevated glucose."}
+{"turn_id": 13, "speaker": "doctor", "text": "Interestingly, your repeat hemoglobin is now 147 g/L—lower than the 171 we saw earlier. We’ll want to rule out lab variability or possible early dehydration effect."}
+{"turn_id": 14, "speaker": "patient", "text": "I did drink quite a bit of water before coming in—maybe that affected it?"}
+{"turn_id": 15, "speaker": "doctor", "text": "Possibly. We’ll repeat the CBC in a week under standardized conditions. In the meantime, let’s get you scheduled for HbA1c and fasting glucose testing tomorrow morning."}
+{"turn_id": 16, "speaker": "doctor", "text": "One more note—your temperature has dropped slightly to 36.0°C. It’s still within normal limits, but I’ll keep an eye on trends, especially with your symptoms."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay, thank you. Should I hold off on the Lisinopril if my blood pressure feels low?"}
+{"turn_id": 18, "speaker": "doctor", "text": "No—keep taking it as prescribed unless you develop dizziness or systolic BP below 100. We’ll adjust based on home readings and follow-up labs."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify—I remember your first reading said hemoglobin was 171 g/L and temperature was 36.9°C, so those numbers must be the baseline before things shifted."}

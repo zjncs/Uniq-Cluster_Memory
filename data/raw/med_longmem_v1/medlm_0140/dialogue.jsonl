@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I've been feeling a bit lightheaded when I stand up quickly lately."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your recent evaluation, your primary diagnosis is Essential Hypertension, confirmed on February 27th."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level was 175 g/L on that same date — well within the normal range for adult males."}
+{"turn_id": 3, "speaker": "doctor", "text": "Your diastolic blood pressure reading that day was 60 mmHg, which is on the lower end but not alarming yet."}
+{"turn_id": 4, "speaker": "patient", "text": "Oh, okay. I’ve been checking my BP at home — sometimes it feels low, especially in the mornings."}
+{"turn_id": 5, "speaker": "doctor", "text": "That’s helpful to know. Let’s review your full set of vitals from the visit. Your systolic pressure was recorded at 132 mmHg on February 27th."}
+{"turn_id": 6, "speaker": "patient", "text": "Wait — I think I saw a higher number on my chart last time. Wasn’t it 143?"}
+{"turn_id": 7, "speaker": "doctor", "text": "You're right — we did record a systolic of 143 mmHg earlier that same day during triage. That variation can happen due to stress or activity before measurement."}
+{"turn_id": 8, "speaker": "doctor", "text": "You’re currently on Metformin 500mg twice daily, started on February 27th, primarily for prediabetes management alongside your hypertension."}
+{"turn_id": 9, "speaker": "patient", "text": "Yes, I’ve been taking it consistently. My fasting sugars have improved, but I’m still noticing dizziness."}
+{"turn_id": 10, "speaker": "doctor", "text": "Given the fluctuating readings and your symptoms, let’s double-check your diastolic pressure — it was 60 mmHg again during our repeat measurement later that day."}
+{"turn_id": 11, "speaker": "patient", "text": "That matches what I’ve been seeing at home — often around 60."}
+{"turn_id": 12, "speaker": "doctor", "text": "Also, your hemoglobin came back at 180 g/L on the same lab draw — slightly elevated from the earlier 175 g/L, possibly reflecting mild hemoconcentration or assay variation."}
+{"turn_id": 13, "speaker": "patient", "text": "Hmm, interesting. I didn’t realize it had gone up — is that something to worry about?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Not acutely — but given your persistent low diastolic pressures and symptom burden, I’d like to adjust your Metformin dose to improve metabolic control more robustly."}
+{"turn_id": 15, "speaker": "doctor", "text": "I am going to switch you to Metformin 1000mg twice daily, starting tomorrow. We’ll monitor for GI tolerance and reassess your BP trends next week."}
+{"turn_id": 16, "speaker": "patient", "text": "Okay, I’ll start that. Should I keep tracking my BP at home?"}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes — especially the diastolic value. Please note the time and position — seated, rested for five minutes."}
+{"turn_id": 18, "speaker": "patient", "text": "Will do. Actually, just now — right before coming in — I checked and got a diastolic of 60 mmHg again, same as that reading from the visit."}
+{"turn_id": 19, "speaker": "doctor", "text": "Thanks for confirming that — it reinforces the pattern we saw. Let’s schedule a follow-up in seven days to assess response and review any side effects from the new dose."}

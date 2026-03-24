@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning, Mr. Thompson. Based on your recent lab work and clinical evaluation, I’m diagnosing you with Type 2 Diabetes Mellitus, effective as of August 1st."}
+{"turn_id": 1, "speaker": "patient", "text": "Thank you, Doctor. I’ve been feeling more tired than usual, and I’ve noticed some increased thirst lately."}
+{"turn_id": 2, "speaker": "doctor", "text": "I’m also prescribing Atorvastatin 40 milligrams to be taken once daily at bedtime to help manage your cholesterol and reduce cardiovascular risk."}
+{"turn_id": 3, "speaker": "patient", "text": "Got it—I’ll start that tonight. Should I take it with food?"}
+{"turn_id": 4, "speaker": "doctor", "text": "It can be taken with or without food. By the way, your diastolic blood pressure today was 97 mmHg—slightly elevated."}
+{"turn_id": 5, "speaker": "patient", "text": "Oh, really? I’ve been trying to cut back on salt, but maybe I need to monitor it more closely."}
+{"turn_id": 6, "speaker": "doctor", "text": "Yes—and I noticed your heart rate was elevated at 112 beats per minute just now. Were you feeling anxious or short of breath?"}
+{"turn_id": 7, "speaker": "doctor", "text": "That’s correct—your heart rate was 112 bpm during the initial assessment."}
+{"turn_id": 8, "speaker": "doctor", "text": "Your systolic blood pressure reading at that time was 101 mmHg—also on the lower side, especially paired with the elevated heart rate."}
+{"turn_id": 9, "speaker": "patient", "text": "Hmm, I did rush in a bit—I walked up two flights of stairs before the appointment. Could that explain the high heart rate?"}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, when I rechecked your diastolic pressure a few minutes later, it had risen to 110 mmHg—so it’s not just a transient spike."}
+{"turn_id": 11, "speaker": "doctor", "text": "And your systolic dropped to 90 mmHg on that second reading—quite a shift from the earlier 101. That pattern suggests possible orthostatic or autonomic influence, especially with diabetes."}
+{"turn_id": 12, "speaker": "doctor", "text": "Your repeat heart rate settled at 82 bpm—much more stable and within normal range—so the initial 112 may have reflected exertion or stress."}
+{"turn_id": 13, "speaker": "patient", "text": "That makes sense. I’ve also been having occasional dizziness when standing up quickly—could that be related?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Very likely. Given your diabetes, blood pressure variability, and symptoms, we should evaluate for autonomic neuropathy and consider antihypertensive therapy that also protects the kidneys."}
+{"turn_id": 15, "speaker": "patient", "text": "Okay—what would you recommend?"}
+{"turn_id": 16, "speaker": "doctor", "text": "We’ll hold off on adjusting the Atorvastatin for now, but I’d like to add a medication to help stabilize your blood pressure and provide renal protection."}
+{"turn_id": 17, "speaker": "patient", "text": "Is it something different from what I’m already taking?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes—I’m going to switch you to Lisinopril 10 mg once daily in the morning. It’s an ACE inhibitor that helps control blood pressure and reduces diabetic kidney disease risk."}
+{"turn_id": 19, "speaker": "patient", "text": "Just to clarify—when I felt that racing heartbeat earlier, that was the same 112 bpm you noted at the start, right?"}

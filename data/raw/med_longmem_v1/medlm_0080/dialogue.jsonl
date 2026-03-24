@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start with your vital signs from today's visit—your diastolic blood pressure is 67 mmHg."}
+{"turn_id": 1, "speaker": "doctor", "text": "Your fasting blood glucose is 4.0 mmol/L, which is on the lower end of normal but within acceptable range for now."}
+{"turn_id": 2, "speaker": "doctor", "text": "Based on your history and current readings, we're continuing the diagnosis of Essential Hypertension."}
+{"turn_id": 3, "speaker": "patient", "text": "Yes, I’ve been monitoring at home—I usually get readings around 135 over 82, but sometimes lower in the mornings."}
+{"turn_id": 4, "speaker": "doctor", "text": "That’s helpful. Any dizziness, fatigue, or palpitations lately? Especially when standing up?"}
+{"turn_id": 5, "speaker": "patient", "text": "A little lightheaded when I get up quickly—but I thought it was just dehydration."}
+{"turn_id": 6, "speaker": "doctor", "text": "I’m continuing your insulin glargine at 10 units nightly to help stabilize your glucose and support overall metabolic control."}
+{"turn_id": 7, "speaker": "patient", "text": "Okay—I’ve been taking it consistently, though I did skip one dose last week because my fingerstick reading was 3.8."}
+{"turn_id": 8, "speaker": "doctor", "text": "We’ll keep an eye on that. Let’s also check your hemoglobin—we sent labs this morning."}
+{"turn_id": 9, "speaker": "doctor", "text": "Your hemoglobin came back at 84 g/L—this is significantly low and suggests possible anemia."}
+{"turn_id": 10, "speaker": "doctor", "text": "Wait—actually, the lab technician flagged a possible mix-up; the repeat draw showed 111 g/L, which is much more consistent with your recent trends."}
+{"turn_id": 11, "speaker": "patient", "text": "Oh, good—I’ve been feeling less tired since I started eating more iron-rich foods."}
+{"turn_id": 12, "speaker": "doctor", "text": "That’s encouraging. Still, we’ll repeat the test next week to confirm. Any chest discomfort or shortness of breath?"}
+{"turn_id": 13, "speaker": "patient", "text": "Not really—just occasional mild headaches, especially in the afternoon."}
+{"turn_id": 14, "speaker": "doctor", "text": "Your diastolic pressure today is 60 mmHg—lower than the 67 we saw earlier. That could explain the lightheadedness."}
+{"turn_id": 15, "speaker": "patient", "text": "Yes, it’s been happening more often—I even checked it twice this morning and got 60 both times."}
+{"turn_id": 16, "speaker": "doctor", "text": "Given your hypertension diagnosis and these borderline-low readings, we need to reassess your antihypertensive regimen—but first, let’s address cardiovascular risk."}
+{"turn_id": 17, "speaker": "patient", "text": "Right—I know my cholesterol was high at the last visit. Did the lipid panel come back?"}
+{"turn_id": 18, "speaker": "doctor", "text": "It did. I’m going to switch you from simvastatin to atorvastatin 20 mg nightly—it has better evidence for reducing cardiovascular events in patients with hypertension and diabetes."}
+{"turn_id": 19, "speaker": "patient", "text": "Understood. And just to clarify—when you mentioned that 84 g/L earlier, that’s the same number from the first lab draw you referred to, right?"}

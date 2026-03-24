@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by reviewing your lab results from yesterday's visit. Your hemoglobin was 109 g/L — that's below the normal range, which may suggest mild anemia."}
+{"turn_id": 1, "speaker": "patient", "text": "Good morning, Doctor. Yes, I've been feeling quite tired lately — like I can't catch up on rest no matter how much I sleep."}
+{"turn_id": 2, "speaker": "doctor", "text": "I also see your systolic blood pressure was elevated at 160 mmHg during the initial assessment yesterday."}
+{"turn_id": 3, "speaker": "doctor", "text": "And your body temperature was notably high — 39.9°C — indicating a significant fever at the time."}
+{"turn_id": 4, "speaker": "patient", "text": "That’s right — the fever came on suddenly, with chills and body aches. It’s gone down a bit today, but I still feel weak."}
+{"turn_id": 5, "speaker": "doctor", "text": "Given your symptoms and vitals, we ran several tests. Did you notice any increased thirst or frequent urination recently?"}
+{"turn_id": 6, "speaker": "patient", "text": "Yes — fatigue has been constant since last week, and I’ve been urinating more often, especially at night."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your fasting blood glucose came back at 11.6 mmol/L — well above the diagnostic threshold for diabetes."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on these findings — persistent hyperglycemia, symptoms of polyuria and fatigue, and absence of ketosis — we’re diagnosing Type 2 Diabetes Mellitus."}
+{"turn_id": 9, "speaker": "patient", "text": "Oh… I had no idea it could present like this. My father has diabetes, so I guess I’m not surprised, but I didn’t expect the fever to be related."}
+{"turn_id": 10, "speaker": "doctor", "text": "Actually, when we repeated the hemoglobin test later yesterday, it dropped further to 90 g/L — that’s concerning and suggests either acute blood loss or worsening anemia, possibly linked to inflammation from the infection."}
+{"turn_id": 11, "speaker": "patient", "text": "I did have some dark stools two days ago — could that be relevant?"}
+{"turn_id": 12, "speaker": "doctor", "text": "Very much so — we’ll need urgent stool testing for occult blood and likely refer you for GI evaluation. In the meantime, let’s address your diabetes urgently too."}
+{"turn_id": 13, "speaker": "patient", "text": "I’ve been taking metformin 500 mg once daily since my last endocrinologist visit — is that still okay?"}
+{"turn_id": 14, "speaker": "doctor", "text": "Given your current glucose level and the presence of infection, we need tighter control. I am going to switch you to insulin glargine starting tonight — 10 units subcutaneously at bedtime — while we investigate the anemia."}
+{"turn_id": 15, "speaker": "doctor", "text": "Also, your systolic blood pressure climbed again this morning to 174 mmHg — likely exacerbated by the fever and stress response, but we’ll need to reassess once the infection is under control."}
+{"turn_id": 16, "speaker": "patient", "text": "That makes sense. I’ve been checking my BP at home, and it’s been fluctuating — but I noticed today’s reading was lower than that number."}
+{"turn_id": 17, "speaker": "patient", "text": "Actually, when I checked my hemoglobin value in the portal just now, it still shows 109 g/L — that’s the same as the first reading you mentioned earlier."}
+{"turn_id": 18, "speaker": "doctor", "text": "Ah — yes, that’s the initial venous sample. The 90 g/L was from a capillary point-of-care test drawn shortly after, which can sometimes run lower in acute illness — but we’ll treat it as clinically significant until confirmed otherwise."}
+{"turn_id": 19, "speaker": "patient", "text": "Understood. Should I hold the metformin now that we’re starting insulin?"}

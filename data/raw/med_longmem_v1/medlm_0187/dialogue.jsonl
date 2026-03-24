@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "doctor", "text": "Good morning. Let's start by checking your vitals — your systolic blood pressure today is 144 mmHg."}
+{"turn_id": 1, "speaker": "patient", "text": "Thanks, Doctor. I’ve been feeling a bit off lately — especially with my eyes."}
+{"turn_id": 2, "speaker": "patient", "text": "I’ve had blurred vision since yesterday morning, and it hasn’t improved."}
+{"turn_id": 3, "speaker": "doctor", "text": "Blurred vision can be concerning — let’s check your blood glucose and other labs. Are you taking your medications as prescribed?"}
+{"turn_id": 4, "speaker": "patient", "text": "Yes, I take Atorvastatin every night, just like you told me."}
+{"turn_id": 5, "speaker": "doctor", "text": "Your diastolic blood pressure is 74 mmHg — that’s within acceptable range for now."}
+{"turn_id": 6, "speaker": "patient", "text": "I’ve also been really thirsty and urinating more than usual."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your blood glucose is elevated at 12.7 mmol/L — that’s well above target and likely contributing to your symptoms."}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your labs, imaging, and eGFR, I’m diagnosing you with Chronic Kidney Disease Stage 3."}
+{"turn_id": 9, "speaker": "doctor", "text": "You’re currently on Atorvastatin 40mg nightly — we’ll continue that for now to manage cardiovascular risk."}
+{"turn_id": 10, "speaker": "doctor", "text": "Wait — I just rechecked your blood pressure: systolic is now 161 mmHg. That’s higher than the reading we got earlier."}
+{"turn_id": 11, "speaker": "doctor", "text": "And your glucose has risen further — now 15.0 mmol/L — which reinforces the need for urgent glycemic control."}
+{"turn_id": 12, "speaker": "patient", "text": "That’s strange — I didn’t eat anything between readings. Could stress be affecting it?"}
+{"turn_id": 13, "speaker": "doctor", "text": "Stress and acute illness can elevate both BP and glucose. Given your CKD and hypertension, we need tighter control."}
+{"turn_id": 14, "speaker": "doctor", "text": "I’m going to add Lisinopril 20mg daily — it will help protect your kidneys and lower your blood pressure."}
+{"turn_id": 15, "speaker": "patient", "text": "Will that interact with my Atorvastatin? And how soon should I expect improvement in my vision?"}
+{"turn_id": 16, "speaker": "doctor", "text": "No significant interaction — but we’ll monitor your potassium and creatinine closely. Vision may improve once glucose stabilizes."}
+{"turn_id": 17, "speaker": "patient", "text": "Okay. I’ll watch for dizziness — my mom said low BP can cause blurry vision too."}
+{"turn_id": 18, "speaker": "doctor", "text": "You’re right to be cautious — your diastolic pressure just dropped to 62 mmHg, which is on the lower side."}
+{"turn_id": 19, "speaker": "patient", "text": "Actually, when I checked at home this morning, my blood sugar was the same as that first reading — 12.7 mmol/L — and my systolic was also 144, just like your initial measurement."}

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "I've been urinating much more frequently over the past few days—especially at night. It started around November 7th."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for sharing that. Let me take your temperature now—it's 37.1 °C, which is within normal range."}
+{"turn_id": 2, "speaker": "doctor", "text": "Your hemoglobin level today is 148 g/L—solidly in the normal range for an adult male."}
+{"turn_id": 3, "speaker": "patient", "text": "I’ve also felt a bit lightheaded when standing up quickly, and my heart seems to be racing sometimes."}
+{"turn_id": 4, "speaker": "doctor", "text": "Let me check your pulse—yes, it’s elevated at 112 bpm. That’s tachycardic for resting state."}
+{"turn_id": 5, "speaker": "doctor", "text": "Any chest pain, shortness of breath, or recent infections? Also, are you taking any medications regularly?"}
+{"turn_id": 6, "speaker": "patient", "text": "Just lisinopril 10 mg daily for high blood pressure—I’ve been on it for about two years."}
+{"turn_id": 7, "speaker": "doctor", "text": "Have you noticed any swelling in your legs, changes in vision, or increased thirst along with the frequent urination?"}
+{"turn_id": 8, "speaker": "doctor", "text": "Based on your history and exam, your primary diagnosis remains Essential Hypertension—but we need to investigate why your symptoms have recently worsened."}
+{"turn_id": 9, "speaker": "patient", "text": "Yes—I’ve been extremely thirsty too, and my mouth feels dry all the time. I’ve lost about 4 pounds in a week without trying."}
+{"turn_id": 10, "speaker": "doctor", "text": "Interesting—I just rechecked your heart rate, and it’s now 88 bpm, which is much more stable. That suggests the initial tachycardia may have been situational or stress-related."}
+{"turn_id": 11, "speaker": "doctor", "text": "We should run a fasting glucose and HbA1c given your polyuria, polydipsia, and unintentional weight loss."}
+{"turn_id": 12, "speaker": "patient", "text": "That makes sense—I was worried it might be diabetes, especially since my father has type 2."}
+{"turn_id": 13, "speaker": "doctor", "text": "We’ll also repeat a basic metabolic panel and check for ketones. In the meantime, keep track of your home blood glucose if you have a meter."}
+{"turn_id": 14, "speaker": "patient", "text": "I did check this morning—my fingerstick glucose was 216 mg/dL before breakfast."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s significantly elevated. We’ll need to adjust your antihypertensive therapy soon—lisinopril is still appropriate, but we’ll add monitoring for renal effects given these new findings."}
+{"turn_id": 16, "speaker": "doctor", "text": "Your latest hemoglobin came back at 174 g/L—higher than the 148 we saw earlier today. That jump warrants checking for dehydration or possible polycythemia."}
+{"turn_id": 17, "speaker": "doctor", "text": "And now your temperature is 38.3 °C—I’m concerned you may have developed a low-grade infection, possibly contributing to the hyperglycemia and symptom flare."}
+{"turn_id": 18, "speaker": "patient", "text": "I’ve had a sore throat since yesterday, and my urine smells stronger than usual."}
+{"turn_id": 19, "speaker": "patient", "text": "By the way, that first hemoglobin number you gave me—148 g/L—that’s the one from the lab draw this morning, right?"}

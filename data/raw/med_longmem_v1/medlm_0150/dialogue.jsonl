@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling a bit off lately—tired, some swelling in my ankles, and I’ve had a low-grade fever on and off."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your history and today’s evaluation, your primary diagnosis is Essential Hypertension, first documented on July 11th."}
+{"turn_id": 2, "speaker": "patient", "text": "Hypertension? I didn’t realize it was that serious—I’ve just been monitoring my numbers at home."}
+{"turn_id": 3, "speaker": "doctor", "text": "Let’s review your vitals and labs from today. Your blood glucose came back at 11.7 mmol/L—elevated, especially if you’re fasting."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your diastolic blood pressure reading today is 101 mmHg."}
+{"turn_id": 5, "speaker": "doctor", "text": "And systolic is 114 mmHg—so overall BP is 114 over 101."}
+{"turn_id": 6, "speaker": "doctor", "text": "Your temperature is 37.8 °C—mildly elevated."}
+{"turn_id": 7, "speaker": "patient", "text": "Yes, that matches what I’ve been feeling—the swelling in my lower limbs has gotten worse over the past few days."}
+{"turn_id": 8, "speaker": "doctor", "text": "We’ll need to investigate that further. For now, I’m continuing Atorvastatin 20mg taken once daily at night to support cardiovascular risk reduction."}
+{"turn_id": 9, "speaker": "patient", "text": "I’ve been taking that regularly. But my legs still feel heavy, and sometimes I get short of breath walking up stairs."}
+{"turn_id": 10, "speaker": "doctor", "text": "Those symptoms—edema, dyspnea—could suggest volume overload or early heart failure, especially with your hypertension and elevated glucose. Let’s repeat the BP in a few minutes to confirm consistency."}
+{"turn_id": 11, "speaker": "patient", "text": "Okay. I did check my BP this morning before coming in—it was higher than usual."}
+{"turn_id": 12, "speaker": "doctor", "text": "Indeed—your repeat diastolic reading is now 110 mmHg, which is notably higher than the earlier 101 mmHg we recorded."}
+{"turn_id": 13, "speaker": "doctor", "text": "Your temperature has also normalized to 36.7 °C—likely reflecting transient inflammation or measurement variation earlier."}
+{"turn_id": 14, "speaker": "patient", "text": "That’s interesting—I actually rechecked my temperature just now with my digital thermometer, and it’s back to 37.8 °C."}
+{"turn_id": 15, "speaker": "doctor", "text": "That’s helpful context. Given your persistent hypertension, edema, and now recurrent low-grade fever, we need better BP control and closer renal and cardiac assessment."}
+{"turn_id": 16, "speaker": "doctor", "text": "I am going to switch you from your current antihypertensive regimen to Lisinopril 10mg once daily in the morning—this will help reduce afterload and may improve your edema."}
+{"turn_id": 17, "speaker": "patient", "text": "Lisinopril? I’ve heard it can cause cough—should I watch for that?"}
+{"turn_id": 18, "speaker": "doctor", "text": "Yes, that’s common. Also monitor for dizziness, especially when standing, and avoid NSAIDs. We’ll check your potassium and creatinine in one week."}
+{"turn_id": 19, "speaker": "patient", "text": "Got it. And just to clarify—that 37.8 °C reading I mentioned earlier? That’s the same number as the one you noted at the start—the one from this morning."}

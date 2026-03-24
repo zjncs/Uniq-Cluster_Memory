@@ -176,6 +176,133 @@ def compute_temporal_metrics(
     )
 
 
+@dataclass
+class BiTemporalMetrics:
+    """双时态冲突图专用评测指标。"""
+    valid_time_iou: float           # 基于 t_valid_start/t_valid_end 的 IoU
+    transaction_time_accuracy: float  # t_ingest 排序准确率
+    candidate_top1_accuracy: float  # 最高置信度候选是否匹配 GT
+    candidate_mrr: float            # 候选值的 Mean Reciprocal Rank
+
+
+def _valid_time_interval(mem: CanonicalMemory) -> Optional[Tuple[datetime, datetime]]:
+    """从双时态字段构建有效区间，回退到原始 _interval。"""
+    start = _parse_date(getattr(mem, "t_valid_start", None))
+    end = _parse_date(getattr(mem, "t_valid_end", None))
+    if start and end:
+        return (start, end) if start <= end else (end, start)
+    if start and mem.is_ongoing:
+        return start, datetime.strptime("2100-12-31", "%Y-%m-%d")
+    if start:
+        return start, start
+    # 回退到原始区间
+    return _interval(mem)
+
+
+def compute_bitemporal_metrics(
+    predicted: List[CanonicalMemory],
+    ground_truth: List[CanonicalMemory],
+) -> BiTemporalMetrics:
+    """
+    计算双时态冲突图专用指标。
+
+    1. Valid-Time IoU: 使用 t_valid_start/t_valid_end 计算区间 IoU。
+    2. Transaction-Time Accuracy: 同 (patient_id, attribute) 的 t_ingest 排序准确率。
+    3. Candidate Top-1 Accuracy: qualifiers["candidate_values"] 中最高置信度候选是否匹配 GT。
+    4. Candidate MRR: GT 值在候选排序中的 MRR。
+    """
+    # Valid-Time IoU
+    vt_ious = []
+    for gt in ground_truth:
+        gt_key = _relation_key(gt)
+        cands = [p for p in predicted if _relation_key(p) == gt_key]
+        if not cands:
+            vt_ious.append(0.0)
+            continue
+        best = 0.0
+        gt_interval = _valid_time_interval(gt)
+        if gt_interval is None:
+            vt_ious.append(0.0)
+            continue
+        for p in cands:
+            p_interval = _valid_time_interval(p)
+            if p_interval is None:
+                continue
+            inter_start = max(gt_interval[0], p_interval[0])
+            inter_end = min(gt_interval[1], p_interval[1])
+            if inter_start > inter_end:
+                continue
+            inter_days = (inter_end - inter_start).days + 1
+            union_start = min(gt_interval[0], p_interval[0])
+            union_end = max(gt_interval[1], p_interval[1])
+            union_days = (union_end - union_start).days + 1
+            if union_days > 0:
+                best = max(best, inter_days / union_days)
+        vt_ious.append(best)
+    valid_time_iou = sum(vt_ious) / len(vt_ious) if vt_ious else 0.0
+
+    # Transaction-Time Accuracy
+    tt_correct = 0
+    tt_total = 0
+    gt_by_key: dict = {}
+    for gt in ground_truth:
+        key = (_norm_text(gt.patient_id), (gt.attribute or "").lower())
+        gt_by_key.setdefault(key, []).append(gt)
+    pred_by_key: dict = {}
+    for p in predicted:
+        key = (_norm_text(p.patient_id), (p.attribute or "").lower())
+        pred_by_key.setdefault(key, []).append(p)
+
+    for key in gt_by_key:
+        gt_list = sorted(gt_by_key[key], key=lambda m: getattr(m, "t_ingest", 0) or 0)
+        pred_list = pred_by_key.get(key, [])
+        if len(pred_list) < 2 or len(gt_list) < 2:
+            continue
+        pred_sorted = sorted(pred_list, key=lambda m: getattr(m, "t_ingest", 0) or 0)
+        # 比较排序一致性
+        for i in range(len(pred_sorted) - 1):
+            for j in range(i + 1, len(pred_sorted)):
+                ti_a = getattr(pred_sorted[i], "t_ingest", 0) or 0
+                ti_b = getattr(pred_sorted[j], "t_ingest", 0) or 0
+                if ti_a < ti_b:
+                    tt_correct += 1
+                tt_total += 1
+    tt_accuracy = tt_correct / tt_total if tt_total > 0 else 1.0
+
+    # Candidate Top-1 Accuracy & MRR
+    top1_hits = 0
+    mrr_sum = 0.0
+    n_evaluated = 0
+    for gt in ground_truth:
+        gt_key = _relation_key(gt)
+        # 找到对应的 predicted memory
+        for p in predicted:
+            if _relation_key(p) != gt_key:
+                continue
+            cand_values = (p.qualifiers or {}).get("candidate_values", [])
+            if not cand_values:
+                continue
+            n_evaluated += 1
+            gt_value = _norm_text(gt.value)
+            for rank, cv in enumerate(cand_values, 1):
+                if _norm_text(cv.get("value", "")) == gt_value:
+                    if rank == 1:
+                        top1_hits += 1
+                    mrr_sum += 1.0 / rank
+                    break
+            break
+
+    top1_acc = top1_hits / n_evaluated if n_evaluated > 0 else 0.0
+    mrr = mrr_sum / n_evaluated if n_evaluated > 0 else 0.0
+
+    return BiTemporalMetrics(
+        valid_time_iou=round(valid_time_iou, 4),
+        transaction_time_accuracy=round(tt_accuracy, 4),
+        candidate_top1_accuracy=round(top1_acc, 4),
+        candidate_mrr=round(mrr, 4),
+    )
+
+
 def aggregate_temporal_metrics(metrics_list: List[TemporalMetrics]) -> TemporalAggMetrics:
     if not metrics_list:
         return TemporalAggMetrics(

@@ -1,0 +1,20 @@
+{"turn_id": 0, "speaker": "patient", "text": "Hi, Doctor. I’ve been feeling really off lately—just tired all the time and not myself."}
+{"turn_id": 1, "speaker": "doctor", "text": "Thanks for coming in. Based on your recent labs and clinical evaluation, I’m diagnosing you with Chronic Kidney Disease Stage 3, effective since your visit on September 13th."}
+{"turn_id": 2, "speaker": "patient", "text": "Stage 3? That sounds serious—I didn’t realize my kidneys were that affected."}
+{"turn_id": 3, "speaker": "doctor", "text": "It’s manageable with close monitoring and lifestyle adjustments. Let me check your vitals—your systolic blood pressure today is 158 mmHg, which is elevated."}
+{"turn_id": 4, "speaker": "doctor", "text": "Your heart rate is 64 bpm—within normal range for now."}
+{"turn_id": 5, "speaker": "patient", "text": "Yeah, the fatigue has been constant for about two weeks now. I’m sleeping okay, but I just can’t seem to get energy back."}
+{"turn_id": 6, "speaker": "doctor", "text": "I see that—and your temperature is elevated at 39.1 °C, suggesting an acute infection may be contributing."}
+{"turn_id": 7, "speaker": "doctor", "text": "Your blood glucose is also high—13.7 mmol/L—well above target, especially given your kidney disease."}
+{"turn_id": 8, "speaker": "patient", "text": "That’s strange—I checked my fingerstick this morning before coming in, and it was 10.2 mmol/L. But yes, I’ve had some blurry vision and more thirst lately."}
+{"turn_id": 9, "speaker": "doctor", "text": "Those are classic hyperglycemic symptoms. Given your CKD and rising glucose, we’ll need to adjust your diabetes management carefully."}
+{"turn_id": 10, "speaker": "patient", "text": "I’ve been taking metformin twice daily like prescribed—but should I stop it? I read it’s risky with kidney issues."}
+{"turn_id": 11, "speaker": "doctor", "text": "You’re right to be cautious. With your eGFR now at 42 mL/min/1.73m², continuing metformin isn’t safe. I’m going to switch you to linagliptin—it’s renally cleared safely and won’t accumulate."}
+{"turn_id": 12, "speaker": "patient", "text": "Okay, I’ll start that right away. Also, my urine has been foamy, and I noticed some swelling around my ankles yesterday."}
+{"turn_id": 13, "speaker": "doctor", "text": "Those are red flags for proteinuria and fluid retention—common in advancing CKD. We’ll order a urine albumin-to-creatinine ratio and repeat your electrolytes today."}
+{"turn_id": 14, "speaker": "patient", "text": "And my fever hasn’t fully broken—I took acetaminophen earlier, but I still feel warm and achy."}
+{"turn_id": 15, "speaker": "doctor", "text": "Your temperature is now 38.1 °C—still febrile, though slightly improved. We’ll send blood cultures and consider starting empiric antibiotics if your white count is elevated."}
+{"turn_id": 16, "speaker": "patient", "text": "Makes sense. I also had a BP cuff reading at home this morning—same as yours: 158 over 92. That number hasn’t budged much this week."}
+{"turn_id": 17, "speaker": "doctor", "text": "Yes, that reading aligns with what we saw earlier. Given your CKD and persistent hypertension, we’ll add low-dose lisinopril—but only after confirming your potassium is stable and no contraindications on today’s labs."}
+{"turn_id": 18, "speaker": "patient", "text": "Actually, when I checked again just before leaving home, my systolic was still 158 mmHg—the same as that reading from earlier."}
+{"turn_id": 19, "speaker": "doctor", "text": "Noted—your heart rate has increased to 78 bpm now, likely reflecting the ongoing febrile response and possible volume stress."}
