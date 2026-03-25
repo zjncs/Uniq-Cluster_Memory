@@ -49,6 +49,8 @@ UCM demonstrates state-of-the-art performance in maintaining unique, consistent 
 
 ## ⚙️ System Architecture Pipeline
 
+![UCM System Architecture](assets/ucm_pipeline.png)
+
 UCM operates through a 5-stage pipeline:
 
 ```text
