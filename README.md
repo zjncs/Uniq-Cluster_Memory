@@ -1,58 +1,95 @@
-# Uniq-Cluster Memory
+# Uniq-Cluster Memory (UCM)
 
-Uniq-Cluster Memory (UCM) is a research system for **conflict-aware temporal memory construction** from long medical dialogues.
+> A Conflict-Aware Temporal Memory Management System for Medical AI Agents
 
-Given a multi-turn patient-doctor dialogue, UCM extracts structured medical facts, groups them into information bundles, grounds relative time expressions, detects value conflicts with bi-temporal tracking, and outputs a set of unique canonical memories with full provenance and conflict history.
+Uniq-Cluster Memory (UCM) is a research-oriented system designed for **conflict-aware temporal memory construction** from long, multi-turn medical dialogues. 
 
-## Key Results (Med-LongMem v0.1, n=20)
+In real-world medical consultations, patient states (e.g., medications, symptoms, test results) are frequently updated, refined, or contradicted over time. Pure context-window extension or standard Retrieval-Augmented Generation (RAG) approaches struggle to maintain a consistent, authoritative view of the patient's state. UCM addresses this by extracting structured medical facts, grouping them into causal information bundles, grounding relative time expressions, and explicitly detecting value conflicts using bi-temporal tracking. The system ultimately outputs a set of unique, canonical memories complete with full provenance and conflict histories.
 
-| System | Unique-F1(S) | Unique-F1(R) | Conflict-F1 |
-|--------|-------------|-------------|-------------|
-| **UCM (ours)** | **0.8508** | **0.8585** | **0.9762** |
+---
+
+## 🌟 Key Algorithmic Contributions
+
+1. **Bi-Temporal Conflict Graph**: 
+   Unlike traditional binary winner-takes-all memory updates, each memory in UCM carries four distinct timestamps (`t_event`, `t_ingest`, `t_valid_start`, `t_valid_end`). We introduce a confidence-weighted, multi-candidate conflict resolution mechanism that preserves historical context and resolves temporal inconsistencies.
+   
+2. **Causal Deconfounded Information Bundling**: 
+   We employ a structural causal model with backdoor adjustment to mitigate spurious event coreferences. This effectively handles confounders common in medical texts, such as lexical overlap, temporal proximity, and speaker identity bias.
+   
+3. **Medical Domain Formal Constraints**: 
+   UCM integrates rule-based temporal logic constraints (e.g., medication start/stop logic, diagnosis-test ordering, dose monotonicity). These constraints adjust candidate confidence scores deterministically, enhancing accuracy without incurring additional LLM inference costs.
+
+---
+
+## 📊 Experimental Results
+
+UCM demonstrates state-of-the-art performance in maintaining unique, consistent memories compared to strong baselines. 
+
+**Main Results on Med-LongMem v0.1 (n=20, Hard Difficulty)**
+
+| System | Unique-F1 (Strict) | Unique-F1 (Relaxed) | Conflict-F1 |
+|:---|:---:|:---:|:---:|
+| **UCM (Ours)** | **0.8508** | **0.8585** | **0.9762** |
 | Long-Context LLM | 0.3848 | 0.5273 | 0.8867 |
-| Graphiti (simulated) | 0.0627 | 0.5622 | 0.3450 |
+| Graphiti (Simulated) | 0.0627 | 0.5622 | 0.3450 |
 | No Memory | 0.0000 | 0.5938 | 0.1292 |
 
-## Algorithmic Contributions
+**Ablation Study**
 
-1. **Bi-Temporal Conflict Graph**: Each memory carries four timestamps (t_event, t_ingest, t_valid_start, t_valid_end) with confidence-weighted multi-candidate conflict resolution instead of binary winner selection. Ref: Zep/Graphiti (arXiv 2025.01), EvoKG (arXiv 2025.09).
+| Variant | Unique-F1 (Strict) | Performance Drop (Δ) | Conflict-F1 |
+|:---|:---:|:---:|:---:|
+| **Full UCM Pipeline** | **0.8508** | — | **0.9762** |
+| w/o Time Grounding | 0.1233 | -85.5% | 0.2583 |
+| w/o M2 Clustering | 0.5680 | -33.2% | 0.0000 |
+| w/o Causal Deconfounding | 0.7700 | -9.5% | 0.8533 |
+| w/o Formal Constraints | 0.7900 | -7.1% | 0.9233 |
+| w/o M4 Compression | 0.8349 | -1.9% | 0.9662 |
 
-2. **Causal Deconfounded Information Bundling**: Structural causal model with backdoor adjustment to prevent spurious event coreference caused by lexical overlap, temporal proximity, and speaker identity confounders. Ref: Causal Graph ECR (Scientific Reports 2025).
+---
 
-3. **Medical Domain Formal Constraints**: Rule-based temporal logic constraints (medication start/stop, diagnosis-test ordering, dose monotonicity) that adjust candidate confidence without LLM calls. Ref: ALICE (ASE 2024).
+## ⚙️ System Architecture Pipeline
 
-## Pipeline
+UCM operates through a 5-stage pipeline:
 
+```text
+Raw Dialogue 
+  ↓
+[M1] Event Extraction (LLM-based sliding window)
+  ↓
+[M2] Attribute Clustering (Semantic grouping)
+  ↓
+[M2.5] Information Bundle Construction & Causal Deconfounding
+  ↓
+[M3] Uniqueness Management (Time Grounding + Bi-Temporal Conflict Resolution + Formal Constraints)
+  ↓
+[M4] Memory Compression (Lightweight redundancy removal)
+  ↓
+[M5] Hybrid Retrieval (Structured + Semantic + Recency)
 ```
-Dialogue → M1 (Event Extraction) → M2 (Attribute Clustering)
-         → M2.5 (Information Bundle Construction + Causal Deconfounding)
-         → M3 (Time Grounding + Bi-Temporal Conflict Resolution + Formal Constraints)
-         → M4 (Compression) → M5 (Hybrid Retrieval)
-```
+*Core entry point:* `src/uniq_cluster_memory/pipeline.py`
 
-Core entry: `src/uniq_cluster_memory/pipeline.py`
+---
 
-## Repository Layout
+## 📂 Repository Structure
 
 ```text
 uniq_cluster_memory/
-├── baselines/              baseline systems (long_context_llm, graphiti, hybrid_rag, recursive_summary)
-├── benchmarks/             dataset loaders (med_longmem, meddialog, meditod, longmemeval)
-├── evaluation/             metrics (uniqueness, conflict, temporal, extraction, llm_judge, error_analysis)
-├── experiments/            experiment runners (eval_our_method, run_ablation, eval_extraction)
-├── scripts/                utilities (generate_med_longmem, build_realworld_validation, etc.)
-├── src/uniq_cluster_memory/
-│   ├── m1_event_extraction/    LLM-based sliding window extractor
-│   ├── m2_clustering/          attribute clustering + causal_scorer
-│   ├── m3_uniqueness/          time_grounder + conflict_detector + formal_constraints + manager
-│   ├── m4_compression/         lightweight compression
-│   ├── m5_retrieval/           hybrid struct+semantic+recency retrieval
-│   ├── schema.py               CanonicalMemory, CandidateValue, ConflictRecord
-│   └── pipeline.py             orchestrator
-└── tests/                  88 unit and regression tests
+├── baselines/              # Baseline implementations (Long-Context LLM, Graphiti, Hybrid RAG)
+├── benchmarks/             # Dataset loaders (Med-LongMem, MedDialog, etc.)
+├── evaluation/             # Evaluation metrics (Uniqueness, Conflict, Extraction, LLM-as-Judge)
+├── experiments/            # Experiment execution scripts (Eval, Ablation)
+├── scripts/                # Utility scripts (Dataset generation, Validation tools)
+├── src/uniq_cluster_memory/# Core source code (M1 to M5 modules, schema, pipeline)
+└── tests/                  # Unit and regression test suite (88 tests)
 ```
 
-## Setup
+---
+
+## 🚀 Quick Start
+
+### 1. Installation
+
+Create a virtual environment and install dependencies:
 
 ```bash
 python3 -m venv .venv
@@ -60,30 +97,33 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set one LLM key:
+### 2. Environment Variables
+
+Set your preferred LLM API key. UCM supports DashScope (Qwen) and OpenAI-compatible endpoints:
 
 ```bash
 export DASHSCOPE_API_KEY="your-api-key-here"
-# or QWEN_API_KEY / OPENAI_API_KEY
+# Alternatively: export OPENAI_API_KEY="your-api-key-here"
 ```
 
-## Datasets
+### 3. Datasets Preparation
 
-- `Med-LongMem v1.0`: 200 samples (40 Easy / 80 Medium / 80 Hard), GT-first synthetic benchmark
-- `Med-LongMem v0.1`: 20 Hard samples (validation release)
-- `MedDialog`: real-world external validation (silver GT + audit)
-
-Generate Med-LongMem v1.0:
+UCM utilizes the `Med-LongMem` benchmark suite. To generate the full synthetic benchmark (v1.0):
 
 ```bash
 PYTHONPATH=. .venv/bin/python scripts/generate_med_longmem.py \
-  --n_samples 200 --difficulty mix --seed 100 \
+  --n_samples 200 \
+  --difficulty mix \
+  --seed 100 \
   --output_dir data/raw/med_longmem_v1
 ```
 
-## Main Commands
+---
 
-### Run Full Evaluation
+## 💻 Running Experiments
+
+### Full Pipeline Evaluation
+Run the standard evaluation of the UCM method:
 
 ```bash
 PYTHONPATH=. .venv/bin/python experiments/eval_our_method.py \
@@ -91,54 +131,31 @@ PYTHONPATH=. .venv/bin/python experiments/eval_our_method.py \
   --output_path results/main_results/our_method_eval.json
 ```
 
-### Run Ablation Experiments (8 variants)
+### Ablation Studies
+Execute all ablation variants (`full`, `w/o_time`, `w/o_conflict`, `w/o_m4`, `w/o_m2`, `w/o_bitemporal`, `w/o_formal_constraints`, `w/o_causal_deconfound`):
 
 ```bash
 PYTHONPATH=. .venv/bin/python experiments/run_ablation.py \
-  --ablation all --max_samples 20
+  --ablation all \
+  --max_samples 20
 ```
 
-Ablation variants: `full`, `w/o_time`, `w/o_conflict`, `w/o_m4`, `w/o_m2`, `w/o_bitemporal`, `w/o_formal_constraints`, `w/o_causal_deconfound`
-
-### Run Baselines
+### Baseline Comparisons
+Evaluate Long-Context LLM and Graphiti baselines:
 
 ```bash
-# Long-Context LLM
+# Long-Context LLM Baseline
 PYTHONPATH=. .venv/bin/python baselines/long_context_llm.py \
   --data_path data/raw/med_longmem
 
-# Graphiti (simulated)
+# Graphiti (Simulated) Baseline
 PYTHONPATH=. .venv/bin/python baselines/graphiti_baseline.py \
   --data_path data/raw/med_longmem
 ```
 
-### Run LLM-as-Judge Evaluation
-
-```bash
-PYTHONPATH=. .venv/bin/python evaluation/llm_judge_eval.py \
-  --data_path data/raw/med_longmem --max_samples 20
-```
-
-### Run Error Analysis
-
-```bash
-PYTHONPATH=. .venv/bin/python evaluation/error_analysis.py \
-  --data_path data/raw/med_longmem --max_samples 20
-```
-
-### Run Tests
+### Automated Testing
+Run the comprehensive test suite to ensure system integrity:
 
 ```bash
 .venv/bin/python -m pytest -q
 ```
-
-## Ablation Results (Med-LongMem v0.1)
-
-| Variant | U-F1(S) | Δ | C-F1 |
-|---------|---------|---|------|
-| full | 0.8508 | — | 0.9762 |
-| w/o_time | 0.1233 | -85.5% | 0.2583 |
-| w/o_m2 | 0.5680 | -33.2% | 0.0000 |
-| w/o_causal_deconfound | 0.7700 | -9.5% | 0.8533 |
-| w/o_formal_constraints | 0.7900 | -7.1% | 0.9233 |
-| w/o_m4 | 0.8349 | -1.9% | 0.9662 |
