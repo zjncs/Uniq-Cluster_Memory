@@ -27,6 +27,8 @@ UCM demonstrates state-of-the-art performance in maintaining unique, consistent 
 
 **Main Results on Med-LongMem v0.1 (n=20, Hard Difficulty)**
 
+![Main Results](assets/ucm_main_results.png)
+
 | System | Unique-F1 (Strict) | Unique-F1 (Relaxed) | Conflict-F1 |
 |:---|:---:|:---:|:---:|
 | **UCM (Ours)** | **0.8508** | **0.8585** | **0.9762** |
@@ -35,6 +37,8 @@ UCM demonstrates state-of-the-art performance in maintaining unique, consistent 
 | No Memory | 0.0000 | 0.5938 | 0.1292 |
 
 **Ablation Study**
+
+![Ablation Study](assets/ucm_ablation.png)
 
 | Variant | Unique-F1 (Strict) | Performance Drop (Δ) | Conflict-F1 |
 |:---|:---:|:---:|:---:|
